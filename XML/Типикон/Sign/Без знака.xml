@@ -632,11 +632,34 @@
 												<k_kontakion source="item2" kanonas="orthros1"/>
 											</then>
 											<else>
-										
-									</else>
+												<!-- Кондак из Минеи у кого есть -->
+												<if>
+													<expression>
+														<exists>
+															<k_kontakion source="item1" kanonas="orthros1"/>
+														</exists>
+													</expression>
+													<then>
+														<k_kontakion source="item1" kanonas="orthros1"/>
+													</then>
+													<else>
+														<if>
+															<expression>
+																<exists>
+																	<k_kontakion source="item2" kanonas="orthros1"/>
+																</exists>
+															</expression>
+															<then>
+																<k_kontakion source="item2" kanonas="orthros1"/>
+															</then>
+														</if>
+													</else>
+												</if>
+											</else>
 										</if>
 									</then>
 									<else>
+										<!-- При одном святом-->
 										<k_kontakion source="item1" kanonas="orthros1"/>
 									</else>
 								</if>

@@ -1,0 +1,66 @@
+<Project>
+  <Name>TypiconOnline</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Interface">
+        <Name>IRuleCustomParameter</Name>
+        <Access>Public</Access>
+        <Location left="306" top="57" />
+        <Size width="162" height="85" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleCheckParameter</Name>
+        <Access>Public</Access>
+        <Location left="415" top="200" />
+        <Size width="228" height="85" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">bool Check(RuleElement element)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleApplyParameter</Name>
+        <Access>Public</Access>
+        <Location left="133" top="200" />
+        <Size width="229" height="85" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Apply(RuleElement element)</Member>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>441</X>
+          <Y>172</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>441</X>
+          <Y>169</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>330</X>
+          <Y>168</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>330</X>
+          <Y>167</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
