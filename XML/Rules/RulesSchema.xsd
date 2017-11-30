@@ -151,9 +151,6 @@
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="executableType">
-							<xs:attribute name="ektenis3" type="xs:string"/>
-							<xs:attribute name="ektenis6" type="xs:string"/>
-							<xs:attribute name="ektenis9" type="xs:string"/>
 							<xs:attribute name="panagias" type="xs:string"/>
 						</xs:extension>
 					</xs:complexContent>
@@ -164,6 +161,15 @@
 			<xs:element name="k_sedalentheotokion" type="k_sedalenType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="k_kontakion" type="k_kontakionType" minOccurs="0"/>
 			<xs:element name="k_katavasia" type="k_katavasiaType" minOccurs="0"/>
+			<xs:element name="k_after" minOccurs="0" maxOccurs="9">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="executableType">
+							<xs:attribute name="odinumber" type="xs:int" use="required"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="kanonasType">

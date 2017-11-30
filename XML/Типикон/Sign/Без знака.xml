@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<if>
 		<expression>
 			<!--Если воскресенье, то составляем правило особым образом.
@@ -471,7 +471,16 @@
 						</if>
 					</sedalen>
 					<!-- Псалом 50-->
-					<kanonasrule ektenis3="Ектения_малая3" ektenis6="Ектения_малая6" ektenis9="Ектения_малая9" panagias="Честнейшую">
+					<kanonasrule panagias="Честнейшую">
+						<k_after odinumber="3">
+							<commonrule name="Ектения_малая3"/>
+						</k_after>
+						<k_after odinumber="6">
+							<commonrule name="Ектения_малая6"/>
+						</k_after>
+						<k_after odinumber="9">
+							<commonrule name="Ектения_малая9"/>
+						</k_after>
 						<!-- ПРАВИЛА ДЛЯ КАНОНОВ-->
 						<if>
 							<!-- если два святых-->
