@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+<if>
+	<expression>
+		<exists>
+			<ymnosrule source="item1" place="kekragaria_doxastichon"></ymnosrule>
+		</exists>
+	</expression>
+	<then>
+		<!-- 1. Слава из Минеи 1 имеется -->
+		<ymnosrule source="item1" place="kekragaria_doxastichon"/>
+		<if>
+			<expression>
+				<or>
+					<equals><getdayofweek><date/></getdayofweek><getdayofweek name="среда"/></equals>
+					<equals><getdayofweek><date/></getdayofweek><getdayofweek name="пятница"/></equals>
+				</or>
+			</expression>
+			<then>
+				<!--  А. Если среда или пятница -->
+				<if>
+					<expression>
+						<exists>
+							<ymnosrule source="item1" place="kekragaria_stavrostheotokion"/>
+						</exists>
+					</expression>
+					<then>
+						<!--  Аа. Если имеется крестобогородичен в Минее 1 -->
+						<theotokionrule source="item1" place="kekragaria_stavrostheotokion"/>
+					</then>
+					<else>
+						<!--  Аб. Нет крестобогородична в Минее 1 -->
+						<theotokionrule source="irmologion" place="app2_esperinos">
+							<ymnosrule source="item1" place="kekragaria_doxastichon"/>
+						</theotokionrule>
+					</else>
+				</if>
+			</then>
+			<else>
+				<!--  Б. Если другой день недели -->
+				<if>
+					<expression>
+						<exists>
+							<ymnosrule source="item1" place="kekragaria_theotokion"/>
+						</exists>
+					</expression>
+					<then>
+						<!--  Ба. Если имеется богородичен в Минее 1 -->
+						<theotokionrule source="item1" place="kekragaria_theotokion"/>
+					</then>
+					<else>
+						<!--  Бб. Нет богородична в Минее 1-->
+						<theotokionrule source="irmologion" place="app2_esperinos">
+							<ymnosrule source="item1" place="kekragaria_doxastichon"/>
+						</theotokionrule>
+					</else>
+				</if>
+			</else>
+		</if>
+	</then>
+	<else>
+		<!-- 2. Славы из Минеи нет -->
+		<if>
+			<expression>
+				<or>
+					<equals><getdayofweek><date/></getdayofweek><getdayofweek name="среда"/></equals>
+					<equals><getdayofweek><date/></getdayofweek><getdayofweek name="пятница"/></equals>
+				</or>
+			</expression>
+			<then>
+				<!--  А. Если среда или пятница -->
+				<theotokionrule source="item1" place="kekragaria_stavrostheotokion"/>
+			</then>
+			<else>
+				<!--  Б. Если другой день недели -->
+				<theotokionrule source="item1" place="kekragaria_theotokion"/>
+			</else>
+		</if>
+	</else>
+</if>
+</rule>

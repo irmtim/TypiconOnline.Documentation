@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/DaySchema.xsd">
+	<esperinos>
+		<kekragaria>
+			<group ihos="1">
+				<prosomoion>
+					<item language="cs-cs">Прехвaльніи м§нцы</item>
+					<item language="cs-ru">Прехвaльнии мученицы</item>
+				</prosomoion>
+				<annotation>
+					<item language="cs-cs">стіхи6ры с™ы6мъ м§нкwмъ, и3 с™и1телємъ, и3 прпdбнымъ</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">М§нкwвъ є3ди1нственное торжество2, струsми свои1хъ кровeй мн0жество бэсHвъ ўдави1ша, и3 вс‰кіz ўстaвиша ст{дныz жє1ртвы, јдwльскую разруши1ша прeлесть, терпэли1внw пострадaвше и3 нhнэ м0лzтсz хrтY даровaти душaмъ нaшымъ ми1ръ, и3 вeлію млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Пaстыріе всесщ7eнніи, мyдрыми словесы2 и3 ўчeніи всёхъ научи1ша во є3ди1нствэ б9ество2 трbческое слaвити, ли1цъ сліsніz и3 раздэлeніz, бжcтвеннэ ўбэгaюще. и3 нhнэ м0лzтсz, даровaти душaмъ нaшымъ ми1ръ, и3 вeлію млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Прпdбныхъ сосл0віе, плотск†z хотBніz ўспи1ша, и3 стремлє1ніz њбуздaша, житіE равноaгGльное показaвше. тёмже и3 въ жили1щахъ нбcныхъ нhнэ ликовствyютъ, хrтY молsщесz, даровaти душaмъ нaшымъ ми1ръ, и3 вeлію млcть.</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">И$ны стіхи6ры м§нчны</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Мlтвами гDи, всёхъ с™hхъ и3 бцdы, тв0й ми1ръ дaждь нaмъ, и3 поми1луй нaсъ, ћкw є3ди1нъ щeдръ.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Е$же на суди1щи вaше и3сповёданіе с™jи, дeмwнwвъ њплевA си1лу, и3 t прeлести чlвёки свободи2. тёмже и3 главaмъ ўсэкaємымъ, взывaсте: да бyдетъ гDи, жeртва дyшъ нaшихъ бlгопріsтна пред8 тоб0ю, ћкw тебE возлюби1вше, неради1хомъ њ врeменнэй жи1зни, чlвэколю1бче.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Q д0брыz вaшеz кyпли с™jи! ћкw крHви дaсте, и3 нб7сA наслёдовасте: и3 врeменнw и3скуси1вшесz, вёчнw рaдуетесz. вои1стинну добрA вaшz кyплz: тлBннаz бо њстaвльше, нетлBннаz воспріsсте, и3 со ѓгGлы ликовствyюще, поeте непрестaннw трbцу є3диносyщную.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Всемjрную слaву, t человBкъ прозsбшую, и3 вLку р0ждшую, нбcную двeрь воспои1мъ мRjю дв7у, безпл0тныхъ пёснь, и3 вёрныхъ ўдобрeніе. сіs бо kви1сz нб7о, и3 хрaмъ б9ествA: сіS преграждeніе вражды2 разруши1вши, ми1ръ введE, и3 цaрствіе tвeрзе. сію2 ќбw и3мyще вёры ўтверждeніе, поб0рника и4мамы и3з8 неS р0ждшагосz гDа, дерзaйте ќбw, дерзaйте лю1діе б9іи: и4бо т0й побэди1тъ враги2, ћкw всеси1ленъ.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</kekragaria>
+		<aposticha>
+			<group ihos="1">
+				<ymnos kind="martyrion">
+					<text>
+						<item language="cs-cs">Прехвaльніи м§нцы, вaсъ ни землS потаи1ла є4сть, но нeбо пріsтъ вы2, и3 tверз0шасz вaмъ р†йскіz двє1ри, и3 внyтрь бhвше дрeва жив0тнагw наслаждaетесz: хrтY моли1тесz, даровaти душaмъ нaшымъ ми1ръ и3 вeлію млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">Кaz житeйскаz слaдость пребывaетъ печaли непричaстна; кaz ли слaва стои1тъ на земли2 непрел0жна; вс‰ сёни немощнёйша, и3 вс‰ с0ній прелeстнэйша: во є3ди1нъ чaсъ вс‰ сі‰ смeрть пріeмлетъ. но во свётэ хrтE лицA твоегw2, и3 въ наслаждeніи твоеS красоты2, ±же и3збрaлъ є3си2, ўпок0й ћкw чlвэколю1бецъ.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">Никт0же безгрёшенъ, никт0же t человBкъ бhвъ, т0кмw ты2 є3ди1не безсмeртне: тёмже рабы6 тво‰ ћкw бGъ щeдрый, во свётэ со ѓгGльскими ликостоsніи твои1ми ўчини2, бlгоутр0біемъ твои1мъ, презирaz беззакHніz, и3 подаS и5мъ прощeніе.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Вои1стинну пaче ўмA ч{днаz тво‰ вели6чіz, ржcтвA твоегw2 бGоневёсто, ±же проповёдаша прbр0цы вси2 вс‰ пресл†внаz: зачaтіе и3 ржcтво2 всепётаz недомhсленно и3 несказaнно, и4мже мjръ сп7слъ є4сть, ћкw млcрдъ.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</esperinos>
+	<apodipno>
+		<kanonas ihos="1">
+			<stihos>
+				<item language="cs-ru">Пресвятая Богородице, спаси нас.</item>
+			</stihos>
+			<odes>
+				<odi number="1">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Пёснь побёдную пои1мъ вси2 бGу, сотв0ршему ди6внаz чудесA мhшцею выс0кою, и3 сп7сшему ї}лz, ћкw прослaвисz.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Сп7си1тельное є3си2 пристaнище и3 покр0въ, призывaющымъ тS бцdе пречcтаz. тёмже и3 ѓзъ t души2 призывaю тS тeплэ: вLчце сп7си1 мz.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">МRjе пречcтаz, зижди1телz м™и, и3стлёвшую страстьми2 и3 прегрэшeньми смирeнную мою2 дyшу и3сцэли2, ћкw бlгaz и3 бlгопремённаz.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Безневёстнаz вLчце, не tступaй молsщи всегдA творцA моего2 и3 бGа, њ притекaющемъ при1снw къ покр0ву твоемY, ўлучи1ти млcть.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Палaто њдушевлeннаz цReва, и3 прест0ле nгнеwбрaзный, со с™hми м§нки и3 ґпcлы, хrтA при1снw моли2, t напaстей нaсъ и3збaвити.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="3">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Кaмень, є3гHже небрег0ша зи1ждущіи, сeй бhсть во главY ќгла: т0й є4сть кaмень, на нeмже ўтверди2 цRковь хrт0съ, ю4же t kзы6къ и3скупи2.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">ТьмA прегрэшeній њбдержи1тъ моE сeрдце вLчце, и3 не смёю воззрёти на нб7о nчи1ма, тёмже зовY: просвэти2 велёньми хrт0выми ќмъ и3 дyшу, и3 сeрдце моE.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Взирaю на б9eственный тв0й w4бразъ, и3 печaть тS вLчню, и3 пречcтую м™рь, ћкw первоwбрaзну чтY: и3 сію2 лобызaю, и3 покланsюсz, и3 хвалю2, є3ди1ну вёдый твою2, и3 тогw2 чeсть.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ўстaви лю6таz стремлє1ніz тэлє1снаz, ўгаси2 и3 плaмень страстeй дв7о: и4миже согрэшeній плэни1цу многоплетeнную ми2 соплетaетъ ѕмjй лю1тый, хотS восхи1тити къ поги1бели.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Вeсь во ґдaма њблечeсz и3з8 тебE бцdе, всетэлон0снw прошeдъ сл0во. того2 ќбw моли2, страстeй нaсъ и3збaвити, и3 напaстей разли1чныхъ, и3 nгнS вёчнующагw.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="4">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Д¦омъ прови1дz прbр0че ґввакyме, словесE воплощeніе, проповёдалъ є3си2 вопіS: внегдA прибли1житисz лётwмъ, познaешисz, внегдA пріити2 врeмени, покaжешисz. слaва си1лэ твоeй гDи.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Р0ждши зижди1телz, и3 всёхъ творцA, си1лу неизречeнну, и3 непобэди1му крёпость и4маши дв7о, и3 сп7сaеши вёрою къ тебЁ приходsщыz. сегw2 рaди зовy ти: вLчце мjра, помози1 ми.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Бр†ни неви1димыхъ вр†гъ мhсленныхъ низложи2 вLчце, всyе на моE напaдающихъ nкаsнное сeрдце, тишинY б9eственную, и3 ми1ръ дaрующи: ћкw да вeселw воспэвaю тS.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Надeжде ненадeжныхъ, пом0щнице ни1щихъ, плaчущихъ ўтёха, согрэшaющихъ њчищeніе, руководи1тельница заблyждшихъ, болsщихъ цэлeбница, и3 и3справлeніе пaдающихъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">ЧCтаz и3 бlгословeннаz, ћже є3ди1на клsтвы всёхъ и3змэни1вшаz, дв7о мRjе, со ґпcлы, и3 м§нки, и3 прbр0ки моли2, и3з8 чрeва твоегw2 прошeдшаго, сп7сти2 дyшы пою1щихъ тS.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="5">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Тв0й ми1ръ дaждь нaмъ сн7е б9ій, и3н0гw бо рaзвэ тебE бGа не знaемъ, и4мz твоE и3менyемъ, ћкw бGъ живhхъ и3 мeртвыхъ є3си2.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Сп7си1 мz вLчце, и3з8 глубины2 напaстей, и3 скорбeй, и3 печaлей, и3 страстeй тэлeсныхъ: и3 въ тишинЁ б9eственнэй сохрани2 дyшу мою2.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ты2 ми2 є3си2 тeплое хранeніе и3 твeрдое во всeй жи1зни, пренепор0чнаz. тёмже молю1 тz, и3 по смeрти твоE мнЁ млcрдіе простри2 богaтое.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ћже зижди1телz р0ждшаz, и3 и3збaвителz всёхъ, и3збaви мS страстeй тэлeсныхъ њпалsющихъ сeрдце моE, и3 привлачaющихъ къ дэлHмъ неподHбнымъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ћкw мёсто свzщeніz ћвльшисz мhсленнагw, всег0 мz њсвzти2 вLчце, и3 со с™hми моли1сz и3 мyдрыми ґпcтолы, сп7сти1 мz дв7о.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="6">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Прbр0ка їHну подражaz, вопію2: жив0тъ м0й бlже свободи2 и3з8 тли2, и3 сп7си1 мz сп7се мjра, зовyща: слaва тебЁ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ты2 жи1ва мS соблюдaеши и3збавлsющи напaстей: ты2 и3 t земли2 tходsща къ вёчнэй жи1зни престaви дв7о м™и, млcрдіемъ твои1мъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ты2 є3си2 стэнA неруши1ма, ты2 є3си2 покр0въ твeрдъ, бцdе бlгaz, ты2 предстaтельница крэпкA рабY твоемY: и3 сегw2 рaди тS призывaю при1снw.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ты2 мlтву си1льну стzжaвши къ бGу, бцdе бlгaz, не прeзри менE тeплэ къ покр0ву твоемY притекaющагw, и3 вопію1щагw: поми1луй мS, м™и всёхъ бGа.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Не tри1ни менE хrтE, не гнушaйсz менE сп7се, м0литъ тS ѓгница р0ждшаz тS пл0тію, со ґпcлы, и3 со прbр0ки, и3 со стrтотeрпцы твои1ми.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="7">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Сyщымъ въ пещи2 nтрокHмъ твои6мъ сп7се, не прикоснyсz, нижE стужи2 џгнь. тогдA тріE, ћкw є3ди1нэми ўсты2 поsху, и3 бlгословлsху, глаг0люще: бlгословeнъ бGъ nтє1цъ нaшихъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Tчazнна сyща мS чcтаz, прегрэшeніи и3 сластьми2 плотски1ми, и3 ко глубинЁ порэвaема поги1бели, приспёвши и3збaви мS пречcтаz вLчце, млcрдіемъ твои1мъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Прибёжище и3 покр0въ держaвенъ, и3 и3збавлeніе бцdе всBмъ вBрнымъ: тh ми бyди руководи1тельница ко творцY, прегрэшeній и3збавлeніе подаю1щи ми2, бlгоутр0біемъ твои1мъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ты2 клsтву потреби1ла є3си2 чcтаz, рaдость р0ждшаz хrтA: ты2 и3 клsтву, t грэхA прибhвшую ми2, разрэши2 си1лою твоeю пренепор0чнаz, и3 дaруй ми2 рaдость.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">ТS, прес™az чcтаz, раби2 твои2 м0лимъ всегдA дeнь и3 н0щь, молsщесz сокрушeнною мhслію, и3збавлeніе согрэшeній нaшихъ дaруй твои1ми мlтвами.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="8">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Е#гHже ўжасaютсz ѓгGли, и3 вс‰ вHинства, ћкw творцA и3 гDа, п0йте сщ7eнницы, прослaвите џтроцы, бlгослови1те лю1діе, и3 превозноси1те во вс‰ вёки.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Востaни, предвари2, рaтуй враги2, и5же всyе смущaющыz и3 њскорблsющыz нaсъ, твою2 си1лу kвлsющи с™az дв7о, пом0щнице мjра.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Мjръ спаслA є3си2 t смeрти и3 тли2 бжcтвеннымъ ржcтв0мъ твои1мъ, дв7о бlгaz: и3 нhнэ же мlтвами твои1ми и3 нaсъ восхвалsющихъ тS, t страстeй и3схити2, и3 сп7си2.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Мн0гаz твоS и3 неизречeннаz дв7о крёпость, мнHги и3 непобэди1мы бжcтвенныz щедрHты, и3 бlгоутр0біе. тёмже сп7сaй нaсъ, вои1стинну тS призывaющихъ.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Ћкw њдушевлeнъ віногрaдъ дв7о, прорасти1ла є3си2 нaмъ гр0здъ зрёлый, и3сточи1вшій віно2 њставлeніz, и3 грэх0вное и3зсуши1вшій піsнство.</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="9">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">Свэтон0сный џблакъ, в0ньже всёхъ вLка, ћкw д0ждь съ нб7сE на руно2 сни1де, и3 воплоти1сz нaсъ рaди, бhвъ человёкъ, безначaльный, величaемъ вси2 ћкw м™рь бGа нaшегw чcтую.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Въ м0ри житіS њбуревaемь ѕэлw2 сластьми2 плотски1ми, тебЁ припaдаю и3 вопію2: поми1луй мS къ тебЁ притекaющаго вLчце, и3 рyку ми2 сп7сeніz подaждь, и3збавлsющи поги1бельныz глубины2.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">ТебЁ мо‰ грэхи2 и3сповёдаю дв7о, твоемY лицY м0й представлsю стyдъ, и3 вопію2 t души2: поми1луй и3 ўщeдри, пречcтаz, ћкw на тS ўповaніе съ бGомъ возложи1хъ твeрдое.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">ТS без8 сёмене р0ждшую творцA и3 вLку, призывaю t души2, и3 зовY прилёжнw: тh мz сп7си2 t тли2 мн0гихъ прегрэшeній, и3 и3збaви nгнS негаси1магw, прес™az бцdе бlгaz.</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">Непроходи1маz двeре, р†йскаz вратA, спасaємымъ пyть, сп7сeніz стезS, съ м§нки и3 прbр0ки, съ првdными же и3 прпdбными, и3 съ б9eственными ґпcлы, моли1сz чcтаz, сп7сти1сz душaмъ нaшымъ.</item>
+						</text>
+					</troparion>
+				</odi>
+			</odes>
+			<sedalen>
+				<group ihos="1">
+					<prosomoion>
+						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
+					</prosomoion>
+					<ymnos>
+						<text>
+							<item language="cs-cs">Џблакъ тS свёта б9іz присносyщнагw, дв7о, и3 ковчeгъ, и3 свёщникъ, и3 стaмну, и3 г0ру несэк0мую, прbр0цы прорицaху nтрокови1це пречcтаz: и3з8 тебe бо пр0йде без8 сёмене, въ послBднzz хrт0съ бGъ нaшъ, ћкоже nц7ъ бlгоизв0ли.</item>
+						</text>
+					</ymnos>
+				</group>
+			</sedalen>
+		</kanonas>
+	</apodipno>
+	<orthros>
+		<sed_1kathisma>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">сэдaльны м§нчны</item>
+				</annotation>
+				<ymnos kind="martyrion">
+					<text>
+						<item language="cs-cs">Страдaніz похвал0ю, и3 вэнeчною п0честію, слaвніи стrтотeрпцы њдёzвшесz тоб0ю гDи, терпёніемъ ќбw рaнъ беззак0нныхъ побэди1ша, и3 си1лою б9eственною t нб7съ побёду пріsша: тёхъ мlтвами и3 нaсъ свободи2 t неви1димагw врагA сп7се, и3 сп7си2 нaсъ.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Ћкw д0бріи в0ини є3диномyдреннw вёровавше, прещeніz мучи1телей не ўбоsстесz с™jи, пріид0сте ўсeрднw ко хrтY взeмше честнhй кrтъ: и3 скончaвше течeніе, съ нб7сE побёду пріsсте. слaва ўкрёпльшему вы2: слaва вэнчaвшему вы2: слaва дёйствующему вaми всBмъ и3сцэлє1ніz.</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<prosomoion>
+					<item language="cs-cs">Гр0бъ тв0й сп7се:</item>
+				</prosomoion>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">Дyшы и4хъ во бlги1хъ водворsтсz.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Въ мёстэ свётлэ, въ ли1цэ прaведныхъ ўпок0й сп7се, къ тебЁ престaвльшихсz: на тs бо ўповaніе чlвэколю1бче возложи1ша: пріими2 молeніе њ nтцёхъ и3 чaдэхъ, и5мже совершaемъ пaмzть: и3 њправди2 тёхъ, ћкw многомлcтивъ.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Гавріи1лу вэщaвшу тебЁ дв7о, рaдуйсz: со глaсомъ воплощaшесz всёхъ вLка, въ тебЁ с™ёмъ ківHтэ, ћкоже речE прaведный дв7дъ, kви1ласz є3си2 ши1ршаz нб7съ, поноси1вши зижди1телz твоего2: слaва всeльшемусz въ тS: слaва прошeдшему и3з8 тебE: слaва свободи1вшему нaсъ ржcтв0мъ твои1мъ.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_1kathisma>
+		<sed_2kathisma>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Рaнами с™hхъ, и5же по тебЁ пострадaша, ўмолeнъ бyди гDи: и3 вс‰ нaшz болBзни и3 стр†сти и3сцэли2 чlвэколю1бче, м0лимсz.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">МнHги скHрби прaвєднымъ, и3 t всёхъ и4хъ и3збaвитъ | гDь.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">М§нки хrтHвы м0лимъ вси2, и3 люб0вію пріи1демъ къ ни6мъ съ вёрою: сjи бо њ нaшемъ сп7сeніи пр0сzтъ, и3 сjи вси2 и3сточaютъ и3сцэлeній бlгодaть, сjи полки2 tгонsютъ бэсHвскіz, ћкw сохрaнницы вёры.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<stihos>
+						<item language="cs-cs">Бlжeни, ±же и3збрaлъ и3 пріsлъ є3си2 гDи.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Смeртную держaву хrтE ўпраздни1въ, и3 нетлёніе земны6мъ и3сточи1лъ є3си2: и3 и5же въ тS вёрующіи не ўмирaютъ, но живyтъ вhну њ тебЁ. тёмже ўпок0й гDи, дyшы р†бъ твои1хъ, и3 ўчини2 и5хъ со с™hми твои1ми: мlтвами бцdы, дaруz тBмъ прощeніе и3 воскrніе.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Е#ди1на крёпкаz и3 тeплаz предстaтельнице р0да чlвёческагw, бцdе дв7о, непрестaннw моли2 со прbр0ки и3 м§нки, со с™и1тели же и3 п0стники и3 прпdбными, є3г0же родилA є3си2 пaче є3стествA бGа сл0ва, сп7сти2 всsчєскаz.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_2kathisma>
+		<kanones>
+			<kanonas ihos="1">
+				<acrostic>
+					<item language="cs-cs">БGа возлю1бльшымъ б9eственную воспэвaю пёснь.</item>
+				</acrostic>
+				<annotation>
+					<item language="cs-cs">Творeніе кЂръ їHсифа.</item>
+				</annotation>
+				<stihos>
+					<item language="cs-cs">Вси святии, молите Бога о нас.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Столп0мъ џгненнымъ и3 џблачнымъ ї}лz наставлeй, ћкw бGъ, м0ре развeрже, колесни6цы же фараHновы глубин0ю покры2. пои1мъ пёснь побёдную, ћкw є3ди1нъ прослaвисz.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">Щит0мъ бlгочeстіz њгрaждшесz б9eственніи страдaльцы, ўстреми1шасz къ борeнію: погуби1ша же врагA всю2 си1лу, пою1ще пёснь побёдную хrтY ўкрёпльшему и5хъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Ўпас0сте б9eственніи пaстыріе, стaдо б9іе на пaжити тaйнэй, в0лки tгнaвше пaлицею словeсъ сщ7eнныхъ: и3 всели1стесz рaдующесz во њгрaду нбcную, и3дёже є4сть вели1кій пaстырь.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">И$же стр†сти пощeніемъ и3 болёзньми ўмертви1вше пл0ти, б9eственнымъ мановeніемъ, живетE по смeрти прпdбніи: нaсъ рaди мeртва бhвшаго, хrтA всегдA моли1те ўщeдрити нaсъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Мeртвъ бhвъ, и3 мє1ртвымъ даровaлъ є3си2 б9eственный тв0й жив0тъ, и3 безсмeртную жи1знь. и5же вёрою прешeдшыz t житіS тлённагw, цrтвіz твоегw2 сотвори2 причaстники, ћкw бlгоутр0бенъ, и3 є3ди1нъ многомлcтивъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">И$же люб0вію хrт0вою ўzзвлsеми м§нцы, и3 вэнчaвшыzсz t бGа жєны2, тебE всенепор0чную и3 д0брую въ женaхъ вси2 прпdбніи почитaютъ, рaдующесz вёрнw, ћкw цRи1цу всечестнyю.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Да ўтверди1тсz сeрдце моE въ в0ли твоeй хrтE б9е, и4же над8 водaми нб7о ўтверждeй втор0е, и3 њсновaвый на водaхъ зeмлю всеси1льне.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">МнHгіz мyки претерпёвше, и3 бlги1хъ мн0гихъ спод0бистесz, мн0жество м§нкъ сщ7eнное: тёмже мlтвами вaшими ѕHлъ мои1хъ безмёрное мн0жество њчи1стите.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Сщ7eнніи њдёzвшесz прaведною бlгодaтію, и3 весeліе крaсное прпdбныхъ соб0ръ стzжaвше, невещeственнымъ служи1телємъ ўпод0бишасz.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">ХrтHвы прbр0цы, б9eственніи м§нцы, сщ7eнныхъ жeнъ сосл0віе, и5же пострадaвше мyжески, и3 въ постЁ прослaвистесz: и4хже мlтвами млcти тво‰ сп7се всBмъ дaруй.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же t земли2 хrтE, человёка рук0ю твоeю создaвъ в0лею, и3 ±же t нaсъ вс‰ вёрою престaвльшыzсz рабы6 тво‰ нбcныхъ бlгъ спод0би.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">БGороди1тельнице неискусобрaчнаz, прошє1ніz всёхъ принеси2 содётелю нaшему бGу, р0ждшемусz t ўтр0бы твоеS: ћкw да њбрsщемъ совершeнное лю1тыхъ и3збавлeніе.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="4">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Ўслhшахъ гDи слyхъ тв0й, и3 ўбоsхсz, разумёхъ дэлA тво‰, прbр0къ глаг0лаше, и3 прослaвихъ си1лу твою2.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">Претерпёвше м§нцы вс‰кіz р†ны, нрaвомъ д0блественнымъ, ћкоже nвчaта непорHчнаz хrтY привед0стесz, за всёхъ заклaвшемусz животY.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">ЎстA б9eственнаz бhвше с™и1теліе б9іимъ сл0вомъ научaеми, дyшы и3збaвиша t ќстъ льсти1вагw: и5хже благочестномyдреннэ почитaемъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">Крёпцы б9eственнымъ д¦омъ бhвше nтцы2 б9eственніи, крёпкw побэди1сте духHвъ лук†вствіz, прпdбніи бlгодaтію.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Ўмертви1всz животE нaшъ в0лею на дрeвэ, и5же вёрою прешeдшыz животA спод0би вёчнаго чlвэколю1бче.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Не tверг0шасz гDа жeнскій ли1къ, стрaждуще мyжески: и3 не побэди1шасz тэлeсными сластьми2 с™jи, споспёшницу тS и3мyще пречcтаz.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Свётлый нaмъ возсіsй свётъ присносyщный, ќтренюющымъ њ судьбaхъ зaповэдей твои1хъ, вLко чlвэколю1бче хrтE б9е нaшъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">Воwружи1вшесz бlгочeстіемъ, не ўsзвлени kви1стесz м§нцы, борцA стрэлaми, и3 побэдон0сцы бlгодaтію бhвше, вэнцы2 получи1сте.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Помaза мaстію б9eственною гDь сщ7eнники сво‰, ўпaсшыz въ препод0біи вёрныхъ мн0жєства, и3 настaвльшыz ко nгрaдэ нбcнэй.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">Сщ7енном§нцы сщ7eннэйшіи, прпdбніи вси2, и5же д¦а ўстaвы соблю1дше, и3 цrтвію причaстницы бhвше, б9eственнw прославлsетесz.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И%хже нhнэ престaвилъ є3си2 повелёніемъ твои1мъ вLко гDи, спод0би цrтвіz твоегw2 со с™hми, вс‰ презирaz и5мъ дрє1внzz согрэшє1ніz.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">И%же пост0мъ и3 страдaніемъ слaву њбрётше нбcную жєны2, пречcтаz, тебE предстaтельницу и3мyще, ѕмjеву держaву разруши1ша.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Прbр0ка їHну подражaz вопію2: жив0тъ м0й бlже, свободи2 и3з8 тли2, и3 сп7си1 мz, сп7се мjра, зовyща: слaва тебЁ.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">Ўмерщвлeни бhвше рaнъ мн0гихъ наведeньми, жи1знь и4стинную наслёдовасте вкyпэ, молsщесz сп7сти1сz всBмъ нaмъ, с™jи м§нцы.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Денни1цы свэтоз†рныz познaни бhсте на земли2, благочeстіz свётомъ њзари1сте вBрныz, преслaвніи хrтHвы nрyжницы, и3 с™и1теліе премyдріи.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">Стрaнни kви1стесz на земли2, и3 грaждане нбcніи, бGон0сніи п0стницы, ўмертви1вше пл0ти мудров†ніz воздержaніемъ и3 смирeніемъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Невечeрнему твоемY свёту, и3 слaдости и4стиннэй, ±же престaвилъ є3си2 вBрныz, покажи2 причaстники чlвэколю1бче, и3 с™hхъ соб0рwмъ си1хъ сопричти2.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">И$же пострадaвшыz крёпкw, и3 пости1вшыzсz тeплэ, тоб0ю pал0мски во слёдъ привед0шасz хrтY, всепётаz бGороди1тельнице, всsческихъ цRю2.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Сyщымъ въ пещи2 nтрокHмъ твои6мъ сп7се, не прикоснyсz, нижE стужи2 џгнь. тогдA тріE ћкw є3ди1нэми ўсты2 поsху и3 бlгословлsху, глаг0люще: бlгословeнъ бGъ nтє1цъ нaшихъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">И#скуси1вшесz ћкw злaто во nгни2 м§нцы всёми мyками, свэтлёйше всsкагw злaта въ любви2 б9eственнэй kви1шасz, и3 въ сокр0вищахъ нбcныхъ сохранeни бhша.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Ћкw сщ7eнницы, ћкw б9eственніи слуги2 бhвше, вси2 с™и1теліе сщ7eнніи принес0сте бGу жє1ртвы безкрHвныz, и3 лю1ди ўпaсше, и3дёже вели1кій пaстырь всели1стесz.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">Не покори1вшесz страстeмъ пл0ти, безстрaстіемъ ћкw въ ри1зу тaйну прпdбніи њблeкшесz, сожи1теліе ѓгGлwмъ kви1шасz: и4хже мlтвами хrтE, и3збaви нaсъ t и3скушeній.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И#дёже пи1ща є4сть тaйнаz, и3дёже сіsетъ свётъ лицA твоегw2 хrтE, ±же t нaсъ престaвльшыzсz въ вёрэ бlгодaтелю всели2, слaвити бlгочeстнw твою2 бlгостhню.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">ТебE всес™az, пречcтаz, с™ы6z жєны2 и3мyще добр0ту, ликyютъ со ѓгGлы рaдостнw, и3 бGа сл0ва слaвzтъ р0ждшагосz пл0тію и3з8 тебE, за млcрдіе мн0гое.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Е#гHже ўжасaютсz ѓгGли, и3 вс‰ вHинства, ћкw творцA и3 гDа, п0йте сщ7eнницы, прослaвите џтроцы, бlгослови1те лю1діе, и3 превозноси1те во вс‰ вёки.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">ЛьвHвъ зі‰ніz преид0ша неврeднw, и3 кон0бwвъ врBніz претек0ша крёпкw м§нцы вси2, прохлаждaеми nгнeмъ б9eственнагw д¦а преслaвнw.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">ДаS прbр0кwмъ свои6мъ предвёдэти д†льнzz, и3 с™и1тели тво‰ ўмудри1лъ є3си2 сщ7eннw: тёхъ мlтвами хrтE б9е, просвэти2 сердцA вёрнw пою1щихъ тS.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">ДаS прbр0кwмъ свои6мъ предвёдэти д†льнzz, и3 с™и1тели тво‰ ўмудри1лъ є3си2 сщ7eннw: тёхъ мlтвами хrтE б9е, просвэти2 сердцA вёрнw пою1щихъ тS.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же создaвый человёка t земли2 бGодёльнw, ±же t земли2 престaвилъ є3си2 вBрныz, ћкw бlгъ, пи1щи рaйскіz спод0би, вс‰ презирaz ±же t ни1хъ содBzннаz.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Д0брую и3 непор0чную чcтаz въ женaхъ, жєны2 пострадaвшыz знaюще тS ћвэ дв7о, мlтвы творsтъ съ тоб0ю къ бGу, сп7сти1сz t бёдъ рабHмъ твои6мъ.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Живопріeмный и3ст0чникъ приснотекyщій, свэтон0сный свэти1льникъ бlгодaти, хрaмъ њдушевлeнный, сёнь пречcтую, нб7сE и3 земли2 прострaннэйшую, бцdу вёрніи величaемъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="martyrion">
+							<text>
+								<item language="cs-cs">Сщ7eнныхъ м§нкъ почти1мъ сщ7є1ннаz борє1ніz рaдующесz, страд†ніz же и3 р†ны, пригвождє1ніz и3 и3згн†ніz, и3 заколeніе блажeнное, и4мже хrтY наслBдницы kви1шасz.</item>
+							</text>
+						</troparion>
+						<troparion kind="ierarhon">
+							<text>
+								<item language="cs-cs">Ћкw сщ7eнницы б9іи, њблек0шасz въ прaвду б9eственніи ўгHдницы: ћкw въ препод0біи пожи1вше, и5же въ постЁ ћвэ скончaвшіисz, рaдуютсz хrтA величaюще.</item>
+							</text>
+						</troparion>
+						<troparion kind="osion">
+							<text>
+								<item language="cs-cs">ЎстA б9eствєннаz гDнz бhвше, прbр0цы вси2, всBмъ є3гw2 провозвэсти1ша свётъ: съ ни1миже нhнэ веселsтсz и3 жєны2, крёпкw подвизaвшыzсz, и3 пост0мъ бGу ўгоди1вшыz.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же всёми цaрствующаz си1ло, твоегw2 цaрствіz покажи2 причaстники, со с™hми твои1ми, ±же t земли2 престaвилъ є3си2: и3 ±же содBzннаz и4ми, б9е всёхъ прeзри премн0гою блaгостію твоeю.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Ћже свётъ р0ждшаz б9eственный, безлётный, вс‰ мо‰ разрэши2 лBтнаz прегрэшє1ніz, твои1ми мольбaми: и3 ќмъ м0й просвэти2, њмрачaемый при1снw лёностію, да тS пою2, и3 вёрнw величaю.</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+			<kanonas ihos="1">
+				<acrostic>
+					<item language="cs-cs">Вёрою ўс0пшымъ пeрвую пёснь приношaю.</item>
+				</acrostic>
+				<annotation>
+					<item language="cs-cs">Другjй канHнъ ўс0пшымъ</item>
+				</annotation>
+				<odes>
+					<odi number="1">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">ТвоS побэди1тельнаz десни1ца бGолёпнw въ крёпости прослaвисz: тa бо безсмeртне, ћкw всемогyщаz проти6вныz сотрE, ї}льтzнwмъ пyть глубины2 новосодёлавшаz.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">ВратA смeрти и3 верєи2, твоeю смeртію сокруши1лъ є3си2 безсмeртне, вратA tвeрзи вLко, пaче ўмA безсмeртіz ќспшымъ, мlтвами стrтотeрпєцъ твои1хъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ты2 моE тлённое же и3 мeртвенное воспріи1мъ, въ нетлёніе њблeклъ є3си2, и3 къ безконeчному житію2 и3 бlжeнному вознeслъ є3си2, и3дёже ћкw щeдръ, и5хже пріsлъ є3си2, ўпок0й.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Да б9eственнагw животA спод0бимсz, сошeлъ є3си2 къ смeрти, тоs же и3спровeргъ сокрHвища, нaсъ tтyду и3звлeклъ є3си2: нhнэ же жизнодaвче, престaвлєнныz ўпок0й.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Р0ждшую є4же t бGа б9іе сл0во, вёрніи воспои1мъ: тa бо всечcтаz пyть жи1зни ўмeршымъ бhсть, ю4же ћкw бGопріeмницу и3 бцdу прослaвимъ.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Е#ди1не вёдый человёческагw существA нeмощь, и3 ми1лостивнw въ нE воwбрaжсz, препоsши мS съ высоты2 си1лою, є4же вопи1ти тебЁ с™hй: њдушевлeнный хрaме неизречeнныz слaвы твоеS чlвэколю1бче.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ћкw є3ди1нъ бlгъ сhй, ћкw є3ди1нъ многомлcтивъ, ћже бlгочeстнw къ тебЁ tшeдшыz, въ нбcныхъ селeніихъ ўпок0й, и3дёже неизречeннаz рaдость и3 наслаждeніе, и3 и3дёже соб0ръ м§нческій весели1тсz.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ты2 є3ди1нъ kви1лсz є3си2 на земли2, сп7се м0й безгрёшенъ, и4же грэхи2 мjра взeмлzй ћкw млcрдъ: t мjра сегw2 престaвльшихсz вёрою, дyшы ўпок0й во дв0рэхъ с™hхъ твои1хъ, въ слaдости рaйстэй чlвэколю1бче.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Смeрти держaву низл0жъ, жив0тъ некончaемый всBмъ вBрнымъ и3сточи1лъ є3си2 вLко: въ т0мъ ќбw ўчини2 бlгочeстнw tшeдшыz, презирaz безмBрнаz прегрэшє1ніz, и3 прощaz грэхи2 и4хъ чlвэколю1бче.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Без8 сёмене зачaтъ чcтаz, сл0во присносyщное, пл0тски къ нaмъ пришeдшее, и3 смeрти крёпость разори1вшее, и3 мє1ртвымъ воскrніе и3 жи1знь вёчную свои1мъ млcрдіемъ дaрующее.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="4">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Г0ру тS бlгодaтію б9іею пріwсэнeнную, прозорли1выма ґввакyмъ ўсмотри1въ nчи1ма, и3з8 тебE и3зhти ї}леву провозглашaше с™0му, во сп7сeніе нaше и3 њбновлeніе.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ўмертви1въ ѓдъ непобэди1мою твоeю си1лою, вмэнeнъ бhлъ є3си2 въ мeртвыхъ, є3ди1нъ сhй своб0дь хrтE, дyшы свободи2 бlгочести1выхъ, и3 є4же въ нeмъ њсуждeніz, с™hхъ м§нкъ мольбaми.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">И$же всёхъ сhй ћкw вLка, противодост0йную и5же t ґдaма твоегw2 заколeніz, и3збaву дaлъ є3си2 и3 цёну: тёмже м0лимсz твои6мъ щедр0тамъ, престaвльшыzсz ўпок0й, согрэшeній подаS њставлeніе.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Пріsлъ є3си2 сп7се м0й, є4же во гр0бэ положeніе, и3 ±же во гробёхъ жи1ти њсуждeнныz мертвецы2, ћкw бGъ воскRси1лъ є3си2. нhнэ же жи1зни присносyщныz спод0би престaвлєнныz, ћкw є3ди1нъ чlвэколю1бецъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Сп7сeсz р0дъ чlвёческій рождеств0мъ твои1мъ: тh бо родилA є3си2 нaмъ v3постaсный жив0тъ, смeрти потреблeніе, и3 къ жи1зни содёловающій восх0дъ, бGороди1тельнице пренепор0чнаz вLчце.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Просвэти1вый сіsніемъ пришeствіz твоегw2 хrтE, и3 њсвэти1вый кrт0мъ твои1мъ мjра концы2, сердцA просвэти2 свётомъ твоегw2 бGоразyміz, правослaвнw пою1щихъ тS.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">И#сцэлszй t ћда смeртнагw, смeрть пріsтъ, и3 смeрти жaло притупи1лъ є3си2: но сaмъ ўпок0й, и5хже пріsлъ є3си2 жизнодaвче, м§нкъ мольбaми.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ўмерщвлeніz и3 тлёніz человёки свободи1вый, дyшы вёрнw престaвленныхъ ўчини2 во дв0рэхъ с™hхъ твои1хъ, tню1дуже tбэжE всsка ск0рбь, и3 весeліе водворsетсz.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Рaй ќбw съ тоб0ю повёшенному, ћкw tвeрзлъ є3си2: нhнэ пріими2, дyшы вLко, къ тебЁ вёрою престaвльшыzсz, подаS и5мъ въ цRкви пeрвенєцъ водвори1тисz.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">И#збавлsющи на тS надeжды держaву и3мyщихъ, къ пристaнищу б9eственныz в0ли ти1хw настaви, м™рнимъ твои1мъ дерзновeніемъ къ сн7у твоемY, бlгословeннаz всенепор0чнаz.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Њбhде нaсъ послёднzz бeздна, нёсть и3збавлszй, вмэни1хомсz ћкw џвцы заколeніz, сп7си2 лю1ди тво‰ б9е нaшъ: тh бо крёпость немощствyющихъ и3 и3справлeніе.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Ћкw млcрдъ, престaвлєннымъ дaруй прегрэшeній прощeніе, и3 вёчное наслаждeніе подаS, и3дёже сіsетъ лицA твоегw2 свётлость, и3 њзарsетъ стrтотeрпцы тво‰.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">И$же кр0вію t рeбръ твои1хъ и3стeкшею мjръ и3скупи1лъ є3си2, вёрою ўс0пшыz ќбw хrтE и3збaви честнhми страстьми2 твои1ми: тh бо цёну за всёхъ себE дaлъ є3си2.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же создaвый мS рукaма пречcтыми пeрвэе и3 дyхъ даровaвый, и3 къ земли2 низпaдша ѕлЁ, пaки њбнови1вый краснёйше, нhнэ дyшы престaвльшихсz сaмъ ўпок0й.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">Черт0гу твоемY свэтон0сному гDи, всели1ти спод0би, ±же въ вёрэ къ тебЁ ўс0пшыz, тёхъ презирaz прегрэшє1ніz, ћкw бlгъ и3 млcрдъ и3 многомлcтивъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Поeмъ тS бlгословeннаz чcтаz, є3sже рaди нaмъ возсіS сyщымъ во тьмЁ и3 сёни смeртнэй, прaвды незаходи1мое сlнце: ты2 во нaшегw сп7сeніz ходaтаица былA є3си2.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">ТебE ќмную бцdе, пeщь разсмотрsемъ вёрніи: ћкоже бо џтроки сп7сE три2 превозноси1мый, мjръ њбнови2, во чрeвэ твоeмъ всецёлъ, хвaльный nтцє1въ бGъ, и3 препрослaвленъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">ТебE ќмную бцdе, пeщь разсмотрsемъ вёрніи: ћкоже бо џтроки сп7сE три2 превозноси1мый, мjръ њбнови2, во чрeвэ твоeмъ всецёлъ, хвaльный nтцє1въ бGъ, и3 препрослaвленъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Н0въ ґдaмъ вои1стинну бhвъ, ґдaмовъ содётелю, и4же клsтву бо ґдaмову є3ди1нъ потреби1лъ є3си2. тёмже м0лимсz тебЁ: престaвлєнныz ўпок0й въ слaдости рaйстэй хrтE, ћкw є3ди1нъ млcрдъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же нaшу є3стeственную нeмощь є3ди1нъ свёдый ћкw бGъ, бlгъ же и3 млcтивъ, вс‰ и5хже престaвилъ є3си2, и3дёже свётъ незаходи1мый присэщaетъ лицA твоегw2, ўчини2 хrтE, хвали1мый nтцє1въ б9е и3 препрослaвленъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Зак0на сBни, и3 дрє1внzz гад†ніz твои1мъ преид0ша рождеств0мъ бGом™и, тh бо нaмъ б9eственныz бlгодaти свётъ возсіsла є3си2: и4мже дрeвнихъ и3збaвихомсz долгHвъ чcтаz, воспэвaюще бGа препрослaвленнаго.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">Въ пещи2 џтроцы ї}лєвы, ћкоже въ горни1лэ добр0тою бlгочeстіz чистёе злaта блещaхусz, глаг0люще: бlгослови1те вс‰ дэлA гDнz гDа, п0йте и3 превозноси1те во вс‰ вёки.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Сквeрну всю2 твои1хъ рабHвъ ўс0пшихъ, твоегw2 человэколю1біz рос0ю tмhвъ, тS пёсньми воспэвaти спод0би: бlгослови1те вс‰ дэлA гDнz гDа, п0йте и3 превозноси1те є3го2 во вс‰ вёки.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Предстоsтели сп7се деснhz, вёрою њправдaвъ мlтвами стrтотeрпєцъ, ±же престaвилъ є3си2 вBрныz, покажи2 пою1щыz: бlгослови1те вс‰ дэлA гDнz гDа, п0йте и3 превозноси1те є3го2 во вс‰ вёки.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И$же смeрти и3 животA и3мёzй всsкую влaсть, ±же вёрою ўс0пшыz твоегw2 сіsніz ўлучи1ти бlговоли2, взывaющыz: бlгослови1те вс‰ дэлA гDнz гDа, п0йте и3 превозноси1те є3го2 во вёки.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Сп7сeніz ходaтаица нaмъ былA є3си2 всенепор0чнаz, и3 въ непреходи1мыz вёки пребывaніz же и3 свётлости: тебE дв7о чcтаz, при1снw вс‰ дэлA бlгослови1мъ, и3 превозн0симъ во вс‰ вёки.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">W$бразъ чcтагw ржcтвA твоегw2 nгнепали1маz купинA показA неwпaльнаz: и3 нhнэ на нaсъ напaстей свирёпэющую ўгаси1ти м0лимсz пeщь, да тS бцdе непрестaннw величaемъ.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ди1венъ бGъ во с™hхъ свои1хъ, бGъ ї}левъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">Пощади2 ћкw бGъ чlвэколюби1въ, и3 млcтивъ, твоE создaніе: и3 ўпок0й въ селeніихъ с™hхъ твои1хъ, и3дёже м§нцы вси2 веселsтсz, вёрою престaвлєныz t врeменныхъ, многомлcтиве.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<stihos>
+								<item language="cs-cs">Ўпок0й гDи дyшы ўс0пшихъ р†бъ твои1хъ.</item>
+							</stihos>
+							<text>
+								<item language="cs-cs">И#мёzй млcтей бeздну, препобэждaющую рабHвъ твои1хъ прегрэшє1ніz, и5хже пріeмъ и3збрA, ўпок0й въ нёдрэхъ ґвраaмлихъ чlвэколю1бче, и3 съ лaзаремъ во свётъ тв0й всели2.</item>
+							</text>
+						</troparion>
+						<troparion kind="nekrosimo">
+							<text>
+								<item language="cs-cs">И#збaвитель и3 сп7съ бhвъ р0ду человёческому, распsтіz рaди, ±же нhнэ t нaсъ престaвилъ є3си2, ћкw бlгодaтель, наслаждeніz б9eственнагw спод0би, и3 животA нетлённагw, и3 весeліz и3 свётлости.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">Q ±же пaче ўмA чудeсъ твои1хъ! тh бо дв7о є3ди1на всBмъ, и5же под8 с0лнцемъ, подалA є3си2 разумёти новёйшее чyдо пречcтаz, твоегw2 ржcтвA недоумённагw: тёмже тS вси2 величaемъ.</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+		</kanones>
+		<ainoi>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">стіхи6ры м§нчны</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Стrтотeрпцы хrтHвы, пріиди1те лю1діе вси2 почти1мъ, пёньми и3 пёсньми дух0вными, просвёщники мjра, и3 проповёдники вёры: и3ст0чники приснотекyщыz, t ни1хже и3стекaютъ вBрнымъ и3сцэлє1ніz. тёхъ мlтвами хrтE б9е нaшъ, ми1ръ мjру твоемY дaруй, и3 душaмъ нaшымъ вeлію млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Сjи в0ини цRS вели1кагw проти1вишасz повелёніємъ мучи1телєвымъ, д0блественнэ неради1ша њ мyкахъ, и3 лeсть всю2 попрaвше, дост0йнэ вэнчaни бhша. пр0сzтъ t сп7са ми1ра, и3 душaмъ нaшымъ вeліz млcти.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Вaсъ прехвaльніи м§нцы, ни ск0рбь, ни тэснотA, ни глaдъ, ни гонeніе, нижE р†ны, ни ћрость ѕвэрeй, ни мeчь, нижE џгнь претsй разлучи1ти t бGа возмог0ша: люб0вію же пaче ћже къ немY, ћкw въ чужди1хъ подви1гшесz тэлесёхъ, є3стество2 забhвше, и3 смeрть презрёсте. тёмже и3 дост0йнw трудHвъ вaшихъ мздY пріsли є3стE, нбcному цrтвію наслBдницы бhвше: хrтY моли1тесz њ душaхъ нaшихъ.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Весели1тесz м§нцы њ гDэ, ћкw п0двигомъ д0брымъ подвизaстесz, и3 проти1вистесz царє1мъ, и3 мучи1тели побэди1сте: nгнS и3 мечA не ўстраши1стесz, и3 ѕвэрeй ди1віихъ снэдaющихъ тэлесA в†ша. хrтY со ѓгGлы пёснь возсылaюще, съ нб7сE вэнцы2 пріsсте: и3спроси1те даровaти ми1ръ мjру, и3 душaмъ нaшымъ вeлію млcть. </item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">Дёломъ сп7се м0й kвлsеши, ћкw ты2 є3си2 всёхъ воскrніе, сл0вомъ сл0ве лaзарz t мeртвыхъ возстaвилъ є3си2. є3гдa же мeртвіи t гробHвъ воскрес0ша, и3 вратA ѓдwва смzт0шасz: тогдA человёкwмъ смeрть с0нъ kвлsшесz. но и4же на сп7сeніе своегw2 создaніz, ґ не на њсуждeніе пришeдый, и5хже и3збрaлъ є3си2, ўпок0й ћкw чlвэколю1бецъ.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Рaдуйсz t нaсъ, с™az бцdе дв7о чcтый сосyде всеS вселeнныz: свэщE неугаси1маz, вмэсти1лище невмэсти1магw, хрaме неwбори1мый. рaдуйсz, и3з8 неsже роди1сz ѓгнецъ б9ій, взeмлzй грэхи2 всегw2 мjра.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</ainoi>
+		<aposticha>
+			<group ihos="1">
+				<prosomoion>
+					<item language="cs-cs">Прехвaльніи м§нцы</item>
+				</prosomoion>
+				<annotation>
+					<item language="cs-cs">стіхи6ры пок0йны. Творeніе кЂръ fеофaна.</item>
+				</annotation>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">ТебЁ сп7се м0лимсz, твоегw2 слaдкагw причaстіz престaвльшихсz спод0би, и3 всели2 во nби1телехъ прпdбныхъ со с™hми твои1ми, и3 въ нбcнаz жили6ща, бlгоутр0біемъ твои1мъ презрS беззакHніz, и3 подаS си6мъ пок0й.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<stihos>
+						<item language="cs-cs">Бlжeни, ±же и3збрaлъ и3 пріsлъ є3си2 гDи.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Пaче ви1димыхъ тво‰ сп7се њбэщ†ніz, ±же џко не ви1дэ, и3 ќхо не слhша, и3 на сeрдце человёка никогдaже взhде: м0лимъ тS вLко, слaдкагw твоегw2 причaстіz получи1ти спод0би, къ тебЁ престaвльшыzсz, и3 подaждь и5мъ вёчную жи1знь.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<stihos>
+						<item language="cs-cs">Дyшы и4хъ во бlги1хъ водворsтсz.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Њ кrтЁ твоeмъ веселsщесz. њ кrтЁ твоeмъ надёющесz раби2 твои2, къ тебЁ престaвишасz чlвэколю1бче: и5мже нhнэ и3збавлeніе тёхъ прегрэшeній, кrтъ тв0й дaруй, и3 кр0вь проліsнную за мірскjй жив0тъ, бlгосeрдіемъ твои1мъ прощaz согрэшє1ніz, и3 просвэщaz свётомъ лицA твоегw2.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<stihos>
+						<item language="cs-cs">И# пaмzть и4хъ въ р0дъ и3 р0дъ.</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">Никт0же безгрёшенъ, никт0же t человёкъ бhвъ, т0кмw ты2 є3ди1не безсмeртне. тёмже рабы6 тво‰, ћкw бGъ щeдрый, во свётэ со ѓгGльскими ликостоsніи твои1ми ўчини2 бlгоутр0біемъ твои1мъ, презирaz беззакHніz, и3 подаS и5мъ прощeніе.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">ХrтA ўмоли2, твоE рождeніе м™и дв7о, согрэшeній прощeніе даровaти рабHмъ твои6мъ, тебE бцdу проповёдавшымъ вои1стинну, и3 сл0вомъ бlгочести1вымъ бlгослови1вшымъ, и3 свётлости с™hхъ и3 весeліz спод0би во цrтвіи твоeмъ.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</orthros>
+	<leitourgia>
+		<makarismi>
+			<ymnis ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Снёдію и3зведE и3з8 раS врaгъ ґдaма: кrт0мъ же введE хrт0съ в0нь разб0йника, помzни1 мz гDи, вопію1ща, є3гдA пріи1деши во цrтвіи твоeмъ.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Снёдію и3зведE и3з8 раS врaгъ ґдaма: кrт0мъ же введE хrт0съ в0нь разб0йника, помzни1 мz гDи, вопію1ща, є3гдA пріи1деши во цrтвіи твоeмъ.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">И%же течeніе соверши1вше сщ7eннэйшіи хrтHвы страдaльцы, со с™и1тели сщ7eнными и3 прbр0ки, спод0бистесz во грaдэ нбcнэмъ жи1ти, со ѓгGлы веселsщесz.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">Во свётэ хrтE, ўчини2 невечeрнэмъ, ±же престaвилъ є3си2, прегрэшє1ніz и4хъ презрёвъ, ћкw щeдрый бGъ: да твою2 слaвимъ бlгодaтелю, безчи1сленную млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="triadiko">
+					<text>
+						<item language="cs-cs">Во свётэ хrтE, ўчини2 невечeрнэмъ, ±же престaвилъ є3си2, прегрэшє1ніz и4хъ презрёвъ, ћкw щeдрый бGъ: да твою2 слaвимъ бlгодaтелю, безчи1сленную млcть.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="theotokion">
+					<text>
+						<item language="cs-cs">ћкw палaту прострaнную, и3 прест0лъ слaвы, и3 џблакъ свётелъ, пэсносл0вимъ тS чcтаz, и3 м0лимъ: разори2 џблакъ мрaчный t дyшъ нaшихъ, б9eственными мlтвами твои1ми.</item>
+					</text>
+				</ymnos>
+			</ymnis>
+		</makarismi>
+	</leitourgia>
+</dayservice>

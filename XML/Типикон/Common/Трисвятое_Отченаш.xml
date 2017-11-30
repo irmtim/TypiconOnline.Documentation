@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<lector>
+		<p>
+			<item language="cs-cs">С™hй б9е, с™hй крёпкій, с™hй безсмeртный, поми1луй нaсъ.</item>
+			<note>
+				<item language="cs-cs">Три1жды.</item>
+				<style>
+					<red>true</red>
+					<bold>true</bold>
+				</style>
+			</note>
+		</p>
+		<p>
+			<item language="cs-cs">Слaва nц7Y, и3 сн7у, и3 с™0му д¦у, и3 нhнэ и3 при1снw, и3 во вёки вэкHвъ, ґми1нь.</item>
+		</p>
+		<p>
+			<item language="cs-cs">Прес™az трbце, поми1луй нaсъ: гDи, њчи1сти грэхи2 нaшz: вLко, прости2 беззакHніz н†ша: с™hй, посэти2 и3 и3сцэли2 нeмwщи нaшz, и4мене твоегw2 рaди.</item>
+		</p>
+		<p>
+			<item language="cs-cs">ГDи поми1луй.</item>
+			<note>
+				<item language="cs-cs">Три1жды.</item>
+				<style>
+					<red>true</red>
+					<bold>true</bold>
+				</style>
+			</note>
+		</p>
+		<p>
+			<item language="cs-cs">Слaва nц7Y, и3 сн7у, и3 с™0му д¦у, и3 нhнэ и3 при1снw, и3 во вёки вэкHвъ, ґми1нь.</item>
+		</p>
+		<p>
+			<item language="cs-cs">Џ§е нaшъ, и4же є3си2 на нб7сёхъ, да свzти1тсz и4мz твоE, да пріи1детъ цrтвіе твоE, да бyдетъ в0лz твоS, ћкw на нб7си2 и3 на земли2. хлёбъ нaшъ насyщный дaждь нaмъ днeсь, и3 њстaви нaмъ д0лги нaшz, ћкоже и3 мы2 њставлsемъ должникHмъ нaшымъ: и3 не введи2 нaсъ во и3скушeніе, но и3збaви нaсъ t лукaвагw.</item>
+		</p>
+	</lector>
+	<priest>
+		<p>
+			<item language="cs-cs">Ћкw твоE є4сть цrтво, и3 си1ла, и3 слaва, nц7A, и3 сн7а, и3 с™aгw д¦а, нhнэ и3 при1снw, и3 во вёки вэкHвъ.</item>
+		</p>
+	</priest>
+	<choir>
+		<p>
+			<item language="cs-ru">Аминь.</item>
+			<item language="cs-cs">Ґми1нь.</item>
+		</p>
+	</choir>
+</rule>

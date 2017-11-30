@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster><date>--04-07</date></daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-17</int>
+			</values>
+			<action>
+				<modifyday daymove="-2" priority="3"/>
+				<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
+				<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
+				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-18</int>
+			</values>
+			<action>
+				<modifyday daymove="-2" priority="3"/>
+				<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
+				<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
+				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+			</action>
+		</case>
+	</switch>
+</rule>

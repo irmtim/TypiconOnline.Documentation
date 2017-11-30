@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XML Files" ExtStr="xml;cml;math;rdf;smil;svg;wml">
+		<Folder FolderName="Типикон">
+			<Folder FolderName="Sign">
+				<File FilePath="Типикон\Sign\Аллилуиа.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Бдение с литией.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Бдение.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Без знака.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Воскресный день.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Двунадесятый Господский праздник.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Литургия Преждеосвященных Даров.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Полиелей.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Поминовение усопших (Постом).xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Поминовение усопших.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Menology">
+				<File FilePath="Типикон\Menology\--01-04.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-05.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-06.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-07.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-08.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-16.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-17.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--01-18.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-08.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-22.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-23.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-24.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-25.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-26.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--03-27.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--04-06.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\--04-07.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Димитриевская родительская суббота. Поминовение усопших.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя по Богоявлении.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя по Воздвижении.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя пред Богоявлением.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя пред Воздвижением.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя пред Рождеством Христовым, святых отец.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Неделя святых праотец.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Память святых отцов VII Вселенского Собора.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Попразднство Рождества Христова. Правв. Иосифа Обручника, Давида царя и Иакова, брата Господня.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Собор новомучеников и исповедников Церкви Русской.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота по Богоявлении.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота по Воздвижении.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота по Рождестве Христовом и пред Богоявлением.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота по Рождестве Христовом.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота пред Богоявлением.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота пред Воздвижением.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Menology\Суббота пред Рождеством Христовым.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Template">
+				<File FilePath="Examples\text.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Triodion">
+				<File FilePath="Типикон\Triodion\-1.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-14.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-15.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-17.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-2.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-21.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-25.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-28.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-3.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-4.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-42.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-43.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-44.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-45.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-46.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-47.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-48.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-5.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-6.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\-8.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\0.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\49.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\5.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\50.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\6.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\63.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Triodion\9.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Common">
+				<File FilePath="Типикон\Common\_sys_aposticha.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_ihos.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_inyne.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_kekragaria.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_prosomoion.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_sedalen.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_self.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_slava.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_slavainyne.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\Ектения_малая.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\Ектения_мирная.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\Ектения_просительная_вечерня.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\СлаваНынеГВ.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\Трисвятое_Отченаш.xml" HomeFolder="Yes"/>
+			</Folder>
+		</Folder>
+		<Folder FolderName="Days">
+			<Folder FolderName="Menology">
+				<File FilePath="Menology\--09-27.xml" DocType="XML" HomeFolder="Yes"/>
+				<File FilePath="Menology\--09-27.ВОЗДВИЖЕНИЕ ЧЕСТНОГО И ЖИВОТВОРЯЩЕГО КРЕСТА ГОСПОДНЯ.xml" HomeFolder="Yes"/>
+				<File FilePath="Menology\--09-28.Вмч. Ники́ты.xml" HomeFolder="Yes"/>
+				<File FilePath="Menology\--09-28.Попразднство Воздвижения Креста.xml" HomeFolder="Yes"/>
+			</Folder>
+		</Folder>
+		<Folder FolderName="Examples">
+			<File FilePath="Examples\esperinos.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\ItemText.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\logical.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\modifyday.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\text.xml"/>
+			<File FilePath="Examples\Пример службы без знака.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="Templates">
+			<File FilePath="Templates\Аллилуиа.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Бдение.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Без знака.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Двунадесятый праздник.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Литургия Преждеосвященных Даров.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Полиелей.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Поминовение усопших (Постом).xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Славословная.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Шестеричная.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="Books">
+			<Folder FolderName="Oktoikh">
+				<File FilePath="Books\Oktoikh\1.Monday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\Oktoikh\1.Saturday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\Oktoikh\1.Sunday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\Oktoikh\[template].Monday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\Oktoikh\[template].Saturday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\Oktoikh\[template].Sunday.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Irmologion">
+				<Folder FolderName="Theotokion">
+					<File FilePath="Books\Irmologion\Theotokion\app1_kekragaria.1.Sunday.xml" HomeFolder="Yes"/>
+				</Folder>
+			</Folder>
+			<Folder FolderName="Katavasia">
+				<File FilePath="Books\Katavasia\отверзу_уста_моя.xml" HomeFolder="Yes"/>
+			</Folder>
+		</Folder>
+		<File FilePath="DayExample.xml" HomeFolder="Yes"/>
+		<File FilePath="Rules\DimitrySaturday.xml" HomeFolder="Yes"/>
+		<File FilePath="Rules\service.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XSL Files" ExtStr="xsl;xslt"/>
+	<Folder FolderName="XQuery Files" ExtStr="xq;xql;xquery"/>
+	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
+		<File FilePath="DaySchema.xsd" HomeFolder="Yes"/>
+		<File FilePath="Rules\RulesSchema.xsd" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp"/>
+	<Folder FolderName="Entities" ExtStr="ent"/>
+</Project>

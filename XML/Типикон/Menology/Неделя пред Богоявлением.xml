@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<getdayofweek><date>--01-07</date></getdayofweek>
+		</expression>
+		<case>
+			<values>
+					<getdayofweek name="понедельник"></getdayofweek>
+					<getdayofweek name="воскресенье"></getdayofweek>
+					<getdayofweek name="вторник"></getdayofweek>
+			</values>
+			<action>
+				
+				
+			</action>
+		</case>
+		<default>
+			<modifyday shortname="пред Богоявлением" asaddition="true" usefullname="false">
+				<getclosestday dayofweek="воскресенье" weekcount="-1"><date>--01-19</date></getclosestday>
+			</modifyday>
+		</default>
+	</switch>
+</rule>

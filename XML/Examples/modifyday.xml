@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<modifyday daymove="-1">
+		<datebydaysfromeaster><int>3</int></datebydaysfromeaster>
+		<modifyreplacedday kind="triodion" daymove="-1">
+			<modifyreplacedday kind="menology">
+				<date>--04-24</date>
+			</modifyreplacedday>
+		</modifyreplacedday>
+	</modifyday>
+</rule>
+<!-- Среду Светлой седмицы переносим на вторник
+	Вторник Светлой седмицы переносим на понедельник
+	а святого 17 апреля переносим на 24 апреля
+-->

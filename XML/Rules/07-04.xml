@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/%d0%94%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/programming/XML/Rules/RulesSchema.xsd">
+	<switch>
+		<condition>
+			<daysfromeaster><date>--04-07</date></daysfromeaster>
+		</condition>
+		<case>
+			<values>
+					<int>-29</int>
+					<int>-22</int>
+			</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-28</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-27</int> 
+					 <int>-20</int> 
+					 <int>-13</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-25</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-21</int> 
+					 <int>-14</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-18</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-17</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-16</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="true"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-15</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-8</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-7</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-6</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-5</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-4</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-3</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-2</int> 
+				</values>
+			<action>
+				<daymodification servicesign="5" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-1</int> 
+				</values>
+			<action>
+				<daymodification servicesign="5" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>0</int> 
+				</values>
+			<action>
+				<daymodification servicesign="5" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>1</int> 
+					 <int>2</int> 
+					 <int>3</int> 
+				</values>
+			<action>
+				<daymodification servicesign="6" daymove="0" iscustomname="false"/>
+			</action>
+		</case>
+	</switch>
+</rule>

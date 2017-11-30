@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/DaySchema.xsd">
+	<name>
+		<item language="cs-ru">[item] [sign]</item>
+	</name>
+	<esperinos>
+		<kekragaria>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 1 стихира </item>
+					</text>
+				</ymnos>
+				<ymnos kind="martyrion">
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 2 стихира </item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 3 стихира </item>
+					</text>
+				</ymnos>
+			</group>
+		</kekragaria>
+		<prokeimeni>
+			<prokeimenon ihos="3">
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Прокимен1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Прокимен1. Стих</item>
+				</stihos>
+			</prokeimenon>
+			<prokeimenon ihos="3">
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Прокимен2</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Прокимен2. Стих</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<paroimies>
+			<paroimia quote="3.1-14">
+				<bookname>
+					<item language="cs-ru">Пророчества Исаиина чтение</item>
+				</bookname>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 2</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 3</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 4</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 5</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 6</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 7</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 8</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 9</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 1. Стих 10</item>
+				</stihos>
+			</paroimia>
+			<paroimia quote="5.15-57, 6.1-8">
+				<bookname>
+					<item language="cs-ru">Пророчества Исаиина чтение</item>
+				</bookname>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 2</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 3</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 4</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 5</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 6</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 7</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 8</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 9</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Вечерня. Паремия 2. Стих 10</item>
+				</stihos>
+			</paroimia>
+		</paroimies>
+		<aposticha>
+			<group ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Вечерня. На стиховне, 1 стихира.</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="3">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Вечерня. На стиховне, 2 стихира.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="3">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Вечерня. На стиховне, Богородичен.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</esperinos>
+	<orthros>
+		<sed_2kathisma>
+			<group ihos="2">
+				<prosomoion>
+					<item language="cs-ru">Благообра́зный Ио́сиф:</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Седален по 2-й кафизме. Тропарь 1</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Седален по 2-й кафизме. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_2kathisma>
+		<sed_3kathisma>
+			<group ihos="2">
+				<prosomoion>
+					<item language="cs-ru">Милосе́рдия су́щи:</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Седален по 3-й кафизме. Тропарь 1</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Седален по 3-й кафизме. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_3kathisma>
+		<kanones>
+			<kanonas ihos="4">
+				<stihos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Припев.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 1-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 8-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 9-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+			<kanonas ihos="4">
+				<stihos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Припев.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 1 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 2 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 3 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь Богородичен 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<stihos>
+								<item language="cs-ru">Сла́ва Тебе́, Бо́же наш, сла́ва Тебе́.</item>
+							</stihos>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 5 1-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Ирмос 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 1 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 2 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="triadiko">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 3 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь Богородичен 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<stihos>
+								<item language="cs-ru">Сла́ва Тебе́, Бо́же наш, сла́ва Тебе́.</item>
+							</stihos>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 5 1-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Ирмос 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 1 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 2 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 3 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь Богородичен 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<stihos>
+								<item language="cs-ru">Сла́ва Тебе́, Бо́же наш, сла́ва Тебе́.</item>
+							</stihos>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Тропарь 5 1-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+		</kanones>
+		<aposticha>
+			<group ihos="8">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. На стиховне, 1 стихира.</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. На стиховне, 2 стихира.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="8">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. На стиховне, Богородичен.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</orthros>
+	<sixhour>
+		<troparion>
+			<group ihos="5">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] 6-й час. Тропарь пророчества</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+		<prokeimeni>
+			<prokeimenon ihos="4">
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Прокимен 1. Стих 1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Прокимен 1. Стих 2</item>
+				</stihos>
+			</prokeimenon>
+			<prokeimenon ihos="6">
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Прокимен 2. Стих 1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Прокимен 2. Стих 2</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<paroimies>
+			<paroimia quote="3.1-14">
+				<bookname>
+					<item language="cs-ru">Пророчества Исаиина чтение</item>
+				</bookname>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 1</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 2</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 3</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 4</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 5</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 6</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 7</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 8</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 9</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">[item] [sign] 6-й час. Паремия 1. Стих 10</item>
+				</stihos>
+			</paroimia>
+		</paroimies>
+	</sixhour>
+</dayservice>

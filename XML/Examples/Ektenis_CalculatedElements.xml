@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<ektenis>
+		<name>
+			<item language="cs-ru">Мирная ектения.</item>
+		</name>
+		<deacon>
+			<p>
+				<item language="cs-ru">deacon1</item>
+			</p>
+		</deacon>
+		<if>
+			<expression>
+				<equals>
+					<date>--05-10</date>
+					<date>--05-10</date>
+				</equals>
+			</expression>
+			<then>
+				<choir>
+					<p>
+						<item language="cs-ru">choir1</item>
+					</p>
+				</choir>
+				<deacon>
+					<p>
+						<item language="cs-ru">deacon2</item>
+					</p>
+				</deacon>
+				<choir>
+					<p>
+						<item language="cs-ru">choir2</item>
+					</p>
+				</choir>
+				<priest>
+					<p>
+						<item language="cs-ru">priest</item>
+					</p>
+				</priest>
+			</then>
+		</if>
+	</ektenis>
+</rule>

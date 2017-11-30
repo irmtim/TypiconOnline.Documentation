@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster><date>--03-22</date></daysfromeaster>
+		</expression>
+		<case>
+			<values>
+					<int>-48</int>
+					<int>-47</int>
+					<int>-46</int>
+					<int>-45</int>					
+					<int>-44</int>					
+					<int>-43</int>					
+			</values>
+			<action>
+				<modifyday><datebydaysfromeaster><int>-43</int></datebydaysfromeaster></modifyday>
+				<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
+				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+				<service time="08.00" name="Божественная литургия."></service>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-42</int>
+					 <int>-35</int>
+					 <int>-21</int>
+					 <int>-14</int>
+				</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>				
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-41</int>
+					 <int>-34</int>
+					 <int>-27</int>
+					 <int>-20</int>
+					 <int>-13</int> 
+				</values>
+			<action>
+				<modifyday daymove="0" priority="3"/>
+				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
+				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>				
+			</action>
+		</case>
+		<case>
+			<values>
+					<int>-36</int>
+					<int>-29</int>
+					<int>-22</int>								
+			</values>
+			<action>
+				<modifyday daymove="0" priority="2"/>
+				<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
+				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+				<service time="08.00" name="Божественная литургия."></service>
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-28</int>					 
+				</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>				
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-25</int>					 
+				</values>
+			<action>
+				<modifyday daymove="-1" priority="3"/>
+				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
+				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>					
+			</action>
+		</case>
+		<case>
+				<values>
+					 <int>-17</int>					 
+				</values>
+			<action>
+				<modifyday daymove="-2" priority="3"/>
+				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
+				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>					
+			</action>
+		</case>
+		<default>
+			<modifyday daymove="0" priority="3"/>
+			<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
+			<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+		</default>
+	</switch>
+</rule>

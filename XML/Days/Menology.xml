@@ -1,0 +1,4299 @@
+<MenologyDays>
+	<MenologyDay id="18">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Вонифатия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="20">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прав. Иоанна Кронштадтского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="22">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Московского Петра, всея России чудотворца.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="24">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Вмц. Анастаси́и Узореши́тельницы.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="26">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Десяти мучеников, иже в Кри́те.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="28">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>На́вечерие Рождества Христова (Рождественский сочельник).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прмц. Евге́нии.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="30">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>РОЖДЕСТВО ХРИСТОВО.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="32">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова. Собор Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="34">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Ап. первомч. и архидиа́кона Стефана. Прп. Фео́дора Начерта́нного, исп.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="36">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мучеников 20 000, в Никомиди́и сожже́нных.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="38">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мучеников 14 000 младенцев, от Ирода в Вифлееме избиенных. Прп. Марке́лла, игумена обители «Неусыпа́ющих».</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="40">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Мака́рия, митр. Московского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="42">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="44">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обрезание Господне. Свт. Василия Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="46">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Серафима Саровского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="48">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прор. Малахии. Мч. Гордия.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="50">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор 70-ти апостолов.  Прп. Феоктиста, игумена Кукума Сикелийского</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="52">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Навечерие Богоявления (Крещенский сочельник).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Сщмч. Феопемпта, еп. Никодомийского и мч. Феоны волхва.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="54">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>СВЯТОЕ БОГОЯВЛЕНИЕ. КРЕЩЕНИЕ ГОСПОДНЕ</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="56">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Собор Предтечи и Крестителя Господня Иоанна.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="58">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Георгия Хозеви́та. Прп. Домни́ки.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="60">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Фили́ппа, митр. Московского и всея России, чудотворца.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="62">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Феофана, Затворника Вышенского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="64">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Феодосия Великого, общих житий начальника.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="66">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мц. Татианы.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="68">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Иринарха, затворника Ростовского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="70">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Богоявления.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Св. равноап. Нины, просветительницы Грузии.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="72">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. Павла Фивейского и Иоанна кущника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="74">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Поклонение честным веригам ап. Петра.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="76">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Антония Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="78">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. схимонаха Кири́лла и схимонахини Мари́и, родителей прп. Се́ргия Ра́донежского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="80">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Ма́рка, архиеп. Ефе́сского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="82">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Евфи́мия Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="84">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Максима Грека.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="86">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. Тимофе́я. Прмч. Анаста́сия Пе́рсянина.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="88">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Кли́мента, еп. Анки́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. Агафанге́ла.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="90">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блж. Ксении Петербургской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="92">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Григория Богослова, архиеп. Константинопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="94">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. Ксенофонта, супруги его Марии и сыновей их Аркадия и Иоанна.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="96">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей свт. Иоанна Златоуста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="98">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ефрема Сирина.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="100">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей сщмч. Игнатия Богоносца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="102">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоуста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="104">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свв. бессребреников и чудотворцев мчч. Ки́ра и Иоанна.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="106">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Сре́тения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. Три́фона.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="108">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>СРЕТЕНИЕ ГОСПОДА БОГА И СПАСА НАШЕГО ИИСУСА ХРИСТА.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="110">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Правв. Симео́на Богоприи́мца и Анны проро́чицы.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="112">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Иси́дора Пелусио́тского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="114">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мц. Ага́фии.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="116">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Вуко́ла, еп. Сми́рнского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="118">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Парфе́ния, еп. Лампсаки́йского. Прп. Луки́ Елла́дского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="120">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Вмч. Фео́дора Стратила́та. Прор. Заха́рии Серпови́дца.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="122">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Сретения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="124">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Харала́мпия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="126">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Димитрия Прилу́цкого, Вологодского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="128">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>И́верской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Московского Алекси́я, всея России чудотворца.
+Свт. Московского Алекси́я, всея России чудотворца.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="130">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Симео́на Мироточивого, Сербского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="132">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Авксе́нтия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="134">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. от 70-ти Они́сима.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="136">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Памфи́ла и и́же с ним.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="138">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Ермогена, патриарха Московского и всея России, чудотворца</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="140">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Льва, папы Римского</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="142">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. от 70-ти Архи́ппа.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="144">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Льва, еп. Ката́нского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="146">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Тимофея в Симво́лех.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="148">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей мучеников, иже во Евгении.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="150">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей блж. Матроны Московской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="152">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Первое и второе обре́тение главы Иоанна Предтечи.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="154">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Тара́сия, архиеп. Константинопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="156">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Порфи́рия, архиеп. Га́зского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="158">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Проко́пия Декаполи́та, исповедника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="160">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Васи́лия исповедника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="162">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Кассиана Римлянина.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="164">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прмц. Евдокии.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="166">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Державная».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="168">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Евтропия, Клеони́ка и Василиска</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="170">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. кн. Даниила Московского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="172">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей свт. Луки исп., архиеп. Симферопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="174">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. 42-х во Амморе́е.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="176">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмчч. Васи́лия, Ефре́ма, Капи́тона, Евге́ния, Ефе́рия и других, в Херсо́не епи́скопствовавших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="178">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Феофила́кта исп., еп. Никомиди́йского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="180">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Святых сорока́ мучеников, в Севастийском е́зере мучившихся.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="182">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Кодра́та и дружины его.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="184">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Софро́ния, патриарха Иерусали́мского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="186">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Симео́на Нового Богослова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="188">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей свт. Ники́фора, патриарха Константинопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="190">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Фео́доровской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="192">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Ага́пия и иже с ним.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="194">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Сави́на.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="196">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Алекси́я, человека Божия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="198">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Кири́лла, архиеп. Иерусали́мского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="200">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Хриса́нфа и Да́рии.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="202">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. отцов, во обители св. Саввы убиенных.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="204">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Серафи́ма Вы́рицкого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="206">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Васи́лия, пресвитера Анки́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="208">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прмч. Ни́кона еп. и 199-ти учеников его.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="210">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Благовещения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="212">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>БЛАГОВЕЩЕНИЕ ПРЕСВЯТОЙ БОГОРОДИЦЫ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="214">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Благовещения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Собор Архангела Гавриила.
+Собор Архангела Гавриила.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="216">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мц. Матро́ны Солу́нской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="218">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прмч. Евстра́тия Печерского, в Ближних пещерах.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="220">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Марка, еп. Арефуси́йского, Кирилла диакона и иных многих.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="222">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Софро́ния, еп. Иркутского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="224">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Инноке́нтия, митр. Московского</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="226">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Марии Египетской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="228">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ти́та чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="230">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ники́ты исп., игумена обители Мидики́йской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="232">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Изба́вительница».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="234">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей свт. Иова, патриарха Московского и всея России</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="236">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Равноап. Мефо́дия, архиеп. Мора́вского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="238">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Дании́ла Переясла́вского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="240">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Ни́фонта, еп. Новгородского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="242">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Евпси́хия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="244">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Тере́нтия, Помпии́я и иже с ними.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="246">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Иа́кова Железнобо́ровского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="248">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Васи́лия исп., еп. Пари́йского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="250">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Арте́мона, пресвитера Лаодики́йского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="252">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Анто́ния, Иоа́нна и Евста́фия Ви́ленских, Литовских.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="254">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апп. от 70-ти Ариста́рха, Пу́да и Трофи́ма.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="256">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мцц. Ага́пии, Ири́ны и Хиони́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="258">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Зоси́мы, игумена Солове́цкого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="260">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Иоа́нна, ученика прп. Григо́рия Декаполи́та.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="262">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блж. Матро́ны Московской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="264">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Фео́дора Трихи́ны.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="266">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Ианнуа́рия еп. и мч. Фео́дора, иже в Перги́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="268">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Фео́дора Сикео́та, еп. Анастасиупольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="270">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Гео́ргия Победоно́сца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="272">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Са́ввы Стратила́та.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="274">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола и евангелиста Марка.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="276">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Стефа́на, еп. Великопе́рмского. Поминовение усопших воинов.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="278">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. и сщмч. Симео́на, сродника Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="280">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апп. от 70-ти Иа́сона и Сосипа́тра.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мчч. Да́ды, Макси́ма и Квинтилиа́на.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="282">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Игна́тия Брянчани́нова, еп. Кавка́зского (с 13 мая).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="284">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. Иа́кова Зеведе́ева.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="286">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Пафну́тия Бо́ровского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="288">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей блгвв. кнн. Российских Бори́са и Гле́ба, во Святом Крещении Рома́на и Дави́да. </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="290">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Феодо́сия, игумена Киево-Пече́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="292">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прмц. Пелаги́и, девы Тарси́йской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="294">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери «Неупиваемая Чаша»</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="296">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Са́ввы, первого архиеп. Сербского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="298">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ни́ла Со́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="300">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола и евангелиста Иоа́нна Богосло́ва.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="302">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПЕРЕНЕСЕНИЕ МОЩЕЙ СВЯТИТЕЛЯ И ЧУДОТВОРЦА НИКОЛА́Я.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="304">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола Си́мона Зило́та.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="306">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Равноапп. Мефо́дия и Кири́лла, учи́телей Слове́нских.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="308">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Ермоге́на, патриарха Московского и всея России, чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="310">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей прмч. Мака́рия, архим. Ка́невского, игумена Пинского, Переяславского чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="312">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блж. Иси́дора, Христа ради юродивого, Ростовского чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="314">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. царевича Дими́трия, У́гличского и Московского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="316">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Фео́дора Освяще́нного, ученика прп. Пахо́мия Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="318">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. Андрони́ка и иже с ним.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="320">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Феодо́та Анки́рского и мцц. семи дев.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мчч. Петра́, Диони́сия и иже с ними.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="322">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. вел. кн. Дими́трия Донско́го.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="324">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей свт. Московского Алекси́я, всея России чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="326">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Владимирской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="328">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Иоа́нна-Влади́мира, кн. Сербского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="330">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Евфроси́нии, игумении По́лоцкой. </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="332">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блж. Ксении Петербургской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="334">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Третье обре́тение главы Предтечи и Крестителя Господня Иоанна.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="336">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. от 70-ти Ка́рпа.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="338">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прав. Иоанна Русского, исповедника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="340">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Игна́тия, еп. Ростовского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="342">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Луки́ исп., архиеп. Симферопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="344">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Исаа́кия исп., игумена обители Далма́тской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="346">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Ерме́я</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="348">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прав. Иоа́нна Кроншта́дтского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="350">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. кн. Иулиани́и, кн. Вяземской, Новото́ржской</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="352">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей блгв. царевича Дими́трия из У́глича в Москву.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="354">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Митрофа́на, патриарха Константинопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="356">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. кн. Фео́дора, брата блгв. вел. кн. Александра Невского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="358">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Виссарио́на, чудотворца Египетского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="360">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Феодо́та, еп. Анки́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="362">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Фео́дора Стратила́та.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="364">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Кири́лла, игумена Белоезе́рского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="366">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Иоанна, митр. Тобольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="368">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Досто́йно есть».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="370">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ону́фрия Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Петра́ Афо́нского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="372">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мц. Акили́ны.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Свт. Трифи́ллия, еп. Левкуси́и Ки́прской.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="374">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Мефо́дия, игумена Пе́шношского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="376">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Ио́ны, митр. Московского и всея России, чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="378">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ти́хона Калу́жского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="380">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Ману́ила, Саве́ла и Исма́ила.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="382">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Боголюбской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="384">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Иоанна Максимо́вича, архиеп. Шанха́йского и Сан-Франци́сского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="386">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Гу́рия, архиеп. Казанского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="388">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Анастаси́и, матери свт. Саввы Сербского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="390">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Евсе́вия, еп. Самоса́тского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="392">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Владимирской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="394">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>РОЖДЕСТВО ПРЕДТЕЧИ И КРЕСТИТЕЛЯ ГОСПОДНЯ ИОАННА.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="396">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгвв. кнн. Петра и Февронии, Муромских чудотворцев.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="398">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Тихвинской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="400">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей прп. Амвросия Оптинского. </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="402">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. Сергия и Германа, Валаамских чудотворцев</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="404">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>СЛАВНЫХ И ВСЕХВАЛЬНЫХ ПЕРВОВЕРХОВНЫХ АПОСТОЛОВ ПЕТРА И ПАВЛА.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="406">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор славных и всехвальных 12-ти апостолов.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="408">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Бессребреников Космы́ и Дамиа́на, в Риме пострада́вших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="410">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Положение честно́й ризы Пресвятой Богородицы во Влахе́рне.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="412">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей свт. Фили́ппа, митр. Московского и всея России, чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="414">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Страстоте́рпцев царя Никола́я, царицы Алекса́ндры, царевича Алекси́я, великих княжен О́льги, Татиа́ны, Мари́и и Анастаси́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="416">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ОБРЕ́ТЕНИЕ ЧЕСТНЫ́Х МОЩЕ́Й ПРП. СЕ́РГИЯ, ИГУМЕНА РА́ДОНЕЖСКОГО.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>ПРМЦ. ВЕЛ. КН. ЕЛИСАВЕ́ТЫ.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="418">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Афана́сия Афо́нского (с 18 июля).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="420">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Евдоки́и, в инокинях Евфроси́нии, вел. кн. Московской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="422">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ЯВЛЕНИЕ ИКОНЫ ПРЕСВЯТОЙ БОГОРОДИЦЫ ВО ГРАДЕ КАЗАНИ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="424">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Панкратия, еп. Тавроменийского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="426">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Положение честно́й ри́зы Господа нашего Иисуса Христа в Москве.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="428">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Равноап. Ольги, вел. княгини Российской, во Святом Крещении Елены.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="430">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Троеру́чица».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="432">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор Архангела Гаврии́ла. Прп. Стефа́на Савваи́та.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="434">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Стефа́на Ма́хрищского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="436">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>РАВНОАП. ВЕЛ. КНЯЗЯ ВЛАДИ́МИРА, ВО СВЯТОМ КРЕЩЕНИИ ВАСИ́ЛИЯ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="438">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Российских чудотворцев, прославленных на Московских Соборах XVI в.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="440">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмц. Мари́ны (Маргариты).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="442">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Калужской иконы Божией Матери. </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="444">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обретение мощей прп. Серафима, Саровского Чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="446">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПРОРОКА ИЛИИ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="448">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. Симео́на, Христа ради юродивого, и Иоа́нна, спо́стника его.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Пророка Иезеки́иля.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="450">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мироносицы равноап. Марии Магдали́ны.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Перенесение мощей сщмч. Фо́ки.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="452">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Поча́евской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="454">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. блгвв. кнн. Бори́са и Гле́ба, во Святом Крещении Рома́на и Дави́да.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="456">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Успение прав. А́нны, матери Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="458">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Моисе́я У́грина, Печерского, в Ближних пещерах.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="460">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. и целителя Пантелеи́мона.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="462">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Смоленской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="464">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Рождество свт. Николая, архиеп. Мир Лики́йских.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="466">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Иоа́нна Во́ина.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="468">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Происхожде́ния Честны́х Древ Животворя́щего Креста́ Госпо́дня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Сщмч. Вениами́на, митр. Петрогра́дского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="470">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Происхожде́ние Честны́х Древ Животворя́щего Креста́ Госпо́дня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Семи мучеников Маккаве́ев, матери их Соломони́и и учителя их Елеаза́ра.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="472">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей св. первомученика и архидиакона Стефа́на.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="474">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Анто́ния Ри́млянина, Новгородского чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="476">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свв. семи́ отроко́в, и́же во Ефе́се.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="478">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. Евсигни́я.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="480">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПРЕОБРАЖЕНИЕ ГОСПОДНЕ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="482">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Обре́тение моще́й свт. Митрофа́на, еп. Воро́нежского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="484">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Перенесение мощей прпп. Зоси́мы и Савва́тия Солове́цких.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="486">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Апостола Матфи́я.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="488">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. архидиакона Лавре́нтия.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="490">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. архидиакона Е́впла.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="492">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мчч. Фо́тия и Аники́ты. Прп. Макси́ма Испове́дника</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="494">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Преображения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="496">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Перенесение мощей прп. Феодо́сия Пече́рского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="498">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>УСПЕ́НИЕ ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ И ПРИСНОДЕВЫ МАРИИ .</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="500">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Перенесение из Еде́ссы в Константино́поль Нерукотворе́нного О́браза (Убру́са) Господа Иисуса Христа.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="502">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПОПРАЗДНСТВО УСПЕНИЯ ПРЕСВЯТОЙ БОГОРОДИЦЫ. ЧИН ПОГРЕБЕНИЯ БОЖИЕЙ МАТЕРИ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="504">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мчч. Фло́ра и Ла́вра.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="506">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Донской иконы Божией Матери.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="508">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прор. Самуила.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="510">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Ап. от 70-ти Фадде́я. Мц. Ва́ссы.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="512">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. Агафони́ка и иже с ним. Мч. Лу́ппа.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="514">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Успения Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="516">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей свт. Московского Петра́.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="518">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей ап. Варфоломе́я.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Ап. от 70-ти Ти́та, еп. Критского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="520">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сре́тение Владимирской иконы Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="522">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. сщмч. Ку́кши, ученика его прмч. Ни́кона и прп. Пи́мена постника, Печерских, в Ближних пещерах.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="524">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор преподобных отцов Киево-Печерских, в Дальних пещерах почивающих.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="526">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>УСЕКНОВЕНИЕ ГЛАВЫ́ ПРОРОКА, ПРЕДТЕЧИ И КРЕСТИТЕЛЯ ГОСПОДНЯ ИОАННА. ДЕНЬ ПОСТНЫЙ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="528">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Перенесение мощей блгв. вел. кн. Александра Невского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="530">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Положение честно́го пояса Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="532">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Начало инди́кта – церковное новолетие.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Симео́на Сто́лпника и матери его Ма́рфы.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="534">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. Анто́ния и Феодо́сия Пече́рских.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="536">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Анфи́ма, еп. Никомиди́йского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Феокти́ста, спостника Евфи́мия Великого.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="538">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Вави́лы, еп. Великой Антиохи́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прор. Богови́дца Моисе́я.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="540">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прор. Заха́рии и прав. Елисаве́ты, родителей Иоа́нна Предте́чи.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="542">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Воспоминание чуда Архистрати́га Михаи́ла, бывшего в Хо́нех (Коло́ссах).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="544">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Рождества Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Макария Оптинского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="546">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>РОЖДЕСТВО ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="548">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Праведных Богооте́ц Иоаки́ма и А́нны.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="550">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мцц. Минодо́ры, Митродо́ры и Нимфодо́ры.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="552">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Силуа́на Афо́нского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="554">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Рождества Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="556">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Воздвижения Креста Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Память обновления храма Воскресения Христова в Иерусалиме (Воскресение слову́щее). Сщмч. Корнилия сотника.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="558">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ВОЗДВИЖЕНИЕ ЧЕСТНОГО И ЖИВОТВОРЯЩЕГО КРЕСТА ГОСПОДНЯ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="560">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Вмч. Ники́ты.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="562">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Вмц. Евфи́мии всехва́льной.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="564">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мцц. Веры, Надежды, Любови и матери их Софии.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="566">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Евмения, еп. Гортинского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="568">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Сщмч. Константина Голубева пресвитера и с ним двух мучеников.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="570">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Воздвижения Креста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мучеников и исповедников Михаи́ла, кн. Черни́говского, и боля́рина его Фео́дора, чудотворцев.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="572">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Воздвижения Животворящего Креста Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="574">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей свт. Дими́трия, митр. Росто́вского (с 4-го октября).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="576">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Зача́тие честно́го, сла́вного Проро́ка, Предте́чи и Крести́теля Госпо́дня Иоа́нна.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="578">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Первомц. равноап. Фе́клы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="580">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Преставле́ние прп. Се́ргия, игу́мена Ра́донежского, всея́ Росси́и чудотво́рца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="582">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Преставле́ние апо́стола и евангели́ста Иоа́нна Богосло́ва.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="584">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Ти́хона, патриарха Московского и всея России (с 09 октября).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="586">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прпп. схимонаха Кирилла и схимонахини Марии, родителей прп. Сергия Ра́донежского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="588">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Петра́, митр. Крути́цкого (с 10-го октября).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="590">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Михаи́ла, первого митр. Киевского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="592">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПОКРОВ ПРЕСВЯТОЙ БОГОРОДИЦЫ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="594">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Киприа́на и мц. Иусти́ны.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="596">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Диони́сия Ареопаги́та, еп. Афи́нского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="598">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Обре́тение мощей свтт. Гу́рия, архиеп. Казанского, и Варсоно́фия, еп. Тверского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="600">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свтт. Петра, Алекси́я, Ионы, Макария, Филиппа, Иова, Ермогена, Тихона, Петра, Филарета, Иннокентия и Макария, Московских и всея России чудотворцев.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="602">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола Фомы́.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="604">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Се́ргия и Ва́кха.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="606">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Пелагии.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="608">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ап. Иа́кова Алфе́ева.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="610">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Амвро́сия О́птинского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="612">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор преподобных О́птинских старцев.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="614">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Про́ва, Тара́ха и Андрони́ка.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Космы́, еп. Маиу́мского, творца канонов.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="616">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иверской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="618">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Нико́лы Свято́ши, кн. Черни́говского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="620">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Афана́сия исп., еп. Ковро́вского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="622">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Ло́нгина со́тника, иже при Кресте́ Госпо́дни.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="624">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прор. Оси́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прмч. Андре́я Кри́тского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="626">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апо́стола и евангели́ста Луки́.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="628">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Блгв. царевича Дими́трия Угличского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="630">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Арте́мия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="632">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Иларио́на Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="634">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ПРАЗДНОВАНИЕ КАЗАНСКОЙ ИКОНЕ БОЖИЕЙ МАТЕРИ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="636">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола Иа́кова, брата Господня по плоти.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="638">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери «Всех скорбя́щих Радость».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="640">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Маркиа́на и Марти́рия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="642">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Дими́трия Солу́нского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="644">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Не́стора Летопи́сца, Печерского, в Ближних пещерах.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="646">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Дими́трия, митр. Росто́вского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="648">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прмц. Анастаси́и Ри́мляныни.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Авра́мия затворника.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="650">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Зино́вия, еп. Еге́йского, и сестры его мц. Зинови́и.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="652">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апп. от 70-ти Стахи́я, Ампли́я, Урва́на, Нарки́сса, Апе́ллия и Аристову́ла.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Мч. Епима́ха.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="654">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Бессре́бреников и чудотво́рцев Космы́ и Дамиа́на Аси́йских.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="656">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Акинди́на, Пига́сия, Аффо́ния, Елпидифо́ра и Анемподи́ста.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="658">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Акепси́ма епископа, Ио́сифа пресвитера и Аифала́ диакона.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="660">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Иоанни́кия Великого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Сщмчч. Ника́ндра, еп. Ми́рского, и Ерме́я пресвитера.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="662">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Ти́хона, патриарха Московского и всея России.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="664">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Варлаа́ма Ху́тынского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="666">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. 33-х, в Мелити́не пострадавших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Ла́заря Галиси́йского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="668">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>СОБОР АРХИСТРАТИ́ГА МИХАИ́ЛА И ПРОЧИХ НЕБЕСНЫХ СИЛ БЕСПЛОТНЫХ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="670">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Скоропослу́шница».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="672">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апп. от 70-ти Ера́ста, Оли́мпа, Родио́на, Сосипа́тра, Куа́рта (Ква́рта) и Те́ртия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="674">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Мины.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="676">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Иоанна Милостивого, патриарха Александрийского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Ни́ла постника.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="678">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Иоанна Златоу́стого, архиеп. Константинопольского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="680">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола Фили́ппа.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="682">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мучеников и исповедников Гу́рия, Само́на и Ави́ва.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="684">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола и евангелиста Матфе́я.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="686">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ни́кона, игумена Ра́донежского, ученика прп. Сергия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="688">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Плато́на и Рома́на.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="690">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Филаре́та, митр. Московского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="692">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Предпразднство Введения (Входа) во храм Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Григория Декаполи́та. Свт. Про́кла, архиеп. Константинопольского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="694">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ВВЕДЕНИЕ (ВХОД) ВО ХРАМ ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ И ПРИСНОДЕВЫ МАРИИ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="696">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Введения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Блгв. кн. Михаи́ла Тверского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="698">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Введения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Блгв. вел. кн. Алекса́ндра Не́вского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="700">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Введения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Вмц. Екатерины.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="702">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Введения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Сщмч. Кли́мента, папы Римского.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="704">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Инноке́нтия, еп. Ирку́тского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="706">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Иконы Божией Матери, именуемой «Зна́мение».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="708">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. митр. Серафима (Чичагова).</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="710">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мч. Парамо́на.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="712">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Апостола Андрея Первозва́нного.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="714">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прав. Филаре́та Милостивого.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="716">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прор. Авваку́ма.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="718">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Са́ввы Стороже́вского, Звенигоро́дского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="720">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмц. Варва́ры.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Прп. Иоанна Дамаскина́.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="722">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Са́ввы Освяще́нного.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="724">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>СВЯТИТЕЛЯ НИКОЛАЯ, АРХИЕПИСКОПА МИР ЛИКИ́ЙСКИХ, ЧУДОТВОРЦА.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="726">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Амвро́сия, еп. Медиола́нского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="728">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Пата́пия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="730">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Зача́тие прав. Анною Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="732">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Иоаса́фа, еп. Белгоро́дского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="734">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Дании́ла Сто́лпника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="736">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Свт. Спиридо́на, еп. Тримифу́нтского, чудотворца.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="738">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Ге́рмана Аля́скинского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="740">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Мчч. Фи́рса, Левки́я, Филимо́на, Аполло́ния, Ариа́на и Каллини́ка.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="742">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Иларио́на, архиеп. Вере́йского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="744">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прп. Софии Суздальской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="746">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Прор. Даниила и трех отроков: Анании, Азарии и Мисаила.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="748">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Сщмч. Фадде́я, архиеп. Тверского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="750">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Димитриевская родительская суббота. Поминовение усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="752">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Собор новомучеников и исповедников Церкви Русской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="754">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота пред Воздвижением.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="756">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя пред Воздвижением.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="758">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя по Воздвижении.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="760">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>	Суббота по Воздвижении.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="762">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Память святых отцов VII Вселенского Собора.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="764">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя святых праотец.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="766">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя пред Рождеством Христовым, святых отец.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="768">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота пред Рождеством Христовым.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="770">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Рождества Христова.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+				<cs-ru>Правв. Иосифа Обручника, Давида царя и Иакова, брата Господня.</cs-ru>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="772">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота по Рождестве Христовом и пред Богоявлением.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="774">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота по Рождестве Христовом.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="776">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота пред Богоявлением.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="778">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя пред Богоявлением.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="780">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота по Богоявлении.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+	<MenologyDay id="782">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя по Богоявлении.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</MenologyDay>
+</MenologyDays>

@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/DaySchema.xsd">
+	<mikrosesperinos>
+		<kekragaria>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">Творeніе прпdбнагw nтцA нaшегw їwaнна дамаски1на.</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на Господи воззвах 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на Господи воззвах 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на Господи воззвах 3</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<annotation>
+						<item language="cs-cs">бGор0диченъ догмaтікъ</item>
+					</annotation>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на Господи воззвах. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</kekragaria>
+		<aposticha>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на стиховне 1</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<prosomoion>
+					<item language="cs-cs">Нбcныхъ чинHвъ</item>
+				</prosomoion>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихиры на стиховне. Стих 2</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на стиховне 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихиры на стиховне. Стих 3</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на стиховне3</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихиры на стиховне. Стих 4</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на стиховне 4</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<annotation>
+					<item language="cs-cs">догмaтікъ</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Малая вечерня. Стихира на стиховне. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</mikrosesperinos>
+	<esperinos>
+		<kekragaria>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">Стіхи6ры воскrны nсмоглaсника</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 3</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">И$ны стіхи6ры ґнат0ліевы</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 4</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 5</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 6</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 7</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<prosomoion>
+					<item language="cs-cs">Нбcныхъ чинHвъ</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 8</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 9</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах 10</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Великая вечерня. Стихира на Господи воззвах. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</kekragaria>
+		<aposticha>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихира на стиховне 1</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">И$ны стіхи6ры, по ґлфави1ту</item>
+				</annotation>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихиры на стиховне. Стих 2</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихира на стиховне 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихиры на стиховне. Стих 3</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихира на стиховне 3</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихиры на стиховне. Стих 4</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихира на стиховне 4</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Вечерня. Стихира на стиховне. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+		<troparion>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Отпустительный тропарь</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Отпустительный тропарь. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</troparion>
+	</esperinos>
+	<apodipno>
+		<kanonas ihos="1">
+			<stihos>
+				<item language="cs-ru">Пресвятая Богородице, спаси нас.</item>
+			</stihos>
+			<odes>
+				<odi number="1">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 1. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 1. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 1. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 1. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="3">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 3. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 3. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 3. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 3. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="4">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 4</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 4. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 4. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 4. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 4. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="5">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 5</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 5. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 5. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 5. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 5. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="6">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 6</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 6. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 6. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 6. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 6. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="7">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 7</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 7. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 7. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 7. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 7. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="8">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 8</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 8. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 8. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 8. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 8. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="9">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Ирмос песни 9</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 9. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 9. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 9. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Песнь 9. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+			</odes>
+			<sedalen>
+				<group ihos="1">
+					<ymnos>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Седален</item>
+						</text>
+					</ymnos>
+				</group>
+			</sedalen>
+		</kanonas>
+	</apodipno>
+	<mesoniktiko>
+		<kanonas ihos="1">
+			<annotation>
+				<item language="cs-cs">Творeніе митрофaново.</item>
+			</annotation>
+			<stihos>
+				<item language="cs-cs">Пресвятая Троице, Боже наш, слава Тебе.</item>
+				<item language="cs-ru">Прес™az трbце б9е нaшъ, слaва тебЁ.</item>
+			</stihos>
+			<odes>
+				<odi number="1">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 1. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 1. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 1. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 1. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 1. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="3">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 3. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 3. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 3. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 3. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 3. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="4">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 4. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 4. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 4. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 4. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 4. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="5">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 5. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 5. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 5. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 5. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 5. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="6">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 6. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 6. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 6. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 6. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 6. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="7">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 7. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 7. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 7. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 7. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 7. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="8">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 8. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 8. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 8. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 8. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 8. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+				<odi number="9">
+					<troparion kind="irmos">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 9. Ирмос</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 9. Тропарь 1</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 9. Тропарь 2</item>
+						</text>
+					</troparion>
+					<troparion>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 9. Тропарь 3</item>
+						</text>
+					</troparion>
+					<troparion kind="theotokion">
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице Песнь 9. Тропарь 4</item>
+						</text>
+					</troparion>
+				</odi>
+			</odes>
+			<sedalen>
+				<group ihos="1">
+					<prosomoion>
+						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
+					</prosomoion>
+					<ymnos>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален</item>
+						</text>
+					</ymnos>
+				</group>
+				<theotokion ihos="1">
+					<ymnos>
+						<text>
+							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален. Богородичен</item>
+						</text>
+					</ymnos>
+				</theotokion>
+			</sedalen>
+		</kanonas>
+	</mesoniktiko>
+	<orthros>
+		<sed_1kathisma>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 1 кафизме. 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 1 кафизме. Стих 2</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 1 кафизме. 2</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 1 кафизме. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_1kathisma>
+		<sed_2kathisma>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. Стих 2</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. 2</item>
+					</text>
+				</ymnos>
+				<ymnos kind="martyrion">
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. Стих 3</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. 3</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. седален по 2 кафизме. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sed_2kathisma>
+		<sed_polyeleos>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Ипакои</item>
+					</text>
+				</ymnos>
+			</group>
+		</sed_polyeleos>
+		<anavathmos>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">ґнтіфHнъ №</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 1. 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 1. 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 1. 3</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">ҐнтіфHнъ в7</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 2. 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 2. 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 2. 3</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">ҐнтіфHнъ G</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 3. 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 3. 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Степенны. Антифон 3. 3</item>
+					</text>
+				</ymnos>
+			</group>
+		</anavathmos>
+		<prokeimenon ihos="1">
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Утреня. Прокимен. Стих 1</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Утреня. Прокимен. Стих 2</item>
+			</stihos>
+		</prokeimenon>
+		<kanones>
+			<kanonas ihos="1">
+				<annotation>
+					<item language="cs-cs">КанHнъ воскrный</item>
+				</annotation>
+				<stihos>
+					<item language="cs-cs">Слaва гDи с™0му воскrнію твоемY.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 1. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 1. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 1. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 1. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 3. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 3. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 3. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 3. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 4. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 4. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 4. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 4. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 5. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 5. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 5. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 5. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 6. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 6. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 6. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 6. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 7. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 7. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 7. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 7. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 8. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 8. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 8. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 8. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 9. Ирмос</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 9. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 9. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Песнь 9. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+				<kontakion ihos="1">
+					<prosomoion>
+						<item language="cs-cs">Е#гдA пріи1деши</item>
+					</prosomoion>
+					<ymnos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Кондак</item>
+					</ymnos>
+					<ikos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Икос</item>
+					</ikos>
+				</kontakion>
+			</kanonas>
+			<kanonas ihos="1">
+				<stihos>
+					<item language="cs-ru">Слава, Господи, Кресту Твоему честному и воскресению.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 1. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 1. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 1. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 3. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 3. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 3. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="4">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 4. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 4. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 4. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 5. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 5. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 5. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 6. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 6. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 6. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 7. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 7. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 7. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 8. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 8. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 8. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 9. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 9. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон крестовоскресный. Песнь 9. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+			<kanonas ihos="1">
+				<stihos>
+					<item language="cs-ru">Пресвятая Богородице, спаси нас.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 1. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 1. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 1. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 3. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 3. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 3. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="4">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 4. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 4. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 4. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 5. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 5. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 5. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 6. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 6. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 6. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 7. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 7. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 7. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 8. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 8. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 8. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 9. Тропарь 1</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 9. Тропарь 2</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон богородичный Песнь 9. Тропарь 3</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+		</kanones>
+		<ainoi>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">стіхи6ры воскrны</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 3</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 4</item>
+					</text>
+				</ymnos>
+			</group>
+			<group ihos="1">
+				<annotation>
+					<item language="cs-cs">И$ны стіхи6ры, ґнат0ліевы</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 5</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 6</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стих 7</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 7</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<stihos>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стих 8</item>
+					</stihos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Стихира 8</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Утреня. Стихиры на Хвалитех. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</ainoi>
+	</orthros>
+	<leitourgia>
+		<makarismi>
+			<ymnis ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 1</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 2</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 3</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 4</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 5</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 6</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 7</item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Литургия. Блаженны. Тропарь 8</item>
+					</text>
+				</ymnos>
+			</ymnis>
+		</makarismi>
+		<prokeimenon ihos="1">
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Литургия. Прокимен. Стих 1</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Литургия. Прокимен. Стих 2</item>
+			</stihos>
+		</prokeimenon>
+		<alleluia ihos="1">
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Литургия. Аллилуия. Стих 1</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">[ihos] [dayofweek] Литургия. Аллилуия. Стих 2</item>
+			</stihos>
+		</alleluia>
+	</leitourgia>
+</dayservice>

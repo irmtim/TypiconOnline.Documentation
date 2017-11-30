@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<ektenis>
+		<text>
+			<p>
+				<item language="cs-ru">Малая ектения.</item>
+				<style>
+					<header>h3</header>
+				</style>
+			</p>
+		</text>
+		<deacon>
+			<p>
+				<item language="cs-ru">Паки и паки миром Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">Заступи, спаси, помилуй, и сохрани нас, Боже, Твоею благодатью.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">Пресвятую, Пречистую, Преблагословенную, Славную Владычицу Нашу Богородицу, и Приснодеву Марию со всеми святыми помянувши сами себя, и друг друга, и весь живот наш Христу Богу предадим.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Тебе Господи.</item>
+			</p>
+		</choir>
+		<priest>
+			<p>
+				<item language="cs-ru">Ты бо еси́ Ца́рь ми́ра и Спас душ на́ших, и Тебе́ сла́ву воссыла́ем, Отцу́ и Сы́ну и Свято́му Ду́ху, ны́не и при́сно и во ве́ки веко́в.</item>
+			</p>
+		</priest>
+		<choir>
+			<p>
+				<item language="cs-ru">Ами́нь.</item>
+			</p>
+		</choir>
+	</ektenis>
+</rule>

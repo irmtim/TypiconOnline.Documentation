@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<service time="17.30" name="Великое повечерие с чтением" isdaybefore="true" additionalname=" Великого канона прп. Андрея Критского."/>
+	<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+	<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+</rule>

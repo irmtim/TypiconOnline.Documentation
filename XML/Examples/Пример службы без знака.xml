@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+	<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true">
+		<esperinos>
+			<kekragaria>
+				<ymnosrule source="item1" place="kekragaria" count="3"/>
+				<ymnosrule source="item2" place="kekragaria" count="3"/>
+				<theotokionrule source="item1" place="kekragaria_theotokion"/>
+			</kekragaria>
+		</esperinos>
+	</service>
+	<service time="06.00" name="Полунощница. Утреня. Часы."></service>
+	<service time="08.00" name="Божественная литургия."></service>
+</rule>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/PurchaseOrderSchema.xs" targetNamespace="http://tempuri.org/PurchaseOrderSchema.xs" elementFormDefault="qualified">
+	<xs:element name="scheduleweek" type="ScheduleWeekType"/>
+	<xs:complexType name="ScheduleWeekType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="days" type="DaysType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServicesType">
+		<xs:sequence>
+			<xs:element name="service" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="time" type="xs:string"/>
+						<xs:element name="name" type="xs:string"/>
+						<xs:element name="afterliturgy" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DaysType">
+		<xs:sequence>
+			<xs:element name="day" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string"/>
+						<xs:element name="date" type="xs:string"/>
+						<xs:element name="sign" type="xs:string"/>
+						<xs:element name="signdescription" type="xs:string"/>
+						<xs:element name="dayofweek" type="xs:string"/>
+						<xs:element name="services" type="ServicesType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

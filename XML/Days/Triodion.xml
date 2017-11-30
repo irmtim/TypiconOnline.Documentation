@@ -1,0 +1,1015 @@
+<TriodionDays>
+	<TriodionDay id="784">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Великий Понедельник.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="786">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Великий Вторник.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="788">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Великая Среда.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="790">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Великий Четверток. 
+Воспоминание Тайной Вечери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="792">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Великий Пяток. 
+Воспоминание Святых спасительных Страстй Господа  нашего Иисуса Христа.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="794">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Великая Суббота.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="796">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>ПАСХА. 
+СВЕТЛОЕ ХРИСТОВО ВОСКРЕСЕНИЕ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="798">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Понедельник Светлой седмицы. </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="800">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вторник Светлой седмицы.
+Иверской иконы Божией Матери.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="802">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Среда Светлой седмицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="804">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Четверг Светлой седмицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="806">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Пятница Светлой седмицы. 
+Последование в честь Пресвятой Богородицы ради Ее «Живоно́сного Исто́чника».</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="808">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Суббота Светлой седмицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="810">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 2-я по Пасхе, апостола Фомы. Антипасха.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="812">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Ра́доница. Поминовение усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="814">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 3-я по Пасхе, святых жен-мироносиц. Глас 2-й.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="816">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 4-я по Пасхе,  о расслабленном.  Глас 3-й.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="818">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Преполове́ние Пятидесятницы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="820">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 5-я по Пасхе, о самаряны́не. Глас 4-й.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="822">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Преполове́ния Пятидесятницы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="824">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 6-я по Пасхе, о слепо́м. Глас 5-й.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="826">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Пасхи. 
+Предпразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="828">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ВОЗНЕСЕНИЕ ГОСПОДНЕ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="830">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="832">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="834">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 7-я по Пасхе, святых 318 богоносных отцов 
+Первого Вселенского Собора. Глас 6-й. 
+Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="836">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="838">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="840">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="842">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Попразднство Вознесения.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="844">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Вознесения Господня.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="846">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Троицкая родительская суббота.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="848">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ДЕНЬ СВЯТОЙ ТРО́ИЦЫ. ПЯТИДЕСЯ́ТНИЦА.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="850">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>День Святого Духа.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="852">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Отдание праздника Пятидесятницы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="854">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 1-я по Пятидесятнице, Всех святых. Глас 8-й.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="856">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>ВСЕХ СВЯТЫХ, В ЗЕМЛЕ РУССКОЙ ПРОСИЯВШИХ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="858">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 2-я по Пятидесятнице. Глас 1-й.
+ПРАЗДНОВАНИЕ ИКОНЫ 
+«ЛОБЗАНИЕ ИИСУСА ХРИСТА ИУДОЮ».  </cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="860">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя о мытаре и фарисее.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="862">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя о блудном сыне.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="864">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя мясопу́стная, о Страшном Суде.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="866">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Вселенская родительская суббота. Поминовение усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="868">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="870">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="872">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Всех преподобных отцов в подвиге просиявших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="874">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя сыропустная. Воспоминание Адамова изгнания. 
+Прощеное воскресенье. Заговенье на Великий пост.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="876">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="878">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="880">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="882">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="884">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="886">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Вмч. Фео́дора Ти́рона.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="888">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 1-я Великого поста. Торжество Православия.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="890">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="892">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="894">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="896">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="898">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="900">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Поминовение усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="902">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 2-я Великого поста, свт. Григория Паламы, архиеп. Фессалоникийского.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="904">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="906">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="908">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="910">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="912">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="914">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Поминовение усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="916">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 3-я Великого поста, Крестопоклонная.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="918">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="920">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="922">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Среда 4-й седмицы, Крестопоклонной.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="924">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="926">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="928">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Поминование усопших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="930">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 4-я Великого поста, прп. Иоанна Лествичника.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="932">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="934">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="936">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="938">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>«Стояние Марии Египетской»</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="940">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="942">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Суббота Ака́фиста. Похвала́ Пресвятой Богородицы.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="944">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Неделя 5-я Великого поста. Прп. Марии Египетской.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="946">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="948">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="950">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="952">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="954">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru/>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="956">
+		<Name>
+			<Name1>
+				<style>
+					<bold/>
+				</style>
+				<cs-ru>Лазарева суббота. Воскрешение прав. Лазаря.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="958">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>НЕДЕЛЯ ВА́ИЙ.  
+ВХОД ГОСПОДЕНЬ В ИЕРУСАЛИМ.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+	<TriodionDay id="960">
+		<Name>
+			<Name1>
+				<style/>
+				<cs-ru>Всех преподобных и богоносных отцов, во Святой Горе Афонской просиявших.</cs-ru>
+			</Name1>
+			<Name2>
+				<style/>
+			</Name2>
+		</Name>
+	</TriodionDay>
+</TriodionDays>

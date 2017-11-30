@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<day>
+	<date>
+		<!--дата либо Date (BDate) или DaysFromEaster -->
+	</date>
+	<item>
+		<name/>
+		<mikrosesperinos/>
+		<esperinos>
+			<!--Господи воззвах-->
+			<kekragaria>
+				<group glas="1">
+					<name kind="prosomoion">
+						<!-- подобен-->
+					</name>
+					<ymnos/>
+					<ymnos/>
+				</group>
+				<doxastichon glas="2">
+					<name kind="idiomelon"/>
+					<ymnos/>
+				</doxastichon>
+				<theotokion glas="2">
+					<name kind="idiomelon"/>
+					<ymnos/>
+				</theotokion>
+			</kekragaria>
+			<!-- паремии-->
+			<!-- лития -->
+			<liti>
+				<group glas="1">
+					<name kind="idiomelon">
+						<!-- самоподобен-->
+					</name>
+					<ymnos/>
+					<ymnos/>
+				</group>
+			</liti>
+			<!--Стихиры на стиховне-->
+			<aposticha>
+				<group glas="1">
+					<name kind="prosomoion">
+						<!-- подобен-->
+					</name>
+					<ymnos/>
+					<ymnos/>
+				</group>
+				<doxastichon glas="2">
+					<name kind="idiomelon"/>
+					<ymnos/>
+				</doxastichon>
+				<theotokion glas="2">
+					<name kind="idiomelon"/>
+					<ymnos/>
+				</theotokion>
+			</aposticha>
+			<troparion/>
+		</esperinos>
+		<orthros>
+			<!--седальны по кафизмах-->
+			<sed_1kathisma/>
+			<sed_2kathisma/>
+			<!--по полиелее-->
+			<sed_polyeleos/>
+			<!--величание-->
+			<megalynarion/>
+			<!--Избранный псалом-->
+			<eclogarion/>
+			<!--прокимен-->
+			<prokeimenon/>
+			<!--Евангелие-->
+			<evangelion name="Mk">
+				<begin chapter="1" verse="2"/>
+				<begin chapter="1" verse="5"/>
+			</evangelion>
+			<!--стихира по 50-м псалме-->
+			<sticheron_50/>
+			<kanones glas="8">
+				<acrostic/>
+				<refrain/>
+				<odi number="1">
+					<troparion kind="irmos"/>
+					<troparion kind="theotokion"/>
+					<troparion kind="katavasia">
+						<text/>
+					</troparion>
+				</odi>
+				<!--после 3-ей песни-->
+				<sedalen/>
+				<kontakion>
+					<!--oikos></oikos-->
+				</kontakion>
+				<exapostilarion/>
+			</kanones>
+			<!--Хвалитех-->
+			<ainoi/>
+			<!--Стихиры на стиховне-->
+			<aposticha/>
+		</orthros>
+	</item>
+</day>
