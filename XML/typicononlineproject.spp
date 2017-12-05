@@ -84,14 +84,23 @@
 			</Folder>
 			<Folder FolderName="Common">
 				<File FilePath="Типикон\Common\_sys_aposticha.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_choir.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_deacon.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_ihos.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_inyne.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_kanonas.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_kanonas8.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_kanonaschorus.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_kekragaria.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_lector.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_priest.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_prosomoion.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_sedalen.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_self.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_slava.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_slavainyne.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_stihos.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_viewmodelkind.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Ектения_малая.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Ектения_мирная.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Ектения_просительная_вечерня.xml" HomeFolder="Yes"/>
@@ -108,6 +117,7 @@
 			</Folder>
 		</Folder>
 		<Folder FolderName="Examples">
+			<File FilePath="Examples\AsAddition.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\esperinos.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ItemText.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\logical.xml" HomeFolder="Yes"/>
@@ -117,6 +127,7 @@
 		</Folder>
 		<Folder FolderName="Templates">
 			<File FilePath="Templates\Аллилуиа.xml" HomeFolder="Yes"/>
+			<File FilePath="Templates\Бдение с литией.xml" HomeFolder="Yes"/>
 			<File FilePath="Templates\Бдение.xml" HomeFolder="Yes"/>
 			<File FilePath="Templates\Без знака.xml" HomeFolder="Yes"/>
 			<File FilePath="Templates\Двунадесятый праздник.xml" HomeFolder="Yes"/>

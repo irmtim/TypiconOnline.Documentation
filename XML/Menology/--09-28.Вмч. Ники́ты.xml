@@ -63,6 +63,9 @@
 	<orthros>
 		<kanones>
 			<kanonas ihos="4">
+				<name>
+					<item language="cs-ru">Канон святому</item>
+				</name>
 				<acrostic>
 					<item language="cs-ru">Побе́ды тя́ пою́ тезоимени́таго, Ники́ту.</item>
 				</acrostic>

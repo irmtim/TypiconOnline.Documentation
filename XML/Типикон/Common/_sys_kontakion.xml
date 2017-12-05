@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<text>
+		<p>
+			<item language="cs-ru">КОНДАК, ГЛАС [ihos]:</item>
+		</p>
+	</text>
+	<text>
+		<p>
+			<item language="cs-ru">ИКОС:</item>
+		</p>
+	</text>
+	
+</rule>

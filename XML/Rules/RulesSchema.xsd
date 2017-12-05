@@ -105,9 +105,10 @@
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="executableType">
+							<xs:attribute name="id" type="xs:string"/>
 							<xs:attribute name="time" type="xs:string" use="optional"/>
 							<xs:attribute name="timestyle" type="xs:string" use="optional"/>
-							<xs:attribute name="name" type="xs:string" use="required"/>
+							<xs:attribute name="name" type="xs:string" use="optional"/>
 							<xs:attribute name="namestyle" type="xs:string" use="optional"/>
 							<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
 							<xs:attribute name="additionalname" type="xs:string" use="optional"/>
@@ -117,7 +118,7 @@
 			</xs:element>
 			<xs:element name="notice" type="noticeType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0"/>
 			<xs:element name="ymnosrule" type="ymnosType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="doxastichonrule" type="ymnosType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="theotokionrule" minOccurs="0" maxOccurs="unbounded">
@@ -131,7 +132,12 @@
 					</xs:complexContent>
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="mikrosesperinos" type="executableType" minOccurs="0"/>
+			<xs:element name="megalisesperinos" type="executableType" minOccurs="0"/>
 			<xs:element name="esperinos" type="executableType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="mikrosapodipno" type="executableType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="megalisapodipno" type="executableType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="mesoniktiko" type="executableType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="orthros" type="executableType" minOccurs="0"/>
 			<xs:element name="aposticha" type="executableType" minOccurs="0"/>
 			<xs:element name="text" type="choirType" minOccurs="0"/>
@@ -147,19 +153,11 @@
 			</xs:element>
 			<xs:element name="troparion" type="executableType" minOccurs="0"/>
 			<xs:element name="sedalen" type="executableType" minOccurs="0"/>
-			<xs:element name="kanonasrule" minOccurs="0">
-				<xs:complexType>
-					<xs:complexContent>
-						<xs:extension base="executableType">
-							<xs:attribute name="panagias" type="xs:string"/>
-						</xs:extension>
-					</xs:complexContent>
-				</xs:complexType>
-			</xs:element>
+			<xs:element name="kanonasrule" type="executableType" minOccurs="0"/>
 			<xs:element name="k_kanonas" type="kanonasType" minOccurs="0" maxOccurs="3"/>
 			<xs:element name="k_sedalen" type="k_sedalenType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="k_sedalentheotokion" type="k_sedalenType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="k_kontakion" type="k_kontakionType" minOccurs="0"/>
+			<xs:element name="kontakion" type="k_kontakionType" minOccurs="0"/>
 			<xs:element name="k_katavasia" type="k_katavasiaType" minOccurs="0"/>
 			<xs:element name="k_after" minOccurs="0" maxOccurs="9">
 				<xs:complexType>
@@ -228,6 +226,7 @@
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
+		<xs:attribute name="showikos" type="xs:boolean" default="false"/>
 	</xs:complexType>
 	<xs:complexType name="k_sedalenType">
 		<xs:complexContent>
@@ -342,6 +341,7 @@
 			<xs:extension base="executableType">
 				<xs:attribute name="showpsalm" type="xs:boolean"/>
 				<xs:attribute name="totalcount" type="xs:int" use="optional"/>
+				<xs:attribute name="rewrite" type="xs:boolean" default="false"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
@@ -433,7 +433,7 @@
 						<xs:element name="ymnosrule" type="ymnosType"/>
 						<xs:element name="kanonas" type="kanonasType"/>
 						<xs:element name="k_sedalen" type="k_sedalenType"/>
-						<xs:element name="k_kontakion" type="k_kontakionType"/>
+						<xs:element name="kontakion" type="k_kontakionType"/>
 					</xs:choice>
 				</xs:complexType>
 			</xs:element>

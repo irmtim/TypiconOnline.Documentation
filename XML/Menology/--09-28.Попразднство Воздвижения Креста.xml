@@ -116,6 +116,7 @@
 		</sed_2kathisma>
 		<kanones>
 			<kanonas ihos="8">
+				<name><item language="cs-ru">Кано́н пра́здника</item> </name>
 				<stihos>
 					<item language="cs-ru">Слава, Господи, Кресту Твоему честному.</item>
 				</stihos>

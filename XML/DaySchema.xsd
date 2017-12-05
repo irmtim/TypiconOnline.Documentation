@@ -291,6 +291,7 @@
 	</xs:complexType>
 	<xs:complexType name="kanonasType">
 		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="name" type="textType" minOccurs="0"/>
 			<xs:element name="acrostic" type="textType" minOccurs="0"/>
 			<xs:element name="annotation" type="textType" minOccurs="0"/>
 			<xs:element name="stihos" type="textType" minOccurs="0">

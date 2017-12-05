@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/RulesSchema.xsd">
+	<service id="1">
+		<kanonasrule>
+			<k_after odinumber="3">
+				<sedalen>
+					<k_sedalen source="item1" place="sedalen" kanonas="orthros1"/>
+					<k_sedalentheotokion source="item1" place="sedalen" kanonas="orthros1"/>
+				</sedalen>
+			</k_after>
+		</kanonasrule>
+	</service>
+</rule>
