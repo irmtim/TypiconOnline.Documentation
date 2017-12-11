@@ -396,4 +396,30 @@
 			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
+	<xs:complexType name="bookreadingType">
+		<xs:annotation>
+			<xs:documentation>чтение из Священного Писания</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="annotation" type="bookstihoiType" minOccurs="0"/>
+			<xs:element name="text" type="bookstihoiType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="bookstihoiType">
+		<xs:annotation>
+			<xs:documentation>стихи Священного Писания</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="stihos" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="textType">
+							<xs:attribute name="chapter" type="xs:int"/>
+							<xs:attribute name="number" type="xs:int"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
 </xs:schema>
