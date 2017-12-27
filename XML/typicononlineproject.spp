@@ -10,11 +10,11 @@
 				<File FilePath="Типикон\Sign\Воскресный день.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Двунадесятый Господский праздник.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Литургия Преждеосвященных Даров.xml" HomeFolder="Yes"/>
-				<File FilePath="Типикон\Sign\Полиелей.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших (Постом).xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших.xml" HomeFolder="Yes"/>
 			</Folder>
 			<Folder FolderName="Menology">
+				<File FilePath="Типикон\Menology\--01-01.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Menology\--01-04.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Menology\--01-05.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Menology\--01-06.xml" HomeFolder="Yes"/>
@@ -92,14 +92,17 @@
 				<File FilePath="Типикон\Common\_sys_kanonas8.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_kanonaschorus.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_kekragaria.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_kontakion.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_lector.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_priest.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_prosomoion.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_psalm.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_sedalen.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_self.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_slava.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_slavainyne.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_stihos.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\_sys_troparion.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\_sys_viewmodelkind.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Ектения_малая.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Ектения_мирная.xml" HomeFolder="Yes"/>
@@ -164,6 +167,7 @@
 	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
 		<File FilePath="DaySchema.xsd" HomeFolder="Yes"/>
 		<File FilePath="Rules\RulesSchema.xsd" HomeFolder="Yes"/>
+		<File FilePath="ViewModelSchema.xsd" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp"/>
 	<Folder FolderName="Entities" ExtStr="ent"/>

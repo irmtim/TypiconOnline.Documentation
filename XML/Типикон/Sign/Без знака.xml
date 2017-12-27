@@ -46,7 +46,9 @@
 						<p>
 							<item language="cs-ru">Прииди́те, поклони́мся и припаде́м Самому́ Христу́, Царе́ви и Бо́гу на́шему.</item>
 						</p>
-						<!--psalm number="103"/-->
+					</lector>
+					<psalm number="103"/>
+					<lector>
 						<p>
 							<item language="cs-ru">[Алиллуия]</item>
 						</p>
@@ -286,7 +288,7 @@
 										<theotokionrule source="oktoikh" place="aposticha_esperinos_theotokion"/>
 									</then>
 									<else>
-										<ymnosrule source="oktoikh" place="aposticha_esperinos"/>
+										<ymnosrule source="oktoikh" place="aposticha_esperinos" count="3"/>
 										<theotokionrule source="oktoikh" place="aposticha_esperinos_theotokion"/>
 									</else>
 								</if>
