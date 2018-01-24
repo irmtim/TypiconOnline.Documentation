@@ -26,5 +26,10 @@
 				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
 			</action>
 		</case>
+		<default>
+			<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
+			<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
+			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+		</default>
 	</switch>
 </rule>
