@@ -14,7 +14,6 @@
 				<modifyday asaddition="true" priority="6">
 					<getclosestday dayofweek="суббота" weekcount="1"><date>--01-07</date></getclosestday>
 				</modifyday>
-				
 			</action>
 		</case>
 	</switch>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<if>
+		<expression>
+			<less>
+				<daysfromeaster>
+					<date>--02-15</date>
+				</daysfromeaster>
+				<int>-70</int>
+			</less>
+		</expression>
+		<then>
+			<!-- Обычное бдение с литией-->
+			<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+			<service time="08.40" name="Часы 3-й и 6-й."/>
+			<service time="09.00" name="Божественная литургия."/>
+		</then>
+		<else>
+			<switch>
+				<expression>
+					<daysfromeaster>
+						<date>--02-15</date>
+					</daysfromeaster>
+				</expression>
+				<!-- Соединение с воскресной службой -->
+				<case>
+					<values>
+						<int>-70</int>
+						<int>-63</int>
+						<int>-56</int>
+						<int>-49</int>
+					</values>
+					<action>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<!-- Служба праздника совершается в этот день.
+					  Перенос заупокойной службы на субботу предыдущую -->
+				<case>
+					<values>
+						<int>-57</int>
+					</values>
+					<action>
+						<modifyday daymove="0">
+							<modifyreplacedday kind="triodion" daymove="-7"/>
+						</modifyday>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<!-- Служба праздника совершается в этот день.
+						Триодь опускается.-->
+				<case>
+					<values>
+						<int>-55</int>
+						<int>-54</int>
+						<int>-52</int>
+					</values>
+					<action>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<case>
+					<values>
+						<int>-53</int>
+						<int>-51</int>
+					</values>
+					<action>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
+				<case>
+					<values>
+						<int>-50</int>
+					</values>
+					<action>
+						<modifyday daymove="0" priority="4"/>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
+				<case>
+					<values>
+						<int>-48</int>
+					</values>
+					<action>
+						<modifyday daymove="0" priority="3"/>
+						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
+						<service time="08.40" name="Часы 3-й и 6-й."/>
+						<service time="09.00" name="Божественная литургия."/>
+					</action>
+				</case>
+				<case>
+					<values>
+						<int>-17</int>
+					</values>
+					<action>
+						<modifyday daymove="-2" priority="3"/>
+						<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
+						<service time="06.00" name="Полунощница. Утреня. Часы."/>
+						<service time="09.00" name="Литургия Преждеосвященных Даров."/>
+					</action>
+				</case>
+				<default>
+					<modifyday priority="3"/>
+					<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
+					<service time="06.00" name="Полунощница. Утреня. Часы."/>
+					<service time="09.00" name="Литургия Преждеосвященных Даров."/>
+				</default>
+			</switch>
+		</else>
+	</if>
+</rule>

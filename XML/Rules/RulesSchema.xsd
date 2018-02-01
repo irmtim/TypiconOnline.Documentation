@@ -18,7 +18,7 @@
 	<xs:element name="datebydaysfromeaster" type="intOutputType"/>
 	<xs:element name="getclosestday" type="getClosestDayType"/>
 	<xs:complexType name="modifydayType">
-		<xs:sequence>
+		<xs:sequence maxOccurs="unbounded">
 			<xs:element ref="getclosestday" minOccurs="0"/>
 			<xs:element ref="date" minOccurs="0"/>
 			<xs:element ref="datebydaysfromeaster" minOccurs="0"/>
@@ -47,6 +47,9 @@
 		<xs:attribute name="islastname" type="xs:boolean"/>
 		<xs:attribute name="shortname" type="xs:string"/>
 		<xs:attribute name="usefullname" type="xs:boolean"/>
+		<xs:attribute name="excludeitem" type="xs:int"/>
+		<xs:attribute name="includeitem" type="xs:int"/>
+		<xs:attribute name="iscelebrating" type="xs:boolean"/>
 	</xs:complexType>
 	<xs:complexType name="valueType">
 		<xs:choice>

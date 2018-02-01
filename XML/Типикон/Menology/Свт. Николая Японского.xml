@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<if>
+		<expression>
+			<equals>
+				<daysfromeaster>
+					<date>--02-16</date>
+				</daysfromeaster>
+				<int>-47</int>
+			</equals>
+		</expression>
+		<then>
+			<modifyday asaddition="true" priority="5"/>
+		</then>
+	</if>
+</rule>
