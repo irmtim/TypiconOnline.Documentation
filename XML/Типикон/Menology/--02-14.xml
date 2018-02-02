@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--02-14</date>
+			</daysfromeaster>
+		</expression>
+		<!-- В Субботу мясопустную -->
+		<case>
+			<values>
+				<int>-57</int>
+			</values>
+			<action>
+				<modifyday daymove="-1" asaddition="true"/>
+			</action>
+		</case>
+		<!-- Соединение с триодью. Фильтр: оставляем только прездпразднество -->
+		<case>
+			<values>
+				<int>-50</int>
+			</values>
+			<action>
+				<modifyday iscelebrating="true" daymove="0"/>
+			</action>
+		</case>
+	</switch>
+</rule>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--02-15</date>
+			</daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-63</int>
+				<int>-62</int>
+				<int>-61</int>
+			</values>
+			<action>
+				<!-- Перенос на -58-й день до Пасхи. Исключаем не попразднество -->
+				<modifyday iscelebrating="true">
+					<datebydaysfromeaster>
+						<int>-58</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день фильтрация: без попразднества -->
+				<modifyday daymove="0" iscelebrating="false"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-60</int>
+				<int>-59</int>
+				<int>-58</int>
+				<int>-57</int>
+			</values>
+			<action>
+				<!-- Перенос на -54-й день до Пасхи. Исключаем не попразднество -->
+				<modifyday iscelebrating="true">
+					<datebydaysfromeaster>
+						<int>-54</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день фильтрация: без попразднества -->
+				<modifyday daymove="0" iscelebrating="false"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-56</int>
+				<int>-55</int>
+			</values>
+			<action>
+				<!-- Перенос на -52-й день до Пасхи. Исключаем не попразднество -->
+				<modifyday iscelebrating="true">
+					<datebydaysfromeaster>
+						<int>-52</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день фильтрация: без попразднества -->
+				<modifyday daymove="0" iscelebrating="false"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-54</int>
+				<int>-53</int>
+			</values>
+			<action>
+				<!-- Перенос на -50-й день до Пасхи. Исключаем не попразднество -->
+				<modifyday iscelebrating="true">
+					<datebydaysfromeaster>
+						<int>-50</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день фильтрация: без попразднества -->
+				<modifyday daymove="0" iscelebrating="false"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-52</int>
+				<int>-51</int>
+				<int>-50</int>
+			</values>
+			<action>
+				<!-- Перенос на -49-й день до Пасхи. Исключаем не попразднество -->
+				<modifyday iscelebrating="true" priority="4">
+					<datebydaysfromeaster>
+						<int>-49</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день фильтрация: без попразднества -->
+				<modifyday daymove="0" iscelebrating="false"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-49</int>
+				<int>-48</int>
+			</values>
+			<action>
+				<!-- Исключаем попразднество -->
+				<modifyday iscelebrating="false" daymove="0"/>
+			</action>
+		</case>
+		<default>
+			<!-- Исключаем непопразднество -->
+			<modifyday iscelebrating="true" daymove="0"/>
+		</default>
+	</switch>
+</rule>
