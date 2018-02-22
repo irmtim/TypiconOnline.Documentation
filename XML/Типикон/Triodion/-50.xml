@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<service time="17.30" name="Вечерня. Малое повечерие." isdaybefore="true"/>
+	<service time="06.00" name="Полунощница. Утреня. Часы."/>
+	<service time="08.00" name="Божественная литургия."/>
+</rule>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
-	<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
-	<service time="06.00" name="Полунощница. Утреня."></service>
-	<service time="08.00" name="Часы. Изобразительны. Вечерня."></service>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date/>
+			</daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-48</int>
+				<int>-41</int>
+				<int>-34</int>
+				<int>-27</int>
+				<int>-20</int>
+				<int>-13</int>
+			</values>
+			<action>
+				<service time="17.30" name="9-й час. Вечерня. Малое повечерие." isdaybefore="true"/>
+			</action>
+		</case>
+		<default>
+			<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
+		</default>
+	</switch>
+	<service time="06.00" name="Полунощница. Утреня."/>
+	<service time="08.00" name="Часы. Изобразительны. Вечерня."/>
 </rule>
