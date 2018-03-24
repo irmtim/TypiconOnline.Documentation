@@ -39,9 +39,8 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="servicesign" type="xs:byte" use="optional"/>
+		<xs:attribute name="signnumber" type="xs:byte" use="optional"/>
 		<xs:attribute name="daymove" type="xs:byte" use="optional"/>
-		<xs:attribute name="iscustomname" type="xs:boolean" use="optional"/>
 		<xs:attribute name="priority" type="xs:int" use="optional"/>
 		<xs:attribute name="asaddition" type="xs:boolean"/>
 		<xs:attribute name="islastname" type="xs:boolean"/>

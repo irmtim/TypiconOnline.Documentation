@@ -12,12 +12,13 @@
 			</equals>
 		</expression>
 		<then>
+			<modifyday signnumber="8" daymove="0"/>
 			<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
 			<service time="08.40" name="Часы 3-й и 6-й."/>
 			<service time="09.00" name="Божественная литургия."/>
 		</then>
 		<else>
-			<service id="1" time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true">
+			<service id="1" time="17.30" name="9-й час. Вечерня. Малое повечерие." isdaybefore="true">
 				<esperinos>
 					<!--Вседневная вечерня для службы без знака.-->
 					<text>

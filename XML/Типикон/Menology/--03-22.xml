@@ -40,7 +40,7 @@
 					 <int>-13</int> 
 				</values>
 			<action>
-				<modifyday daymove="0" priority="3"/>
+				<modifyday daymove="0" priority="3" signnumber="7"/>
 				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
 				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
 				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>				
@@ -72,7 +72,7 @@
 					 <int>-25</int>					 
 				</values>
 			<action>
-				<modifyday daymove="-1" priority="3"/>
+				<modifyday daymove="-1" priority="3" signnumber="7"/>
 				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
 				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
 				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>					
@@ -83,14 +83,14 @@
 					 <int>-17</int>					 
 				</values>
 			<action>
-				<modifyday daymove="-2" priority="3"/>
+				<modifyday daymove="-2" priority="3" signnumber="7"/>
 				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
 				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
 				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>					
 			</action>
 		</case>
 		<default>
-			<modifyday daymove="0" priority="3"/>
+			<modifyday daymove="0" priority="3" signnumber="7"/>
 			<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
 			<service time="06.00" name="Полунощница. Утреня. Часы."></service>
 			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
