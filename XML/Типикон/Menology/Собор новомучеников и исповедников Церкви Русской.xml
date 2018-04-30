@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<modifyday>
-		<getclosestday dayofweek="воскресенье" weekcount="0"><date>--02-07</date></getclosestday>
+		<getclosestday dayofweek="воскресенье" weekcount="0">
+			<date>--02-07</date>
+		</getclosestday>
 	</modifyday>
-	<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-	<service time="08.40" name="Часы 3-й и 6-й."></service>
-	<service time="09.00" name="Божественная литургия."></service>	
+	<worship time="16.00" isdaybefore="true">
+		<name>
+			<item language="cs-ru">Всенощное бдение.</item>
+		</name>
+	</worship>
+	<worship time="08.40">
+		<name>
+			<item language="cs-ru">Часы 3-й и 6-й.</item>
+		</name>
+	</worship>
+	<worship time="09.00">
+		<name>
+			<item language="cs-ru">Божественная литургия.</item>
+		</name>
+	</worship>
 </rule>

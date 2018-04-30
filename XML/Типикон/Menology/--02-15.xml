@@ -11,9 +11,21 @@
 		</expression>
 		<then>
 			<!-- Обычное бдение с литией-->
-			<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-			<service time="08.40" name="Часы 3-й и 6-й."/>
-			<service time="09.00" name="Божественная литургия."/>
+			<worship time="16.00" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Всенощное бдение.</item>
+				</name>
+			</worship>
+			<worship time="08.40">
+				<name>
+					<item language="cs-ru">Часы 3-й и 6-й.</item>
+				</name>
+			</worship>
+			<worship time="09.00">
+				<name>
+					<item language="cs-ru">Божественная литургия.</item>
+				</name>
+			</worship>
 		</then>
 		<else>
 			<switch>
@@ -31,9 +43,21 @@
 						<int>-49</int>
 					</values>
 					<action>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 				<!-- Служба праздника совершается в этот день.
@@ -46,9 +70,21 @@
 						<modifyday daymove="0">
 							<modifyreplacedday kind="triodion" daymove="-7"/>
 						</modifyday>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 				<!-- Служба праздника совершается в этот день.
@@ -60,9 +96,21 @@
 						<int>-52</int>
 					</values>
 					<action>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 				<case>
@@ -71,9 +119,21 @@
 						<int>-51</int>
 					</values>
 					<action>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 				<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
@@ -83,9 +143,21 @@
 					</values>
 					<action>
 						<modifyday daymove="0" priority="4"/>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 				<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
@@ -95,9 +167,21 @@
 					</values>
 					<action>
 						<modifyday daymove="0" priority="3"/>
-						<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-						<service time="08.40" name="Часы 3-й и 6-й."/>
-						<service time="09.00" name="Божественная литургия."/>
+						<worship time="16.00" isdaybefore="true">
+							<name>
+								<item language="cs-ru">Всенощное бдение.</item>
+							</name>
+						</worship>
+						<worship time="08.40">
+							<name>
+								<item language="cs-ru">Часы 3-й и 6-й.</item>
+							</name>
+						</worship>
+						<worship time="09.00">
+							<name>
+								<item language="cs-ru">Божественная литургия.</item>
+							</name>
+						</worship>
 					</action>
 				</case>
 			</switch>

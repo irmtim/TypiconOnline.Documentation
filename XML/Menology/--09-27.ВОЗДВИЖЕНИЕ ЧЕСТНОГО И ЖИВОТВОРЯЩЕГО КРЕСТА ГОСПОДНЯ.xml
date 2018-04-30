@@ -6,7 +6,7 @@
 	<mikrosesperinos>
 		<kekragaria>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Небе́сных чино́в.</item>
 				</prosomoion>
 				<ymnos>
@@ -36,7 +36,7 @@
 		</kekragaria>
 		<aposticha>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">До́ме Евфра́фов.</item>
 				</prosomoion>
 				<ymnos>

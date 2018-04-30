@@ -2,11 +2,8 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<ektenis>
 		<text>
-			<p>
+			<p header="h3">
 				<item language="cs-ru">Ектения просительная.</item>
-				<style>
-					<header>h3</header>
-				</style>
 			</p>
 		</text>
 		<deacon>

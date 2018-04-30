@@ -2,7 +2,9 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
-			<daysfromeaster><date>--04-07</date></daysfromeaster>
+			<daysfromeaster>
+				<date>--04-07</date>
+			</daysfromeaster>
 		</expression>
 		<case>
 			<values>
@@ -10,16 +12,40 @@
 			</values>
 			<action>
 				<modifyday daymove="-2" priority="3"/>
-				<service time="17.30" name="9-й час.  Вечерня. Малое повечерие." isdaybefore="true"/>
-				<service time="06.00" name="Полунощница. Утреня."></service>
-				<service time="08.00" name="Часы. Изобразительны. Вечерня."></service>
+				<worship time="17.30" isdaybefore="true">
+					<name>
+						<item language="cs-ru">9-й час.  Вечерня. Малое повечерие.</item>
+					</name>
+				</worship>
+				<worship time="06.00">
+					<name>
+						<item language="cs-ru">Полунощница. Утреня.</item>
+					</name>
+				</worship>
+				<worship time="08.00">
+					<name>
+						<item language="cs-ru">Часы. Изобразительны. Вечерня.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<default>
 			<modifyday daymove="0" priority="3"/>
-			<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
-			<service time="06.00" name="Полунощница. Утреня. Часы."></service>
-			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+			<worship time="17.30" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Великое повечерие.</item>
+				</name>
+			</worship>
+			<worship time="06.00">
+				<name>
+					<item language="cs-ru">Полунощница. Утреня. Часы.</item>
+				</name>
+			</worship>
+			<worship time="09.00">
+				<name>
+					<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
+				</name>
+			</worship>
 		</default>
 	</switch>
 </rule>

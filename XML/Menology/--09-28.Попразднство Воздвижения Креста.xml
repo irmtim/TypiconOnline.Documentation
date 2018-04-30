@@ -46,7 +46,7 @@
 		</prokeimeni>
 		<aposticha>
 			<group ihos="6">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Все́ отло́жше</item>
 				</prosomoion>
 				<ymnos>
@@ -92,7 +92,7 @@
 	<orthros>
 		<sed_1kathisma>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Благоутро́бия су́щи.</item>
 				</prosomoion>
 				<ymnos>
@@ -104,7 +104,7 @@
 		</sed_1kathisma>
 		<sed_2kathisma>
 			<group ihos="3">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Красоте́ де́вства.</item>
 				</prosomoion>
 				<ymnos>
@@ -116,7 +116,9 @@
 		</sed_2kathisma>
 		<kanones>
 			<kanonas ihos="8">
-				<name><item language="cs-ru">Кано́н пра́здника</item> </name>
+				<name>
+					<item language="cs-ru">Кано́н пра́здника</item>
+				</name>
 				<stihos>
 					<item language="cs-ru">Слава, Господи, Кресту Твоему честному.</item>
 				</stihos>
@@ -317,7 +319,7 @@
 		</kanones>
 		<aposticha>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">До́ме Евфра́фов.</item>
 				</prosomoion>
 				<ymnos>

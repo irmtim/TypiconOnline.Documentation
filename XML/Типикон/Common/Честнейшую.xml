@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/%d0%9c%d0%be%d0%bd%d0%b0%d1%81%d1%82%d1%8b%d1%80%d1%8c/Documents/programming/XML/Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
 	<ektenis>
 		<text>
-			<p>
+			<p header="h3">
 				<item language="cs-ru">ПЕСНЬ ПРЕСВЯТО́Й БОГОРО́ДИЦЫ.</item>
-				<style>
-					<header>h3</header>
-				</style>
 			</p>
 		</text>
 		<deacon>

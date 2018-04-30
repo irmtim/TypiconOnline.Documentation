@@ -12,14 +12,38 @@
 			</equals>
 		</expression>
 		<then>
-			<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-			<service time="23.40" name="Часы 3-й и 6-й." isdaybefore="true"/>
-			<service time="00.00" name="Божественная литургия."/>
+			<worship time="16.00" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Всенощное бдение.</item>
+				</name>
+			</worship>
+			<worship time="23.40" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Часы 3-й и 6-й.</item>
+				</name>
+			</worship>
+			<worship time="00.00">
+				<name>
+					<item language="cs-ru">Божественная литургия.</item>
+				</name>
+			</worship>
 		</then>
 		<else>
-			<service time="16.00" name="Вечернее богослужение." isdaybefore="true"/>
-			<service time="23.40" name="Часы 3-й и 6-й." isdaybefore="true"/>
-			<service time="00.00" name="Божественная литургия."/>
+			<worship time="16.00" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Вечернее богослужение.</item>
+				</name>
+			</worship>
+			<worship time="23.40" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Часы 3-й и 6-й.</item>
+				</name>
+			</worship>
+			<worship time="00.00">
+				<name>
+					<item language="cs-ru">Божественная литургия.</item>
+				</name>
+			</worship>
 		</else>
 	</if>
 </rule>

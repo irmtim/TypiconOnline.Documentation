@@ -525,7 +525,7 @@
 				</odes>
 				<sedalen>
 					<group ihos="5">
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Собезнача́льное Сло́во</item>
 						</prosomoion>
 						<ymnos>
@@ -552,7 +552,7 @@
 				</kontakion>
 				<exapostilarion>
 					<ymnos>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Не́бо звезда́ми</item>
 						</prosomoion>
 						<text>
@@ -560,7 +560,7 @@
 						</text>
 					</ymnos>
 					<doxastichon>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Жены́ услы́шите</item>
 						</prosomoion>
 						<text>

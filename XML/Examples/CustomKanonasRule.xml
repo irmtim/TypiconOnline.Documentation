@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/RulesSchema.xsd">
+	<!-- Пример правила для канона Утрени понедельника Великого поста-->
+	<kanonascustomrule>
+		<k_odi number="1">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="6"/>
+			<k_kanonas source="item1" kanonas="orthros1" count="4"/>
+			<k_kanonas source="item1" kanonas="orthros2" count="4"/>
+			<k_katavasia source="item1" kanonas="orthros1"/>
+		</k_odi>
+		<k_odi number="3">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="0" count="4"/>
+			<k_katavasia source="item2" kanonas="orthros1"/>
+		</k_odi>
+		<k_after number="3">
+			<commonrule name="Ектения_малая3"/>
+			<!-- примерно-->
+			<sedalen>
+				<k_sedalen source="item1" place="sedalen" kanonas="orthros1"/>
+			</sedalen>
+		</k_after>
+		<k_odi number="4">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="5"/>
+		</k_odi>
+		<k_odi number="5">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="5"/>
+		</k_odi>
+		<k_odi number="6">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="0" count="4"/>
+			<k_katavasia source="item2" kanonas="orthros1"/>
+		</k_odi>
+		<k_after number="6">
+			<commonrule name="Ектения_малая6"/>
+			<!-- примерно-->
+			<kontakion source="item2" kanonas="orthros1" showikos="true"/>
+		</k_after>
+		<k_odi number="7">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="5"/>
+		</k_odi>
+		<k_odi number="8">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="6"/>
+			<k_kanonas source="item1" kanonas="orthros1" count="4"/>
+			<k_kanonas source="item1" kanonas="orthros2" count="4"/>
+			<k_katavasia source="item1" kanonas="orthros1"/>
+		</k_odi>
+		<k_after number="8">
+			<commonrule name="Честнейшую"/>
+		</k_after>
+		<k_odi number="9">
+			<k_kanonas source="item2" kanonas="orthros1" irmoscount="1" count="6"/>
+			<k_kanonas source="item1" kanonas="orthros1" count="4"/>
+			<k_kanonas source="item1" kanonas="orthros2" count="4"/>
+			<k_katavasia source="item1" kanonas="orthros1"/>
+		</k_odi>
+	</kanonascustomrule>
+</rule>

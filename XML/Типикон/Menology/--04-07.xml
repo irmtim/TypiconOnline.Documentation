@@ -2,223 +2,461 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
-			<daysfromeaster><date>--04-07</date></daysfromeaster>
+			<daysfromeaster>
+				<date>--04-07</date>
+			</daysfromeaster>
 		</expression>
 		<case>
 			<values>
-					<int>-29</int>
-					<int>-22</int>
+				<int>-29</int>
+				<int>-22</int>
 			</values>
 			<action>
 				<modifyday daymove="0" priority="2"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-28</int> 
-				</values>
+			<values>
+				<int>-28</int>
+			</values>
 			<action>
 				<modifyday daymove="0"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-27</int> 
-					 <int>-20</int> 
-					 <int>-13</int> 
-				</values>
+			<values>
+				<int>-27</int>
+				<int>-20</int>
+				<int>-13</int>
+			</values>
 			<action>
 				<modifyday daymove="0"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-25</int> 
-				</values>
+			<values>
+				<int>-25</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-21</int> 
-					 <int>-14</int> 
-				</values>
+			<values>
+				<int>-21</int>
+				<int>-14</int>
+			</values>
 			<action>
 				<modifyday daymove="0" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-18</int> 
-				</values>
+			<values>
+				<int>-18</int>
+			</values>
 			<action>
 				<modifyday daymove="0"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-17</int> 
-				</values>
+			<values>
+				<int>-17</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-16</int> 
-				</values>
+			<values>
+				<int>-16</int>
+			</values>
 			<action>
 				<modifyday daymove="0"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-15</int> 
-				</values>
+			<values>
+				<int>-15</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-8</int> 
-				</values>
+			<values>
+				<int>-8</int>
+			</values>
 			<action>
-				<modifyday  daymove="0" priority="2"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия."></service>
+				<modifyday daymove="0" priority="2"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-7</int> 
-				</values>
-			<action>
-				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия."></service>
-			</action>
-		</case>
-		<case>
-				<values>
-					 <int>-6</int> 
-				</values>
-			<action>
-				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
-			</action>
-		</case>
-		<case>
-				<values>
-					 <int>-5</int> 
-				</values>
-			<action>
-				<modifyday  daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
-			</action>
-		</case>
-		<case>
-				<values>
-					 <int>-4</int> 
-				</values>
+			<values>
+				<int>-7</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-3</int> 
-				</values>
+			<values>
+				<int>-6</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-2</int> 
-				</values>
+			<values>
+				<int>-5</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение. Час 1-й." isdaybefore="true"/>
-				<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-				<service time="09.00" name="Вечерня. Божественная литургия" additionalname="Вынос Плащаницы."/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>-1</int> 
-				</values>
+			<values>
+				<int>-4</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="17.00" name="Всенощное бдение. Час 1-й." additionalname="Чин погребения Плащаницы" isdaybefore="true"/>
-				<service time="07.30" name="Часы."></service>
-				<service time="08.00" name="Божественная литургия."></service>
-				<notice time="11.00" name="Освящение куличей." additionalname="(до 18.00"></notice>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>0</int> 
-				</values>
+			<values>
+				<int>-3</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="2" islastname="true"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+				</worship>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-2</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="2" islastname="true"/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Вечерня. Божественная литургия.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru">Вынос Плащаницы.</item>
+					</additionalname>
+				</worship>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-1</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="2" islastname="true"/>
+				<worship time="17.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru">Чин погребения Плащаницы.</item>
+					</additionalname>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Часы.</item>
+					</name>
+				</worship>
+				<worship time="08.00">
+					<name>
+						<item language="cs-ru">Божественная литургия.</item>
+					</name>
+				</worship>
+				<notice time="11.00">
+					<name>
+						<item language="cs-ru">Освящение куличей.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru"> (до 18.00)</item>
+					</additionalname>
+				</notice>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>0</int>
+			</values>
 			<action>
 				<modifyday priority="2" daymove="0"/>
 			</action>
 		</case>
 		<case>
-				<values>
-					 <int>1</int> 
-					 <int>2</int> 
-					 <int>3</int> 
-				</values>
+			<values>
+				<int>1</int>
+				<int>2</int>
+				<int>3</int>
+			</values>
 			<action>
 				<modifyday daymove="0" priority="2" islastname="true"/>
-				<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-				<service time="09.00" name="Божественная литургия." additionalname="Крестный ход."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Божественная литургия.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru">Крестный ход.</item>
+					</additionalname>
+				</worship>
 			</action>
 		</case>
 		<default>
-			<service time="07.30" name="Полуношница. Часы. Изобразительны."/>
-			<service time="09.00" name="Вечерня. Божественная литургия"/>
+			<worship time="07.30">
+				<name>
+					<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>
+				</name>
+			</worship>
+			<worship time="09.00">
+				<name>
+					<item language="cs-ru">Вечерня. Божественная литургия.</item>
+				</name>
+			</worship>
 		</default>
 	</switch>
 </rule>

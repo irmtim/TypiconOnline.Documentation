@@ -16,7 +16,10 @@
 			</action>
 		</case>
 		<default>
-			<modifyday shortname="пред Богоявлением" asaddition="true" usefullname="false">
+			<modifyday asaddition="true" usefullname="false">
+				<shortname>
+					<item language="cs-ru">пред Богоявлением</item>
+				</shortname>
 				<getclosestday dayofweek="воскресенье" weekcount="-1"><date>--01-19</date></getclosestday>
 			</modifyday>
 		</default>

@@ -227,7 +227,7 @@
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="textType">
-							<xs:attribute name="self" type="xs:boolean"/>
+							<xs:attribute name="self" type="xs:boolean" use="required"/>
 						</xs:extension>
 					</xs:complexContent>
 				</xs:complexType>

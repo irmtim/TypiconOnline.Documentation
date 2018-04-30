@@ -2,36 +2,86 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
-			<getdayofweek><date>--01-19</date></getdayofweek>
+			<getdayofweek>
+				<date>--01-19</date>
+			</getdayofweek>
 		</expression>
 		<case>
 			<values>
-					<getdayofweek name="воскресенье"></getdayofweek>
+				<getdayofweek name="воскресенье"/>
 			</values>
 			<action>
-				<service time="16.00" name="Вечерня. Утреня. Час 1-й." isdaybefore="true"/>
-				<service time="07.40" name="Часы 3-й и 6-й."></service>
-				<service time="08.00" name="Божественная литургия. 9-й час. Великая вечерня."></service>
-				<notice name="Великое освящение воды."/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Вечерня. Утреня. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="07.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="08.00">
+					<name>
+						<item language="cs-ru">Божественная литургия. 9-й час. Великая вечерня.</item>
+					</name>
+				</worship>
+				<notice>
+					<name>
+						<item language="cs-ru">Великое освящение воды.</item>
+					</name>
+				</notice>
 			</action>
 		</case>
 		<case>
 			<values>
-					<getdayofweek name="понедельник"></getdayofweek>
+				<getdayofweek name="понедельник"/>
 			</values>
 			<action>
 				<modifyday daymove="0" priority="4"/>
-				<service time="16.00" name="Всенощное бдение." isdaybefore="true"/>
-				<service time="08.40" name="Часы 3-й и 6-й."></service>
-				<service time="09.00" name="Божественная литургия. 9-й час. Великая вечерня."></service>
-				<notice name="Великое освящение воды."/>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Вечерня. Утреня. Час 1-й.</item>
+					</name>
+				</worship>
+				<worship time="08.40">
+					<name>
+						<item language="cs-ru">Часы 3-й и 6-й.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Божественная литургия. 9-й час. Великая вечерня.</item>
+					</name>
+				</worship>
+				<notice>
+					<name>
+						<item language="cs-ru">Великое освящение воды.</item>
+					</name>
+				</notice>
 			</action>
 		</case>
 		<default>
-			<service time="17.30" name="9-й час. Вечерня. Малое повечерие." isdaybefore="true"/>
-			<service time="06.00" name="Полуношница. Утреня."></service>
-			<service time="08.00" name="Великие часы. Изобразительны. Великая вечерня. Божественная литургия свт. Василия Великого."></service>
-			<notice name="Великое освящение воды."/>
+			<worship time="17.30" isdaybefore="true">
+				<name>
+					<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
+				</name>
+			</worship>
+			<worship time="06.00">
+				<name>
+					<item language="cs-ru">Полуношница. Утреня.</item>
+				</name>
+			</worship>
+			<worship time="08.00">
+				<name>
+					<item language="cs-ru">Великие часы. Изобразительны. Великая вечерня. Божественная литургия свт. Василия Великого.</item>
+				</name>
+			</worship>
+			<notice>
+				<name>
+					<item language="cs-ru">Великое освящение воды.</item>
+				</name>
+			</notice>
 		</default>
 	</switch>
 </rule>

@@ -2,31 +2,60 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
-			<daysfromeaster><date>--03-08</date></daysfromeaster>
+			<daysfromeaster>
+				<date>--03-08</date>
+			</daysfromeaster>
 		</expression>
 		<!-- В Неделю сыропустную или мясопустную-->
 		<case>
 			<values>
-					<int>-48</int>
-					<int>-47</int>
-					<int>-46</int>
-					<int>-45</int>					
-					<int>-44</int>					
-					<int>-43</int>					
+				<int>-48</int>
+				<int>-47</int>
+				<int>-46</int>
+				<int>-45</int>
+				<int>-44</int>
+				<int>-43</int>
 			</values>
 			<action>
-				<modifyday><datebydaysfromeaster><int>-43</int></datebydaysfromeaster></modifyday>
-				<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
-				<service time="06.00" name="Полунощница. Утреня. Часы."></service>
-				<service time="08.00" name="Божественная литургия."></service>
+				<modifyday>
+					<datebydaysfromeaster>
+						<int>-43</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<worship time="17.30" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Великое повечерие.</item>
+					</name>
+				</worship>
+				<worship time="06.00">
+					<name>
+						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
+					</name>
+				</worship>
+				<worship time="08.00">
+					<name>
+						<item language="cs-ru">Божественная литургия.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
-		
 		<default>
 			<modifyday daymove="0" priority="3"/>
-			<service time="17.30" name="Великое повечерие." isdaybefore="true"/>
-			<service time="06.00" name="Полунощница. Утреня. Часы."></service>
-			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+			<worship time="17.30" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Великое повечерие.</item>
+				</name>
+			</worship>
+			<worship time="06.00">
+				<name>
+					<item language="cs-ru">Полунощница. Утреня. Часы.</item>
+				</name>
+			</worship>
+			<worship time="09.00">
+				<name>
+					<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
+				</name>
+			</worship>
 		</default>
 	</switch>
 </rule>

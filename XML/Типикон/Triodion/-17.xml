@@ -2,7 +2,9 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
-			<daysfromeaster><date>--04-07</date></daysfromeaster>
+			<daysfromeaster>
+				<date>--04-07</date>
+			</daysfromeaster>
 		</expression>
 		<case>
 			<values>
@@ -10,9 +12,24 @@
 			</values>
 			<action>
 				<modifyday daymove="-2" priority="3"/>
-				<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
-				<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
-				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Утреня.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
+					</additionalname>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<case>
@@ -21,15 +38,45 @@
 			</values>
 			<action>
 				<modifyday daymove="-2" priority="3"/>
-				<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
-				<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
-				<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+				<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Утреня.</item>
+					</name>
+					<additionalname>
+						<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
+					</additionalname>
+				</worship>
+				<worship time="07.30">
+					<name>
+						<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
+					</name>
+				</worship>
+				<worship time="09.00">
+					<name>
+						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
+					</name>
+				</worship>
 			</action>
 		</case>
 		<default>
-			<service time="16.00" name="Утреня." isdaybefore="true" additionalname="Чтение канона прп. Андрея Критского."/>
-			<service time="07.30" name="Полунощница. Часы. Изобразительны."></service>
-			<service time="09.00" name="Литургия Преждеосвященных Даров."></service>
+			<worship time="16.00" isdaybefore="true">
+				<name>
+					<item language="cs-ru">Утреня.</item>
+				</name>
+				<additionalname>
+					<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
+				</additionalname>
+			</worship>
+			<worship time="07.30">
+				<name>
+					<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
+				</name>
+			</worship>
+			<worship time="09.00">
+				<name>
+					<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
+				</name>
+			</worship>
 		</default>
 	</switch>
 </rule>

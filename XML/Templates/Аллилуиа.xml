@@ -142,7 +142,7 @@
 	<orthros>
 		<sed_2kathisma>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Благообра́зный Ио́сиф:</item>
 				</prosomoion>
 				<ymnos>
@@ -161,7 +161,7 @@
 		</sed_2kathisma>
 		<sed_3kathisma>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Милосе́рдия су́щи:</item>
 				</prosomoion>
 				<ymnos>

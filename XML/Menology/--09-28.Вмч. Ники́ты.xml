@@ -6,7 +6,7 @@
 	<esperinos>
 		<kekragaria>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Небе́сных чино́в</item>
 				</prosomoion>
 				<ymnos>
@@ -282,7 +282,7 @@
 				</odes>
 				<sedalen>
 					<group ihos="4">
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Вознесы́йся.</item>
 						</prosomoion>
 						<ymnos>
@@ -293,7 +293,7 @@
 					</group>
 				</sedalen>
 				<kontakion ihos="2">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-ru">Вы́шних ища́.</item>
 					</prosomoion>
 					<ymnos>
@@ -305,7 +305,7 @@
 				</kontakion>
 				<exapostilarion>
 					<ymnos>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Жены́, услы́шите.</item>
 						</prosomoion>
 						<text>

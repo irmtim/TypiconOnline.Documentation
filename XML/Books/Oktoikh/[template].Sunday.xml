@@ -42,7 +42,7 @@
 				</ymnos>
 			</group>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Нбcныхъ чинHвъ</item>
 				</prosomoion>
 				<ymnos>
@@ -130,7 +130,7 @@
 				</ymnos>
 			</group>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Нбcныхъ чинHвъ</item>
 				</prosomoion>
 				<ymnos>
@@ -682,7 +682,7 @@
 			</odes>
 			<sedalen>
 				<group ihos="1">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
 					</prosomoion>
 					<ymnos>
@@ -1024,7 +1024,7 @@
 					</odi>
 				</odes>
 				<kontakion ihos="1">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-cs">Е#гдA пріи1деши</item>
 					</prosomoion>
 					<ymnos>

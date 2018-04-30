@@ -19,6 +19,7 @@
 	<xs:element name="getclosestday" type="getClosestDayType"/>
 	<xs:complexType name="modifydayType">
 		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="shortname" type="textType" minOccurs="0"/>
 			<xs:element ref="getclosestday" minOccurs="0"/>
 			<xs:element ref="date" minOccurs="0"/>
 			<xs:element ref="datebydaysfromeaster" minOccurs="0"/>
@@ -44,11 +45,21 @@
 		<xs:attribute name="priority" type="xs:int" use="optional"/>
 		<xs:attribute name="asaddition" type="xs:boolean"/>
 		<xs:attribute name="islastname" type="xs:boolean"/>
-		<xs:attribute name="shortname" type="xs:string"/>
 		<xs:attribute name="usefullname" type="xs:boolean"/>
 		<xs:attribute name="excludeitem" type="xs:int"/>
 		<xs:attribute name="includeitem" type="xs:int"/>
 		<xs:attribute name="iscelebrating" type="xs:boolean"/>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="asadditionmode">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="none"/>
+					<xs:enumeration value="append"/>
+					<xs:enumeration value="rewrite"/>
+					<xs:enumeration value="remove"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="valueType">
 		<xs:choice>
@@ -103,21 +114,7 @@
 		<xs:sequence maxOccurs="unbounded">
 			<xs:element name="modifyday" type="modifydayType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="switch" type="switchType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="service" minOccurs="0" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:complexContent>
-						<xs:extension base="executableType">
-							<xs:attribute name="id" type="xs:string"/>
-							<xs:attribute name="time" type="xs:string" use="optional"/>
-							<xs:attribute name="timestyle" type="xs:string" use="optional"/>
-							<xs:attribute name="name" type="xs:string" use="optional"/>
-							<xs:attribute name="namestyle" type="xs:string" use="optional"/>
-							<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
-							<xs:attribute name="additionalname" type="xs:string" use="optional"/>
-						</xs:extension>
-					</xs:complexContent>
-				</xs:complexType>
-			</xs:element>
+			<xs:element name="worship" type="worshipType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="notice" type="noticeType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0"/>
@@ -155,7 +152,25 @@
 			</xs:element>
 			<xs:element name="troparion" type="executableType" minOccurs="0"/>
 			<xs:element name="sedalen" type="executableType" minOccurs="0"/>
-			<xs:element name="kanonasrule" type="executableType" minOccurs="0"/>
+			<xs:element name="kanonasrule" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="executableType">
+							<xs:attribute name="isorthros" type="xs:boolean"/>
+							<xs:attribute name="asaddition">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="none"/>
+										<xs:enumeration value="append"/>
+										<xs:enumeration value="rewrite"/>
+										<xs:enumeration value="remove"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name="k_kanonas" type="kanonasType" minOccurs="0" maxOccurs="3"/>
 			<xs:element name="k_sedalen" type="k_sedalenType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="k_sedalentheotokion" type="k_sedalenType" minOccurs="0" maxOccurs="1"/>
@@ -165,7 +180,17 @@
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="executableType">
-							<xs:attribute name="odinumber" type="xs:int" use="required"/>
+							<xs:attribute name="number" type="xs:int" use="required"/>
+							<xs:attribute name="asaddition">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="none"/>
+										<xs:enumeration value="append"/>
+										<xs:enumeration value="rewrite"/>
+										<xs:enumeration value="remove"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
 						</xs:extension>
 					</xs:complexContent>
 				</xs:complexType>
@@ -189,7 +214,78 @@
 					</xs:attribute>
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="kanonascustomrule" type="kanonasruleType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Кастомное правило для составления канонов</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="k_odi" minOccurs="0" maxOccurs="9">
+				<xs:annotation>
+					<xs:documentation>Описание последовательности для песни кастомного канона</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="executableType">
+							<xs:attribute name="number" type="xs:int" use="optional"/>
+							<xs:attribute name="asaddition">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="none"/>
+										<xs:enumeration value="append"/>
+										<xs:enumeration value="rewrite"/>
+										<xs:enumeration value="remove"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="worshipType">
+		<xs:sequence>
+			<xs:element name="name" type="textType" minOccurs="0"/>
+			<xs:element name="additionalname" type="textType" minOccurs="0"/>
+			<xs:element name="sequence" type="executableType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="time" type="xs:string" use="optional"/>
+		<xs:attribute name="timestyle" type="xs:string" use="optional"/>
+		<xs:attribute name="namestyle" type="xs:string" use="optional"/>
+		<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
+		<xs:attribute name="asaddition">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="none"/>
+					<xs:enumeration value="append"/>
+					<xs:enumeration value="rewrite"/>
+					<xs:enumeration value="remove"/>
+					<xs:enumeration value="rewritevalues"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="kanonasruleType">
+		<xs:complexContent>
+			<xs:extension base="executableType">
+				<xs:attribute name="bibleodes" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Определение варианта библейских песен, используемых в каноне</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="totalcount" type="xs:int">
+					<xs:annotation>
+						<xs:documentation>Общее количество песнопений (ограничение). Если значение totalcount отличается от суммы дочерних элементов, происходит их индексация</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="isorthros" type="xs:boolean">
+					<xs:annotation>
+						<xs:documentation>Если true, добавляет в 8-й песне вместо «Слава» - «Благословим», а затем перед катавасией – «Хвалим, благословим…»</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="kanonasType">
 		<xs:attribute name="source" use="required">
@@ -291,7 +387,7 @@
 	</xs:complexType>
 	<xs:complexType name="choirType">
 		<xs:sequence maxOccurs="unbounded">
-			<xs:element name="p" type="textType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="p" type="textNotedType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="psalm" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:attribute name="number" type="xs:int" use="required"/>
@@ -326,36 +422,39 @@
 					</xs:simpleContent>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="style" minOccurs="0">
-				<xs:complexType>
-					<xs:all>
-						<xs:element name="bold" type="xs:boolean" minOccurs="0"/>
-						<xs:element name="red" type="xs:boolean" minOccurs="0"/>
-						<xs:element name="header" minOccurs="0">
-							<xs:simpleType>
-								<xs:restriction base="xs:string">
-									<xs:enumeration value="h1"/>
-									<xs:enumeration value="h2"/>
-									<xs:enumeration value="h3"/>
-									<xs:enumeration value="h4"/>
-								</xs:restriction>
-							</xs:simpleType>
-						</xs:element>
-					</xs:all>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="note" type="textType" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation>Примечание. Например, "трижды"</xs:documentation>
-				</xs:annotation>
-			</xs:element>
 		</xs:sequence>
-		<!--xs:sequence>
-			<xs:element name="cs-ru" type="xs:string" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="cs-cs" type="xs:string" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="ru-ru" type="xs:string" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="el-el" type="xs:string" minOccurs="0" maxOccurs="1"/>
-		</xs:sequence-->
+		<xs:attribute name="bold" type="xs:boolean" use="optional"/>
+		<xs:attribute name="red" type="xs:boolean" use="optional"/>
+		<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="textHeaderType">
+		<xs:complexContent>
+			<xs:extension base="textType">
+				<xs:attribute name="header" use="optional">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="h1"/>
+							<xs:enumeration value="h2"/>
+							<xs:enumeration value="h3"/>
+							<xs:enumeration value="h4"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="textNotedType">
+		<xs:complexContent>
+			<xs:extension base="textHeaderType">
+				<xs:sequence>
+					<xs:element name="note" type="textType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Примечание. Например, "трижды"</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="kekragariaType">
 		<xs:complexContent>
@@ -489,12 +588,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:complexType name="noticeType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="name" type="textType" minOccurs="1"/>
+			<xs:element name="additionalname" type="textType" minOccurs="0"/>
+		</xs:sequence>
 		<xs:attribute name="time" type="xs:string" use="optional"/>
 		<xs:attribute name="timestyle" type="xs:string" use="optional"/>
-		<xs:attribute name="name" type="xs:string" use="required"/>
 		<xs:attribute name="namestyle" type="xs:string" use="optional"/>
 		<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
-		<xs:attribute name="additionalname" type="xs:string" use="optional"/>
 	</xs:complexType>
 	<xs:complexType name="intOutputType">
 		<xs:choice>

@@ -23,7 +23,7 @@
 				</ymnos>
 			</group>
 			<group ihos="2">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Ки́ими похва́льными.</item>
 				</prosomoion>
 				<annotation>
@@ -234,7 +234,7 @@
 	<orthros>
 		<sed_1kathisma>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Ли́к Ангельский.</item>
 				</prosomoion>
 				<ymnos>
@@ -253,7 +253,7 @@
 		</sed_1kathisma>
 		<sed_2kathisma>
 			<group ihos="3">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Красоте́ де́вства.</item>
 				</prosomoion>
 				<ymnos>
@@ -272,7 +272,7 @@
 		</sed_2kathisma>
 		<sed_polyeleos>
 			<group ihos="3">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-ru">Красоте́ де́вства.</item>
 				</prosomoion>
 				<ymnos>
@@ -593,7 +593,7 @@
 				</odes>
 				<sedalen>
 					<group ihos="1">
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Ли́к Ангельски</item>
 						</prosomoion>
 						<ymnos>
@@ -618,7 +618,7 @@
 					</theotokion>
 				</sedalen>
 				<kontakion ihos="4">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-ru">Вознесы́йся</item>
 					</prosomoion>
 					<ymnos>
@@ -630,7 +630,7 @@
 				</kontakion>
 				<exapostilarion>
 					<ymnos>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Не́бо звезда́ми</item>
 						</prosomoion>
 						<text>
@@ -868,7 +868,7 @@
 				</odes>
 				<sedalen>
 					<group ihos="1">
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Ли́к Ангельски</item>
 						</prosomoion>
 						<ymnos>
@@ -893,7 +893,7 @@
 					</theotokion>
 				</sedalen>
 				<kontakion ihos="4">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-ru">Вознесы́йся</item>
 					</prosomoion>
 					<ymnos>
@@ -905,7 +905,7 @@
 				</kontakion>
 				<exapostilarion>
 					<ymnos>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Не́бо звезда́ми</item>
 						</prosomoion>
 						<text>
@@ -1143,7 +1143,7 @@
 				</odes>
 				<sedalen>
 					<group ihos="1">
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Ли́к Ангельски</item>
 						</prosomoion>
 						<ymnos>
@@ -1168,7 +1168,7 @@
 					</theotokion>
 				</sedalen>
 				<kontakion ihos="4">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-ru">Вознесы́йся</item>
 					</prosomoion>
 					<ymnos>
@@ -1180,7 +1180,7 @@
 				</kontakion>
 				<exapostilarion>
 					<ymnos>
-						<prosomoion>
+						<prosomoion self="false">
 							<item language="cs-ru">Не́бо звезда́ми</item>
 						</prosomoion>
 						<text>

@@ -3,7 +3,7 @@
 	<esperinos>
 		<kekragaria>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Прехвaльніи м§нцы</item>
 					<item language="cs-ru">Прехвaльнии мученицы</item>
 				</prosomoion>
@@ -27,7 +27,7 @@
 				</ymnos>
 			</group>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Прехвaльніи м§нцы</item>
 					<item language="cs-ru">Прехвaльнии мученицы</item>
 				</prosomoion>
@@ -892,7 +892,7 @@
 				</ymnos>
 			</group>
 			<theotokion ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Нбcныхъ чинHвъ</item>
 				</prosomoion>
 				<ymnos>

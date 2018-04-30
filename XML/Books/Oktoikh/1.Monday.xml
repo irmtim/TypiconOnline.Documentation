@@ -3,7 +3,7 @@
 	<esperinos>
 		<kekragaria>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Прехвaльніи м§нцы</item>
 					<item language="cs-ru">Прехвaльнии мученицы</item>
 				</prosomoion>
@@ -27,7 +27,7 @@
 				</ymnos>
 			</group>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Прехвaльніи м§нцы</item>
 					<item language="cs-ru">Прехвaльнии мученицы</item>
 				</prosomoion>
@@ -319,7 +319,7 @@
 			</odes>
 			<sedalen>
 				<group ihos="1">
-					<prosomoion>
+					<prosomoion self="false">
 						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
 					</prosomoion>
 					<ymnos>
@@ -361,7 +361,7 @@
 		</sed_1kathisma>
 		<sed_2kathisma>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Гр0бъ тв0й сп7се</item>
 				</prosomoion>
 				<ymnos>
@@ -396,7 +396,7 @@
 		</sed_2kathisma>
 		<sed_3kathisma>
 			<group ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Гр0бъ тв0й сп7се</item>
 				</prosomoion>
 				<ymnos>
@@ -913,7 +913,7 @@
 				</ymnos>
 			</group>
 			<theotokion ihos="1">
-				<prosomoion>
+				<prosomoion self="false">
 					<item language="cs-cs">Нбcныхъ чинHвъ</item>
 				</prosomoion>
 				<ymnos>

@@ -3,12 +3,8 @@
 	<lector>
 		<p>
 			<item language="cs-cs">С™hй б9е, с™hй крёпкій, с™hй безсмeртный, поми1луй нaсъ.</item>
-			<note>
+			<note bold="true" red="true">
 				<item language="cs-cs">Три1жды.</item>
-				<style>
-					<red>true</red>
-					<bold>true</bold>
-				</style>
 			</note>
 		</p>
 		<p>
@@ -19,12 +15,8 @@
 		</p>
 		<p>
 			<item language="cs-cs">ГDи поми1луй.</item>
-			<note>
+			<note bold="true" red="true">
 				<item language="cs-cs">Три1жды.</item>
-				<style>
-					<red>true</red>
-					<bold>true</bold>
-				</style>
 			</note>
 		</p>
 		<p>

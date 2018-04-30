@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
-	<service time="17.00" name="Утреня." additionalname="Чин погребения Плащаницы" isdaybefore="true"/>
-	<service time="07.30" name="Часы."></service>
-	<service time="08.00" name="Божественная литургия."></service>
-	<notice time="11.00" name="Освящение куличей." additionalname="(до 18.00)"></notice>
+	<worship time="17.00" isdaybefore="true">
+		<name>
+			<item language="cs-ru">Утреня.</item>
+		</name>
+		<additionalname>
+			<item language="cs-ru">Чин погребения Плащаницы.</item>
+		</additionalname>
+	</worship>
+	<worship time="07.30">
+		<name>
+			<item language="cs-ru">Часы.</item>
+		</name>
+	</worship>
+	<worship time="08.00">
+		<name>
+			<item language="cs-ru">Божественная литургия.</item>
+		</name>
+	</worship>
+	<notice time="11.00">
+		<name>
+			<item language="cs-ru">Освящение куличей.</item>
+		</name>
+		<additionalname>
+			<item language="cs-ru">(до 18.00)</item>
+		</additionalname>
+	</notice>
 </rule>
