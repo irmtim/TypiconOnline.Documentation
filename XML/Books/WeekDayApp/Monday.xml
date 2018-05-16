@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../DaySchema.xsd">
+	<esperinos>
+		<prokeimeni>
+			<prokeimenon ihos="8">
+				<stihos>
+					<item language="cs-ru">Се ны́не благослови́те Го́спода / вси раби́ Госпо́дни.</item>
+					<item language="cs-cs">СE нhнэ бlгослови1те гDа / вси2 раби2 гDни.</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">Стоя́щии в хра́ме Госпо́дни, во дво́рех до́му Бо́га на́шего.</item>
+					<item language="cs-cs">Стоsщіи во хрaмэ гDни, во дв0рэхъ д0му бGа нaшегw.</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<troparion>
+			<group ihos="4">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Нбcныхъ в0инствъ ґрхістрати1зи, м0лимъ вaсъ при1снw мы2 недост0йніи, да вaшими мlтвами њградитE нaсъ кр0вомъ кри1лъ невещeственныz вaшеz слaвы, сохранsюще нaсъ припaдающихъ прилёжнw, и3 вопію1щихъ: t бёдъ и3збaвите нaсъ, ћкw
+чинонач†льницы вhшнихъ си1лъ.</item>
+						<item language="cs-ru">Небесных воинств Архистратизи, / молим вас присно мы, недостойнии, / да вашими молитвами оградите нас / кровом крил невещественныя вашея славы, / сохраняюще нас, припадающих прилежно и вопиющих: / от бед избавите нас, / яко чиноначальницы вышних Сил.</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+	</esperinos>
+	<orthros>
+		<kanones>
+			<kanonas>
+				<kontakion ihos="2">
+					<ymnos>
+						<item language="cs-ru">Архистратизи Божии, / служителие Божественныя славы, / Ангелов начальницы и человеков наставницы, / полезное нам просите и велию милость, / яко Безплотных Архистратизи.</item>
+						<item language="cs-cs">Ґрхістрати1зи б9іи, служи1теліе бжcтвенныz слaвы, ѓгGлwвъ нач†льницы, и3 человёкwмъ наст†вницы, полeзное нaмъ проси1те, и3 вeлію млcть, ћкw безпл0тныхъ ґрхістрати1зи.</item>
+					</ymnos>
+				</kontakion>
+				<exapostilarion>
+					<ymnos>
+						<text>
+							<item language="cs-cs">Нeбо ѕвэздaми ўкраси1вый ћкw бGъ, и3 твои1ми ѓгGлы всю2 зeмлю просвэти1вый, содётелю всёхъ, пою1щыz тS сп7сaй.</item>
+						</text>
+					</ymnos>
+					<theotokion>
+						<text>
+							<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
+						</text>
+					</theotokion>
+				</exapostilarion>
+			</kanonas>
+		</kanones>
+	</orthros>
+	<leitourgia>
+		<prokeimenon ihos="4">
+			<stihos>
+				<item language="cs-cs">Творsй ѓгGлы своS д¦и, / и3 слуги6 своS плaмень џгненный. </item>
+				<item language="cs-ru">Творяй Ангелы Своя духи / и слуги Своя пламень огненный.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Благослови2 душE моS гDа, гDи б9е м0й, возвели1чилсz є3си2 ѕэлw2.</item>
+				<item language="cs-ru">Благослови, душе моя, Господа, Господи Боже мой, возвеличился еси зело.</item>
+			</stihos>
+		</prokeimenon>
+		<alleluia ihos="5">
+			<stihos>
+				<item language="cs-cs">Хвали1те гDа вси2 ѓгGли є3гw2, хвали1те є3го2 вс‰ си6лы є3гw2. </item>
+				<item language="cs-ru">Хвалите Господа, вси Ангели Его, хвалите Его, вся силы Его.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Ћкw т0й речE, и3 бhша: т0й повелЁ, и3 создaшасz.</item>
+				<item language="cs-ru">Яко Той рече, и быша; Той повеле, и создашася.</item>
+			</stihos>
+		</alleluia>
+		<kinonik>
+			<item language="cs-ru">Творяй Ангелы Своя духи, и слуги Своя пламень огненный.</item>
+			<item language="cs-cs">Творsй ѓгGлы сво‰ д¦и, и3 слуги6 сво‰ плaмень џгненный.</item>
+		</kinonik>
+	</leitourgia>
+</dayservice>

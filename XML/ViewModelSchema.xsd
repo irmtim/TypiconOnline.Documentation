@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by imtim (imtim company) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:element name="viewmodel">
+	<xs:element name="week">
 		<xs:annotation>
-			<xs:documentation>Root element</xs:documentation>
+			<xs:documentation>Week element</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="worship" type="worshipType" maxOccurs="unbounded"/>
+				<xs:element name="name" type="stringType"/>
+				<xs:element name="day" type="dayType" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="day" type="dayType"/>
+	<xs:complexType name="dayType">
+		<xs:sequence>
+			<xs:element name="name" type="stringType"/>
+			<xs:element name="date" type="xs:date"/>
+			<xs:element name="signnumber" type="xs:int"/>
+			<xs:element name="signname" type="stringType"/>
+			<xs:element name="worship" type="worshipType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
 	<xs:complexType name="worshipType">
 		<xs:sequence>
 			<xs:element name="name" type="stringType" minOccurs="0"/>
@@ -30,15 +41,15 @@
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
 				<xs:attribute name="language" use="required">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="cs-ru"/>
-										<xs:enumeration value="cs-cs"/>
-										<xs:enumeration value="ru-ru"/>
-										<xs:enumeration value="el-el"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:attribute>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="cs-ru"/>
+							<xs:enumeration value="cs-cs"/>
+							<xs:enumeration value="ru-ru"/>
+							<xs:enumeration value="el-el"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -64,9 +75,9 @@
 	</xs:complexType>
 	<xs:complexType name="styleType">
 		<xs:all>
-			<xs:element name="bold" type="xs:boolean" minOccurs="0"/>
-			<xs:element name="red" type="xs:boolean" minOccurs="0"/>
-			<xs:element name="italic" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="bold" type="xs:string" minOccurs="0"/>
+			<xs:element name="red" type="xs:string" minOccurs="0"/>
+			<xs:element name="italic" type="xs:string" minOccurs="0"/>
 			<xs:element name="header" minOccurs="0">
 				<xs:simpleType>
 					<xs:restriction base="xs:string">

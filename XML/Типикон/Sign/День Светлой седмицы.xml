@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/%d0%94%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/programming/XML/Rules/RulesSchema.xsd">
-	<service time="17.30" name="Великая вечерня." isdaybefore="true"/>
-	<service time="07.00" name="Утреня. Часы."></service>
-	<service time="08.00" name="Божественная литургия." additionalname="Крестный ход."></service>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<worship time="17.30" isdaybefore="true">
+		<name>
+			<item language="cs-ru">Великая вечерня.</item>
+		</name>
+	</worship>
+	<worship time="07.00">
+		<name>
+			<item language="cs-ru">Утреня. Часы.</item>
+		</name>
+	</worship>
+	<worship time="08.00">
+		<name>
+			<item language="cs-ru">Божественная литургия.</item>
+		</name>
+		<additionalname>
+			<item language="cs-ru">Крестный ход.</item>
+		</additionalname>
+	</worship>
 </rule>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/RulesSchema.xsd">
+	<ymnoscustomrule>
+		<doxastichon ihos="1">
+			<ymnos>
+				<text>
+					<item language="cs-ru">Текст тропаря</item>
+				</text>
+			</ymnos>
+		</doxastichon>
+	</ymnoscustomrule>
+<kekragaria>
+	<ymnosrule source="item1" place="kekragaria" count="3"/>
+	<ymnoscustomrule>
+		<group ihos="1">
+			<ymnos>
+				<text>
+					<item language="cs-ru">Текст тропаря</item>
+				</text>
+			</ymnos>
+		</group>
+	</ymnoscustomrule>
+</kekragaria>
+<ymnoscustomrule>
+	<group ihos="1">
+		<ymnos>
+			<text>
+				<item language="cs-ru">Текст тропаря</item>
+			</text>
+		</ymnos>
+	</group>
+</ymnoscustomrule>
+
+<ymnoscustomrule>
+	<doxastichon ihos="1">
+		<ymnos>
+			<text>
+				<item language="cs-ru">Текст тропаря</item>
+			</text>
+		</ymnos>
+	</doxastichon>
+</ymnoscustomrule>
+
+<ymnoscustomrule>
+	<theotokion ihos="1">
+		<ymnos>
+			<text>
+				<item language="cs-ru">Текст тропаря</item>
+			</text>
+		</ymnos>
+	</theotokion>
+</ymnoscustomrule>
+
+</rule>

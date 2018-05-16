@@ -4,10 +4,12 @@
 		<html>
 			<head>
 				<title>Последовательность богослужения</title>
+				<link rel="stylesheet" type="text/css" href="viewmodel.css"/>
 			</head>
 			<body>
-				<xsl:for-each select="viewmodel/worship">
+				<xsl:for-each select="day/worship">
 					<xsl:for-each select="items/item">
+						<p class="red"><xsl:value-of select="@kindtext"/></p>
 						<xsl:for-each select="paragraphs/p">
 							<xsl:choose>
 								<xsl:when test="style/header = 'h1'">
@@ -15,6 +17,8 @@
 										<xsl:attribute name="class">
 											<xsl:if test="style/bold = 'true'">bold </xsl:if>
 											<xsl:if test="style/red = 'true'">red </xsl:if>
+											<xsl:if test="style/italic = 'true'">italic </xsl:if>
+											<xsl:value-of select="text/@language"/>
 										</xsl:attribute>
 										<xsl:value-of select="text"/>
 									</xsl:element>
@@ -24,6 +28,8 @@
 										<xsl:attribute name="class">
 											<xsl:if test="style/bold = 'true'">bold </xsl:if>
 											<xsl:if test="style/red = 'true'">red </xsl:if>
+											<xsl:if test="style/italic = 'true'">italic </xsl:if>
+											<xsl:value-of select="text/@language"/>
 										</xsl:attribute>
 										<xsl:value-of select="text"/>
 									</xsl:element>
@@ -33,6 +39,8 @@
 										<xsl:attribute name="class">
 											<xsl:if test="style/bold = 'true'">bold </xsl:if>
 											<xsl:if test="style/red = 'true'">red </xsl:if>
+											<xsl:if test="style/italic = 'true'">italic </xsl:if>
+											<xsl:value-of select="text/@language"/>
 										</xsl:attribute>
 										<xsl:value-of select="text"/>
 									</xsl:element>
@@ -42,6 +50,8 @@
 										<xsl:attribute name="class">
 											<xsl:if test="style/bold = 'true'">bold </xsl:if>
 											<xsl:if test="style/red = 'true'">red </xsl:if>
+											<xsl:if test="style/italic = 'true'">italic </xsl:if>
+											<xsl:value-of select="text/@language"/>
 										</xsl:attribute>
 										<xsl:value-of select="text"/>
 									</xsl:element>

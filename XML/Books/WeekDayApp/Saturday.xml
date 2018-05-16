@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../DaySchema.xsd">
+	<esperinos>
+		<prokeimeni>
+			<prokeimenon ihos="7">
+				<stihos>
+					<item language="cs-ru">Бо́же, Засту́пник мой еси́ Ты, / и ми́лость Твоя́ предвари́т мя.</item>
+					<item language="cs-cs">Б9е, застyпникъ м0й є3си2 ты2, / и3 ми1лость твоS предвари1тъ мS.</item>
+				</stihos>
+				<stihos>
+					<item language="cs-ru">Изми́ мя от враг мои́х, Бо́же, и от востаю́щих на мя изба́ви мя.</item>
+					<item language="cs-cs">И#зми1 мz t вр†гъ мои1хъ б9е, и3 t востаю1щихъ на мS и3збaви мS.</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<troparion>
+			<group ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Ґпcли, м§нцы и3 прbр0цы, сTMи1теліе, прпdбніи и3 првdніи, д0брэ п0двигъ соверши1вшіи, и3 вёру соблю1дшіи, дерзновeніе и3мyще ко сп7су, њ нaсъ того2 ћкw бlга моли1те сп7сти1сz, м0лимсz, душaмъ нaшымъ.</item>
+					</text>
+				</ymnos>
+				<ymnos kind="nekrosimo">
+					<text>
+						<item language="cs-cs">Помzни2 гDи, ћкw бlгъ, рабы6 тво‰, и3 є3ли6ка въ житіи2 согрэши1ша, прости2: никт0же бо безгрёшенъ, т0кмw ты2 могjй и3 престaвлєннымъ дaти пок0й.</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+	</esperinos>
+	<orthros/>
+	<leitourgia>
+		<prokeimenon ihos="8">
+			<stihos>
+				<item language="cs-cs">Весели1тесz њ гDэ, / и3 рaдуйтесz прaведніи.</item>
+				<item language="cs-ru">Веселитеся о Господе, / и радуйтеся праведнии.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Бlжeни, и4хже њстaвишасz беззакHніz, и3 и4хже прикрhшасz грэси2.</item>
+				<item language="cs-ru">Блажени, ихже оставишася беззакония и ихже прикрышася греси.</item>
+			</stihos>
+		</prokeimenon>
+		<prokeimenon ihos="6" kind="nekrosimo">
+			<stihos>
+				<item language="cs-cs">Дyшы и4хъ / во бlги1хъ водворsтсz.</item>
+				<item language="cs-ru">Души их во благих водворятся.</item>
+			</stihos>
+		</prokeimenon>
+		<alleluia ihos="4">
+			<stihos>
+				<item language="cs-cs">Воззвaша прaведніи, и3 гDь ўслhша и5хъ, и3 t всёхъ скорбeй и4хъ и3збaви и5хъ.</item>
+				<item language="cs-ru">Воззваша праведнии, и Господь услыша их, и от всех скорбей их избави их.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Мн0ги скHрби прaвєднымъ, и3 t всёхъ и4хъ и3збaвитъ | гDь.</item>
+				<item language="cs-ru">Многи скорби праведным, и от всех их избавит я Господь.</item>
+			</stihos>
+		</alleluia>
+		<alleluia ihos="4" kind="nekrosimo">
+			<stihos>
+				<item language="cs-cs">Бlжeни, ±же и3збрaлъ и3 пріsлъ є3си2 гDи.</item>
+				<item language="cs-ru">Блажени, яже избрал и приял еси, Господи.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">И# пaмzть и4хъ въ р0дъ и3 р0дъ.</item>
+				<item language="cs-ru">И память их в род и род.</item>
+			</stihos>
+		</alleluia>
+		<kinonik>
+			<item language="cs-cs">Рaдуйтесz прaведніи њ гDэ, прaвымъ подобaетъ похвалA.</item>
+			<item language="cs-ru">Радуйтеся, праведнии, о Господе, правым подобает похвала.</item>
+		</kinonik>
+		<kinonik kind="nekrosimo">
+			<item language="cs-cs">Бlжeни ±же и3збрaлъ и3 пріsлъ є3си2 гDи, и3 пaмzть и4хъ въ р0дъ и3 р0дъ.</item>
+			<item language="cs-ru">Блажени, яже избрал и приял еси, Господи, и память их в род и род.</item>
+		</kinonik>
+	</leitourgia>
+</dayservice>

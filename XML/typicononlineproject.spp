@@ -193,6 +193,7 @@
 	</Folder>
 	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp">
 		<File FilePath="XSLT\ViewModel.html" HomeFolder="Yes"/>
+		<File FilePath="XSLT\XSL Output.html" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="Entities" ExtStr="ent"/>
 </Project>

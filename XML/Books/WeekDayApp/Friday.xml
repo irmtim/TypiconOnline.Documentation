@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../DaySchema.xsd">
+	<esperinos>
+		<prokeimeni>
+			<prokeimenon ihos="6">
+				<stihos>
+					<item language="cs-ru">По́мощь моя́ от Го́спода, / сотво́ршаго не́бо и зе́млю.</item>
+					<item language="cs-cs">П0мощь моS t гDа / сотв0ршагw нб7о и3 зeмлю.</item>
+				</stihos>
+				<stihos>
+					<item language="cs-cs">Возвед0хъ џчи мои2 въ г0ры, tню1дуже пріи1детъ п0мощь моS.</item>
+					<item language="cs-ru">Возведо́х о́чи мои́ в го́ры, отню́дуже прии́дет по́мощь моя́.</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<troparion>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Сп7си2, гDи, лю1ди тво‰, и3 бlгослови2 достоsніе твоE, побBды
+правосл†внымъ хrтіaнwмъ на сопроти6вныz дaруz, и3 твоE сохранsz
+кrт0мъ твои1мъ жи1тельство.</item>
+						<item language="cs-ru">Спаси, Господи, люди Твоя / и благослови достояние Твое, / победы на сопротивныя даруя / и Твое сохраняя Крестом Твоим жительство.</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+	</esperinos>
+	<orthros>
+		<kanones>
+			<kanonas>
+				<kontakion ihos="4">
+					<ymnos>
+						<item language="cs-cs">Вознесhйсz на кrтъ в0лею, тезоимени1тому твоемY н0вому жи1тельству, щедрHты тво‰ дaруй хrтE б9е, возвесели2 нaсъ си1лою твоeю, побBды даS нaмъ на сопостaты, пос0біе и3мyщымъ твоE nрyжіе ми1ра, непобэди1мую побёду.</item>
+						<item language="cs-ru">Вознесыйся на Крест волею, / тезоименитому Твоему новому жительству / щедроты Твоя даруй, Христе Боже, / возвесели нас силою Твоею, / победы дая нам на сопостаты, / пособие имущим Твое oружие мира, / непобедимую победу.</item>
+					</ymnos>
+				</kontakion>
+				<exapostilarion>
+					<ymnos>
+						<text>
+							<item language="cs-cs">Кrтъ - храни1тель всеS вселeннаz, кrтъ - красотA цRкве, кrтъ - вёрныхъ ўтверждeніе, кrтъ - ѓгGлwвъ слaва и3 дeмwнwвъ ћзва.</item>
+						</text>
+					</ymnos>
+					<theotokion>
+						<text>
+							<item language="cs-cs">Ў кrтA предстоsщи, тS безсёменнw р0ждшаz, и3 рыдaющи вопіsше: ўвы2 сладчaйшее чaдо, кaкw зашeлъ є3си2 t џчію моeю; кaкw въ мeртвыхъ вмэни1лсz є3си2;</item>
+						</text>
+					</theotokion>
+				</exapostilarion>
+			</kanonas>
+		</kanones>
+	</orthros>
+	<leitourgia>
+		<prokeimenon ihos="7">
+			<stihos>
+				<item language="cs-cs">Возноси1те гDа бGа нaшего, / и3 покланsйтесz подн0жію нHгу є3гw2, ћкw с™о є4сть.</item>
+				<item language="cs-ru">Возносите Господа Бога нашего / и поклоняйтеся подножию ногу Его, яко свято есть.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">ГDь воцRи1сz, да гнёваютсz лю1діе.</item>
+				<item language="cs-ru">Господь воцарися, да гневаются людие.</item>
+			</stihos>
+		</prokeimenon>
+		<alleluia ihos="1">
+			<stihos>
+				<item language="cs-cs">Помzни2 с0нмъ тв0й, є3г0же стzжaлъ є3си2 и3спeрва.</item>
+				<item language="cs-ru">Помяни сонм Твой, егоже стяжал еси исперва.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">БGъ же цRь нaшъ прeжде вёка, содёла спасeніе посредЁ земли2.</item>
+				<item language="cs-ru">Бог же Царь наш прежде века, содела спасение посреде земли.</item>
+			</stihos>
+		</alleluia>
+		<kinonik>
+			<item language="cs-cs">Сп7сeніе содёлалъ є3си2 посредЁ земли2, б9е.</item>
+			<item language="cs-ru">Спасение соделал еси посреде земли, Боже.</item>
+		</kinonik>
+	</leitourgia>
+</dayservice>

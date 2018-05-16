@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../DaySchema.xsd">
+	<esperinos>
+		<prokeimeni>
+			<prokeimenon ihos="4">
+				<stihos>
+					<item language="cs-cs">ГDь ўслhшитъ мS, / внегдA воззвaти ми2 къ немY.</item>
+					<item language="cs-ru">Госпо́дь услы́шит мя, / внегда́ воззва́ти ми к Нему́.</item>
+				</stihos>
+				<stihos>
+					<item language="cs-cs">ВнегдA призвaти ми2, ўслhша мS бGъ прaвды моеS.</item>
+					<item language="cs-ru">Внегда́ призва́ти ми, услы́ша мя Бог пра́вды моея́.</item>
+				</stihos>
+			</prokeimenon>
+		</prokeimeni>
+		<troparion>
+			<group ihos="2">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Пaмzть првdнагw съ похвалaми, тебё же довлёетъ свидётельство гDне, п®тeче: показaлъ бо сz є3си2 вои1стинну и прbр0кwвъ чcтнёйшій, ћкw и3 въ струsхъ кrти1ти спод0билсz є3си2 проповёданнаго. Тёмже за и4стину пострадaвъ рaдуzсz, бlговэсти1лъ є3си2 и3 сyщымъ во ѓдэ бGа ћвльшагосz пл0тію, взeмлющаго грёхъ мjра, и3 подаю1щаго нaмъ вeлію млcть.</item>
+						<item language="cs-ru">Память праведнаго с похвалами, / тебе же довлеет свидетельство Господне, Предтече: / показал бо ся еси воистинну и пророков честнейший, / яко и в струях крестити сподобился еси Проповеданнаго. / Темже за истину пострадав радуяся, / благовестил еси и сущим во аде Бога, явльшагося плотию, / вземлющаго грех мира / и подающаго нам велию милость.</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+	</esperinos>
+	<orthros>
+		<kanones>
+			<kanonas>
+				<kontakion ihos="2">
+					<ymnos>
+						<item language="cs-ru">Пророче Божий и Предтече благодати, / главу твою, яко шипок священнейший от земли обретше, / исцеления всегда приемлем, / ибо паки, якоже прежде, / в мире проповедуеши покаяние.</item>
+						<item language="cs-cs">Прbр0че б9ій, и3 п®тeче бlгодaти, главY твою2 ћкw ши1покъ сщ7eннэйшій t земли2 њбрётше, и3сцэлє1ніz всегдA пріeмлемъ: и4бо пaки ћкоже прeжде въ мjрэ проповёдуеши покаsніе.</item>
+					</ymnos>
+				</kontakion>
+				<exapostilarion>
+					<ymnos>
+						<text>
+							<item language="cs-cs">П®тeчу їwaнна, и3 кrти1телz сп7сова, во прbр0цэхъ прbр0ка, и3 пустhни воспитaніе, є3лісавeтино рождeніе восхвaлимъ вси2.</item>
+						</text>
+					</ymnos>
+					<theotokion>
+						<text>
+							<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
+						</text>
+					</theotokion>
+				</exapostilarion>
+			</kanonas>
+		</kanones>
+	</orthros>
+	<leitourgia>
+		<prokeimenon ihos="7">
+			<stihos>
+				<item language="cs-cs">Возвесели1тсz прaведникъ њ гDэ, / и3 ўповaетъ на него2.</item>
+				<item language="cs-ru">Возвеселится праведник о Господе, / и уповает на Него.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Ўслhши б9е глaсъ м0й, внегдA моли1ти ми сz къ тебЁ.</item>
+				<item language="cs-ru">Услыши Боже глас мой, внегда молити ми ся к Тебе.</item>
+			</stihos>
+		</prokeimenon>
+		<alleluia ihos="4">
+			<stihos>
+				<item language="cs-cs">Прaведникъ ћкw фjніxъ процвэтeтъ, ћкw кeдръ и4же въ лівaнэ ўмн0житсz.</item>
+				<item language="cs-ru">Праведник яко финикс процветет, яко кедр, иже в Ливане, умножится.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-cs">Насаждeни въ домY гDни, во дв0рэхъ бGа нaшегw процвэтyтъ.</item>
+				<item language="cs-ru">Насаждени в дому Господни, во дворех Бога нашего процветут.</item>
+			</stihos>
+		</alleluia>
+		<kinonik>
+			<item language="cs-cs">Въ пaмzть вёчную бyдетъ првdникъ, t слyха ѕлA не ўбои1тсz.</item>
+			<item language="cs-ru">В память вечную будет праведник, от слуха зла не убоится.</item>
+		</kinonik>
+	</leitourgia>
+</dayservice>

@@ -118,14 +118,14 @@
 			<xs:element name="notice" type="noticeType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0"/>
-			<xs:element name="ymnosrule" type="ymnosType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="doxastichonrule" type="ymnosType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ymnosrule" type="ymnosruleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="doxastichonrule" type="ymnosruleType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="theotokionrule" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:complexContent>
-						<xs:extension base="ymnosType">
+						<xs:extension base="ymnosruleType">
 							<xs:sequence minOccurs="0">
-								<xs:element name="ymnosrule" type="ymnosType"/>
+								<xs:element name="ymnosrule" type="ymnosruleType"/>
 							</xs:sequence>
 						</xs:extension>
 					</xs:complexContent>
@@ -241,7 +241,59 @@
 					</xs:complexContent>
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="ymnoscustomrule" type="ymnoscustomruleType" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ymnoscustomruleType">
+		<xs:choice>
+			<xs:element name="group" type="groupType" minOccurs="0"/>
+			<xs:element name="doxastichon" type="groupType" minOccurs="0"/>
+			<xs:element name="theotokion" type="groupType" minOccurs="0"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="groupType">
+		<xs:sequence>
+			<xs:element name="prosomoion" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="textType">
+							<xs:attribute name="self" type="xs:boolean" use="required"/>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="annotation" type="textType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="ymnos" type="ymnosType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="ihos" type="xs:byte" use="required"/>
+		<xs:attribute name="kind">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="stavros"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ymnosType">
+		<xs:sequence>
+			<xs:element name="annotation" type="textType" minOccurs="0"/>
+			<xs:element name="stihos" type="textType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="kind">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="theotokion"/>
+					<xs:enumeration value="triadiko"/>
+					<xs:enumeration value="martyrion"/>
+					<xs:enumeration value="ierarhon"/>
+					<xs:enumeration value="osion"/>
+					<xs:enumeration value="nekrosimo"/>
+					<xs:enumeration value="irmos"/>
+					<xs:enumeration value="katavasia"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="worshipType">
 		<xs:sequence>
@@ -465,7 +517,7 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
-	<xs:complexType name="ymnosType">
+	<xs:complexType name="ymnosruleType">
 		<xs:attribute name="source" use="required">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
@@ -474,6 +526,7 @@
 					<xs:enumeration value="item2"/>
 					<xs:enumeration value="item3"/>
 					<xs:enumeration value="irmologion"/>
+					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -550,7 +603,7 @@
 			<xs:element name="exists" minOccurs="0">
 				<xs:complexType>
 					<xs:choice>
-						<xs:element name="ymnosrule" type="ymnosType"/>
+						<xs:element name="ymnosrule" type="ymnosruleType"/>
 						<xs:element name="kanonas" type="kanonasType"/>
 						<xs:element name="k_sedalen" type="k_sedalenType"/>
 						<xs:element name="kontakion" type="k_kontakionType"/>
