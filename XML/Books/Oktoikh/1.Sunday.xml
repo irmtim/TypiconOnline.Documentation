@@ -445,16 +445,16 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<ymnos>
-						<text>
-							<item language="cs-cs">М™рь тS б9ію свёмы вси2, дв7у вои1стинну, и3 по ржcтвЁ ћвльшуюсz, люб0вію прибэгaюще къ твоeй бlгости: тебe бо и4мамы грёшніи предстaтельницу, и3 тебE стzжaхомъ въ напaстехъ сп7сeніе, є3ди1ну всенепор0чную.</item>
-						</text>
-					</ymnos>
-				</group>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">М™рь тS б9ію свёмы вси2, дв7у вои1стинну, и3 по ржcтвЁ ћвльшуюсz, люб0вію прибэгaюще къ твоeй бlгости: тебe бо и4мамы грёшніи предстaтельницу, и3 тебE стzжaхомъ въ напaстехъ сп7сeніе, є3ди1ну всенепор0чную.</item>
+					</text>
+				</ymnos>
+			</group>
+		</sedalen>
 	</apodipno>
 	<mesoniktiko>
 		<kanonas ihos="1">
@@ -666,26 +666,26 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<prosomoion self="false">
-						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
-					</prosomoion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">Трbцэ с™ёй, и3 нераздёльному є3стествY, въ трeхъ ли1цэхъ сэк0мэй несёченw, и3 пребывaющей нераздёльнэй по существY б9ествA, поклони1мсz земнор0дніи со стрaхомъ, и3 слaвимъ ћкw творцA и3 вLку, бGа пребlгaго.</item>
-						</text>
-					</ymnos>
-				</group>
-				<theotokion ihos="1">
-					<ymnos>
-						<text>
-							<item language="cs-cs">Ўпрaви чcтаz, nкаsнную мою2 дyшу, и3 ўщeдри ю5 t мн0жества прегрэшeній, во глубинY поп0лзшуюсz поги1бели, всенепор0чнаz, и3 въ чaсъ мS стрaшный смeртный ты2 и3схити2 њглаг0лующихъ дeмwнwвъ, и3 всsкіz мyки.</item>
-						</text>
-					</ymnos>
-				</theotokion>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<prosomoion self="false">
+					<item language="cs-cs">Гр0бъ тв0й сп7се</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Трbцэ с™ёй, и3 нераздёльному є3стествY, въ трeхъ ли1цэхъ сэк0мэй несёченw, и3 пребывaющей нераздёльнэй по существY б9ествA, поклони1мсz земнор0дніи со стрaхомъ, и3 слaвимъ ћкw творцA и3 вLку, бGа пребlгaго.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">Ўпрaви чcтаz, nкаsнную мою2 дyшу, и3 ўщeдри ю5 t мн0жества прегрэшeній, во глубинY поп0лзшуюсz поги1бели, всенепор0чнаz, и3 въ чaсъ мS стрaшный смeртный ты2 и3схити2 њглаг0лующихъ дeмwнwвъ, и3 всsкіz мyки.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sedalen>
 	</mesoniktiko>
 	<orthros>
 		<sed_1kathisma>
@@ -1005,17 +1005,6 @@
 						</troparion>
 					</odi>
 				</odes>
-				<kontakion ihos="1">
-					<prosomoion self="false">
-						<item language="cs-cs">Е#гдA пріи1деши</item>
-					</prosomoion>
-					<ymnos>
-						<item language="cs-cs">Воскrлъ є3си2 ћкw бGъ и3з8 гр0ба во слaвэ, и3 мjръ совоскRси1лъ є3си2, и3 є3стество2 человёческое ћкw бGа воспэвaетъ тS, и3 смeрть и3счезE: ґдaмъ же ликyетъ вLко, є4vа нhнэ t ќзъ и3збавлsема рaдуетсz зовyщи: ты2 є3си2, и4же всBмъ подаS хrтE воскrніе.</item>
-					</ymnos>
-					<ikos>
-						<item language="cs-cs">Воскrшаго триднeвнw воспои1мъ ћкw бGа всеси1льна, и3 вратA ѓдwва стeршаго, и3 ћже t вёка и3з8 гр0ба воздви1гшаго, мmрон0сицамъ ћвльшагосz, ћкоже благоизв0лилъ є4сть, прeжде си6мъ є4же рaдуйтесz, рекjй: и3 ґпcлwмъ рaдость возвэщaz, ћкw є3ди1нъ жизнодaвецъ. тёмже вёрою жєны2 ў§нкHмъ знaменіz побёды бlговэствyютъ, и3 ѓдъ стенeтъ, и3 смeрть рыдaетъ: мjръ же весели1тсz. и3 вси2 съ ни1мъ рaдуютсz. тh бо п0далъ є3си2 хrтE всBмъ воскrніе.</item>
-					</ikos>
-				</kontakion>
 			</kanonas>
 			<kanonas ihos="1">
 				<stihos>
@@ -1304,6 +1293,19 @@
 				</odes>
 			</kanonas>
 		</kanones>
+		<kontakia>
+			<kontakion ihos="1">
+				<prosomoion self="false">
+					<item language="cs-cs">Е#гдA пріи1деши</item>
+				</prosomoion>
+				<ymnos>
+					<item language="cs-cs">Воскrлъ є3си2 ћкw бGъ и3з8 гр0ба во слaвэ, и3 мjръ совоскRси1лъ є3си2, и3 є3стество2 человёческое ћкw бGа воспэвaетъ тS, и3 смeрть и3счезE: ґдaмъ же ликyетъ вLко, є4vа нhнэ t ќзъ и3збавлsема рaдуетсz зовyщи: ты2 є3си2, и4же всBмъ подаS хrтE воскrніе.</item>
+				</ymnos>
+				<ikos>
+					<item language="cs-cs">Воскrшаго триднeвнw воспои1мъ ћкw бGа всеси1льна, и3 вратA ѓдwва стeршаго, и3 ћже t вёка и3з8 гр0ба воздви1гшаго, мmрон0сицамъ ћвльшагосz, ћкоже благоизв0лилъ є4сть, прeжде си6мъ є4же рaдуйтесz, рекjй: и3 ґпcлwмъ рaдость возвэщaz, ћкw є3ди1нъ жизнодaвецъ. тёмже вёрою жєны2 ў§нкHмъ знaменіz побёды бlговэствyютъ, и3 ѓдъ стенeтъ, и3 смeрть рыдaетъ: мjръ же весели1тсz. и3 вси2 съ ни1мъ рaдуютсz. тh бо п0далъ є3си2 хrтE всBмъ воскrніе.</item>
+				</ikos>
+			</kontakion>
+		</kontakia>
 		<ainoi>
 			<group ihos="1">
 				<annotation>

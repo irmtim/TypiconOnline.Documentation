@@ -9,6 +9,7 @@
 				<File FilePath="Типикон\Sign\Без знака.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Воскресный день.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Двунадесятый Господский праздник.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\День Светлой седмицы.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Литургия Преждеосвященных Даров.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших (Постом).xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших.xml" HomeFolder="Yes"/>
@@ -139,8 +140,8 @@
 		<Folder FolderName="Examples">
 			<File FilePath="Examples\AsAddition.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\AsAddition_RewriteValues.xml" HomeFolder="Yes"/>
-			<File FilePath="Examples\CustomKanonasRule.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\esperinos.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\Example.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ItemText.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\logical.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\modifyday.xml" HomeFolder="Yes"/>
@@ -176,6 +177,14 @@
 			</Folder>
 			<Folder FolderName="Katavasia">
 				<File FilePath="Books\Katavasia\отверзу_уста_моя.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="WeekDayApp">
+				<File FilePath="Books\WeekDayApp\Friday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\WeekDayApp\Monday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\WeekDayApp\Saturday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\WeekDayApp\Thursday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\WeekDayApp\Tuesday.xml" HomeFolder="Yes"/>
+				<File FilePath="Books\WeekDayApp\Wednesday.xml" HomeFolder="Yes"/>
 			</Folder>
 		</Folder>
 		<File FilePath="DayExample.xml" HomeFolder="Yes"/>

@@ -304,16 +304,16 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<ymnos>
-						<text>
-							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Седален</item>
-						</text>
-					</ymnos>
-				</group>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Седален</item>
+					</text>
+				</ymnos>
+			</group>
+		</sedalen>
 	</apodipno>
 	<orthros>
 		<sed_1kathisma>

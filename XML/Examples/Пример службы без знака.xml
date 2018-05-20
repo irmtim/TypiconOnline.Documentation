@@ -7,9 +7,9 @@
 		<sequence>
 			<esperinos>
 				<kekragaria>
-					<ymnosrule source="item1" place="kekragaria" count="3"/>
-					<ymnosrule source="item2" place="kekragaria" count="3"/>
-					<theotokionrule source="item1" place="kekragaria_theotokion"/>
+					<ymnosrule kind="ymnos" source="item1" place="kekragaria" count="3"/>
+					<ymnosrule kind="ymnos" source="item2" place="kekragaria" count="3"/>
+					<ymnosrule kind="theotokion" source="item1" place="kekragaria_theotokion"/>
 				</kekragaria>
 			</esperinos>
 		</sequence>

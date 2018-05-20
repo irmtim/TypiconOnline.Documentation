@@ -25,28 +25,26 @@
 		</troparion>
 	</esperinos>
 	<orthros>
-		<kanones>
-			<kanonas>
-				<kontakion ihos="2">
-					<ymnos>
-						<item language="cs-ru">Пророче Божий и Предтече благодати, / главу твою, яко шипок священнейший от земли обретше, / исцеления всегда приемлем, / ибо паки, якоже прежде, / в мире проповедуеши покаяние.</item>
-						<item language="cs-cs">Прbр0че б9ій, и3 п®тeче бlгодaти, главY твою2 ћкw ши1покъ сщ7eннэйшій t земли2 њбрётше, и3сцэлє1ніz всегдA пріeмлемъ: и4бо пaки ћкоже прeжде въ мjрэ проповёдуеши покаsніе.</item>
-					</ymnos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">П®тeчу їwaнна, и3 кrти1телz сп7сова, во прbр0цэхъ прbр0ка, и3 пустhни воспитaніе, є3лісавeтино рождeніе восхвaлимъ вси2.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
-			</kanonas>
-		</kanones>
+		<kontakia>
+			<kontakion ihos="2">
+				<ymnos>
+					<item language="cs-ru">Пророче Божий и Предтече благодати, / главу твою, яко шипок священнейший от земли обретше, / исцеления всегда приемлем, / ибо паки, якоже прежде, / в мире проповедуеши покаяние.</item>
+					<item language="cs-cs">Прbр0че б9ій, и3 п®тeче бlгодaти, главY твою2 ћкw ши1покъ сщ7eннэйшій t земли2 њбрётше, и3сцэлє1ніz всегдA пріeмлемъ: и4бо пaки ћкоже прeжде въ мjрэ проповёдуеши покаsніе.</item>
+				</ymnos>
+			</kontakion>
+		</kontakia>
+		<exapostilarion>
+			<ymnos>
+				<text>
+					<item language="cs-cs">П®тeчу їwaнна, и3 кrти1телz сп7сова, во прbр0цэхъ прbр0ка, и3 пустhни воспитaніе, є3лісавeтино рождeніе восхвaлимъ вси2.</item>
+				</text>
+			</ymnos>
+			<theotokion>
+				<text>
+					<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
+				</text>
+			</theotokion>
+		</exapostilarion>
 	</orthros>
 	<leitourgia>
 		<prokeimenon ihos="7">

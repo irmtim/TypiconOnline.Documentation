@@ -112,21 +112,21 @@
 				</expression>
 				<then>
 					<!-- 3 Праздника, 3 Минеи-->
-					<ymnosrule source="item1" place="kekragaria" count="3"/>
-					<ymnosrule source="item2" place="kekragaria" count="3"/>
+					<ymnosrule kind="ymnos" source="item1" place="kekragaria" count="3"/>
+					<ymnosrule kind="ymnos" source="item2" place="kekragaria" count="3"/>
 					<if>
 						<expression>
 							<!-- если есть Слава в Минее-->
 							<exists>
-								<ymnosrule source="item2" place="kekragaria_doxastichon"/>
+								<ymnosrule kind="ymnos" source="item2" place="kekragaria_doxastichon"/>
 							</exists>
 						</expression>
 						<then>
-							<doxastichonrule source="item2" place="kekragaria_doxastichon"/>
+							<ymnosrule kind="doxastichon" source="item2" place="kekragaria_doxastichon"/>
 						</then>
 					</if>
 					<!-- И ныне Праздника-->
-					<theotokionrule source="item1" place="kekragaria_theotokion"/>
+					<ymnosrule kind="theotokion" source="item1" place="kekragaria_theotokion"/>
 				</then>
 				<else>
 					<if>
@@ -135,8 +135,8 @@
 							<istwosaints/>
 						</expression>
 						<then>
-							<ymnosrule source="item1" place="kekragaria" count="3"/>
-							<ymnosrule source="item2" place="kekragaria" count="3"/>
+							<ymnosrule kind="ymnos" source="item1" place="kekragaria" count="3"/>
+							<ymnosrule kind="ymnos" source="item2" place="kekragaria" count="3"/>
 							<commonrule name="СлаваНынеГВ"/>
 						</then>
 						<else>
@@ -151,26 +151,26 @@
 									</equals>
 								</expression>
 								<then>
-									<ymnosrule source="item1" place="kekragaria" count="6"/>
+									<ymnosrule kind="ymnos" source="item1" place="kekragaria" count="6"/>
 									<if>
 										<expression>
 											<!-- если есть Слава в Минее-->
 											<exists>
-												<ymnosrule source="item1" place="kekragaria_doxastichon"/>
+												<ymnosrule kind="ymnos" source="item1" place="kekragaria_doxastichon"/>
 											</exists>
 										</expression>
 										<then>
 											<!-- Славник из Минеи-->
-											<doxastichonrule source="item1" place="kekragaria_doxastichon"/>
+											<ymnosrule kind="doxastichon" source="item1" place="kekragaria_doxastichon"/>
 										</then>
 									</if>
 									<!-- богородичен - из Октоиха на ГВ - догматик-->
-									<theotokionrule source="oktoikh" place="kekragaria_theotokion"/>
+									<ymnosrule kind="theotokion" source="oktoikh" place="kekragaria_theotokion"/>
 								</then>
 								<else>
 									<!-- ОБЫЧНЫЙ ДЕНЬ-->
-									<ymnosrule source="oktoikh" place="kekragaria" count="3"/>
-									<ymnosrule source="item1" place="kekragaria" count="3"/>
+									<ymnosrule kind="ymnos" source="oktoikh" place="kekragaria" count="3"/>
+									<ymnosrule kind="ymnos" source="item1" place="kekragaria" count="3"/>
 									<commonrule name="СлаваНынеГВ"/>
 								</else>
 							</if>
@@ -213,8 +213,8 @@
 					<iscelebrating/>
 				</expression>
 				<then>
-					<ymnosrule source="item1" place="aposticha_esperinos"/>
-					<theotokionrule source="item1" place="aposticha_esperinos_theotokion"/>
+					<ymnosrule kind="ymnos" source="item1" place="aposticha_esperinos"/>
+					<ymnosrule kind="theotokion" source="item1" place="aposticha_esperinos_theotokion"/>
 				</then>
 				<else>
 					<if>
@@ -228,12 +228,12 @@
 							</equals>
 						</expression>
 						<then>
-							<ymnosrule source="oktoikh" place="kekragaria" startfrom="4" count="3"/>
-							<theotokionrule source="oktoikh" place="aposticha_esperinos_theotokion"/>
+							<ymnosrule kind="ymnos" source="oktoikh" place="kekragaria" startfrom="4" count="3"/>
+							<ymnosrule kind="theotokion" source="oktoikh" place="aposticha_esperinos_theotokion"/>
 						</then>
 						<else>
-							<ymnosrule source="oktoikh" place="aposticha_esperinos"/>
-							<theotokionrule source="oktoikh" place="aposticha_esperinos_theotokion"/>
+							<ymnosrule kind="ymnos" source="oktoikh" place="aposticha_esperinos"/>
+							<ymnosrule kind="theotokion" source="oktoikh" place="aposticha_esperinos_theotokion"/>
 						</else>
 					</if>
 				</else>
@@ -252,9 +252,9 @@
 					<iscelebrating/>
 				</expression>
 				<then>
-					<ymnosrule source="item2" place="troparion"/>
+					<ymnosrule kind="ymnos" source="item2" place="troparion"/>
 					<!-- Слава и ныне Праздника-->
-					<theotokionrule source="item1" place="troparion"/>
+					<ymnosrule kind="theotokion" source="item1" place="troparion"/>
 				</then>
 				<else>
 					<if>
@@ -263,11 +263,11 @@
 							<istwosaints/>
 						</expression>
 						<then>
-							<ymnosrule source="item1" place="troparion"/>
-							<doxastichonrule source="item2" place="troparion"/>
-							<theotokionrule source="irmologion" place="app4_esperinos">
-								<ymnosrule source="item2" place="troparion"/>
-							</theotokionrule>
+							<ymnosrule kind="ymnos" source="item1" place="troparion"/>
+							<ymnosrule kind="doxastichon" source="item2" place="troparion"/>
+							<theotokionapprule place="app4_esperinos">
+								<ymnosrule kind="ymnos" source="item2" place="troparion"/>
+							</theotokionapprule>
 						</then>
 						<else>
 							<if>
@@ -281,17 +281,17 @@
 									</equals>
 								</expression>
 								<then>
-									<ymnosrule source="item1" place="troparion"/>
-									<theotokionrule source="irmologion" place="app3">
-										<ymnosrule source="oktoikh" place="kekragaria"/>
-									</theotokionrule>
+									<ymnosrule kind="ymnos" source="item1" place="troparion"/>
+									<theotokionapprule place="app3">
+										<ymnosrule kind="ymnos" source="oktoikh" place="kekragaria"/>
+									</theotokionapprule>
 								</then>
 								<else>
 									<!-- ОБЫЧНЫЙ ДЕНЬ-->
-									<ymnosrule source="item1" place="troparion"/>
-									<theotokionrule source="irmologion" place="app4_esperinos">
-										<ymnosrule source="item1" place="troparion"/>
-									</theotokionrule>
+									<ymnosrule kind="ymnos" source="item1" place="troparion"/>
+									<theotokionapprule place="app4_esperinos">
+										<ymnosrule kind="ymnos" source="item1" place="troparion"/>
+									</theotokionapprule>
 								</else>
 							</if>
 						</else>

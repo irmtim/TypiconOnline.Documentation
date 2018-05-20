@@ -119,15 +119,10 @@
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0"/>
 			<xs:element name="ymnosrule" type="ymnosruleType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="doxastichonrule" type="ymnosruleType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="theotokionrule" minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="theotokionapprule" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:complexContent>
-						<xs:extension base="ymnosruleType">
-							<xs:sequence minOccurs="0">
-								<xs:element name="ymnosrule" type="ymnosruleType"/>
-							</xs:sequence>
-						</xs:extension>
+						<xs:extension base="theotokionappruleType"/>
 					</xs:complexContent>
 				</xs:complexType>
 			</xs:element>
@@ -172,9 +167,7 @@
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="k_kanonas" type="kanonasType" minOccurs="0" maxOccurs="3"/>
-			<xs:element name="k_sedalen" type="k_sedalenType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="k_sedalentheotokion" type="k_sedalenType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="kontakion" type="k_kontakionType" minOccurs="0"/>
+			<xs:element name="kontakionrule" type="kontakionruleType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="k_katavasia" type="k_katavasiaType" minOccurs="0"/>
 			<xs:element name="k_after" minOccurs="0" maxOccurs="9">
 				<xs:complexType>
@@ -214,11 +207,6 @@
 					</xs:attribute>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="kanonascustomrule" type="kanonasruleType" minOccurs="0">
-				<xs:annotation>
-					<xs:documentation>Кастомное правило для составления канонов</xs:documentation>
-				</xs:annotation>
-			</xs:element>
 			<xs:element name="k_odi" minOccurs="0" maxOccurs="9">
 				<xs:annotation>
 					<xs:documentation>Описание последовательности для песни кастомного канона</xs:documentation>
@@ -242,7 +230,26 @@
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="ymnoscustomrule" type="ymnoscustomruleType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="exapostilarion" type="executableType" minOccurs="0"/>
 		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="theotokionappruleType">
+		<xs:all>
+			<xs:element name="ymnosrule" type="ymnosruleType" minOccurs="0" maxOccurs="1"/>
+		</xs:all>
+		<xs:attribute name="place" use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="app1_kekragaria"/>
+					<xs:enumeration value="app1_aposticha"/>
+					<xs:enumeration value="app2_esperinos"/>
+					<xs:enumeration value="app2_orthros"/>
+					<xs:enumeration value="app3"/>
+					<xs:enumeration value="app4_esperinos"/>
+					<xs:enumeration value="app4_orthros"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="ymnoscustomruleType">
 		<xs:choice>
@@ -373,7 +380,7 @@
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>
-	<xs:complexType name="k_kontakionType">
+	<xs:complexType name="kontakionruleType">
 		<xs:attribute name="source" use="required">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
@@ -381,37 +388,28 @@
 					<xs:enumeration value="item1"/>
 					<xs:enumeration value="item2"/>
 					<xs:enumeration value="item3"/>
+					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
-		<xs:attribute name="kanonas" use="required">
+		<xs:attribute name="place" use="required">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
-					<xs:enumeration value="apodipno"/>
-					<xs:enumeration value="mesoniktiko"/>
 					<xs:enumeration value="orthros1"/>
 					<xs:enumeration value="orthros2"/>
-					<xs:enumeration value="orthros3"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="kind">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="ymnos"/>
+					<xs:enumeration value="doxastichon"/>
+					<xs:enumeration value="theotokion"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
 		<xs:attribute name="showikos" type="xs:boolean" default="false"/>
-	</xs:complexType>
-	<xs:complexType name="k_sedalenType">
-		<xs:complexContent>
-			<xs:extension base="k_kontakionType">
-				<xs:attribute name="place" use="required">
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="sedalen"/>
-							<xs:enumeration value="sedalen_theotokion"/>
-							<xs:enumeration value="sedalen_stavrostheotokion"/>
-							<xs:enumeration value="kontakion"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:attribute>
-			</xs:extension>
-		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="k_katavasiaType">
 		<xs:attribute name="source" use="optional">
@@ -518,6 +516,15 @@
 		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="ymnosruleType">
+		<xs:attribute name="kind" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="ymnos"/>
+					<xs:enumeration value="doxastichon"/>
+					<xs:enumeration value="theotokion"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 		<xs:attribute name="source" use="required">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
@@ -525,7 +532,6 @@
 					<xs:enumeration value="item1"/>
 					<xs:enumeration value="item2"/>
 					<xs:enumeration value="item3"/>
-					<xs:enumeration value="irmologion"/>
 					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>
@@ -549,14 +555,8 @@
 					<xs:enumeration value="aposticha_esperinos_theotokion"/>
 					<xs:enumeration value="aposticha_orthros_theotokion"/>
 					<xs:enumeration value="ainoi_theotokion"/>
-					<xs:enumeration value="app1_kekragaria"/>
-					<xs:enumeration value="app1_aposticha"/>
-					<xs:enumeration value="app2_esperinos"/>
-					<xs:enumeration value="app2_orthros"/>
-					<xs:enumeration value="app3"/>
-					<xs:enumeration value="app4_esperinos"/>
-					<xs:enumeration value="app4_orthros"/>
 					<xs:enumeration value="troparion"/>
+					<xs:enumeration value="troparion_theotokion"/>
 					<xs:enumeration value="sedalen1"/>
 					<xs:enumeration value="sedalen1_doxastichon"/>
 					<xs:enumeration value="sedalen1_theotokion"/>
@@ -566,6 +566,10 @@
 					<xs:enumeration value="sedalen3"/>
 					<xs:enumeration value="sedalen3_doxastichon"/>
 					<xs:enumeration value="sedalen3_theotokion"/>
+					<xs:enumeration value="sedalen_kanonas"/>
+					<xs:enumeration value="sedalen_kanonas_doxastichon"/>
+					<xs:enumeration value="sedalen_kanonas_theotokion"/>
+					<xs:enumeration value="sedalen_kanonas_stavrostheotokion"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -605,8 +609,7 @@
 					<xs:choice>
 						<xs:element name="ymnosrule" type="ymnosruleType"/>
 						<xs:element name="kanonas" type="kanonasType"/>
-						<xs:element name="k_sedalen" type="k_sedalenType"/>
-						<xs:element name="kontakion" type="k_kontakionType"/>
+						<xs:element name="kontakionrule" type="kontakionruleType"/>
 					</xs:choice>
 				</xs:complexType>
 			</xs:element>

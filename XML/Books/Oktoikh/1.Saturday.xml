@@ -304,7 +304,8 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
+			
+		</kanonas><sedalen>
 				<group ihos="1">
 					<prosomoion self="false">
 						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
@@ -316,7 +317,6 @@
 					</ymnos>
 				</group>
 			</sedalen>
-		</kanonas>
 	</apodipno>
 	<orthros>
 		<sed_1kathisma>

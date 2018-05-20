@@ -26,28 +26,26 @@
 		</troparion>
 	</esperinos>
 	<orthros>
-		<kanones>
-			<kanonas>
-				<kontakion ihos="2">
-					<ymnos>
-						<item language="cs-ru">Архистратизи Божии, / служителие Божественныя славы, / Ангелов начальницы и человеков наставницы, / полезное нам просите и велию милость, / яко Безплотных Архистратизи.</item>
-						<item language="cs-cs">Ґрхістрати1зи б9іи, служи1теліе бжcтвенныz слaвы, ѓгGлwвъ нач†льницы, и3 человёкwмъ наст†вницы, полeзное нaмъ проси1те, и3 вeлію млcть, ћкw безпл0тныхъ ґрхістрати1зи.</item>
-					</ymnos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">Нeбо ѕвэздaми ўкраси1вый ћкw бGъ, и3 твои1ми ѓгGлы всю2 зeмлю просвэти1вый, содётелю всёхъ, пою1щыz тS сп7сaй.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
-			</kanonas>
-		</kanones>
+		<kontakia>
+			<kontakion ihos="2">
+				<ymnos>
+					<item language="cs-ru">Архистратизи Божии, / служителие Божественныя славы, / Ангелов начальницы и человеков наставницы, / полезное нам просите и велию милость, / яко Безплотных Архистратизи.</item>
+					<item language="cs-cs">Ґрхістрати1зи б9іи, служи1теліе бжcтвенныz слaвы, ѓгGлwвъ нач†льницы, и3 человёкwмъ наст†вницы, полeзное нaмъ проси1те, и3 вeлію млcть, ћкw безпл0тныхъ ґрхістрати1зи.</item>
+				</ymnos>
+			</kontakion>
+		</kontakia>
+		<exapostilarion>
+			<ymnos>
+				<text>
+					<item language="cs-cs">Нeбо ѕвэздaми ўкраси1вый ћкw бGъ, и3 твои1ми ѓгGлы всю2 зeмлю просвэти1вый, содётелю всёхъ, пою1щыz тS сп7сaй.</item>
+				</text>
+			</ymnos>
+			<theotokion>
+				<text>
+					<item language="cs-cs">Слaдость ѓгGлwвъ, скорбsщихъ рaдость, хrтіaнъ предстaтельница дв7о м™и гDнz, заступи2 нaсъ, и3 и3збaви вёчныхъ мyкъ.</item>
+				</text>
+			</theotokion>
+		</exapostilarion>
 	</orthros>
 	<leitourgia>
 		<prokeimenon ihos="4">

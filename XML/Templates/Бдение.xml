@@ -762,65 +762,6 @@
 						</troparion>
 					</odi>
 				</odes>
-				<sedalen>
-					<group ihos="1">
-						<prosomoion self="false">
-							<item language="cs-ru">Ли́к Ангельски</item>
-						</prosomoion>
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни.</item>
-							</text>
-						</ymnos>
-					</group>
-					<doxastichon ihos="4">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Слава</item>
-							</text>
-						</ymnos>
-					</doxastichon>
-					<theotokion ihos="4">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Богородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-					<theotokion kind="stavros" ihos="4">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Крестобогородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-				</sedalen>
-				<kontakion ihos="4">
-					<prosomoion self="false">
-						<item language="cs-ru">Вознесы́йся</item>
-					</prosomoion>
-					<ymnos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Кондак.</item>
-					</ymnos>
-					<ikos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Икос.</item>
-					</ikos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<prosomoion self="false">
-							<item language="cs-ru">Не́бо звезда́ми</item>
-						</prosomoion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Тропарь 1.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Богородичен.</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
 			</kanonas>
 			<kanonas ihos="6">
 				<stihos>
@@ -1044,58 +985,6 @@
 						</troparion>
 					</odi>
 				</odes>
-				<sedalen>
-					<group ihos="1">
-						<prosomoion self="false">
-							<item language="cs-ru">Ли́к Ангельски</item>
-						</prosomoion>
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Седален по 3-й песни.</item>
-							</text>
-						</ymnos>
-					</group>
-					<theotokion ihos="1">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Седален по 3-й песни. Богородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-					<theotokion kind="stavros" ihos="1">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Седален по 3-й песни. Крестобогородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-				</sedalen>
-				<kontakion ihos="4">
-					<prosomoion self="false">
-						<item language="cs-ru">Вознесы́йся</item>
-					</prosomoion>
-					<ymnos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Кондак.</item>
-					</ymnos>
-					<ikos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Икос.</item>
-					</ikos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<prosomoion self="false">
-							<item language="cs-ru">Не́бо звезда́ми</item>
-						</prosomoion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Эксапостиларий. Тропарь 1.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 2-й. Эксапостиларий. Богородичен.</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
 			</kanonas>
 			<kanonas ihos="6">
 				<stihos>
@@ -1319,60 +1208,69 @@
 						</troparion>
 					</odi>
 				</odes>
-				<sedalen>
-					<group ihos="1">
-						<prosomoion self="false">
-							<item language="cs-ru">Ли́к Ангельски</item>
-						</prosomoion>
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Седален по 3-й песни.</item>
-							</text>
-						</ymnos>
-					</group>
-					<theotokion ihos="1">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Седален по 3-й песни. Богородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-					<theotokion kind="stavros" ihos="4">
-						<ymnos>
-							<text>
-								<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Седален по 3-й песни. Крестобогородичен</item>
-							</text>
-						</ymnos>
-					</theotokion>
-				</sedalen>
-				<kontakion ihos="4">
-					<prosomoion self="false">
-						<item language="cs-ru">Вознесы́йся</item>
-					</prosomoion>
-					<ymnos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Кондак.</item>
-					</ymnos>
-					<ikos>
-						<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Икос.</item>
-					</ikos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<prosomoion self="false">
-							<item language="cs-ru">Не́бо звезда́ми</item>
-						</prosomoion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Эксапостиларий. Тропарь 1.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-ru">[item] [sign] Утреня. Канон 3-й. Эксапостиларий. Богородичен.</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
 			</kanonas>
 		</kanones>
+		<sedalen_kanonas>
+			<group ihos="1">
+				<prosomoion self="false">
+					<item language="cs-ru">Ли́к Ангельски</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни.</item>
+					</text>
+				</ymnos>
+			</group>
+			<doxastichon ihos="4">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Слава</item>
+					</text>
+				</ymnos>
+			</doxastichon>
+			<theotokion ihos="4">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+			<theotokion kind="stavros" ihos="4">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Крестобогородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sedalen_kanonas>
+		<kontakia>
+			<kontakion ihos="4">
+				<prosomoion self="false">
+					<item language="cs-ru">Вознесы́йся</item>
+				</prosomoion>
+				<ymnos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Кондак.</item>
+				</ymnos>
+				<ikos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Икос.</item>
+				</ikos>
+			</kontakion>
+		</kontakia>
+		<exapostilarion>
+			<ymnos>
+				<prosomoion self="false">
+					<item language="cs-ru">Не́бо звезда́ми</item>
+				</prosomoion>
+				<text>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Тропарь 1.</item>
+				</text>
+			</ymnos>
+			<theotokion>
+				<text>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Богородичен.</item>
+				</text>
+			</theotokion>
+		</exapostilarion>
 		<ainoi>
 			<group ihos="8">
 				<ymnos>

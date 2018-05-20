@@ -442,16 +442,16 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<ymnos>
-						<text>
-							<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Седален</item>
-						</text>
-					</ymnos>
-				</group>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Канон на малом повечерии. Седален</item>
+					</text>
+				</ymnos>
+			</group>
+		</sedalen>
 	</apodipno>
 	<mesoniktiko>
 		<kanonas ihos="1">
@@ -680,26 +680,26 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<prosomoion self="false">
-						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
-					</prosomoion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален</item>
-						</text>
-					</ymnos>
-				</group>
-				<theotokion ihos="1">
-					<ymnos>
-						<text>
-							<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален. Богородичен</item>
-						</text>
-					</ymnos>
-				</theotokion>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<prosomoion self="false">
+					<item language="cs-cs">Гр0бъ тв0й сп7се</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-cs">[ihos] [dayofweek] Канон на полунощнице. Седален. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sedalen>
 	</mesoniktiko>
 	<orthros>
 		<sed_1kathisma>
@@ -1023,17 +1023,6 @@
 						</troparion>
 					</odi>
 				</odes>
-				<kontakion ihos="1">
-					<prosomoion self="false">
-						<item language="cs-cs">Е#гдA пріи1деши</item>
-					</prosomoion>
-					<ymnos>
-						<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Кондак</item>
-					</ymnos>
-					<ikos>
-						<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Икос</item>
-					</ikos>
-				</kontakion>
 			</kanonas>
 			<kanonas ihos="1">
 				<stihos>
@@ -1322,6 +1311,19 @@
 				</odes>
 			</kanonas>
 		</kanones>
+		<kontakia>
+			<kontakion ihos="1">
+				<prosomoion self="false">
+					<item language="cs-cs">Е#гдA пріи1деши</item>
+				</prosomoion>
+				<ymnos>
+					<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Кондак</item>
+				</ymnos>
+				<ikos>
+					<item language="cs-cs">[ihos] [dayofweek] Утреня. Канон воскресный. Икос</item>
+				</ikos>
+			</kontakion>
+		</kontakia>
 		<ainoi>
 			<group ihos="1">
 				<annotation>

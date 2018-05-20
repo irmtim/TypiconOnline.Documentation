@@ -317,19 +317,19 @@
 					</troparion>
 				</odi>
 			</odes>
-			<sedalen>
-				<group ihos="1">
-					<prosomoion self="false">
-						<item language="cs-cs">Гр0бъ тв0й сп7се</item>
-					</prosomoion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">Мlтвенницу ко гDу стzжaхомъ тS вси2 чcтаz, и3 притекaемъ въ цRковь твою2 с™yю, просsще п0мощи t тебE приснодв7о: и3збaви u5бо нaсъ t бэс0вскіz ѕл0бы и3 мучeніz, и3 њсуждeніz стрaшнагw, тS блажaщыz.</item>
-						</text>
-					</ymnos>
-				</group>
-			</sedalen>
 		</kanonas>
+		<sedalen>
+			<group ihos="1">
+				<prosomoion self="false">
+					<item language="cs-cs">Гр0бъ тв0й сп7се</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-cs">Мlтвенницу ко гDу стzжaхомъ тS вси2 чcтаz, и3 притекaемъ въ цRковь твою2 с™yю, просsще п0мощи t тебE приснодв7о: и3збaви u5бо нaсъ t бэс0вскіz ѕл0бы и3 мучeніz, и3 њсуждeніz стрaшнагw, тS блажaщыz.</item>
+					</text>
+				</ymnos>
+			</group>
+		</sedalen>
 	</apodipno>
 	<orthros>
 		<sed_1kathisma>

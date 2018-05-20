@@ -27,28 +27,26 @@
 		</troparion>
 	</esperinos>
 	<orthros>
-		<kanones>
-			<kanonas>
-				<kontakion ihos="4">
-					<ymnos>
-						<item language="cs-cs">Вознесhйсz на кrтъ в0лею, тезоимени1тому твоемY н0вому жи1тельству, щедрHты тво‰ дaруй хrтE б9е, возвесели2 нaсъ си1лою твоeю, побBды даS нaмъ на сопостaты, пос0біе и3мyщымъ твоE nрyжіе ми1ра, непобэди1мую побёду.</item>
-						<item language="cs-ru">Вознесыйся на Крест волею, / тезоименитому Твоему новому жительству / щедроты Твоя даруй, Христе Боже, / возвесели нас силою Твоею, / победы дая нам на сопостаты, / пособие имущим Твое oружие мира, / непобедимую победу.</item>
-					</ymnos>
-				</kontakion>
-				<exapostilarion>
-					<ymnos>
-						<text>
-							<item language="cs-cs">Кrтъ - храни1тель всеS вселeннаz, кrтъ - красотA цRкве, кrтъ - вёрныхъ ўтверждeніе, кrтъ - ѓгGлwвъ слaва и3 дeмwнwвъ ћзва.</item>
-						</text>
-					</ymnos>
-					<theotokion>
-						<text>
-							<item language="cs-cs">Ў кrтA предстоsщи, тS безсёменнw р0ждшаz, и3 рыдaющи вопіsше: ўвы2 сладчaйшее чaдо, кaкw зашeлъ є3си2 t џчію моeю; кaкw въ мeртвыхъ вмэни1лсz є3си2;</item>
-						</text>
-					</theotokion>
-				</exapostilarion>
-			</kanonas>
-		</kanones>
+		<kontakia>
+			<kontakion ihos="4">
+				<ymnos>
+					<item language="cs-cs">Вознесhйсz на кrтъ в0лею, тезоимени1тому твоемY н0вому жи1тельству, щедрHты тво‰ дaруй хrтE б9е, возвесели2 нaсъ си1лою твоeю, побBды даS нaмъ на сопостaты, пос0біе и3мyщымъ твоE nрyжіе ми1ра, непобэди1мую побёду.</item>
+					<item language="cs-ru">Вознесыйся на Крест волею, / тезоименитому Твоему новому жительству / щедроты Твоя даруй, Христе Боже, / возвесели нас силою Твоею, / победы дая нам на сопостаты, / пособие имущим Твое oружие мира, / непобедимую победу.</item>
+				</ymnos>
+			</kontakion>
+		</kontakia>
+		<exapostilarion>
+			<ymnos>
+				<text>
+					<item language="cs-cs">Кrтъ - храни1тель всеS вселeннаz, кrтъ - красотA цRкве, кrтъ - вёрныхъ ўтверждeніе, кrтъ - ѓгGлwвъ слaва и3 дeмwнwвъ ћзва.</item>
+				</text>
+			</ymnos>
+			<theotokion>
+				<text>
+					<item language="cs-cs">Ў кrтA предстоsщи, тS безсёменнw р0ждшаz, и3 рыдaющи вопіsше: ўвы2 сладчaйшее чaдо, кaкw зашeлъ є3си2 t џчію моeю; кaкw въ мeртвыхъ вмэни1лсz є3си2;</item>
+				</text>
+			</theotokion>
+		</exapostilarion>
 	</orthros>
 	<leitourgia>
 		<prokeimenon ihos="3">

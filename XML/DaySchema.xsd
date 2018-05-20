@@ -39,11 +39,13 @@
 	<xs:complexType name="apodipnoType">
 		<xs:sequence>
 			<xs:element name="kanonas" type="kanonasType" maxOccurs="1"/>
+			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="mesoniktikoType">
 		<xs:sequence>
 			<xs:element name="kanonas" type="kanonasType" maxOccurs="1"/>
+			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="sixhourType">
@@ -186,6 +188,15 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="sedalen_kanonas" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kontakia" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="kontakion" type="kontakionType" maxOccurs="2"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="exapostilarion" type="exapostilarionType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="ainoi" type="sticheraType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
@@ -312,6 +323,7 @@
 					<xs:enumeration value="nekrosimo"/>
 					<xs:enumeration value="irmos"/>
 					<xs:enumeration value="katavasia"/>
+					<xs:enumeration value="alleluia"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -333,9 +345,6 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="kontakion" type="kontakionType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="exapostilarion" type="exapostilarionType" minOccurs="0"/>
 		</xs:sequence>
 		<xs:attribute name="ihos" type="xs:byte"/>
 	</xs:complexType>
