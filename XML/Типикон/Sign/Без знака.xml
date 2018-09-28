@@ -28,6 +28,120 @@
 					<item language="cs-ru">Божественная литургия.</item>
 				</name>
 			</worship>
+			<!-- Если не в период Великого или Успенского постов -->
+			<!--if>
+				<expression>
+					<or>
+						<less>
+							<date/>
+							<datebydaysfromeaster>
+								<int>0</int>
+							</datebydaysfromeaster>
+						</less>
+						<more>
+							<date/>
+							<datebydaysfromeaster>
+								<int>56</int>
+							</datebydaysfromeaster>
+						</more>
+					</or>
+				</expression>
+				<then-->
+					<!-- Если это первое воскресенье месяца-->
+					<if>
+						<expression>
+							<or>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--01-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--02-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--03-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--04-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--05-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--06-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--07-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--08-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--09-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--10-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--11-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--12-01</date>
+									</getclosestday>
+									<date/>
+								</equals>
+							</or>
+						</expression>
+						<then>
+							<worship>
+								<name>
+									<item language="cs-ru">Молебен перед иконой Божией Матери "Всецарица".</item>
+								</name>
+							</worship>
+						</then>
+						<else>
+							<worship>
+								<name>
+									<item language="cs-ru">Общий молебен. Лития по усопшим.</item>
+								</name>
+							</worship>
+						</else>
+					</if>
+				<!--/then>
+			</if-->
 		</then>
 		<else>
 			<worship id="1" time="17.30" isdaybefore="true">
@@ -618,6 +732,89 @@
 							</k_after>
 							<k_after number="9">
 								<commonrule name="Ектения_малая9"/>
+								<!-- Эксапостиларий по 9-ой песне канона -->
+								<exapostilarionrule>
+									<if>
+										<expression>
+											<!-- если предпразднество или попразднество-->
+											<iscelebrating/>
+										</expression>
+										<then>
+											<exap_item source="item1" place="exap1" kind="exap"/>
+											<exap_item source="item1" place="exap1" kind="theotokion"/>
+										</then>
+										<else>
+											<if>
+												<!-- если два святых-->
+												<expression>
+													<istwosaints/>
+												</expression>
+												<then>
+													<exap_item source="item1" place="exap1" kind="exap"/>
+													<exap_item source="item2" place="exap1" kind="exap"/>
+													<exap_item source="oktoikh" place="exap1" kind="exap"/>
+													<exap_item source="weekday" place="theotokion" kind="theotokion"/>
+												</then>
+												<!-- При одном святом -->
+												<else>
+													<exap_item source="weekday" place="exap1" kind="exap"/>
+													<if>
+														<expression>
+															<!-- четверг -->
+															<equals>
+																<getdayofweek>
+																	<date/>
+																</getdayofweek>
+																<getdayofweek name="четверг"/>
+															</equals>
+														</expression>
+														<then>
+															<exap_item source="weekday" place="exap2" kind="exap"/>
+														</then>
+													</if>
+													<if>
+														<expression>
+															<exists>
+																<exap_item source="item1" place="exap1" kind="exap"/>
+															</exists>
+														</expression>
+														<then>
+															<exap_item source="item1" place="exap1" kind="exap"/>
+															<if>
+																<expression>
+																	<!-- среда или пятница-->
+																	<or>
+																		<equals>
+																			<getdayofweek>
+																				<date/>
+																			</getdayofweek>
+																			<getdayofweek name="среда"/>
+																		</equals>
+																		<equals>
+																			<getdayofweek>
+																				<date/>
+																			</getdayofweek>
+																			<getdayofweek name="пятница"/>
+																		</equals>
+																	</or>
+																</expression>
+																<then>
+																	<exap_item source="weekday" place="theotokion" kind="theotokion"/>
+																</then>
+																<else>
+																	<exap_item source="item1" place="theotokion" kind="theotokion"/>
+																</else>
+															</if>
+														</then>
+														<else>
+															<exap_item source="weekday" place="theotokion" kind="theotokion"/>
+														</else>
+													</if>
+												</else>
+											</if>
+										</else>
+									</if>
+								</exapostilarionrule>
 							</k_after>
 							<k_odi>
 								<!-- ПРАВИЛА ДЛЯ КАНОНОВ-->
@@ -709,6 +906,83 @@
 					<item language="cs-ru">Божественная литургия.</item>
 				</name>
 			</worship>
+			<!-- если день - вне дней Великого поста, а также Петрова, Успенского и Рождественского-->
+			<!--if>
+				<expression>
+					<or>
+						<less>
+							<date/>
+							<datebydaysfromeaster>
+								<int>0</int>
+							</datebydaysfromeaster>
+						</less>
+						<more>
+							<date/>
+							<datebydaysfromeaster>
+								<int>56</int>
+							</datebydaysfromeaster>
+						</more>
+					</or>
+				</expression>
+				<then-->
+					<!-- Если четверг, добавляем молебен свт. Николаю Чудотворцу-->
+					<if>
+						<expression>
+							<equals>
+								<getdayofweek>
+									<date/>
+								</getdayofweek>
+								<getdayofweek name="четверг"/>
+							</equals>
+						</expression>
+						<then>
+							<worship>
+								<name>
+									<item language="cs-ru">Молебен свт. Николаю Чудотворцу.</item>
+								</name>
+							</worship>
+						</then>
+						<else>
+							<if>
+								<expression>
+									<equals>
+										<getdayofweek>
+											<date/>
+										</getdayofweek>
+										<getdayofweek name="пятница"/>
+									</equals>
+								</expression>
+								<then>
+									<worship>
+										<name>
+											<item language="cs-ru">Молебен перед иконой Божией Матери "Неупиваемая чаша".</item>
+										</name>
+									</worship>
+								</then>
+								<else>
+									<if>
+										<expression>
+											<equals>
+												<getdayofweek>
+													<date/>
+												</getdayofweek>
+												<getdayofweek name="суббота"/>
+											</equals>
+										</expression>
+										<then>
+											<worship>
+												<name>
+													<item language="cs-ru">Молебен перед иконой "Лобзание Иисуса Христа Иудою".</item>
+												</name>
+											</worship>
+										</then>
+									</if>
+								</else>
+							</if>
+						</else>
+					</if>
+				<!--/then>
+			</if-->
 		</else>
 	</if>
 </rule>

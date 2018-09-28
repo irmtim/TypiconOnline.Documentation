@@ -359,4 +359,1665 @@
     </Entities>
     <Relationships />
   </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Service</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Interface">
+        <Name>IJobService</Name>
+        <Access>Public</Access>
+        <Location left="508" top="52" />
+        <Size width="163" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Run()</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>JobService</Name>
+        <Access>Public</Access>
+        <Location left="246" top="314" />
+        <Size width="163" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Run()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IJobRepository</Name>
+        <Access>Public</Access>
+        <Location left="572" top="284" />
+        <Size width="184" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">IEnumerable&lt;ICommand&gt; GetAll()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IJob</Name>
+        <Access>Public</Access>
+        <Location left="942" top="156" />
+        <Size width="163" height="61" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Class">
+        <Name>CreateModifiedYearJob</Name>
+        <Access>Public</Access>
+        <Location left="942" top="341" />
+        <Size width="171" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public int TypiconId { get; set; }</Member>
+        <Member type="Property">public int Year { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CreateCompiledRulesJob</Name>
+        <Access>Public</Access>
+        <Location left="1176" top="341" />
+        <Size width="171" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public int TypiconId { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CreateCompiledRulesYearJob</Name>
+        <Access>Public</Access>
+        <Location left="1402" top="341" />
+        <Size width="182" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public int TypiconId { get; set; }</Member>
+        <Member type="Property">public int Year { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ICommandHandler&lt;ICommand&gt;</Name>
+        <Access>Public</Access>
+        <Location left="823" top="489" />
+        <Size width="230" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Execute(ICommand command)</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>CreateModifiedYearJobHandler&lt;CreateModifiedYearJob&gt;</Name>
+        <Access>Public</Access>
+        <Location left="864" top="653" />
+        <Size width="363" height="100" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Execute(ICommand command)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ICommand</Name>
+        <Access>Public</Access>
+        <Location left="916" top="34" />
+        <Size width="162" height="61" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Realization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>594</X>
+          <Y>165</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="4" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1031</X>
+          <Y>242</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="5" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1031</X>
+          <Y>242</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="6" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1031</X>
+          <Y>242</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="7" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>917</X>
+          <Y>459</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>962</X>
+          <Y>245</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="8" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>TypiconOnline.Domain.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>DayStructureBase</Name>
+        <Access>Public</Access>
+        <Location left="3391" top="4442" />
+        <Size width="163" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">protected DayStructureBase()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayRuleWorship</Name>
+        <Access>Public</Access>
+        <Location left="2651" top="4291" />
+        <Size width="227" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 DayRuleId { get; set; }</Member>
+        <Member type="Property">public virtual DayRule DayRule { get; set; }</Member>
+        <Member type="Property">public Int32 DayWorshipId { get; set; }</Member>
+        <Member type="Property">public virtual DayWorship DayWorship { get; set; }</Member>
+        <Member type="Constructor">public DayRuleWorship()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Day</Name>
+        <Access>Public</Access>
+        <Location left="3605" top="3717" />
+        <Size width="264" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual List&lt;DayWorship&gt; DayWorships { get; set; }</Member>
+        <Member type="Constructor">protected Day()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Void AppendDayService(DayWorship serv)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayWorship</Name>
+        <Access>Public</Access>
+        <Location left="3114" top="4714" />
+        <Size width="278" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual ItemTextStyled WorshipName { get; set; }</Member>
+        <Member type="Property">public virtual ItemTextStyled WorshipShortName { get; set; }</Member>
+        <Member type="Property">public virtual Boolean UseFullName { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsCelebrating { get; set; }</Member>
+        <Member type="Property">public virtual Day Parent { get; set; }</Member>
+        <Member type="Constructor">public DayWorship()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MenologyDay</Name>
+        <Access>Public</Access>
+        <Location left="3764" top="3992" />
+        <Size width="233" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual ItemDate Date { get; set; }</Member>
+        <Member type="Property">public virtual ItemDate DateB { get; set; }</Member>
+        <Member type="Constructor">public MenologyDay()</Member>
+        <Member type="Method">public DateTime GetCurrentDate(Int32 year)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriodionDay</Name>
+        <Access>Public</Access>
+        <Location left="3508" top="3992" />
+        <Size width="215" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual Int32 DaysFromEaster { get; set; }</Member>
+        <Member type="Constructor">public TriodionDay()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RuleEntity</Name>
+        <Access>Public</Access>
+        <Location left="2017" top="3513" />
+        <Size width="323" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private IRuleElement _rule</Member>
+        <Member type="Field">protected String _ruleDefinition</Member>
+        <Member type="Property">public virtual Int32 TypiconEntityId { get; set; }</Member>
+        <Member type="Property">public virtual TypiconEntity TypiconEntity { get; set; }</Member>
+        <Member type="Property">public virtual String RuleDefinition { get; set; }</Member>
+        <Member type="Constructor">protected RuleEntity()</Member>
+        <Member type="Method">public IRuleElement GetRule(IRuleSerializerRoot serializerRoot)</Member>
+        <Member type="Method">public virtual T GetRule(IRuleSerializerRoot serializerRoot)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CommonRule</Name>
+        <Access>Public</Access>
+        <Location left="2507" top="3843" />
+        <Size width="167" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual String Name { get; set; }</Member>
+        <Member type="Constructor">public CommonRule()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayRule</Name>
+        <Access>Public</Access>
+        <Location left="2150" top="4123" />
+        <Size width="341" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual ICollection&lt;DayRuleWorship&gt; DayRuleWorships { get; set; }</Member>
+        <Member type="Property">public List&lt;DayWorship&gt; DayWorships { get; }</Member>
+        <Member type="Constructor">public DayRule()</Member>
+        <Member type="Method">public override String GetNameByLanguage(String language)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TypiconRule</Name>
+        <Access>Public</Access>
+        <Location left="2184" top="3831" />
+        <Size width="269" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual Int32 TemplateId { get; set; }</Member>
+        <Member type="Property">public virtual Sign Template { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsAddition { get; set; }</Member>
+        <Member type="Constructor">protected TypiconRule()</Member>
+        <Member type="Method">public override T GetRule(IRuleSerializerRoot serializerRoot)</Member>
+        <Member type="Method">public abstract String GetNameByLanguage(String language)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TriodionRule</Name>
+        <Access>Public</Access>
+        <Location left="2249" top="4436" />
+        <Size width="215" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual Int32 DaysFromEaster { get; set; }</Member>
+        <Member type="Constructor">public TriodionRule()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MenologyRule</Name>
+        <Access>Public</Access>
+        <Location left="1876" top="4436" />
+        <Size width="233" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual ItemDate Date { get; set; }</Member>
+        <Member type="Property">public virtual ItemDate DateB { get; set; }</Member>
+        <Member type="Constructor">public MenologyRule()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public DateTime GetCurrentDate(Int32 year)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sign</Name>
+        <Access>Public</Access>
+        <Location left="1824" top="3831" />
+        <Size width="269" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual Int32? TemplateId { get; set; }</Member>
+        <Member type="Property">public virtual Sign Template { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsAddition { get; set; }</Member>
+        <Member type="Property">public Int32? Number { get; set; }</Member>
+        <Member type="Property">public Int32 Priority { get; set; }</Member>
+        <Member type="Property">public Boolean IsTemplate { get; set; }</Member>
+        <Member type="Property">public ItemText SignName { get; set; }</Member>
+        <Member type="Constructor">public Sign()</Member>
+        <Member type="Method">public String GetNameByLanguage(String language)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Int32 GetNumber()</Member>
+        <Member type="Method">public Sign GetPredefinedTemplate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TypiconEntity</Name>
+        <Access>Public</Access>
+        <Location left="1447" top="3338" />
+        <Size width="403" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Name { get; set; }</Member>
+        <Member type="Property">public virtual TypiconEntity Template { get; set; }</Member>
+        <Member type="Property">public Boolean IsTemplate { get; }</Member>
+        <Member type="Property">public virtual List&lt;Sign&gt; Signs { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;ModifiedYear&gt; ModifiedYears { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;CommonRule&gt; CommonRules { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;MenologyRule&gt; MenologyRules { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;TriodionRule&gt; TriodionRules { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;Kathisma&gt; Kathismas { get; set; }</Member>
+        <Member type="Property">public virtual String DefaultLanguage { get; set; }</Member>
+        <Member type="Constructor">public TypiconEntity()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public MenologyRule GetMenologyRule(DateTime date)</Member>
+        <Member type="Method">public TriodionRule GetTriodionRule(Int32 daysFromEaster)</Member>
+        <Member type="Method">public CommonRule GetCommonRule(Func&lt;CommonRule, Boolean&gt; predicate)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PsalmLink</Name>
+        <Access>Public</Access>
+        <Location left="1427" top="4782" />
+        <Size width="194" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Psalm Psalm { get; set; }</Member>
+        <Member type="Property">public Int32? StartStihos { get; set; }</Member>
+        <Member type="Property">public Int32? EndStihos { get; set; }</Member>
+        <Member type="Constructor">public PsalmLink()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SlavaElement</Name>
+        <Access>Public</Access>
+        <Location left="1427" top="4492" />
+        <Size width="244" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Index { get; }</Member>
+        <Member type="Property">public List&lt;PsalmLink&gt; PsalmLinks { get; set; }</Member>
+        <Member type="Constructor">public SlavaElement()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Kathisma</Name>
+        <Access>Public</Access>
+        <Location left="1362" top="4186" />
+        <Size width="278" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public TypiconEntity TypiconEntity { get; set; }</Member>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Property">public ItemText NumberName { get; set; }</Member>
+        <Member type="Property">public List&lt;SlavaElement&gt; SlavaElements { get; set; }</Member>
+        <Member type="Constructor">public Kathisma()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayWorshipsFilter</Name>
+        <Access>Public</Access>
+        <Location left="1000" top="4719" />
+        <Size width="218" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32? ExcludedItem { get; set; }</Member>
+        <Member type="Property">public Int32? IncludedItem { get; set; }</Member>
+        <Member type="Property">public Boolean? IsCelebrating { get; set; }</Member>
+        <Member type="Constructor">public DayWorshipsFilter()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ModifiedRule</Name>
+        <Access>Public</Access>
+        <Location left="989" top="4186" />
+        <Size width="358" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private ItemTextStyled shortName</Member>
+        <Member type="Field">private DayWorshipsFilter filter</Member>
+        <Member type="Property">public virtual Int32 ModifiedYearId { get; set; }</Member>
+        <Member type="Property">public virtual ModifiedYear Parent { get; set; }</Member>
+        <Member type="Property">public virtual Int32 DayRuleId { get; set; }</Member>
+        <Member type="Property">public virtual DayRule DayRule { get; set; }</Member>
+        <Member type="Property">public virtual DateTime Date { get; set; }</Member>
+        <Member type="Property">public virtual Int32 Priority { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsLastName { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsAddition { get; set; }</Member>
+        <Member type="Property">public virtual Boolean UseFullName { get; set; }</Member>
+        <Member type="Property">public virtual Int32? SignNumber { get; set; }</Member>
+        <Member type="Property">public virtual ItemTextStyled ShortName { get; set; }</Member>
+        <Member type="Property">public virtual DayWorshipsFilter Filter { get; set; }</Member>
+        <Member type="Property">public List&lt;DayWorship&gt; DayWorships { get; }</Member>
+        <Member type="Constructor">public ModifiedRule()</Member>
+        <Member type="Method">private List&lt;DayWorship&gt; ApplyFilter(List&lt;DayWorship&gt; dayWorships)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Int32 CompareTo(ModifiedRule other)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ModifiedYear</Name>
+        <Access>Public</Access>
+        <Location left="937" top="3839" />
+        <Size width="326" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ModifiedRule&gt; modifiedRules</Member>
+        <Member type="Property">public Int32 TypiconEntityId { get; set; }</Member>
+        <Member type="Property">public virtual TypiconEntity TypiconEntity { get; set; }</Member>
+        <Member type="Property">public Int32 Year { get; set; }</Member>
+        <Member type="Property">public virtual IEnumerable&lt;ModifiedRule&gt; ModifiedRules { get; set; }</Member>
+        <Member type="Constructor">public ModifiedYear()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Void AddModifiedRule(ModificationsRuleRequest request)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TheotokionApp</Name>
+        <Access>Public</Access>
+        <Location left="4123" top="4714" />
+        <Size width="234" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual TheotokionAppPlace Place { get; set; }</Member>
+        <Member type="Property">public virtual Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public virtual DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public TheotokionApp()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PsalmStihos</Name>
+        <Access>Public</Access>
+        <Location left="4446" top="5025" />
+        <Size width="175" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Constructor">public PsalmStihos()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Psalm</Name>
+        <Access>Public</Access>
+        <Location left="4391" top="4714" />
+        <Size width="311" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private BookReading reading</Member>
+        <Member type="Property">public virtual Int32 Number { get; set; }</Member>
+        <Member type="Constructor">public Psalm()</Member>
+        <Member type="Method">public override BookReading GetElement(ITypiconSerializer serializer)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>OktoikhDay</Name>
+        <Access>Public</Access>
+        <Location left="3414" top="4714" />
+        <Size width="224" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public OktoikhDay()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Katavasia</Name>
+        <Access>Public</Access>
+        <Location left="3924" top="4714" />
+        <Size width="167" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Name { get; set; }</Member>
+        <Member type="Constructor">public Katavasia()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>WeekDayApp</Name>
+        <Access>Public</Access>
+        <Location left="3670" top="4714" />
+        <Size width="224" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public WeekDayApp()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BookElementBase&lt;T&gt;</Name>
+        <Access>Public</Access>
+        <Location left="3605" top="4185" />
+        <Size width="255" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual String Definition { get; set; }</Member>
+        <Member type="Constructor">protected BookElementBase()</Member>
+        <Member type="Method">public virtual T GetElement(ITypiconSerializer serializer)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3308</X>
+          <Y>4689</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3853</X>
+          <Y>3966</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>3714</X>
+          <Y>3895</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3574</X>
+          <Y>3968</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>3661</X>
+          <Y>3897</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="7" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2582</X>
+          <Y>3813</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2315</X>
+          <Y>3772</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="8" second="9">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2294</X>
+          <Y>4094</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2294</X>
+          <Y>4036</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="9" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2286</X>
+          <Y>3803</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2078</X>
+          <Y>3776</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="10" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2332</X>
+          <Y>4411</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2268</X>
+          <Y>4301</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="11" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1969</X>
+          <Y>4410</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2208</X>
+          <Y>4301</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="12" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1895</X>
+          <Y>3801</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2045</X>
+          <Y>3774</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="23" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>3473</X>
+          <Y>4562</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="25" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="18" second="17">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>filter</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="12">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1788</X>
+          <Y>3866</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1683</X>
+          <Y>3736</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2636</X>
+          <Y>3816</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1706</X>
+          <Y>4081</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1919</X>
+          <Y>4411</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1761</X>
+          <Y>4330</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2363</X>
+          <Y>4411</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="16">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1571</X>
+          <Y>3707</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="16" second="15">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="15" second="14">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="8" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="19">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="19" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1068</X>
+          <Y>4108</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1068</X>
+          <Y>4143</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="2" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3462</X>
+          <Y>3875</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>3271</X>
+          <Y>4688</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="22" second="21">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3157</X>
+          <Y>4689</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="12" second="9">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2123</X>
+          <Y>3953</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Generalization" first="0" second="26">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>3480</X>
+          <Y>4413</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>3700</X>
+          <Y>4371</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="24" second="26">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="20" second="26">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="22" second="26">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="12" second="12">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2118</X>
+          <Y>4011</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>0..1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="13" second="13">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1890</X>
+          <Y>3506</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1673</X>
+          <Y>3303</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>0..1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>TypiconOnline.Domain.dll2</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Interface">
+        <Name>IBookElement&lt;T&gt;</Name>
+        <Access>Internal</Access>
+        <Location left="3616" top="4400" />
+        <Size width="255" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">T GetElement(ITypiconSerializer serializer)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IAsAdditionElement</Name>
+        <Access>Public</Access>
+        <Location left="3404" top="4400" />
+        <Size width="280" height="129" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">IAsAdditionElement Parent { get; }</Member>
+        <Member type="Property">String AsAdditionName { get; }</Member>
+        <Member type="Property">AsAdditionMode AsAdditionMode { get; set; }</Member>
+        <Member type="Method">Void RewriteValues(IAsAdditionElement source)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IDayRule</Name>
+        <Access>Public</Access>
+        <Location left="3192" top="4400" />
+        <Size width="242" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">List&lt;DayWorship&gt; DayWorships { get; }</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IIntConverter</Name>
+        <Access>Public</Access>
+        <Location left="2980" top="4400" />
+        <Size width="271" height="129" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">Int32 Parse(String str)</Member>
+        <Member type="Method">Boolean TryParse(String str, out Int32 value)</Member>
+        <Member type="Method">Boolean IsDigit(String str)</Member>
+        <Member type="Method">String ToString(Int32 value)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IMergable&lt;T&gt;</Name>
+        <Access>Public</Access>
+        <Location left="2768" top="4400" />
+        <Size width="163" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">Void Merge(T source)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IPsalterElement</Name>
+        <Access>Public</Access>
+        <Location left="2556" top="4400" />
+        <Size width="163" height="61" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleElement</Name>
+        <Access>Public</Access>
+        <Location left="2344" top="4400" />
+        <Size width="366" height="112" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">String ElementName { get; }</Member>
+        <Member type="Property">Boolean IsValid { get; }</Member>
+        <Member type="Method">IReadOnlyCollection&lt;BusinessConstraint&gt; GetBrokenConstraints()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleSerializerContainer&lt;T&gt;</Name>
+        <Access>Public</Access>
+        <Location left="2132" top="4400" />
+        <Size width="364" height="112" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">T Deserialize(String description)</Member>
+        <Member type="Method">T Deserialize(IDescriptor descriptor, IAsAdditionElement parent)</Member>
+        <Member type="Method">String Serialize(T element)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ITemplateHavingEntity</Name>
+        <Access>Public</Access>
+        <Location left="1920" top="4400" />
+        <Size width="265" height="129" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">Boolean IsAddition { get; set; }</Member>
+        <Member type="Property">Sign Template { get; set; }</Member>
+        <Member type="Property">String RuleDefinition { get; set; }</Member>
+        <Member type="Method">T GetRule(IRuleSerializerRoot serializerRoot)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ITypiconSerializer</Name>
+        <Access>Public</Access>
+        <Location left="1708" top="4400" />
+        <Size width="304" height="129" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">T Deserialize(String expression)</Member>
+        <Member type="Method">T Deserialize(String expression, String rootElement)</Member>
+        <Member type="Method">String Serialize(T value)</Member>
+        <Member type="Method">String Serialize(T value, String rootElement)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IBookStorage</Name>
+        <Access>Public</Access>
+        <Location left="1496" top="4400" />
+        <Size width="313" height="197" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">IEvangelionContext CreateEvangelionContext()</Member>
+        <Member type="Method">IApostolContext CreateApostolContext()</Member>
+        <Member type="Method">IOldTestamentContext CreateOldTestamentContext()</Member>
+        <Member type="Method">IPsalterContext CreatePsalterContext()</Member>
+        <Member type="Method">IOktoikhContext CreateOktoikhContext()</Member>
+        <Member type="Method">ITheotokionAppContext CreateTheotokionAppContext()</Member>
+        <Member type="Method">IEasterContext CreateEastersContext()</Member>
+        <Member type="Method">IKatavasiaContext CreateKatavasiaContext()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IDayWorshipFactory</Name>
+        <Access>Public</Access>
+        <Location left="1284" top="4400" />
+        <Size width="163" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">DayWorship Create()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IContainingIhos</Name>
+        <Access>Public</Access>
+        <Location left="1072" top="4400" />
+        <Size width="163" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">Int32 Ihos { get; set; }</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IDescriptor&lt;T&gt;</Name>
+        <Access>Public</Access>
+        <Location left="860" top="4400" />
+        <Size width="163" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">T Element { get; set; }</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IDescriptor</Name>
+        <Access>Public</Access>
+        <Location left="648" top="4400" />
+        <Size width="272" height="112" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">String Description { get; set; }</Member>
+        <Member type="Method">String GetElementName()</Member>
+        <Member type="Method">IDescriptor CreateInstance(String description)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleCheckParameter</Name>
+        <Access>Public</Access>
+        <Location left="436" top="4400" />
+        <Size width="235" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">Boolean Check(IRuleElement element)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleApplyParameter</Name>
+        <Access>Public</Access>
+        <Location left="224" top="4400" />
+        <Size width="216" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">Void Apply(IRuleElement element)</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IRuleCustomParameter</Name>
+        <Access>Public</Access>
+        <Location left="12" top="4400" />
+        <Size width="163" height="61" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="Class">
+        <Name>BookElementBase&lt;T&gt;</Name>
+        <Access>Public</Access>
+        <Location left="1554" top="1913" />
+        <Size width="255" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual String Definition { get; set; }</Member>
+        <Member type="Constructor">protected BookElementBase()</Member>
+        <Member type="Method">public virtual T GetElement(ITypiconSerializer serializer)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayStructureBase</Name>
+        <Access>Public</Access>
+        <Location left="1491" top="2289" />
+        <Size width="163" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">protected DayStructureBase()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayWorship</Name>
+        <Access>Public</Access>
+        <Location left="1738" top="2463" />
+        <Size width="278" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual ItemTextStyled WorshipName { get; set; }</Member>
+        <Member type="Property">public virtual ItemTextStyled WorshipShortName { get; set; }</Member>
+        <Member type="Property">public virtual Boolean UseFullName { get; set; }</Member>
+        <Member type="Property">public virtual Boolean IsCelebrating { get; set; }</Member>
+        <Member type="Property">public virtual Day Parent { get; set; }</Member>
+        <Member type="Constructor">public DayWorship()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TheotokionApp</Name>
+        <Access>Public</Access>
+        <Location left="935" top="2463" />
+        <Size width="234" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual TheotokionAppPlace Place { get; set; }</Member>
+        <Member type="Property">public virtual Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public virtual DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public TheotokionApp()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Psalm</Name>
+        <Access>Public</Access>
+        <Location left="2245" top="2463" />
+        <Size width="311" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private BookReading reading</Member>
+        <Member type="Property">public virtual Int32 Number { get; set; }</Member>
+        <Member type="Constructor">public Psalm()</Member>
+        <Member type="Method">public override BookReading GetElement(ITypiconSerializer serializer)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>OktoikhDay</Name>
+        <Access>Public</Access>
+        <Location left="1478" top="2463" />
+        <Size width="224" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public OktoikhDay()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Katavasia</Name>
+        <Access>Public</Access>
+        <Location left="2049" top="2463" />
+        <Size width="167" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Name { get; set; }</Member>
+        <Member type="Constructor">public Katavasia()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>WeekDayApp</Name>
+        <Access>Public</Access>
+        <Location left="1222" top="2463" />
+        <Size width="224" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public DayOfWeek DayOfWeek { get; set; }</Member>
+        <Member type="Constructor">public WeekDayApp()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EvangelionBook</Name>
+        <Access>Public</Access>
+        <Location left="3616" top="776" />
+        <Size width="276" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual String Name { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;EvangelionChapter&gt; Chapters { get; set; }</Member>
+        <Member type="Constructor">public EvangelionBook()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EvangelionChapter</Name>
+        <Access>Public</Access>
+        <Location left="3404" top="776" />
+        <Size width="175" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Constructor">public EvangelionChapter()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ApostlesPart</Name>
+        <Access>Public</Access>
+        <Location left="3192" top="776" />
+        <Size width="175" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Constructor">public ApostlesPart()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BookStihos</Name>
+        <Access>Public</Access>
+        <Location left="2768" top="776" />
+        <Size width="213" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 ChapterNumber { get; set; }</Member>
+        <Member type="Property">public Int32 StihosNumber { get; set; }</Member>
+        <Member type="Constructor">public BookStihos()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayContainer</Name>
+        <Access>Public</Access>
+        <Location left="2556" top="776" />
+        <Size width="266" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public ItemText Name { get; set; }</Member>
+        <Member type="Property">public MikrosEsperinos MikrosEsperinos { get; set; }</Member>
+        <Member type="Property">public Esperinos Esperinos { get; set; }</Member>
+        <Member type="Property">public Orthros Orthros { get; set; }</Member>
+        <Member type="Property">public SixHour SixHour { get; set; }</Member>
+        <Member type="Property">public Leitourgia Leitourgia { get; set; }</Member>
+        <Member type="Constructor">public DayContainer()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DayElementBase</Name>
+        <Access>Public</Access>
+        <Location left="1996" top="875" />
+        <Size width="163" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">protected DayElementBase()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Esperinos</Name>
+        <Access>Public</Access>
+        <Location left="1496" top="776" />
+        <Size width="259" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public List&lt;Prokeimenon&gt; Prokeimeni { get; set; }</Member>
+        <Member type="Property">public List&lt;Paroimia&gt; Paroimies { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Liti { get; set; }</Member>
+        <Member type="Constructor">public Esperinos()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Evangelion</Name>
+        <Access>Public</Access>
+        <Location left="1284" top="776" />
+        <Size width="239" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public List&lt;EvangelionPart&gt; Parts { get; set; }</Member>
+        <Member type="Constructor">public Evangelion()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EvangelionPart</Name>
+        <Access>Public</Access>
+        <Location left="1072" top="776" />
+        <Size width="239" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public EvangelionBook BookName { get; set; }</Member>
+        <Member type="Constructor">public EvangelionPart()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Exapostilarion</Name>
+        <Access>Public</Access>
+        <Location left="648" top="776" />
+        <Size width="262" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public List&lt;ExapostilarionItem&gt; Ymnis { get; set; }</Member>
+        <Member type="Property">public ExapostilarionItem Theotokion { get; set; }</Member>
+        <Member type="Constructor">public Exapostilarion()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Void Merge(Exapostilarion source)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExapostilarionItem</Name>
+        <Access>Public</Access>
+        <Location left="436" top="776" />
+        <Size width="224" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Prosomoion Prosomoion { get; set; }</Member>
+        <Member type="Property">public ItemText Annotation { get; set; }</Member>
+        <Member type="Property">public ItemText Text { get; set; }</Member>
+        <Member type="Constructor">public ExapostilarionItem()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Kanonas</Name>
+        <Access>Public</Access>
+        <Location left="224" top="776" />
+        <Size width="207" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public ItemText Name { get; set; }</Member>
+        <Member type="Property">public ItemText Annotation { get; set; }</Member>
+        <Member type="Property">public ItemText Acrostic { get; set; }</Member>
+        <Member type="Property">public ItemText Stihos { get; set; }</Member>
+        <Member type="Property">public List&lt;Odi&gt; Odes { get; set; }</Member>
+        <Member type="Constructor">public Kanonas()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Kinonik</Name>
+        <Access>Public</Access>
+        <Location left="3828" top="343" />
+        <Size width="185" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public YmnosKind Kind { get; set; }</Member>
+        <Member type="Constructor">public Kinonik()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Kontakion</Name>
+        <Access>Public</Access>
+        <Location left="3616" top="343" />
+        <Size width="224" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Prosomoion Prosomoion { get; set; }</Member>
+        <Member type="Property">public ItemText Annotation { get; set; }</Member>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public ItemText Ymnos { get; set; }</Member>
+        <Member type="Property">public ItemText Ikos { get; set; }</Member>
+        <Member type="Constructor">public Kontakion()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Leitourgia</Name>
+        <Access>Public</Access>
+        <Location left="3192" top="343" />
+        <Size width="267" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Makarismi Makarismi { get; set; }</Member>
+        <Member type="Property">public List&lt;Prokeimenon&gt; Prokeimeni { get; set; }</Member>
+        <Member type="Property">public List&lt;ApostlesPart&gt; Apostles { get; set; }</Member>
+        <Member type="Property">public List&lt;Prokeimenon&gt; Alleluias { get; set; }</Member>
+        <Member type="Property">public List&lt;EvangelionPart&gt; Evangelion { get; set; }</Member>
+        <Member type="Property">public List&lt;Kinonik&gt; Kinoniki { get; set; }</Member>
+        <Member type="Constructor">public Leitourgia()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Makarios</Name>
+        <Access>Public</Access>
+        <Location left="2980" top="343" />
+        <Size width="227" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public List&lt;MakariosOdi&gt; Odes { get; set; }</Member>
+        <Member type="Constructor">public Makarios()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MakariosOdi</Name>
+        <Access>Public</Access>
+        <Location left="2768" top="343" />
+        <Size width="175" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Property">public Int32 Count { get; set; }</Member>
+        <Member type="Constructor">public MakariosOdi()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Makarismi</Name>
+        <Access>Public</Access>
+        <Location left="2344" top="343" />
+        <Size width="227" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public List&lt;MakariosOdi&gt; Links { get; set; }</Member>
+        <Member type="Property">public YmnosGroup Ymnis { get; set; }</Member>
+        <Member type="Constructor">public Makarismi()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MikrosEsperinos</Name>
+        <Access>Public</Access>
+        <Location left="2132" top="343" />
+        <Size width="239" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public YmnosStructure Kekragaria { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Aposticha { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Troparion { get; set; }</Member>
+        <Member type="Constructor">public MikrosEsperinos()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Odi</Name>
+        <Access>Public</Access>
+        <Location left="1920" top="343" />
+        <Size width="216" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 Number { get; set; }</Member>
+        <Member type="Property">public List&lt;Ymnos&gt; Troparia { get; set; }</Member>
+        <Member type="Constructor">public Odi()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Orthros</Name>
+        <Access>Public</Access>
+        <Location left="1496" top="343" />
+        <Size width="276" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public YmnosStructure SedalenKathisma1 { get; set; }</Member>
+        <Member type="Property">public YmnosStructure SedalenKathisma2 { get; set; }</Member>
+        <Member type="Property">public YmnosStructure SedalenKathisma3 { get; set; }</Member>
+        <Member type="Property">public YmnosStructure SedalenPolyeleos { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Anavathmos { get; set; }</Member>
+        <Member type="Property">public List&lt;ItemText&gt; Megalynarion { get; set; }</Member>
+        <Member type="Property">public List&lt;ItemText&gt; Eclogarion { get; set; }</Member>
+        <Member type="Property">public Prokeimenon Prokeimenon { get; set; }</Member>
+        <Member type="Property">public List&lt;EvangelionPart&gt; Evangelion { get; set; }</Member>
+        <Member type="Property">public YmnosGroup Sticheron50 { get; set; }</Member>
+        <Member type="Property">public List&lt;Kanonas&gt; Kanones { get; set; }</Member>
+        <Member type="Property">public YmnosStructure SedalenKanonas { get; set; }</Member>
+        <Member type="Property">public List&lt;Kontakion&gt; Kontakia { get; set; }</Member>
+        <Member type="Property">public Exapostilarion Exapostilarion { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Ainoi { get; set; }</Member>
+        <Member type="Property">public YmnosStructure Aposticha { get; set; }</Member>
+        <Member type="Constructor">public Orthros()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Paroimia</Name>
+        <Access>Public</Access>
+        <Location left="1284" top="343" />
+        <Size width="214" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ItemText&gt; _stihoi</Member>
+        <Member type="Property">public String Quote { get; set; }</Member>
+        <Member type="Property">public ItemText BookName { get; set; }</Member>
+        <Member type="Property">public List&lt;ItemText&gt; Stihoi { get; set; }</Member>
+        <Member type="Constructor">public Paroimia()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Prokeimenon</Name>
+        <Access>Public</Access>
+        <Location left="1072" top="343" />
+        <Size width="214" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ItemText&gt; _stihoi</Member>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public YmnosKind Kind { get; set; }</Member>
+        <Member type="Property">public List&lt;ItemText&gt; Stihoi { get; set; }</Member>
+        <Member type="Constructor">public Prokeimenon()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Prosomoion</Name>
+        <Access>Public</Access>
+        <Location left="648" top="343" />
+        <Size width="212" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Boolean Self { get; set; }</Member>
+        <Member type="Constructor">public Prosomoion(Prosomoion source)</Member>
+        <Member type="Constructor">public Prosomoion()</Member>
+        <Member type="Method">public Boolean Equals(Prosomoion item)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SixHour</Name>
+        <Access>Public</Access>
+        <Location left="436" top="343" />
+        <Size width="259" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public YmnosStructure Troparion { get; set; }</Member>
+        <Member type="Property">public List&lt;Prokeimenon&gt; Prokeimeni { get; set; }</Member>
+        <Member type="Property">public List&lt;Paroimia&gt; Paroimies { get; set; }</Member>
+        <Member type="Constructor">public SixHour()</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Ymnos</Name>
+        <Access>Public</Access>
+        <Location left="12" top="343" />
+        <Size width="214" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public YmnosKind Kind { get; set; }</Member>
+        <Member type="Property">public ItemText Annotation { get; set; }</Member>
+        <Member type="Property">public List&lt;ItemText&gt; Stihoi { get; set; }</Member>
+        <Member type="Property">public ItemText Text { get; set; }</Member>
+        <Member type="Constructor">public Ymnos()</Member>
+        <Member type="Constructor">public Ymnos(Ymnos source)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>YmnosGroup</Name>
+        <Access>Public</Access>
+        <Location left="3616" top="12" />
+        <Size width="308" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;Ymnos&gt; _ymnis</Member>
+        <Member type="Property">public Int32 Ihos { get; set; }</Member>
+        <Member type="Property">public YmnosGroupKind Kind { get; set; }</Member>
+        <Member type="Property">public Prosomoion Prosomoion { get; set; }</Member>
+        <Member type="Property">public ItemText Annotation { get; set; }</Member>
+        <Member type="Property">public List&lt;Ymnos&gt; Ymnis { get; set; }</Member>
+        <Member type="Constructor">public YmnosGroup()</Member>
+        <Member type="Constructor">public YmnosGroup(YmnosGroup source)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Boolean Equals(YmnosGroup ymnosGroup)</Member>
+        <Member type="Method">private Void CloneValues(YmnosGroup source)</Member>
+        <Member type="Method">public YmnosGroup GetGroupWithSingleYmnos(Int32 index)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>YmnosGroupCollection</Name>
+        <Access>Public</Access>
+        <Location left="3192" top="12" />
+        <Size width="359" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Int32 TotalYmnisCount { get; }</Member>
+        <Member type="Constructor">public YmnosGroupCollection()</Member>
+        <Member type="Method">public Object Clone()</Member>
+        <Member type="Method">public YmnosGroupCollection GetYmnis(Int32 count, Int32 startFrom)</Member>
+        <Member type="Method">public YmnosGroup GetThroughYmnos(Int32 index)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>YmnosStructure</Name>
+        <Access>Public</Access>
+        <Location left="2980" top="12" />
+        <Size width="284" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 _sticheraCount</Member>
+        <Member type="Property">public YmnosGroupCollection Groups { get; set; }</Member>
+        <Member type="Property">public YmnosGroup Doxastichon { get; set; }</Member>
+        <Member type="Property">public YmnosGroupCollection Theotokion { get; set; }</Member>
+        <Member type="Property">public Int32 YmnosStructureCount { get; }</Member>
+        <Member type="Property">public Int32 Ihos { get; }</Member>
+        <Member type="Constructor">public YmnosStructure()</Member>
+        <Member type="Constructor">public YmnosStructure(YmnosGroup group)</Member>
+        <Member type="Constructor">public YmnosStructure(YmnosStructure ymnosStructure)</Member>
+        <Member type="Method">protected virtual Void Validate()</Member>
+        <Member type="Method">public Void Merge(YmnosStructure source)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ApostolBook</Name>
+        <Access>Public</Access>
+        <Location left="2132" top="12" />
+        <Size width="260" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public virtual String Name { get; set; }</Member>
+        <Member type="Property">public virtual List&lt;ApostolChapter&gt; Chapters { get; set; }</Member>
+        <Member type="Constructor">public ApostolBook()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ApostolChapter</Name>
+        <Access>Public</Access>
+        <Location left="1920" top="12" />
+        <Size width="163" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public ApostolChapter()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="28" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="30" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="32" second="44">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="33" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="34" second="28">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="35" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="36" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="37" second="31">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="39" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="40" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="41" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="42" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="43" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="44" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="45" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="46" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="47" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="48" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="50" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="51" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="52" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="54" second="31">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="24" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="21" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="22" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="20" second="19">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="23" second="19">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="19" second="18">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1682</X>
+          <Y>2255</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="25" second="19">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
 </Project>

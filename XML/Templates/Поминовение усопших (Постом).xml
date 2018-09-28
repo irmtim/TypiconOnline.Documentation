@@ -563,14 +563,14 @@
 					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Тропарь 1.</item>
 				</text>
 			</ymnos>
-			<doxastichon>
+			<ymnos>
 				<prosomoion self="false">
 					<item language="cs-ru">Жены́ услы́шите</item>
 				</prosomoion>
 				<text>
 					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Тропарь 2.</item>
 				</text>
-			</doxastichon>
+			</ymnos>
 			<theotokion>
 				<text>
 					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Богородичен.</item>

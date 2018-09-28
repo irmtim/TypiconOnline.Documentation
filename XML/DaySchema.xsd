@@ -351,8 +351,7 @@
 	<xs:complexType name="exapostilarionType">
 		<xs:sequence>
 			<xs:element name="ymnos" type="exapostilarionitemType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="doxastichon" type="exapostilarionitemType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="theotokion" type="exapostilarionitemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="theotokion" type="exapostilarionitemType" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="exapostilarionitemType">

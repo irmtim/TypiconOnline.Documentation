@@ -15,4 +15,22 @@
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
 	</worship>
+	<if>
+		<expression>
+			<!--Если воскресенье, то добавляем общий молебен.-->
+			<equals>
+				<getdayofweek>
+					<date/>
+				</getdayofweek>
+				<getdayofweek name="воскресенье"/>
+			</equals>
+		</expression>
+		<then>
+			<worship>
+				<name>
+					<item language="cs-ru">Общий молебен.</item>
+				</name>
+			</worship>
+		</then>
+	</if>
 </rule>

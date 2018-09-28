@@ -102,6 +102,7 @@
 			<xs:element name="int" type="xs:int" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="getclosestday" type="getClosestDayType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="getdayofweek" type="getdayofweekType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="datebydaysfromeaster" type="intOutputType" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="caseType">
@@ -230,8 +231,40 @@
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="ymnoscustomrule" type="ymnoscustomruleType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="exapostilarion" type="executableType" minOccurs="0"/>
+			<xs:element name="exapostilarionrule" type="executableType" minOccurs="0"/>
+			<xs:element name="exap_item" type="exap_itemType" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="exap_itemType">
+		<xs:attribute name="source" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="oktoikh"/>
+					<xs:enumeration value="item1"/>
+					<xs:enumeration value="item2"/>
+					<xs:enumeration value="item3"/>
+					<xs:enumeration value="weekday"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="place" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="exap1"/>
+					<xs:enumeration value="exap2"/>
+					<xs:enumeration value="theotokion"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="kind" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="exap"/>
+					<xs:enumeration value="theotokion"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="count" type="xs:int"/>
 	</xs:complexType>
 	<xs:complexType name="theotokionappruleType">
 		<xs:all>
@@ -610,6 +643,7 @@
 						<xs:element name="ymnosrule" type="ymnosruleType"/>
 						<xs:element name="kanonas" type="kanonasType"/>
 						<xs:element name="kontakionrule" type="kontakionruleType"/>
+						<xs:element name="exap_item" type="exap_itemType"/>
 					</xs:choice>
 				</xs:complexType>
 			</xs:element>
