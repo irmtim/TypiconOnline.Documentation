@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
 			<getdayofweek>
@@ -33,7 +33,6 @@
 				<getdayofweek name="понедельник"/>
 			</values>
 			<action>
-				<modifyday daymove="0" priority="4"/>
 				<worship time="16.00" isdaybefore="true">
 					<name>
 						<item language="cs-ru">Всенощное бдение.</item>

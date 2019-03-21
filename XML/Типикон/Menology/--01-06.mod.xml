@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<if>
+		<expression>
+			<equals>
+				<getdayofweek>
+					<date>--01-07</date>
+				</getdayofweek>
+				<getdayofweek name="понедельник"/>
+			</equals>
+		</expression>
+		<then>
+			<modifyday daymove="0" priority="4"/>
+		</then>
+	</if>
+</rule>

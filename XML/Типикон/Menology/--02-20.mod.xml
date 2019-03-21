@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
 	<switch>
 		<expression>
 			<daysfromeaster>
@@ -13,6 +13,14 @@
 				<int>-50</int>
 				<int>-51</int>
 				<int>-52</int>
+				<int>-53</int>
+				<int>-54</int>
+				<int>-55</int>
+				<int>-56</int>
+				<int>-57</int>
+				<int>-58</int>
+				<int>-61</int>
+				<int>-62</int>
 			</values>
 			<action>
 				<!-- Фильтрация – Исключаем попразднество -->
@@ -21,11 +29,8 @@
 		</case>
 		<case>
 			<values>
-				<int>-52</int>
-				<int>-53</int>
-				<int>-55</int>
-				<int>-57</int>
-				<int>-61</int>
+				<int>-59</int>
+				<int>-63</int>
 			</values>
 			<action>
 				<!-- Не служим – Отдание праздника -->
@@ -34,7 +39,6 @@
 		</case>
 		<case>
 			<values>
-				<int>-59</int>
 				<int>-60</int>
 			</values>
 			<action>

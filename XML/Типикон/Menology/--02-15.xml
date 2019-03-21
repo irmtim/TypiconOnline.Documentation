@@ -67,9 +67,6 @@
 						<int>-57</int>
 					</values>
 					<action>
-						<modifyday daymove="0">
-							<modifyreplacedday kind="triodion" daymove="-7"/>
-						</modifyday>
 						<worship time="16.00" isdaybefore="true">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
@@ -142,7 +139,6 @@
 						<int>-50</int>
 					</values>
 					<action>
-						<modifyday daymove="0" priority="4"/>
 						<worship time="16.00" isdaybefore="true">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
@@ -166,7 +162,6 @@
 						<int>-48</int>
 					</values>
 					<action>
-						<modifyday daymove="0" priority="3"/>
 						<worship time="16.00" isdaybefore="true">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>

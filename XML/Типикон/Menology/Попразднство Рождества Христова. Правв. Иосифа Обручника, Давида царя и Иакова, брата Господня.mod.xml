@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<switch>
+		<expression>
+			<getdayofweek>
+				<date>--01-07</date>
+			</getdayofweek>
+		</expression>
+		<case>
+			<values>
+				<getdayofweek name="воскресенье"/>
+			</values>
+			<action>
+				<modifyday>
+					<date>--01-08</date>
+				</modifyday>
+			</action>
+		</case>
+		<case>
+			<values>
+				<getdayofweek name="суббота"/>
+			</values>
+			<action>
+				<modifyday asaddition="true" usefullname="true">
+					<date>--01-08</date>
+				</modifyday>
+			</action>
+		</case>
+		<default>
+			<modifyday usefullname="true">
+				<shortname>
+					<item language="cs-ru">по Рождестве Христовом</item>
+				</shortname>
+				<getclosestday dayofweek="воскресенье" weekcount="1">
+					<date>--01-07</date>
+				</getclosestday>
+			</modifyday>
+		</default>
+	</switch>
+</rule>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RulesModSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
 	<switch>
 		<expression>
 			<getclosestday dayofweek="суббота" weekcount="-1">
@@ -11,7 +11,7 @@
 				<date>--11-04</date>
 			</values>
 			<action>
-				<modifyday>
+				<modifyday asaddition="true">
 					<getclosestday dayofweek="суббота" weekcount="-2">
 						<date>--11-08</date>
 					</getclosestday>
@@ -19,7 +19,7 @@
 			</action>
 		</case>
 		<default>
-			<modifyday>
+			<modifyday asaddition="true">
 				<getclosestday dayofweek="суббота" weekcount="-1">
 					<date>--11-08</date>
 				</getclosestday>

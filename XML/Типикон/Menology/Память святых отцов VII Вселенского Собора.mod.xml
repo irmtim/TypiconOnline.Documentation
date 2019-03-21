@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<modifyday>
+		<getclosestday dayofweek="воскресенье" weekcount="0">
+			<date>--10-24</date>
+		</getclosestday>
+	</modifyday>
+</rule>

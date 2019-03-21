@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
 	<switch>
 		<expression>
 			<getdayofweek><date>--01-07</date></getdayofweek>
@@ -16,8 +16,8 @@
 			</action>
 		</case>
 		<default>
-			<modifyday priority="6" asaddition="true">
-				<getclosestday dayofweek="суббота" weekcount="-1"><date>--01-19</date></getclosestday>
+			<modifyday asaddition="true" priority="6">
+				<getclosestday dayofweek="суббота" weekcount="1"><date>--01-07</date></getclosestday>
 			</modifyday>
 		</default>
 	</switch>

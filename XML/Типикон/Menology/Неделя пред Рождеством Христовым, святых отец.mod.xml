@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<modifyday usefullname="false">
+		<shortname>
+			<item language="cs-ru">пред Рождеством Христовым, святых отец</item>
+		</shortname>
+		<getclosestday dayofweek="воскресенье" weekcount="-1">
+			<date>--01-07</date>
+		</getclosestday>
+	</modifyday>
+</rule>
