@@ -28,119 +28,132 @@
 				</name>
 			</worship>
 			<!-- Если не в период Великого или Успенского постов -->
-			<!--if>
-				<expression>
-					<or>
-						<less>
-							<date/>
-							<datebydaysfromeaster>
-								<int>0</int>
-							</datebydaysfromeaster>
-						</less>
-						<more>
-							<date/>
-							<datebydaysfromeaster>
-								<int>56</int>
-							</datebydaysfromeaster>
-						</more>
-					</or>
-				</expression>
-				<then-->
-			<!-- Если это первое воскресенье месяца-->
 			<if>
 				<expression>
 					<or>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--01-01</date>
-							</getclosestday>
+						<!-- между Великим и Успенским-->
+						<and>
+							<more>
+								<date/>
+								<datebydaysfromeaster>
+									<int>7</int>
+								</datebydaysfromeaster>
+							</more>
+							<less>
+								<date/>
+								<date>--08-14</date>
+							</less>
+						</and>
+						<!-- между Новым годом и Великим постом-->
+						<lessequals>
 							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--02-01</date>
-							</getclosestday>
+							<datebydaysfromeaster>
+								<int>-49</int>
+							</datebydaysfromeaster>
+						</lessequals>
+						<!-- между Успенским постом и Новым годом-->
+						<more>
 							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--03-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--04-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--05-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--06-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--07-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--08-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--09-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--10-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--11-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
-						<equals>
-							<getclosestday dayofweek="воскресенье" weekcount="1">
-								<date>--12-01</date>
-							</getclosestday>
-							<date/>
-						</equals>
+							<date>--08-28</date>
+						</more>
 					</or>
 				</expression>
 				<then>
-					<worship>
-						<name>
-							<item language="cs-ru">Молебен перед иконой Божией Матери "Всецарица".</item>
-						</name>
-					</worship>
+					<!-- Если это первое воскресенье месяца-->
+					<if>
+						<expression>
+							<or>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--12-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--01-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--02-28</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--03-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--04-30</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--05-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--06-30</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--07-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--08-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--09-30</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--10-31</date>
+									</getclosestday>
+									<date/>
+								</equals>
+								<equals>
+									<getclosestday dayofweek="воскресенье" weekcount="1">
+										<date>--11-30</date>
+									</getclosestday>
+									<date/>
+								</equals>
+							</or>
+						</expression>
+						<then>
+							<worship id="moleben">
+								<name>
+									<item language="cs-ru">Молебен перед иконой Божией Матери "Всецарица". Лития по усопшим.</item>
+								</name>
+							</worship>
+						</then>
+						<else>
+							<worship id="moleben">
+								<name>
+									<item language="cs-ru">Общий молебен. Лития по усопшим.</item>
+								</name>
+							</worship>
+						</else>
+					</if>
 				</then>
-				<else>
-					<worship>
-						<name>
-							<item language="cs-ru">Общий молебен. Лития по усопшим.</item>
-						</name>
-					</worship>
-				</else>
 			</if>
-			<!--/then>
-			</if-->
 		</then>
 		<else>
 			<worship id="1" time="17.30" isdaybefore="true">
@@ -906,82 +919,97 @@
 				</name>
 			</worship>
 			<!-- если день - вне дней Великого поста, а также Петрова, Успенского и Рождественского-->
-			<!--if>
+			<if>
 				<expression>
 					<or>
-						<less>
+						<!-- между Великим и Успенским-->
+						<and>
+							<more>
+								<date/>
+								<datebydaysfromeaster>
+									<int>7</int>
+								</datebydaysfromeaster>
+							</more>
+							<less>
+								<date/>
+								<date>--08-14</date>
+							</less>
+						</and>
+						<!-- между Новым годом и Великим постом-->
+						<lessequals>
 							<date/>
 							<datebydaysfromeaster>
-								<int>0</int>
+								<int>-49</int>
 							</datebydaysfromeaster>
-						</less>
+						</lessequals>
+						<!-- между Успенским постом и Новым годом-->
 						<more>
 							<date/>
-							<datebydaysfromeaster>
-								<int>56</int>
-							</datebydaysfromeaster>
+							<date>--08-28</date>
 						</more>
 					</or>
 				</expression>
-				<then-->
-			<!-- Если четверг, добавляем молебен свт. Николаю Чудотворцу-->
-			<if>
-				<expression>
-					<equals>
-						<getdayofweek>
-							<date/>
-						</getdayofweek>
-						<getdayofweek name="четверг"/>
-					</equals>
-				</expression>
 				<then>
-					<worship>
-						<name>
-							<item language="cs-ru">Молебен свт. Николаю Чудотворцу.</item>
-						</name>
-					</worship>
-				</then>
-				<else>
-					<if>
+					<!-- Если четверг, добавляем молебен свт. Николаю Чудотворцу-->
+					<switch>
 						<expression>
-							<equals>
-								<getdayofweek>
-									<date/>
-								</getdayofweek>
-								<getdayofweek name="пятница"/>
-							</equals>
+							<getdayofweek>
+								<date/>
+							</getdayofweek>
 						</expression>
-						<then>
-							<worship>
-								<name>
-									<item language="cs-ru">Молебен перед иконой Божией Матери "Неупиваемая чаша".</item>
-								</name>
-							</worship>
-						</then>
-						<else>
-							<if>
-								<expression>
-									<equals>
-										<getdayofweek>
+						<case>
+							<values>
+								<getdayofweek name="четверг"/>
+							</values>
+							<action>
+								<worship id="moleben">
+									<name>
+										<item language="cs-ru">Молебен свт. Николаю Чудотворцу.</item>
+									</name>
+								</worship>
+							</action>
+						</case>
+						<!-- Если пятница, Молебен перед иконой Божией Матери "Неупиваемая чаша"-->
+						<case>
+							<values>
+								<getdayofweek name="пятница"/>
+							</values>
+							<action>
+								<worship id="moleben">
+									<name>
+										<item language="cs-ru">Молебен перед иконой Божией Матери "Неупиваемая чаша".</item>
+									</name>
+								</worship>
+							</action>
+						</case>
+						<!-- Если суббота и дата позже Недели Всех Святых (63), Молебен перед иконой "Лобзание Иисуса Христа Иудою".-->
+						<case>
+							<values>
+								<getdayofweek name="суббота"/>
+							</values>
+							<action>
+								<if>
+									<expression>
+										<more>
 											<date/>
-										</getdayofweek>
-										<getdayofweek name="суббота"/>
-									</equals>
-								</expression>
-								<then>
-									<worship>
-										<name>
-											<item language="cs-ru">Молебен перед иконой "Лобзание Иисуса Христа Иудою".</item>
-										</name>
-									</worship>
-								</then>
-							</if>
-						</else>
-					</if>
-				</else>
+											<datebydaysfromeaster>
+												<int>63</int>
+											</datebydaysfromeaster>
+										</more>
+									</expression>
+									<then>
+										<worship id="moleben">
+											<name>
+												<item language="cs-ru">Молебен перед иконой "Лобзание Иисуса Христа Иудою".</item>
+											</name>
+										</worship>
+									</then>
+								</if>
+							</action>
+						</case>
+					</switch>
+				</then>
 			</if>
-			<!--/then>
-			</if-->
 		</else>
 	</if>
 </rule>
