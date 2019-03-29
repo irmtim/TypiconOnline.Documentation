@@ -104,7 +104,6 @@
 				<File FilePath="Типикон\Triodion\-47.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Triodion\-48.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Triodion\-5.xml" HomeFolder="Yes"/>
-				<File FilePath="Типикон\Triodion\-50.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Triodion\-51.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Triodion\-53.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Triodion\-6.xml" HomeFolder="Yes"/>
@@ -149,6 +148,11 @@
 				<File FilePath="Типикон\Common\СлаваНынеГВ.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Трисвятое_Отченаш.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Честнейшую.xml" HomeFolder="Yes"/>
+			</Folder>
+			<Folder FolderName="Explicit">
+				<File FilePath="Типикон\Explicit\2019-03-24.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Explicit\2019-03-31.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Explicit\2019-04-14.xml" HomeFolder="Yes"/>
 			</Folder>
 		</Folder>
 		<Folder FolderName="Days">

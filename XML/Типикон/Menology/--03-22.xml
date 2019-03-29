@@ -109,7 +109,7 @@
 			<action>
 				<worship time="17.30" isdaybefore="true">
 					<name>
-						<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
+						<item language="cs-ru">Великое повечерие.</item>
 					</name>
 				</worship>
 				<worship time="06.00">
@@ -131,7 +131,7 @@
 			<action>
 				<worship time="17.30" isdaybefore="true">
 					<name>
-						<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
+						<item language="cs-ru">Великое повечерие.</item>
 					</name>
 				</worship>
 				<worship time="06.00">

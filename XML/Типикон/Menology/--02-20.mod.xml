@@ -42,8 +42,8 @@
 				<int>-60</int>
 			</values>
 			<action>
-				<!-- Фильтрация – только попразднество -->
-				<modifyday iscelebrating="true" daymove="0"/>
+				<!-- Фильтрация – исключаем второго святого -->
+				<modifyday daymove="0" excludeitem="3"/>
 			</action>
 		</case>
 	</switch>

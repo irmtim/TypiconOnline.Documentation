@@ -2,7 +2,7 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
 	<worship time="17.30" isdaybefore="true">
 		<name>
-			<item language="cs-ru">Великое повечерие.</item>
+			<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
 		</name>
 	</worship>
 	<worship time="06.00">

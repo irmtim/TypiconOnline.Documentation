@@ -429,6 +429,11 @@
 			</action>
 		</case>
 		<default>
+			<worship time="16.00" isdaybefore="true">
+					<name>
+						<item language="cs-ru">Всенощное бдение.</item>
+					</name>
+				</worship>
 			<worship time="07.30">
 				<name>
 					<item language="cs-ru">Полуношница. Часы. Изобразительны.</item>

@@ -17,7 +17,6 @@
 	</xs:complexType>
 	<xs:element name="datebydaysfromeaster" type="intOutputType"/>
 	<xs:element name="getclosestday" type="getClosestDayType"/>
-	
 	<xs:complexType name="valueType">
 		<xs:choice>
 			<xs:element name="daysfromeaster" type="daysfromeasterType" minOccurs="0"/>
@@ -196,9 +195,10 @@
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="oktoikh"/>
-					<xs:enumeration value="item1"/>
-					<xs:enumeration value="item2"/>
-					<xs:enumeration value="item3"/>
+					<xs:enumeration value="menology1"/>
+					<xs:enumeration value="menology2"/>
+					<xs:enumeration value="menology3"/>
+					<xs:enumeration value="triodion1"/>
 					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>
@@ -340,9 +340,10 @@
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="oktoikh"/>
-					<xs:enumeration value="item1"/>
-					<xs:enumeration value="item2"/>
-					<xs:enumeration value="item3"/>
+					<xs:enumeration value="menology1"/>
+					<xs:enumeration value="menology2"/>
+					<xs:enumeration value="menology3"/>
+					<xs:enumeration value="triodion1"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -374,9 +375,10 @@
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="oktoikh"/>
-					<xs:enumeration value="item1"/>
-					<xs:enumeration value="item2"/>
-					<xs:enumeration value="item3"/>
+					<xs:enumeration value="menology1"/>
+					<xs:enumeration value="menology2"/>
+					<xs:enumeration value="menology3"/>
+					<xs:enumeration value="triodion1"/>
 					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>
@@ -405,9 +407,10 @@
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="oktoikh"/>
-					<xs:enumeration value="item1"/>
-					<xs:enumeration value="item2"/>
-					<xs:enumeration value="item3"/>
+					<xs:enumeration value="menology1"/>
+					<xs:enumeration value="menology2"/>
+					<xs:enumeration value="menology3"/>
+					<xs:enumeration value="triodion1"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -518,9 +521,10 @@
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="oktoikh"/>
-					<xs:enumeration value="item1"/>
-					<xs:enumeration value="item2"/>
-					<xs:enumeration value="item3"/>
+					<xs:enumeration value="menology1"/>
+					<xs:enumeration value="menology2"/>
+					<xs:enumeration value="menology3"/>
+					<xs:enumeration value="triodion1"/>
 					<xs:enumeration value="weekday"/>
 				</xs:restriction>
 			</xs:simpleType>

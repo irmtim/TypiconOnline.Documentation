@@ -3,12 +3,12 @@
 	<if>
 		<expression>
 			<exists>
-				<ymnosrule kind="ymnos" source="item1" place="kekragaria_doxastichon"/>
+				<ymnosrule kind="ymnos" source="menology1" place="kekragaria_doxastichon"/>
 			</exists>
 		</expression>
 		<then>
 			<!-- 1. Слава из Минеи 1 имеется -->
-			<ymnosrule kind="doxastichon" source="item1" place="kekragaria_doxastichon"/>
+			<ymnosrule kind="doxastichon" source="menology1" place="kekragaria_doxastichon"/>
 			<if>
 				<expression>
 					<or>
@@ -31,17 +31,17 @@
 					<if>
 						<expression>
 							<exists>
-								<ymnosrule kind="ymnos" source="item1" place="kekragaria_stavrostheotokion"/>
+								<ymnosrule kind="ymnos" source="menology1" place="kekragaria_stavrostheotokion"/>
 							</exists>
 						</expression>
 						<then>
 							<!--  Аа. Если имеется крестобогородичен в Минее 1 -->
-							<ymnosrule kind="theotokion" source="item1" place="kekragaria_stavrostheotokion"/>
+							<ymnosrule kind="theotokion" source="menology1" place="kekragaria_stavrostheotokion"/>
 						</then>
 						<else>
 							<!--  Аб. Нет крестобогородична в Минее 1 -->
 							<theotokionapprule place="app2_esperinos">
-								<ymnosrule kind="ymnos" source="item1" place="kekragaria_doxastichon"/>
+								<ymnosrule kind="ymnos" source="menology1" place="kekragaria_doxastichon"/>
 							</theotokionapprule>
 						</else>
 					</if>
@@ -51,17 +51,17 @@
 					<if>
 						<expression>
 							<exists>
-								<ymnosrule kind="ymnos" source="item1" place="kekragaria_theotokion"/>
+								<ymnosrule kind="ymnos" source="menology1" place="kekragaria_theotokion"/>
 							</exists>
 						</expression>
 						<then>
 							<!--  Ба. Если имеется богородичен в Минее 1 -->
-							<ymnosrule kind="theotokion" source="item1" place="kekragaria_theotokion"/>
+							<ymnosrule kind="theotokion" source="menology1" place="kekragaria_theotokion"/>
 						</then>
 						<else>
 							<!--  Бб. Нет богородична в Минее 1-->
 							<theotokionapprule place="app2_esperinos">
-								<ymnosrule kind="ymnos" source="item1" place="kekragaria_doxastichon"/>
+								<ymnosrule kind="ymnos" source="menology1" place="kekragaria_doxastichon"/>
 							</theotokionapprule>
 						</else>
 					</if>
@@ -89,11 +89,11 @@
 				</expression>
 				<then>
 					<!--  А. Если среда или пятница -->
-					<ymnosrule kind="theotokion" source="item1" place="kekragaria_stavrostheotokion"/>
+					<ymnosrule kind="theotokion" source="menology1" place="kekragaria_stavrostheotokion"/>
 				</then>
 				<else>
 					<!--  Б. Если другой день недели -->
-					<ymnosrule kind="theotokion" source="item1" place="kekragaria_theotokion"/>
+					<ymnosrule kind="theotokion" source="menology1" place="kekragaria_theotokion"/>
 				</else>
 			</if>
 		</else>

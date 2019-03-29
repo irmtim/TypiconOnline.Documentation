@@ -179,6 +179,23 @@
 						</worship>
 					</action>
 				</case>
+				<default>
+					<worship time="16.00" isdaybefore="true">
+						<name>
+							<item language="cs-ru">Всенощное бдение.</item>
+						</name>
+					</worship>
+					<worship time="08.40">
+						<name>
+							<item language="cs-ru">Часы 3-й и 6-й.</item>
+						</name>
+					</worship>
+					<worship time="09.00">
+						<name>
+							<item language="cs-ru">Божественная литургия.</item>
+						</name>
+					</worship>
+				</default>
 			</switch>
 		</else>
 	</if>

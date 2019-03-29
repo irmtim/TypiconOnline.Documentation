@@ -70,6 +70,8 @@
 			</values>
 			<action>
 				<modifyday daymove="-1" priority="3" signnumber="7"/>
+				<!-- удаляем с даты 03-22, чтобы дважды в расписании не появлялось-->
+				<modifyday daymove="0" priority="7"/>
 			</action>
 		</case>
 		<case>
@@ -78,6 +80,8 @@
 			</values>
 			<action>
 				<modifyday daymove="-2" priority="3" signnumber="7"/>
+				<!-- удаляем с даты 03-22, чтобы дважды в расписании не появлялось-->
+				<modifyday daymove="0" priority="7"/>
 			</action>
 		</case>
 		<default>
