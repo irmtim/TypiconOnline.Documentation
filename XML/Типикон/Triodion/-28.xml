@@ -14,10 +14,5 @@
 		<name>
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
-	</worship>
-	<worship time="11.00">
-		<name>
-			<item language="cs-ru">СОБОРОВАНИЕ.</item>
-		</name>
-	</worship>
+	</worship>	
 </rule>

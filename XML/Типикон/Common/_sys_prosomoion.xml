@@ -2,7 +2,7 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<choir>
 		<p>
-			<item language="cs-ru">Подобен:</item>
+			<item language="cs-ru">Подобен: "[name]". </item>
 		</p>
 	</choir>
 </rule>

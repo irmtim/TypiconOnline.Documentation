@@ -7,7 +7,7 @@
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="name" type="stringType"/>
+				<xs:element name="name" type="textType"/>
 				<xs:element name="day" type="dayType" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -15,10 +15,10 @@
 	<xs:element name="day" type="dayType"/>
 	<xs:complexType name="dayType">
 		<xs:sequence>
-			<xs:element name="name" type="stringType"/>
+			<xs:element name="name" type="textType"/>
 			<xs:element name="date" type="xs:date"/>
 			<xs:element name="signnumber" type="xs:int"/>
-			<xs:element name="signname" type="stringType"/>
+			<xs:element name="signname" type="textType"/>
 			<xs:element name="worship" type="worshipType" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>

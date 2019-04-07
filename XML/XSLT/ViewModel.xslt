@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/ViewModelSchema.xsd">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/LocalizedOutputSchema.xsd">
 	<xsl:template match="/">
 		<html>
 			<head>
@@ -9,7 +9,10 @@
 			<body>
 				<xsl:for-each select="day/worship">
 					<xsl:for-each select="items/item">
-						<p class="red"><xsl:value-of select="@kindtext"/></p>
+						<xsl:element name="p">
+							<xsl:attribute name="class"> red <xsl:value-of select="kindtext/@language"/></xsl:attribute>
+							<xsl:value-of select="kindtext"/>
+						</xsl:element>
 						<xsl:for-each select="paragraphs/p">
 							<xsl:choose>
 								<xsl:when test="style/header = 'h1'">

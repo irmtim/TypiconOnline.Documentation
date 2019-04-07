@@ -24,72 +24,18 @@
 	</xs:complexType>
 	<xs:complexType name="worshipType">
 		<xs:sequence>
-			<xs:element name="name" type="textType" minOccurs="0"/>
-			<xs:element name="additionalname" type="textType" minOccurs="0"/>
-			<xs:element name="sections" minOccurs="0">
+			<xs:element name="name" type="stringType" minOccurs="0"/>
+			<xs:element name="additionalname" type="stringType" minOccurs="0"/>
+			<xs:element name="items" minOccurs="0">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="section" type="sectionType" maxOccurs="unbounded"/>
+						<xs:element name="item" type="itemType" minOccurs="0" maxOccurs="unbounded"/>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:string"/>
 		<xs:attribute name="time" type="xs:string"/>
-	</xs:complexType>
-	<xs:complexType name="textType">
-		<xs:sequence>
-			<xs:element name="item" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute name="language">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="cs-ru"/>
-										<xs:enumeration value="cs-cs"/>
-										<xs:enumeration value="ru-ru"/>
-										<xs:enumeration value="el-el"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:attribute>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="textStyledType">
-		<xs:complexContent>
-			<xs:extension base="textType">
-				<xs:attribute name="bold" type="xs:boolean" use="optional"/>
-				<xs:attribute name="red" type="xs:boolean" use="optional"/>
-				<xs:attribute name="italic" type="xs:boolean" use="optional"/>
-				<xs:attribute name="header" use="optional">
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="h1"/>
-							<xs:enumeration value="h2"/>
-							<xs:enumeration value="h3"/>
-							<xs:enumeration value="h4"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:attribute>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="textNotedType">
-		<xs:complexContent>
-			<xs:extension base="textStyledType">
-				<xs:sequence>
-					<xs:element name="note" type="textStyledType" minOccurs="0">
-						<xs:annotation>
-							<xs:documentation>Примечание. Например, "трижды"</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="stringType">
 		<xs:simpleContent>
@@ -107,22 +53,9 @@
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
-	<xs:complexType name="sectionType">
-		<xs:sequence>
-			<xs:element name="kindtext" type="textType" minOccurs="0"/>
-			<xs:element name="paragraphs">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="p" type="textNotedType" maxOccurs="unbounded"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-		<xs:attribute name="kind" type="xs:string" use="required"/>
-	</xs:complexType>
 	<xs:complexType name="itemType">
 		<xs:sequence>
-			<xs:element name="kind"/>
+			<xs:element name="kindtext" type="stringType" minOccurs="0"/>
 			<xs:element name="paragraphs">
 				<xs:complexType>
 					<xs:sequence>
@@ -131,12 +64,11 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="kindtext" type="xs:string"/>
 		<xs:attribute name="kind" type="xs:string" use="required"/>
 	</xs:complexType>
 	<xs:complexType name="pType">
 		<xs:sequence>
-			<xs:element name="text" type="textType" nillable="false"/>
+			<xs:element name="text" type="stringType" nillable="false"/>
 			<xs:element name="style" type="styleType" minOccurs="0"/>
 			<xs:element name="note" type="pType" minOccurs="0"/>
 		</xs:sequence>
