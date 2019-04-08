@@ -153,6 +153,7 @@
 				<File FilePath="Типикон\Explicit\2019-03-24.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Explicit\2019-03-31.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Explicit\2019-04-14.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Explicit\2019-05-09.xml" HomeFolder="Yes"/>
 			</Folder>
 		</Folder>
 		<Folder FolderName="Days">
@@ -174,6 +175,7 @@
 			<File FilePath="Examples\modifyday.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\text.xml"/>
 			<File FilePath="Examples\ViewModel.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\ViewModel2.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\Пример службы без знака.xml" HomeFolder="Yes"/>
 		</Folder>
 		<Folder FolderName="Templates">
@@ -224,9 +226,10 @@
 	<Folder FolderName="XQuery Files" ExtStr="xq;xql;xquery"/>
 	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
 		<File FilePath="DaySchema.xsd" HomeFolder="Yes"/>
+		<File FilePath="Rules\LocalizedOutputSchema.xsd" HomeFolder="Yes"/>
+		<File FilePath="Rules\OutputSchema.xsd" HomeFolder="Yes"/>
 		<File FilePath="Rules\RulesModSchema.xsd" HomeFolder="Yes"/>
 		<File FilePath="Rules\RulesSchema.xsd" HomeFolder="Yes"/>
-		<File FilePath="ViewModelSchema.xsd" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp">
 		<File FilePath="XSLT\ViewModel.html" HomeFolder="Yes"/>

@@ -11,7 +11,7 @@
 				<getdayofweek name="воскресенье"/>
 			</values>
 			<action>
-				<worship time="17.30" isdaybefore="true">
+				<worship time="17.30" mode="daybefore">
 					<name>
 						<item language="cs-ru">9-й час. Великая вечерня. Малое повечерие.</item>
 					</name>
@@ -33,7 +33,7 @@
 				<getdayofweek name="суббота"/>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение.</item>
 					</name>
@@ -51,7 +51,7 @@
 			</action>
 		</case>
 		<default>
-			<worship time="16.00" isdaybefore="true">
+			<worship time="16.00" mode="daybefore">
 				<name>
 					<item language="cs-ru">Всенощное бдение.</item>
 				</name>

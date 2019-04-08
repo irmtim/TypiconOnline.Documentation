@@ -299,9 +299,15 @@
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:string"/>
 		<xs:attribute name="time" type="xs:string" use="optional"/>
-		<xs:attribute name="timestyle" type="xs:string" use="optional"/>
-		<xs:attribute name="namestyle" type="xs:string" use="optional"/>
-		<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
+		<xs:attribute name="mode" use="optional" default="thisday">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="daybefore"/>
+					<xs:enumeration value="thisday"/>
+					<xs:enumeration value="nextdayfirstworship"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 		<xs:attribute name="asaddition">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
@@ -645,7 +651,15 @@
 		<xs:attribute name="time" type="xs:string" use="optional"/>
 		<xs:attribute name="timestyle" type="xs:string" use="optional"/>
 		<xs:attribute name="namestyle" type="xs:string" use="optional"/>
-		<xs:attribute name="isdaybefore" type="xs:boolean" use="optional" default="false"/>
+		<xs:attribute name="mode" use="optional" default="thisday">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="daybefore"/>
+					<xs:enumeration value="thisday"/>
+					<xs:enumeration value="nextdayfirstworship"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="intOutputType">
 		<xs:choice>

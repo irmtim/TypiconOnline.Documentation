@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
-	<worship time="16.00" isdaybefore="true">
+	<worship time="16.00" mode="daybefore">
 		<name>
 			<item language="cs-ru">Великое повечерие. Утреня.</item>
 		</name>

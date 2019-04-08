@@ -12,7 +12,7 @@
 				<int>-22</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -34,7 +34,7 @@
 				<int>-28</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -58,7 +58,7 @@
 				<int>-13</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -80,7 +80,7 @@
 				<int>-25</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -103,7 +103,7 @@
 				<int>-14</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -125,7 +125,7 @@
 				<int>-18</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -147,7 +147,7 @@
 				<int>-17</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -169,7 +169,7 @@
 				<int>-16</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -191,7 +191,7 @@
 				<int>-15</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -213,7 +213,7 @@
 				<int>-8</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -235,7 +235,7 @@
 				<int>-7</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -257,7 +257,7 @@
 				<int>-6</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -279,7 +279,7 @@
 				<int>-5</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -301,7 +301,7 @@
 				<int>-4</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -323,7 +323,7 @@
 				<int>-3</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -345,7 +345,7 @@
 				<int>-2</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -370,7 +370,7 @@
 				<int>-1</int>
 			</values>
 			<action>
-				<worship time="17.00" isdaybefore="true">
+				<worship time="17.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение. Час 1-й.</item>
 					</name>
@@ -413,7 +413,7 @@
 				<int>3</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение.</item>
 					</name>
@@ -429,7 +429,7 @@
 			</action>
 		</case>
 		<default>
-			<worship time="16.00" isdaybefore="true">
+			<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Всенощное бдение.</item>
 					</name>

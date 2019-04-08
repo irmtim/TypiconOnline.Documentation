@@ -12,7 +12,7 @@
 			</equals>
 		</expression>
 		<then>
-			<worship time="16.00" isdaybefore="true">
+			<worship time="16.00" mode="daybefore">
 				<name>
 					<item language="cs-ru">Всенощное бдение.</item>
 				</name>
@@ -156,7 +156,7 @@
 			</if>
 		</then>
 		<else>
-			<worship id="1" time="17.30" isdaybefore="true">
+			<worship id="1" time="17.30" mode="daybefore">
 				<name>
 					<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
 				</name>

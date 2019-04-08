@@ -11,7 +11,7 @@
 		</expression>
 		<then>
 			<!-- Обычное бдение с литией-->
-			<worship time="16.00" isdaybefore="true">
+			<worship time="16.00" mode="daybefore">
 				<name>
 					<item language="cs-ru">Всенощное бдение.</item>
 				</name>
@@ -43,7 +43,7 @@
 						<int>-49</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -67,7 +67,7 @@
 						<int>-57</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -93,7 +93,7 @@
 						<int>-52</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -116,7 +116,7 @@
 						<int>-51</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -139,7 +139,7 @@
 						<int>-50</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -162,7 +162,7 @@
 						<int>-48</int>
 					</values>
 					<action>
-						<worship time="16.00" isdaybefore="true">
+						<worship time="16.00" mode="daybefore">
 							<name>
 								<item language="cs-ru">Всенощное бдение.</item>
 							</name>
@@ -180,7 +180,7 @@
 					</action>
 				</case>
 				<default>
-					<worship time="16.00" isdaybefore="true">
+					<worship time="16.00" mode="daybefore">
 						<name>
 							<item language="cs-ru">Всенощное бдение.</item>
 						</name>

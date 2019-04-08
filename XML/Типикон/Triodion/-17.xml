@@ -11,7 +11,7 @@
 				<int>-17</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Утреня.</item>
 					</name>
@@ -36,7 +36,7 @@
 				<int>-18</int>
 			</values>
 			<action>
-				<worship time="16.00" isdaybefore="true">
+				<worship time="16.00" mode="daybefore">
 					<name>
 						<item language="cs-ru">Утреня.</item>
 					</name>
@@ -57,7 +57,7 @@
 			</action>
 		</case>
 		<default>
-			<worship time="16.00" isdaybefore="true">
+			<worship time="16.00" mode="daybefore">
 				<name>
 					<item language="cs-ru">Утреня.</item>
 				</name>

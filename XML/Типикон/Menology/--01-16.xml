@@ -9,7 +9,7 @@
 					<getdayofweek name="понедельник"></getdayofweek>
 			</values>
 			<action>
-				<worship time="17.30" isdaybefore="true">
+				<worship time="17.30" mode="daybefore">
 					<name>
 						<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
 					</name>
@@ -32,7 +32,7 @@
 			</action>
 		</case>
 		<default>
-			<worship time="17.30" isdaybefore="true">
+			<worship time="17.30" mode="daybefore">
 				<name>
 					<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
 				</name>
