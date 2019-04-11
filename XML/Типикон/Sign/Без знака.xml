@@ -540,62 +540,66 @@
 						<!-- Кафизма 1-->
 						<!-- Седален по 1-ой кафизме-->
 						<sedalen>
-							<if>
-								<expression>
-									<!-- если предпразднество или попразднество-->
-									<iscelebrating/>
-								</expression>
-								<then>
-									<ymnosrule kind="ymnos" source="menology1" place="sedalen1" count="0"/>
-									<!-- Слава Минея Праздника-->
-									<if>
-										<expression>
-											<exists>
+							<definition>
+								<if>
+									<expression>
+										<!-- если предпразднество или попразднество-->
+										<iscelebrating/>
+									</expression>
+									<then>
+										<ymnosrule kind="ymnos" source="menology1" place="sedalen1" count="0"/>
+										<!-- Слава Минея Праздника-->
+										<if>
+											<expression>
+												<exists>
+													<ymnosrule kind="ymnos" source="menology1" place="sedalen1_doxastichon"/>
+												</exists>
+											</expression>
+											<then>
 												<ymnosrule kind="ymnos" source="menology1" place="sedalen1_doxastichon"/>
-											</exists>
-										</expression>
-										<then>
-											<ymnosrule kind="ymnos" source="menology1" place="sedalen1_doxastichon"/>
-										</then>
-									</if>
-									<!-- И ныне Праздника-->
-									<ymnosrule kind="theotokion" source="menology1" place="sedalen1_theotokion"/>
-								</then>
-								<else>
-									<ymnosrule kind="ymnos" source="oktoikh" place="sedalen1" count="0"/>
-									<ymnosrule kind="theotokion" source="oktoikh" place="sedalen1_theotokion"/>
-								</else>
-							</if>
+											</then>
+										</if>
+										<!-- И ныне Праздника-->
+										<ymnosrule kind="theotokion" source="menology1" place="sedalen1_theotokion"/>
+									</then>
+									<else>
+										<ymnosrule kind="ymnos" source="oktoikh" place="sedalen1" count="0"/>
+										<ymnosrule kind="theotokion" source="oktoikh" place="sedalen1_theotokion"/>
+									</else>
+								</if>
+							</definition>
 						</sedalen>
 						<!-- Кафизма 2-->
 						<!-- Седален по 2-ой кафизме-->
 						<sedalen>
-							<if>
-								<expression>
-									<!-- если предпразднество или попразднество-->
-									<iscelebrating/>
-								</expression>
-								<then>
-									<ymnosrule kind="ymnos" source="menology1" place="sedalen2" count="0"/>
-									<!-- Слава Минея Праздника-->
-									<if>
-										<expression>
-											<exists>
+							<definition>
+								<if>
+									<expression>
+										<!-- если предпразднество или попразднество-->
+										<iscelebrating/>
+									</expression>
+									<then>
+										<ymnosrule kind="ymnos" source="menology1" place="sedalen2" count="0"/>
+										<!-- Слава Минея Праздника-->
+										<if>
+											<expression>
+												<exists>
+													<ymnosrule kind="ymnos" source="menology1" place="sedalen2_doxastichon"/>
+												</exists>
+											</expression>
+											<then>
 												<ymnosrule kind="ymnos" source="menology1" place="sedalen2_doxastichon"/>
-											</exists>
-										</expression>
-										<then>
-											<ymnosrule kind="ymnos" source="menology1" place="sedalen2_doxastichon"/>
-										</then>
-									</if>
-									<!-- И ныне Праздника-->
-									<ymnosrule kind="theotokion" source="menology1" place="sedalen2_theotokion"/>
-								</then>
-								<else>
-									<ymnosrule kind="ymnos" source="oktoikh" place="sedalen2" count="0"/>
-									<ymnosrule kind="theotokion" source="oktoikh" place="sedalen2_theotokion"/>
-								</else>
-							</if>
+											</then>
+										</if>
+										<!-- И ныне Праздника-->
+										<ymnosrule kind="theotokion" source="menology1" place="sedalen2_theotokion"/>
+									</then>
+									<else>
+										<ymnosrule kind="ymnos" source="oktoikh" place="sedalen2" count="0"/>
+										<ymnosrule kind="theotokion" source="oktoikh" place="sedalen2_theotokion"/>
+									</else>
+								</if>
+							</definition>
 						</sedalen>
 						<!-- Псалом 50-->
 						<kanonasrule isorthros="true">
@@ -603,72 +607,74 @@
 								<commonrule name="Ектения_малая3"/>
 								<sedalen>
 									<!-- ПРАВИЛА ДЛЯ СЕДАЛЬНОВ ПО 3-Й ПЕСНЕ-->
-									<if>
-										<!-- Два святых-->
-										<expression>
-											<istwosaints/>
-										</expression>
-										<then>
-											<if>
-												<!-- если предпразднество или попразднество-->
-												<expression>
-													<iscelebrating/>
-												</expression>
-												<then>
-													<kontakionrule kind="ymnos" source="menology2" place="orthros1" showikos="true"/>
-													<kontakionrule kind="ymnos" source="menology3" place="orthros1" showikos="true"/>
-													<ymnosrule kind="ymnos" source="menology2" place="sedalen_kanonas" count="0"/>
-													<ymnosrule kind="ymnos" source="menology3" place="sedalen_kanonas" count="0"/>
-													<ymnosrule kind="theotokion" source="menology1" place="sedalen_kanonas_theotokion"/>
-												</then>
-												<else>
-													<if>
-														<!-- Если есть кондаки у Минеи1 и Минеи2 -->
-														<expression>
-															<and>
-																<exists>
-																	<kontakionrule kind="ymnos" source="menology1" place="orthros1"/>
-																</exists>
-																<exists>
-																	<kontakionrule kind="ymnos" source="menology2" place="orthros1"/>
-																</exists>
-															</and>
-														</expression>
-														<then>
-															<kontakionrule kind="ymnos" source="menology1" place="orthros1" showikos="true"/>
-															<ymnosrule kind="ymnos" source="menology1" place="sedalen_kanonas" count="0"/>
-															<ymnosrule kind="ymnos" source="menology2" place="sedalen_kanonas" count="0"/>
-															<if>
-																<expression>
-																	<!-- среда или пятница-->
-																	<or>
-																		<equals>
-																			<getdayofweek>
-																				<date/>
-																			</getdayofweek>
-																			<getdayofweek name="среда"/>
-																		</equals>
-																		<equals>
-																			<getdayofweek>
-																				<date/>
-																			</getdayofweek>
-																			<getdayofweek name="пятница"/>
-																		</equals>
-																	</or>
-																</expression>
-																<then>
-																	<ymnosrule kind="theotokion" source="menology2" place="sedalen_kanonas_stavrostheotokion"/>
-																</then>
-																<else>
-																	<ymnosrule kind="theotokion" source="menology2" place="sedalen_kanonas_theotokion"/>
-																</else>
-															</if>
-														</then>
-													</if>
-												</else>
-											</if>
-										</then>
-									</if>
+									<definition>
+										<if>
+											<!-- Два святых-->
+											<expression>
+												<istwosaints/>
+											</expression>
+											<then>
+												<if>
+													<!-- если предпразднество или попразднество-->
+													<expression>
+														<iscelebrating/>
+													</expression>
+													<then>
+														<kontakionrule kind="ymnos" source="menology2" place="orthros1" showikos="true"/>
+														<kontakionrule kind="ymnos" source="menology3" place="orthros1" showikos="true"/>
+														<ymnosrule kind="ymnos" source="menology2" place="sedalen_kanonas" count="0"/>
+														<ymnosrule kind="ymnos" source="menology3" place="sedalen_kanonas" count="0"/>
+														<ymnosrule kind="theotokion" source="menology1" place="sedalen_kanonas_theotokion"/>
+													</then>
+													<else>
+														<if>
+															<!-- Если есть кондаки у Минеи1 и Минеи2 -->
+															<expression>
+																<and>
+																	<exists>
+																		<kontakionrule kind="ymnos" source="menology1" place="orthros1"/>
+																	</exists>
+																	<exists>
+																		<kontakionrule kind="ymnos" source="menology2" place="orthros1"/>
+																	</exists>
+																</and>
+															</expression>
+															<then>
+																<kontakionrule kind="ymnos" source="menology1" place="orthros1" showikos="true"/>
+																<ymnosrule kind="ymnos" source="menology1" place="sedalen_kanonas" count="0"/>
+																<ymnosrule kind="ymnos" source="menology2" place="sedalen_kanonas" count="0"/>
+																<if>
+																	<expression>
+																		<!-- среда или пятница-->
+																		<or>
+																			<equals>
+																				<getdayofweek>
+																					<date/>
+																				</getdayofweek>
+																				<getdayofweek name="среда"/>
+																			</equals>
+																			<equals>
+																				<getdayofweek>
+																					<date/>
+																				</getdayofweek>
+																				<getdayofweek name="пятница"/>
+																			</equals>
+																		</or>
+																	</expression>
+																	<then>
+																		<ymnosrule kind="theotokion" source="menology2" place="sedalen_kanonas_stavrostheotokion"/>
+																	</then>
+																	<else>
+																		<ymnosrule kind="theotokion" source="menology2" place="sedalen_kanonas_theotokion"/>
+																	</else>
+																</if>
+															</then>
+														</if>
+													</else>
+												</if>
+											</then>
+										</if>
+									</definition>
 								</sedalen>
 							</k_after>
 							<k_after number="6">

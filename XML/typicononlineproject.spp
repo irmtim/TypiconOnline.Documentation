@@ -171,6 +171,7 @@
 			<File FilePath="Examples\Example.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\exapRule.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ItemText.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\KanonasRule.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\logical.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\modifyday.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\text.xml"/>

@@ -102,7 +102,15 @@
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="troparion" type="executableType" minOccurs="0"/>
-			<xs:element name="sedalen" type="executableType" minOccurs="0"/>
+			<xs:element name="sedalen" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="header" type="textHeaderType" minOccurs="0"/>
+						<xs:element name="definition" type="executableType" minOccurs="0"/>
+					</xs:sequence>
+					<xs:attribute name="totalcount" type="xs:int"/>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name="kanonasrule" minOccurs="0">
 				<xs:complexType>
 					<xs:complexContent>
@@ -188,6 +196,7 @@
 			<xs:element name="ymnoscustomrule" type="ymnoscustomruleType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="exapostilarionrule" type="executableType" minOccurs="0"/>
 			<xs:element name="exap_item" type="exap_itemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="evangelion" minOccurs="0"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="exap_itemType">

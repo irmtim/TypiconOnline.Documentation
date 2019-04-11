@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/RulesSchema.xsd">
+	<kanonasrule>
+		<k_after number="3">
+			<sedalen>
+				<header>
+					<item language="cs-ru">Седальны по 3-ей песне</item>
+				</header>
+				<!-- ПРАВИЛА ДЛЯ СЕДАЛЬНОВ ПО 3-Й ПЕСНЕ-->
+				<definition>
+					<kontakionrule kind="ymnos" source="menology1" place="orthros1" showikos="true"/>
+					<ymnosrule kind="ymnos" source="menology1" place="sedalen_kanonas" count="0"/>
+					<ymnosrule kind="ymnos" source="menology2" place="sedalen_kanonas" count="0"/>
+				</definition>
+			</sedalen>
+		</k_after>
+		<k_odi>
+			<k_kanonas source="menology1" kanonas="orthros1" count="4"/>
+		</k_odi>
+	</kanonasrule>
+</rule>

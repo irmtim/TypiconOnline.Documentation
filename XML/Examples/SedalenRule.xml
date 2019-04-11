@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Rules/RulesSchema.xsd">
+	<sedalen>
+		<header header="h2">
+			<item language="cs-ru">СЕДАЛЕН ПО ТРЕТЬЕЙ ПЕСНЕ</item>
+		</header>
+		<definition>
+			<ymnosrule kind="ymnos" source="menology1" place="sedalen_kanonas" count="0"/>
+		</definition>
+	</sedalen>
+</rule>
