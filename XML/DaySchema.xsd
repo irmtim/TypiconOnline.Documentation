@@ -208,11 +208,30 @@
 	</xs:complexType>
 	<xs:complexType name="leitourgiaType">
 		<xs:sequence>
+			<xs:element name="antiphones" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Праздничные Антифоны</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="antiphon" maxOccurs="3">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="chorus" type="textType"/>
+									<xs:element name="stihos" type="textType" maxOccurs="unbounded"/>
+								</xs:sequence>
+								<xs:attribute name="ihos" type="xs:int"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name="makarismi" type="makariosType" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>блаженны</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="input_verse" type="textType" minOccurs="0"/>
 			<xs:element name="prokeimenon" type="prokeimenonType" minOccurs="0" maxOccurs="2"/>
 			<xs:element name="apostles" type="apostlesType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="alleluia" type="prokeimenonType" minOccurs="0" maxOccurs="2"/>

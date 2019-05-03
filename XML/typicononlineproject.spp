@@ -12,6 +12,7 @@
 				<File FilePath="Типикон\Sign\Двунадесятый Господский праздник.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\День Светлой седмицы.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Литургия Преждеосвященных Даров.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Sign\Полиелей.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших (Постом).xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Sign\Поминовение усопших.xml" HomeFolder="Yes"/>
 			</Folder>
