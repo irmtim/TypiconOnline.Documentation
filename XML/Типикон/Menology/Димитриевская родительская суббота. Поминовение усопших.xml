@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
-	<worship time="17.30" mode="daybefore">
+	<worship id="1" time="16.00" mode="daybefore" asaddition="rewrite">
 		<name>
-			<item language="cs-ru">9-й час.  Вечерня. Малое повечерие.</item>
+			<item language="cs-ru">Вечернее богослужение. Поминовение усопших.</item>
 		</name>
 	</worship>
-	<worship time="06.00">
+	<worship id="2" time="07.40" asaddition="rewrite">
 		<name>
-			<item language="cs-ru">Полунощница. Утреня. Часы.</item>
+			<item language="cs-ru">Часы.</item>
 		</name>
 	</worship>
-	<worship time="08.00">
+	<worship id="3" time="08.00" asaddition="rewrite">
 		<name>
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
@@ -18,4 +18,5 @@
 			<item language="cs-ru">Панихида по усопшим.</item>
 		</additionalname>
 	</worship>
+	<worship id="moleben" asaddition="remove"/>
 </rule>
