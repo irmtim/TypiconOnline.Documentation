@@ -176,6 +176,7 @@
 			<File FilePath="Examples\logical.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\modifyday.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\text.xml"/>
+			<File FilePath="Examples\TypiconVersion.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ViewModel.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ViewModel2.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\Пример службы без знака.xml" HomeFolder="Yes"/>
