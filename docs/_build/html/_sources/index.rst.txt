@@ -10,7 +10,9 @@
    :maxdepth: 2
    
    intro
-   
+   admin
+   editor
+	
 
 Индексы и таблицы
 =================

@@ -10,9 +10,8 @@
    :maxdepth: 2
    
    intro
-   app
-   rules
-
+   admin
+   editor
 	
 
 Индексы и таблицы

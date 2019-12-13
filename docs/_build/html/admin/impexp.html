@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Администратор &#8212; документация Typicon.Online 0.1</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <link rel="index" title="Алфавитный указатель" href="../genindex.html" />
+    <link rel="search" title="Поиск" href="../search.html" />
+    <link rel="prev" title="Введение" href="../intro.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="../intro.html" title="Введение"
+             accesskey="P">назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Администратор<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id2">
+<h2>Импорт / экспорт Текстов<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id3">
+<h3>Экспорт текстов<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id4">
+<h4>Права доступа<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Открыто для Администратора</p>
+</div>
+<div class="section" id="id5">
+<h4>Описание<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Экспортирование богослужебных текстов (только Минея и Триодь) в отдельный xml-файл с сохранением Id.
+Выгружаемый файл будет использоваться при начальном заполнении БД.
+Экспортируемые Уставы ссылаются на богослужебные тексты Минеи и Триоди через Id, жестко заданный. Поэтому необходимо выгружать в xml тексты.
+Выгружаются все, кроме определения последовательности.</p>
+</div>
+<div class="section" id="id6">
+<h4>Алгоритм<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>В главном меню раздела Администратор имеется подраздел «Импорт/экспорт».</p></li>
+<li><dl class="simple">
+<dt>По нажатии открывается станица, где располагаются две кнопки:</dt><dd><ol class="loweralpha simple">
+<li><p>«Импортировать»</p></li>
+<li><p>«Экспортировать»</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p>По нажатии на «Экспортировать», запускается алгоритм экспортирования текстов.</p></li>
+<li><p>По успешном окончании пользователю загружается xml-файл с сериализованными текстами Минеи и Триоди.</p></li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Администратор</a><ul>
+<li><a class="reference internal" href="#id2">Импорт / экспорт Текстов</a><ul>
+<li><a class="reference internal" href="#id3">Экспорт текстов</a><ul>
+<li><a class="reference internal" href="#id4">Права доступа</a></li>
+<li><a class="reference internal" href="#id5">Описание</a></li>
+<li><a class="reference internal" href="#id6">Алгоритм</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="../intro.html"
+                        title="предыдущая глава">Введение</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin/impexp.rst.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="../intro.html" title="Введение"
+             >назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, imT.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+  </body>
+</html>
