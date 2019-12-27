@@ -49,6 +49,7 @@
 					<item language="cs-ru">Божественная литургия.</item>
 				</name>
 			</worship>
+			<commonrule name="молебен_после_литургии"/>
 		</default>
 	</switch>
 </rule>

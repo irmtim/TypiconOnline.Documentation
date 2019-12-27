@@ -16,7 +16,7 @@
 			</action>
 		</case>
 		<default>
-			<modifyday asaddition="true" usefullname="false">
+			<modifyday signnumber="8" asaddition="true" usefullname="false">
 				<shortname>
 					<item language="cs-ru">пред Богоявлением</item>
 				</shortname>

@@ -15,4 +15,5 @@
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
 	</worship>
+	<commonrule name="вскр_молебен_после_литургии"/>
 </rule>

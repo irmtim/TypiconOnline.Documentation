@@ -149,6 +149,7 @@
 				<File FilePath="Типикон\Common\СлаваНынеГВ.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Трисвятое_Отченаш.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\Честнейшую.xml" HomeFolder="Yes"/>
+				<File FilePath="Типикон\Common\молебен_после_литургии.xml" HomeFolder="Yes"/>
 			</Folder>
 			<Folder FolderName="Explicit">
 				<File FilePath="Типикон\Explicit\2019-03-24.xml" HomeFolder="Yes"/>
@@ -179,6 +180,7 @@
 			<File FilePath="Examples\TypiconVersion.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ViewModel.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\ViewModel2.xml" HomeFolder="Yes"/>
+			<File FilePath="Examples\Week.xml" HomeFolder="Yes"/>
 			<File FilePath="Examples\Пример службы без знака.xml" HomeFolder="Yes"/>
 		</Folder>
 		<Folder FolderName="Templates">
@@ -224,6 +226,7 @@
 		<File FilePath="Rules\service.xml" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="XSL Files" ExtStr="xsl;xslt">
+		<File FilePath="XSLT\scheduleweekviewer.xslt" HomeFolder="Yes"/>
 		<File FilePath="XSLT\ViewModel.xslt" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="XQuery Files" ExtStr="xq;xql;xquery"/>

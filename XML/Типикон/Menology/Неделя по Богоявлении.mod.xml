@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
-	<modifyday priority="4" asaddition="true" usefullname="false">
+	<modifyday signnumber="8" priority="4" asaddition="true" usefullname="false">
 		<shortname>
 			<item language="cs-ru">по Богоявлении</item>
 		</shortname>

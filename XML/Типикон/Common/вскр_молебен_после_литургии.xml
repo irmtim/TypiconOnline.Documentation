@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<!-- если день - вне дней Великого поста, а также Петрова, Успенского и Рождественского-->
+	<if>
+		<expression>
+			<and>
+				<or>
+					<!-- между Великим и Успенским-->
+					<and>
+						<more>
+							<date/>
+							<datebydaysfromeaster>
+								<int>7</int>
+							</datebydaysfromeaster>
+						</more>
+						<less>
+							<date/>
+							<date>--08-14</date>
+						</less>
+					</and>
+					<!-- между Новым годом и Великим постом-->
+					<lessequals>
+						<date/>
+						<datebydaysfromeaster>
+							<int>-49</int>
+						</datebydaysfromeaster>
+					</lessequals>
+					<!-- между Успенским постом и Новым годом-->
+					<more>
+						<date/>
+						<date>--08-28</date>
+					</more>
+				</or>
+				<!-- воскресенье-->
+				<equals>
+					<getdayofweek>
+						<date/>
+					</getdayofweek>
+					<getdayofweek name="воскресенье"/>
+				</equals>
+			</and>
+		</expression>
+		<then>
+			<!-- Если это первое воскресенье месяца-->
+			<if>
+				<expression>
+					<or>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--12-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--01-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--02-28</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--03-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--04-30</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--05-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--06-30</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--07-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--08-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--09-30</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--10-31</date>
+							</getclosestday>
+							<date/>
+						</equals>
+						<equals>
+							<getclosestday dayofweek="воскресенье" weekcount="1">
+								<date>--11-30</date>
+							</getclosestday>
+							<date/>
+						</equals>
+					</or>
+				</expression>
+				<then>
+					<worship id="moleben">
+						<name>
+							<item language="cs-ru">Молебен перед иконой Божией Матери "Всецарица". Лития по усопшим.</item>
+						</name>
+					</worship>
+				</then>
+				<else>
+					<worship id="moleben">
+						<name>
+							<item language="cs-ru">Общий молебен. Лития по усопшим.</item>
+						</name>
+					</worship>
+				</else>
+			</if>
+		</then>
+	</if>
+</rule>
