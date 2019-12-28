@@ -17,6 +17,7 @@
     
     <link rel="index" title="Алфавитный указатель" href="genindex.html" />
     <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Уставщик" href="editor.html" />
     <link rel="prev" title="Введение" href="intro.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
@@ -25,6 +26,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="Алфавитный указатель"
              accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="editor.html" title="Уставщик"
+             accesskey="N">вперёд</a> |</li>
         <li class="right" >
           <a href="intro.html" title="Введение"
              accesskey="P">назад</a> |</li>
@@ -40,17 +44,69 @@
   <div class="section" id="id1">
 <h1>Администратор<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
 <div class="section" id="id2">
-<h2>Экспорт Устава<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<h2>Рассмотрение Заявки на создание Устава<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
 <div class="section" id="id3">
 <h3>Права доступа<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
 <p>Открыто для Администратора</p>
 </div>
 <div class="section" id="id4">
-<h3>Описание<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Экспортирование Устава (Его выбранной версии) в xml-файл, который загружается пользователю.</p>
+<h3>Алгоритм<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Пользователь выбирает раздел меню «Уставщик - Уставы».</p></li>
+<li><p>В открывшемся окне Пользователь выбирает действие «Рассмотреть» для одного из элементов в списке Уставов, со статусом «Ожидает утверждения».</p></li>
+<li><dl class="simple">
+<dt>В открывшемся окне доступны для чтения поля Заявки:</dt><dd><ol class="loweralpha simple">
+<li><p>Наименование</p></li>
+<li><p>Системное имя</p></li>
+<li><p>Описание</p></li>
+<li><p>Шаблон</p></li>
+<li><p>Язык по умолчанию</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Возможны следующие действия:</dt><dd><ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Утвердить заявку:</dt><dd><ol class="lowerroman simple">
+<li><p>Создается задача на создание новой Сущности Устава с версией в статусе «Черновик», скопированной с Устава-Шаблон</p></li>
+<li><p>Заявке на создание Устава назначется статус «В процессе создания»</p></li>
+<li><p>Система возвращает сообщение об успешной инициации процесса создания сущности Устава</p></li>
+<li><p>По окончании процесса создания сущности Устава удаляется Заявка на создание Устава</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Отклонить заявку:</dt><dd><ol class="lowerroman simple">
+<li><p>Заявке на создание Устава назначется статус «Отклонена»</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
 </div>
 <div class="section" id="id5">
-<h3>Алгоритм<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h3>
+<h2>Импорт / экспорт<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id6">
+<h3>Экспорт Устава<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id7">
+<h4>Права доступа<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Открыто для Администратора</p>
+</div>
+<div class="section" id="id8">
+<h4>Описание<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Экспортирование Устава (Его выбранной версии) в xml-файл, который загружается пользователю.</p>
+</div>
+<div class="section" id="id9">
+<h4>Алгоритм<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h4>
 <ol class="arabic">
 <li><p>В окне списка Уставов в таблице для каждого Устава есть кнопка «Экспортировать».</p></li>
 <li><dl>
@@ -60,7 +116,7 @@
 <li><p>3 (Опубликована - date)</p></li>
 <li><p>4 (Черновик - date)</p></li>
 </ul>
-<p>, где date - дата Создания (CDate)</p>
+<p>где date - дата Создания Версии Устава (CDate)</p>
 </dd>
 </dl>
 </li>
@@ -69,18 +125,18 @@
 </ol>
 </div>
 </div>
-<div class="section" id="id6">
-<h2>Импорт Устава<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
-<div class="section" id="id7">
-<h3>Права доступа<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id10">
+<h3>Импорт Устава<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id11">
+<h4>Права доступа<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h4>
 <p>Открыто для Администратора</p>
 </div>
-<div class="section" id="id8">
-<h3>Описание<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id12">
+<h4>Описание<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h4>
 <p>Импортирование Устава (Его выбранной версии) из xml-файл, который загружается пользователем.</p>
 </div>
-<div class="section" id="id9">
-<h3>Алгоритм<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id13">
+<h4>Алгоритм<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h4>
 <ol class="arabic simple">
 <li><p>В окне списка Уставов имеется кнопка «Импортировать».</p></li>
 <li><p>По нажатии на кнопку появляется модальное окно, в котором можно выбрать xml-файл для загрузки на сервер.</p></li>
@@ -91,21 +147,21 @@
 </ol>
 </div>
 </div>
-<div class="section" id="id10">
-<h2>Импорт / экспорт Текстов<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h2>
-<div class="section" id="id11">
-<h3>Права доступа<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id14">
+<h3>Экспорт текстов<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id15">
+<h4>Права доступа<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h4>
 <p>Открыто для Администратора</p>
 </div>
-<div class="section" id="id12">
-<h3>Описание<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id16">
+<h4>Описание<a class="headerlink" href="#id16" title="Ссылка на этот заголовок">¶</a></h4>
 <p>Экспортирование богослужебных текстов (только Минея и Триодь) в отдельный xml-файл с сохранением Id.
 Выгружаемый файл будет использоваться при начальном заполнении БД.
 Экспортируемые Уставы ссылаются на богослужебные тексты Минеи и Триоди через Id, жестко заданный. Поэтому необходимо выгружать в xml тексты.
 Выгружаются все, кроме определения последовательности.</p>
 </div>
-<div class="section" id="id13">
-<h3>Алгоритм<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id17">
+<h4>Алгоритм<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h4>
 <ol class="arabic simple">
 <li><p>В главном меню раздела Администратор имеется подраздел «Импорт/экспорт».</p></li>
 <li><dl class="simple">
@@ -122,6 +178,7 @@
 </div>
 </div>
 </div>
+</div>
 
 
           </div>
@@ -132,22 +189,30 @@
   <h3><a href="index.html">Оглавление</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Администратор</a><ul>
-<li><a class="reference internal" href="#id2">Экспорт Устава</a><ul>
+<li><a class="reference internal" href="#id2">Рассмотрение Заявки на создание Устава</a><ul>
 <li><a class="reference internal" href="#id3">Права доступа</a></li>
-<li><a class="reference internal" href="#id4">Описание</a></li>
-<li><a class="reference internal" href="#id5">Алгоритм</a></li>
+<li><a class="reference internal" href="#id4">Алгоритм</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id6">Импорт Устава</a><ul>
+<li><a class="reference internal" href="#id5">Импорт / экспорт</a><ul>
+<li><a class="reference internal" href="#id6">Экспорт Устава</a><ul>
 <li><a class="reference internal" href="#id7">Права доступа</a></li>
 <li><a class="reference internal" href="#id8">Описание</a></li>
 <li><a class="reference internal" href="#id9">Алгоритм</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id10">Импорт / экспорт Текстов</a><ul>
+<li><a class="reference internal" href="#id10">Импорт Устава</a><ul>
 <li><a class="reference internal" href="#id11">Права доступа</a></li>
 <li><a class="reference internal" href="#id12">Описание</a></li>
 <li><a class="reference internal" href="#id13">Алгоритм</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id14">Экспорт текстов</a><ul>
+<li><a class="reference internal" href="#id15">Права доступа</a></li>
+<li><a class="reference internal" href="#id16">Описание</a></li>
+<li><a class="reference internal" href="#id17">Алгоритм</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -157,6 +222,9 @@
   <h4>Предыдущий раздел</h4>
   <p class="topless"><a href="intro.html"
                         title="предыдущая глава">Введение</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="editor.html"
+                        title="следующая глава">Уставщик</a></p>
   <div role="note" aria-label="source link">
     <h3>Эта страница</h3>
     <ul class="this-page-menu">
@@ -184,6 +252,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="Алфавитный указатель"
              >указатель</a></li>
+        <li class="right" >
+          <a href="editor.html" title="Уставщик"
+             >вперёд</a> |</li>
         <li class="right" >
           <a href="intro.html" title="Введение"
              >назад</a> |</li>
