@@ -10,6 +10,7 @@
    :maxdepth: 2
    
    intro
+   typicon
    admin
    editor
 	
