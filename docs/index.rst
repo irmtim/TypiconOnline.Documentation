@@ -13,6 +13,7 @@
    typicon
    admin
    editor
+   faq
 	
 
 Индексы и таблицы

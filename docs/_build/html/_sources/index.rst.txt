@@ -10,8 +10,10 @@
    :maxdepth: 2
    
    intro
+   typicon
    admin
    editor
+   faq
 	
 
 Индексы и таблицы

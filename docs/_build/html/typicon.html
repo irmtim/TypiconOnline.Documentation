@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Устав &#8212; документация Typicon.Online 0.1</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Администратор" href="admin.html" />
+    <link rel="prev" title="Введение" href="intro.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="admin.html" title="Администратор"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Введение"
+             accesskey="P">назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Устав<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Каждый храм (монастырь) имеет свои особенности богослужения, поэтому предполагается наличие множества Уставов для конкретных храмов или монастырей, которые должны основываться на одном из нескольких предустановленных Уставов (например: Полный, Монастырский, Приходской).</p>
+<p>Устав представляет собой ключевой объект системы.
+По термином «Устав» понимается совокупность особенностей расписания богослужений для конкретного храма или монастыря, а также настройки их внешнего отображения.</p>
+<div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p>В настоящее время система рассчитана на формирование расписания для храмов и монастырей, где богослужение совершается ежедневно.</p>
+</div>
+<p>Особенности богослужения складываются из …</p>
+<div class="section" id="id2">
+<h2>Правила Минеи<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Исходя из этого в Уставе определяются особенности богослужений для каждого дня года - и называются они <strong>Правилами Минеи</strong>.
+Правила Минеи бывают:</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
+<dt>непереходящие</dt><dd><dl class="simple">
+<dt>определена дата (день и месяц).</dt><dd><p>Например: 1 января, 25 ноября и т.д.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>переходящие</dt><dd><p>дата не определена, вычисялется с помощью элементов правил.
+Например: Димитриевская родительская суббота, Неделя по Рождестве и т.д.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id3">
+<h2>Правила Триоди<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для формирования особенностей богослужений, основанных на службах книги Триодь, используются <strong>Правила Триоди</strong>.
+Для Правила Триоди определяется количество дней относительно дня празднования Пасхи.
+Например: Пасха (0 дней), Преполовение Пятидесятницы (24), Неделя о мытаре и фарисее (-70)</p>
+<div class="admonition hint">
+<p class="admonition-title">Подсказка</p>
+<p>В Уставе не может быть определено более одного правила с одинаковым количеством дней относительно Пасхи</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Знаки службы<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В богослужебном уставе для каждой службы Минеи и Триоди имеется особый знак службы, имеющий определенные особенности совершения богослужения.
+В системе также каждое <strong>Правило Минеи</strong> и <strong>Правило Триоди</strong> ссылается на <strong>Знак службы</strong>.
+В свою очередь Знак службы также может ссылаться на другой Знак службы.</p>
+</div>
+<div class="section" id="id5">
+<h2>Общие правила<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id6">
+<h2>Явные правила<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В итоге для каждого Устава должны быть определены особенности:</p>
+<ul class="simple">
+<li><p>каждого дня годового круга,</p></li>
+<li><p>дней пасхального круга,</p></li>
+<li><p>знаков служб</p></li>
+</ul>
+<p>а также</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Устав</a><ul>
+<li><a class="reference internal" href="#id2">Правила Минеи</a></li>
+<li><a class="reference internal" href="#id3">Правила Триоди</a></li>
+<li><a class="reference internal" href="#id4">Знаки службы</a></li>
+<li><a class="reference internal" href="#id5">Общие правила</a></li>
+<li><a class="reference internal" href="#id6">Явные правила</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="intro.html"
+                        title="предыдущая глава">Введение</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="admin.html"
+                        title="следующая глава">Администратор</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/typicon.rst.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="admin.html" title="Администратор"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Введение"
+             >назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, imT.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+  </body>
+</html>
