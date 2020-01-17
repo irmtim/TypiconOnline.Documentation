@@ -22,12 +22,12 @@
 
 ::
 
-	<script src="https://typicon.online/schedule.js?id=berluki&weeks=2"></script>
+	<script src="https://www.typicon.online/week.js?id=berluki&count=2"></script>
 
 где:
 
 * **id** - системное имя Устава,
-* **weeks** - количество отображаемых седмиц (от 1 до 5)
+* **count** - количество отображаемых седмиц (от 1 до 5)
 
 
 Как внести изменение в расписание?
