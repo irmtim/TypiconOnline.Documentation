@@ -8,6 +8,21 @@
 		</expression>
 		<case>
 			<values>
+				<int>-64</int>
+			</values>
+			<action>
+				<!-- Перенос на -58-й день до Пасхи. -->
+				<modifyday>
+					<datebydaysfromeaster>
+						<int>-58</int>
+					</datebydaysfromeaster>
+				</modifyday>
+				<!-- В самый день не служим – Отдание праздника -->
+				<modifyday priority="6" daymove="0"/>
+			</action>
+		</case>
+		<case>
+			<values>
 				<int>-63</int>
 				<int>-62</int>
 				<int>-61</int>
