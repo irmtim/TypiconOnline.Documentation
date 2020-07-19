@@ -14,8 +14,8 @@
 		<name>
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
-		<additionalname>
-			<item language="cs-ru">Последование Недели Православия.</item>
+		<additionalname bold="true">
+			<item language="cs-ru"> Последование Недели Православия.</item>
 		</additionalname>
 	</worship>
 </rule>

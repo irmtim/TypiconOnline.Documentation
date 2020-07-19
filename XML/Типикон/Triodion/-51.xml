@@ -14,7 +14,7 @@
 		<name>
 			<item language="cs-ru">Часы. Изобразительны.</item>
 		</name>
-		<additionalname>
+		<additionalname bold="true" red="true">
 			<item language="cs-ru">Божественная литургия не совершается.</item>
 		</additionalname>
 	</worship>

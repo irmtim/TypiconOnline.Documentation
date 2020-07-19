@@ -14,8 +14,8 @@
 		<name>
 			<item language="cs-ru">Божественная литургия.</item>
 		</name>
-		<additionalname>
-			<item>Панихида по усопшим.</item>
+		<additionalname bold="true">
+			<item language="cs-ru">Панихида по усопшим.</item>
 		</additionalname>
 	</worship>
 </rule>

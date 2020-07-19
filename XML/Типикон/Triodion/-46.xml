@@ -4,7 +4,7 @@
 		<name>
 			<item language="cs-ru">Великое повечерие с чтением</item>
 		</name>
-		<additionalname>
+		<additionalname bold="true">
 			<item language="cs-ru"> Великого канона прп. Андрея Критского.</item>
 		</additionalname>
 	</worship>
