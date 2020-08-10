@@ -13,7 +13,7 @@
    typicon
    admin
    editor
-   typesetter
+   typesetter/*
    faq
 	
 
