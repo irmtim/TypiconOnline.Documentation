@@ -13,6 +13,7 @@
    typicon
    admin
    editor
+   typesetter/index
    faq
 	
 

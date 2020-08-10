@@ -18,9 +18,21 @@
 	</xs:element>
 	<xs:complexType name="elementType">
 		<xs:sequence>
-			<xs:element name="name" type="textType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="mikrosesperinos" type="mikrosesperinosType" minOccurs="0"/>
-			<xs:element name="esperinos" type="esperinosType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="name" type="textType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Название праздника или святого</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="mikrosesperinos" type="mikrosesperinosType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Малая вечерня</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="esperinos" type="esperinosType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Вечерня</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="apodipno" type="apodipnoType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>Повечерие</xs:documentation>
@@ -31,21 +43,49 @@
 					<xs:documentation>Полунощница</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="orthros" type="orthrosType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="sixhour" type="sixhourType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="leitourgia" type="leitourgiaType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="orthros" type="orthrosType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Утреня</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sixhour" type="sixhourType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Шестой час</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="leitourgia" type="leitourgiaType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Литургия</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="apodipnoType">
 		<xs:sequence>
-			<xs:element name="kanonas" type="kanonasType" maxOccurs="1"/>
-			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kanonas" type="kanonasType" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Канон</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален после 6-ой песни канона</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="mesoniktikoType">
 		<xs:sequence>
-			<xs:element name="kanonas" type="kanonasType" maxOccurs="1"/>
-			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kanonas" type="kanonasType" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Канон</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sedalen" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="sixhourType">
@@ -58,8 +98,15 @@
 					<xs:documentation>Тропарь пророчества</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="prokeimeni" type="prokeimeniType" minOccurs="0"/>
+			<xs:element name="prokeimeni" type="prokeimeniType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Прокимны</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="paroimies">
+				<xs:annotation>
+					<xs:documentation>Паремии</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
 						<xs:element name="paroimia" type="paroimiaType" maxOccurs="3"/>
@@ -71,10 +118,16 @@
 	<xs:complexType name="textType">
 		<xs:sequence>
 			<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Строковое значение на определенном языке</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:simpleContent>
 						<xs:extension base="xs:string">
 							<xs:attribute name="language">
+								<xs:annotation>
+									<xs:documentation>Обозначение языка</xs:documentation>
+								</xs:annotation>
 								<xs:simpleType>
 									<xs:restriction base="xs:string">
 										<xs:enumeration value="cs-ru"/>
@@ -89,11 +142,25 @@
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="style" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Стиль отображения</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:all>
-						<xs:element name="bold" type="xs:boolean" minOccurs="0"/>
-						<xs:element name="red" type="xs:boolean" minOccurs="0"/>
+						<xs:element name="bold" type="xs:boolean" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Жирный</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="red" type="xs:boolean" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Красный цвет</xs:documentation>
+							</xs:annotation>
+						</xs:element>
 						<xs:element name="header" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Размер заголовка</xs:documentation>
+							</xs:annotation>
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
 									<xs:enumeration value="h1"/>
@@ -116,24 +183,54 @@
 	</xs:complexType>
 	<xs:complexType name="esperinosType">
 		<xs:sequence>
-			<xs:element name="kekragaria" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kekragaria" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на Господи воззвах</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="prokeimeni" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Прокимны</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="prokeimenon" type="prokeimenonType" maxOccurs="2"/>
+						<xs:element name="prokeimenon" type="prokeimenonType" maxOccurs="2">
+							<xs:annotation>
+								<xs:documentation>Прокимен</xs:documentation>
+							</xs:annotation>
+						</xs:element>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="paroimies" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Паремии</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="paroimia" type="paroimiaType" maxOccurs="unbounded"/>
+						<xs:element name="paroimia" type="paroimiaType" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Паремия</xs:documentation>
+							</xs:annotation>
+						</xs:element>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="liti" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="troparion" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="liti" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на литии</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на стиховне</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="troparion" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Тропарь</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="paroimiesType">
@@ -143,10 +240,22 @@
 	</xs:complexType>
 	<xs:complexType name="paroimiaType">
 		<xs:sequence>
-			<xs:element name="bookname" type="textType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="stihos" type="textType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="bookname" type="textType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Наименование книги</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="stihos" type="textType" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Стихи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="quote" type="xs:string"/>
+		<xs:attribute name="quote" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Обозначение начального и конеченого стихов</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="prokeimeniType">
 		<xs:sequence>
@@ -155,9 +264,21 @@
 	</xs:complexType>
 	<xs:complexType name="mikrosesperinosType">
 		<xs:sequence>
-			<xs:element name="kekragaria" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="troparion" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="kekragaria" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на Господи воззвах</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на стиховне</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="troparion" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Тропарь</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="textCollectionType">
@@ -167,38 +288,100 @@
 	</xs:complexType>
 	<xs:complexType name="orthrosType">
 		<xs:sequence>
-			<xs:element name="sed_1kathisma" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="sed_2kathisma" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="sed_3kathisma" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="sed_polyeleos" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="anavathmos" type="sticheraType" minOccurs="0"/>
-			<xs:element name="megalynarion" type="textCollectionType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="sed_1kathisma" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален после 1-ой кафизмы</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sed_2kathisma" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален после 2-ой кафизмы</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sed_3kathisma" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален после 3-ой кафизмы</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sed_polyeleos" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален после полиелея</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="anavathmos" type="sticheraType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Степенны</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="megalynarion" type="textCollectionType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Величание</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="eclogarion" type="textCollectionType" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>Псалом избранный</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="prokeimenon" type="prokeimenonType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="evangelion" type="evangelionType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="sticheron_50" type="groupType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="prokeimenon" type="prokeimenonType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Прокимен на полиелее</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="evangelion" type="evangelionType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Евангельское чтение на полиелее</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sticheron_50" type="groupType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихира по 50-м псалме</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="kanones" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Каноны</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="kanonas" type="kanonasType" maxOccurs="3"/>
+						<xs:element name="kanonas" type="kanonasType" maxOccurs="3">
+							<xs:annotation>
+								<xs:documentation>Канон</xs:documentation>
+							</xs:annotation>
+						</xs:element>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="sedalen_kanonas" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="sedalen_kanonas" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Седален по 3-ей песни канона</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="kontakia" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Кондак после 6-ой песни канона</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
 						<xs:element name="kontakion" type="kontakionType" maxOccurs="2"/>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="exapostilarion" type="exapostilarionType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="ainoi" type="sticheraType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="exapostilarion" type="exapostilarionType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Эксапостиларий</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ainoi" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на Хвалитех</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="aposticha" type="sticheraType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Стихиры на стиховне</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="kanonesType">
@@ -217,10 +400,22 @@
 						<xs:element name="antiphon" maxOccurs="3">
 							<xs:complexType>
 								<xs:sequence>
-									<xs:element name="chorus" type="textType"/>
-									<xs:element name="stihos" type="textType" maxOccurs="unbounded"/>
+									<xs:element name="chorus" type="textType">
+										<xs:annotation>
+											<xs:documentation>Припев</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="stihos" type="textType" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation>Стихи</xs:documentation>
+										</xs:annotation>
+									</xs:element>
 								</xs:sequence>
-								<xs:attribute name="ihos" type="xs:int"/>
+								<xs:attribute name="ihos" type="xs:int">
+									<xs:annotation>
+										<xs:documentation>Глас</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
 							</xs:complexType>
 						</xs:element>
 					</xs:sequence>
@@ -231,16 +426,42 @@
 					<xs:documentation>блаженны</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="input_verse" type="textType" minOccurs="0"/>
-			<xs:element name="prokeimenon" type="prokeimenonType" minOccurs="0" maxOccurs="2"/>
-			<xs:element name="apostles" type="apostlesType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="alleluia" type="prokeimenonType" minOccurs="0" maxOccurs="2"/>
-			<xs:element name="evangelion" type="evangelionType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="input_verse" type="textType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Входной стих</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="prokeimenon" type="prokeimenonType" minOccurs="0" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>Прокимны</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="apostles" type="apostlesType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Апостольское чтение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="alleluia" type="prokeimenonType" minOccurs="0" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>Аллилуиа</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="evangelion" type="evangelionType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Евангельское чтение</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="kinonik" minOccurs="0" maxOccurs="2">
+				<xs:annotation>
+					<xs:documentation>Запричастный стих</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="textType">
 							<xs:attribute name="kind">
+								<xs:annotation>
+									<xs:documentation>Принадлежность (Господский, Богородичен...)</xs:documentation>
+								</xs:annotation>
 								<xs:simpleType>
 									<xs:restriction base="xs:string">
 										<xs:enumeration value="theotokion"/>
@@ -262,9 +483,21 @@
 	</xs:complexType>
 	<xs:complexType name="sticheraType">
 		<xs:sequence>
-			<xs:element name="group" type="groupType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="doxastichon" type="groupType" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="theotokion" type="groupType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="group" type="groupType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Группа стихир, объединенная гласом</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="doxastichon" type="groupType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Славник</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="theotokion" type="groupType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Богородичен</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="groupsType">
@@ -275,19 +508,37 @@
 	<xs:complexType name="groupType">
 		<xs:sequence>
 			<xs:element name="prosomoion" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Определение подобна</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:complexContent>
 						<xs:extension base="textType">
-							<xs:attribute name="self" type="xs:boolean" use="required"/>
+							<xs:attribute name="self" type="xs:boolean" use="required">
+								<xs:annotation>
+									<xs:documentation>Самоподобен?</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
 						</xs:extension>
 					</xs:complexContent>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="annotation" type="textType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="annotation" type="textType" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Аннотация ("стихиры кир Иоанна")</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="ymnos" type="ymnosType" maxOccurs="unbounded"/>
 		</xs:sequence>
-		<xs:attribute name="ihos" type="xs:byte" use="required"/>
+		<xs:attribute name="ihos" type="xs:byte" use="required">
+			<xs:annotation>
+				<xs:documentation>Глас (1..8)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 		<xs:attribute name="kind">
+			<xs:annotation>
+				<xs:documentation>Вид группы (посвященные Кресту)</xs:documentation>
+			</xs:annotation>
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="stavros"/>
@@ -302,11 +553,26 @@
 	</xs:complexType>
 	<xs:complexType name="ymnosType">
 		<xs:sequence>
-			<xs:element name="annotation" type="textType" minOccurs="0"/>
-			<xs:element name="stihos" type="textType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="annotation" type="textType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Аннотация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="stihos" type="textType" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Предваряющие стихи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="text" type="textType" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Текст песнопения</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="kind">
+			<xs:annotation>
+				<xs:documentation>Принадлежность (богородичен, мученичен...)</xs:documentation>
+			</xs:annotation>
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="theotokion"/>
@@ -328,10 +594,21 @@
 	</xs:complexType>
 	<xs:complexType name="prokeimenonType">
 		<xs:sequence>
-			<xs:element name="stihos" type="textType" maxOccurs="unbounded"/>
+			<xs:element name="stihos" type="textType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Стихи</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="ihos" type="xs:byte" use="required"/>
+		<xs:attribute name="ihos" type="xs:byte" use="required">
+			<xs:annotation>
+				<xs:documentation>Глас (1..8)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 		<xs:attribute name="kind">
+			<xs:annotation>
+				<xs:documentation>Принадлежность (Господский, Богородичен, мученикам...)</xs:documentation>
+			</xs:annotation>
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="theotokion"/>
@@ -349,23 +626,46 @@
 	</xs:complexType>
 	<xs:complexType name="kanonasType">
 		<xs:sequence maxOccurs="unbounded">
-			<xs:element name="name" type="textType" minOccurs="0"/>
-			<xs:element name="acrostic" type="textType" minOccurs="0"/>
-			<xs:element name="annotation" type="textType" minOccurs="0"/>
+			<xs:element name="name" type="textType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Наименование</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="acrostic" type="textType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Акростих</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="annotation" type="textType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Аннотация</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="stihos" type="textType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>Припев к тропарям</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="odes" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Песни канона</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="odi" type="odiType" minOccurs="1" maxOccurs="unbounded"/>
+						<xs:element name="odi" type="odiType" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Песнь канона</xs:documentation>
+							</xs:annotation>
+						</xs:element>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="ihos" type="xs:byte"/>
+		<xs:attribute name="ihos" type="xs:byte">
+			<xs:annotation>
+				<xs:documentation>Глас (1..8)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="exapostilarionType">
 		<xs:sequence>
@@ -390,9 +690,17 @@
 	</xs:complexType>
 	<xs:complexType name="odiType">
 		<xs:sequence>
-			<xs:element name="troparion" type="ymnosType" maxOccurs="unbounded"/>
+			<xs:element name="troparion" type="ymnosType" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Тропари</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="number" type="xs:byte" use="required"/>
+		<xs:attribute name="number" type="xs:byte" use="required">
+			<xs:annotation>
+				<xs:documentation>Номер песни (1..9)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="kontakionType">
 		<xs:sequence>
@@ -419,14 +727,25 @@
 					<xs:attribute name="count" type="xs:byte" use="required"/>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="ymnis" type="groupType" minOccurs="0"/>
+			<xs:element name="ymnis" type="groupType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Явно определенные тропари</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="apostlesType">
 		<xs:sequence>
 			<xs:element name="part" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Зачала</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
-					<xs:attribute name="number" type="xs:int" use="required"/>
+					<xs:attribute name="number" type="xs:int" use="required">
+						<xs:annotation>
+							<xs:documentation>Номер зачала</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
@@ -434,8 +753,14 @@
 	<xs:complexType name="evangelionType">
 		<xs:sequence>
 			<xs:element name="part" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Зачала</xs:documentation>
+				</xs:annotation>
 				<xs:complexType>
 					<xs:attribute name="bookname" use="required">
+						<xs:annotation>
+							<xs:documentation>Наименование книги</xs:documentation>
+						</xs:annotation>
 						<xs:simpleType>
 							<xs:restriction base="xs:string">
 								<xs:enumeration value="Мф"/>
@@ -445,7 +770,11 @@
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:attribute>
-					<xs:attribute name="number" type="xs:int" use="required"/>
+					<xs:attribute name="number" type="xs:int" use="required">
+						<xs:annotation>
+							<xs:documentation>Номер зачала</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
