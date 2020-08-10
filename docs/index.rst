@@ -14,7 +14,8 @@
    typicon
    admin
    editor
-   typesetter/*
+   typesetter/index
+   typesetter/dayschema
    faq
 	
 
