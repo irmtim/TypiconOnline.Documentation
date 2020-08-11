@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Редактор текстов &#8212; документация Typicon.Online 0.1</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    
+    <link rel="index" title="Алфавитный указатель" href="../genindex.html" />
+    <link rel="search" title="Поиск" href="../search.html" />
+    <link rel="next" title="Правила набора богослужебных текстов" href="dayschema.html" />
+    <link rel="prev" title="Уставщик" href="../editor.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="dayschema.html" title="Правила набора богослужебных текстов"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="../editor.html" title="Уставщик"
+             accesskey="P">назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Редактор текстов<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id2">
+<h2>Описание<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Роль пользователя в системе Типикон.онлайн</p>
+<p>Позволяет выполнять следующие задачи:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Редактирование богослужебных текстов</dt><dd><ul>
+<li><p>Минеи</p></li>
+<li><p>Триоди</p></li>
+<li><p>Октоиха</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>Функционал<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id4">
+<h3>Создание службы Минеи<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id5">
+<h4>Права доступа<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Открыто для Редактора текстов и Администратора</p>
+</div>
+<div class="section" id="id6">
+<h4>Условия<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Открыто для зарегистрированного пользователя</p>
+</div>
+<div class="section" id="id7">
+<h4>Алгоритм<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Пользователь выбирает раздел меню «Тексты служб - Минея».</p></li>
+<li><p>В открывшемся окне Пользователь выбирает действие «Новая служба Минеи»</p></li>
+<li><dl class="simple">
+<dt>В открывшемся окне заполняются поля:</dt><dd><ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Наименование (обязательно)</dt><dd><p>Наименование службы (многоязычное)</p>
+</dd>
+</dl>
+</li>
+<li><p><strong>Краткое наименование службы</strong></p></li>
+<li><dl class="simple">
+<dt>Дата (високосный год)</dt><dd><p>Дата службы (указывается дата по високосному году).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Признак Господского или Богородичного праздника, его предпразднества или попразднества</dt><dd><p>Если выбран, то служба будет учитываться как Господский/Богородичный праздник.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Признак, использовать ли полное имя при составлении расписания</dt><dd><p>Учитывается при отображении расписания в воскресные дни.
+Например, имеет значение true для праздника Недели по Рождестве</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Определение текста службы</dt><dd><p>XML-документ, включающий определение текста службы.
+Заполняется согласноопределенным правилам.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p>Пользователь выбирает действие «Создать».</p></li>
+<li><p>Происходит валидация данных.</p></li>
+<li><p>При успешной валидации происходит переход на страницу списка текстов служб Минеи.</p></li>
+<li><p>В случае каких-либо ошибок, система возвращает сообщение об ошибке.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Редактор текстов</a><ul>
+<li><a class="reference internal" href="#id2">Описание</a></li>
+<li><a class="reference internal" href="#id3">Функционал</a><ul>
+<li><a class="reference internal" href="#id4">Создание службы Минеи</a><ul>
+<li><a class="reference internal" href="#id5">Права доступа</a></li>
+<li><a class="reference internal" href="#id6">Условия</a></li>
+<li><a class="reference internal" href="#id7">Алгоритм</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="../editor.html"
+                        title="предыдущая глава">Уставщик</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="dayschema.html"
+                        title="следующая глава">Правила набора богослужебных текстов</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/typesetter/index.rst.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="dayschema.html" title="Правила набора богослужебных текстов"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="../editor.html" title="Уставщик"
+             >назад</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">документация Typicon.Online 0.1</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, imT.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+  </body>
+</html>

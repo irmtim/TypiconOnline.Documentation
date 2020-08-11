@@ -15,7 +15,7 @@
    admin
    editor
    typesetter/index
-   typesetter/dayschema
+   typesetter/*
    faq
 	
 
