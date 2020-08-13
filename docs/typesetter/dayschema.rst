@@ -8,7 +8,17 @@
 
 Ниже представлены правила оформления документа.
 
-Также по `ссылке<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/DaySchema.xsd>`_ доступна XSD-схема для проверки правильности заполнения XML-документа.
+Полезные ссылки:
+	
+	* XSD-схема для проверки правильности заполнения XML-документа - `ссылка<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/DaySchema.xsd>`_
+	
+	* Пример бденной службы Возвижения Креста Господня- `ссылка<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/Menology/--09-27.%D0%92%D0%9E%D0%97%D0%94%D0%92%D0%98%D0%96%D0%95%D0%9D%D0%98%D0%95%20%D0%A7%D0%95%D0%A1%D0%A2%D0%9D%D0%9E%D0%93%D0%9E%20%D0%98%20%D0%96%D0%98%D0%92%D0%9E%D0%A2%D0%92%D0%9E%D0%A0%D0%AF%D0%A9%D0%95%D0%93%D0%9E%20%D0%9A%D0%A0%D0%95%D0%A1%D0%A2%D0%90%20%D0%93%D0%9E%D0%A1%D0%9F%D0%9E%D0%94%D0%9D%D0%AF.xml>`_
+	
+	* Пример воскресной службы Октоиха - `ссылка<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/Books/Oktoikh/1.Sunday.xml>`_
+
+	* Пример субботней службы Октоиха - `ссылка<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/Books/Oktoikh/1.Saturday.xml>`_
+	
+	* Пример седмичной службы Октоиха - `ссылка<https://github.com/irmtim/TypiconOnline.Documentation/blob/master/XML/Books/Oktoikh/1.Monday.xml>`_
 
 
 
