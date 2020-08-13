@@ -229,6 +229,26 @@
 </div>
 <div class="section" id="id11">
 <h2>Повечерие<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">apodipno</span></code> - текст службы повечерия (малого или великого)</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">kanonas</span></code> - канон на повечерии</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id23">Канон</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sedalen</span></code> - седален после 6-ой песни канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
 </div>
 <div class="section" id="id12">
 <h2>Полунощница<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
@@ -574,7 +594,7 @@
 <blockquote>
 <div><p>Тип - строковый</p>
 <p>Обязательность - нет</p>
-<p>Пример заполнения</p>
+<p><strong>Пример заполнения</strong></p>
 <blockquote>
 <div><p><em>Ис. 61:1–9</em> - чтение из книги пророка Исаии, глава 61, стихи 1-9</p>
 </div></blockquote>
@@ -613,6 +633,136 @@
 </pre></div>
 </div>
 </div>
+<div class="section" id="id23">
+<h2>Канон<a class="headerlink" href="#id23" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Текст канона</p>
+<p><strong>Атрибуты</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">ihos</span></code> - номер <a class="reference internal" href="../glossary.html#term-13"><span class="xref std std-term">гласа</span></a></p>
+<blockquote>
+<div><p>Тип - целочисленный (1..8)</p>
+<p>Обязательность - нет</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - наименование канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">acrostic</span></code> - акростих или «краегранесие» канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">annotation</span></code> - аннотация (справочная информация, указанная в источнике)</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stihos</span></code> - припев к тропарям канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Пример заполнения</strong></p>
+<blockquote>
+<div><div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;stihos&gt;</span>
+        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Пресвятая Богородице, спаси нас.<span class="nt">&lt;/item&gt;</span>
+<span class="nt">&lt;/stihos&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">odes</span></code> - песни канона</p>
+<blockquote>
+<div><p>Обязательность - да</p>
+<p>Количество - 1</p>
+<p>Дочерние элементы</p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">odi</span></code> - песнь канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id24">Песнь канона</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..9</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id24">
+<h2>Песнь канона<a class="headerlink" href="#id24" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Текст песни канона</p>
+<p><strong>Атрибуты</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">number</span></code> - номер песни канона</p>
+<blockquote>
+<div><p>Тип - целочисленный (1..9)</p>
+<p>Обязательность - да</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">troparion</span></code> - тропарь канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id20">Песнопение</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..n</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<div class="admonition important">
+<p class="admonition-title">Важно</p>
+<p>В каждой песне должен быть начальный тропарь с указанием вида <code class="docutils literal notranslate"><span class="pre">irmos</span></code></p>
+</div>
+<p><strong>Примеры заполнения</strong></p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;odi</span> <span class="na">number=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;troparion</span> <span class="na">kind=</span><span class="s">&quot;irmos&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Твоя́ победи́тельная десни́ца Боголе́пно в кре́пости просла́вися: та́ бо Безсме́ртне, я́ко всемогу́щая, проти́вныя сотре́, Изра́ильтяном пу́ть глубины́ новосоде́лавшая.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/troparion&gt;</span>
+        <span class="nt">&lt;troparion&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-cs&quot;</span><span class="nt">&gt;</span>Кyю ти2 дост0йную пёснь нaше принесeтъ неможeніе; т0чію њбрaдовательную, є4йже нaсъ гавріи1лъ тaйнw научи1лъ є4сть: рaдуйсz бцdе дв7о, м™и неневёстнаz.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/troparion&gt;</span>
+        <span class="nt">&lt;troparion&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-cs&quot;</span><span class="nt">&gt;</span>Приснодв7э и3 м™ри цRS вhшнихъ си1лъ, t чистёйша сeрдца вёрніи дух0внэ возопіи1мъ: рaдуйсz бцdе дв7о, м™и неневёстнаz.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/troparion&gt;</span>
+        <span class="nt">&lt;troparion&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-cs&quot;</span><span class="nt">&gt;</span>Безмёрнаz бeздна твоегw2 непостижи1магw ржcтвA всечcтаz, вёрою несумнённою ќбw чи1стэ прин0симъ ти2 глаг0люще: рaдуйсz бцdе дв7о, м™и неневёстнаz.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/troparion&gt;</span>
+<span class="nt">&lt;/odi&gt;</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -640,6 +790,8 @@
 <li><a class="reference internal" href="#id20">Песнопение</a></li>
 <li><a class="reference internal" href="#id21">Прокимен</a></li>
 <li><a class="reference internal" href="#id22">Паремия</a></li>
+<li><a class="reference internal" href="#id23">Канон</a></li>
+<li><a class="reference internal" href="#id24">Песнь канона</a></li>
 </ul>
 </li>
 </ul>

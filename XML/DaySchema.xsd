@@ -646,7 +646,7 @@
 					<xs:documentation>Припев к тропарям</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="odes" minOccurs="0" maxOccurs="1">
+			<xs:element name="odes" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>Песни канона</xs:documentation>
 				</xs:annotation>
