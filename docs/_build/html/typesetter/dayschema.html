@@ -252,9 +252,282 @@
 </div>
 <div class="section" id="id12">
 <h2>Полунощница<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">mesoniktiko</span></code> - текст службы полунощницы (воскресной)</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">kanonas</span></code> - канон на полунощнице</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id23">Канон</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sedalen</span></code> - седален после 6-ой песни канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
 </div>
 <div class="section" id="id13">
 <h2>Утреня<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">orthros</span></code> - текст службы утрени</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed_1kathisma</span></code> - Седален после 1-ой кафизмы</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed_2kathisma</span></code> - Седален после 2-ой кафизмы</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed_3kathisma</span></code> - Седален после 3-ей кафизмы</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sed_polyeleos</span></code> - Седален после полиелея</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">anavathmos</span></code> - <a class="reference internal" href="../glossary.html#term-18"><span class="xref std std-term">степенны</span></a></p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">megalynarion</span></code> - <a class="reference internal" href="../glossary.html#term-19"><span class="xref std std-term">величание</span></a></p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">stihos</span></code> - текст величания</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..n</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">eclogarion</span></code> - <a class="reference internal" href="../glossary.html#term-20"><span class="xref std std-term">псалом избранный</span></a></p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">stihos</span></code> - текст величания</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..n</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">prokeimenon</span></code> - прокимен на полиелее</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id21">Прокимен</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">evangelion</span></code> - евангельское чтение на полиелее</p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">part</span></code> - <a class="reference internal" href="../glossary.html#term-21"><span class="xref std std-term">евангельские зачала</span></a></p>
+<blockquote>
+<div><p>Обязательность - да</p>
+<p>Количество - 1..n</p>
+<p><strong>Атрибуты</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">bookname</span></code> - наименование книги Священного писания</p>
+<blockquote>
+<div><p>Тип - строковое значение</p>
+<p>Возможные значения</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Мф</strong> - евангелие от Матфея</p></li>
+<li><p><strong>Мк</strong> - евангелие от Марка</p></li>
+<li><p><strong>Лк</strong> - евангелие от Луки</p></li>
+<li><p><strong>Ин</strong> - евангелие от Иоанна</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">number</span></code> - порядковый номер зачала</p>
+<blockquote>
+<div><p>Тип - целочисленное</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Примеры заполнения</strong></p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;part</span> <span class="na">bookname=</span><span class="s">&quot;Ин&quot;</span> <span class="na">number=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sticheron_50</span></code> - стихира по 50-м псалме</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id19">Группа песнопений</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">kanones</span></code> - каноны</p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">kanonas</span></code> - канон</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id23">Канон</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..3</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sedalen_kanonas</span></code> - Седален после 3-ей песни канона</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">kontakia</span></code> - кондаки после 6-ой песни канона</p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">kontakion</span></code> - текст кондака</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id25">Кондак</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1..2</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Примеры заполнения</strong></p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;kontakia&gt;</span>
+        <span class="nt">&lt;kontakion</span> <span class="na">ihos=</span><span class="s">&quot;4&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;prosomoion</span> <span class="na">self=</span><span class="s">&quot;true&quot;</span><span class="nt">/&gt;</span>
+                <span class="nt">&lt;ymnos&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Вознесы́йся на Кре́ст во́лею, тезоимени́тому Твоему́ но́вому жи́тельству щедро́ты Твоя́ да́руй, Христе́ Бо́же, возвесели́ си́лою Твое́ю побе́ды дая́ на́м на сопоста́ты, посо́бие иму́щу Твое́, ору́жие ми́ра непобеди́мую побе́ду.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/ymnos&gt;</span>
+                <span class="nt">&lt;ikos&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Иже до тре́тияго небесе́ восхище́н бы́сть в ра́й, и глаго́лы слы́шав неизрече́нныя и боже́ственныя, и́хже не ле́ть язы́ки (челове́ческими) глаго́лати, что́ Гала́том пи́шет, я́ко рачи́телие писа́ний прочто́сте и позна́сте: мне́, глаго́лет, хвали́тися да не бу́дет, то́кмо во еди́ном Кресте́ Госпо́дни, на не́мже страда́в, уби́ стра́сти. Того́ у́бо и мы́ изве́стно да держи́м, Кре́ст Госпо́день, хвалу́ вси́: е́сть бо на́м спаси́тельное сие́ Дре́во, ору́жие ми́ра, непобеди́мая побе́да.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/ikos&gt;</span>
+        <span class="nt">&lt;/kontakion&gt;</span>
+<span class="nt">&lt;/kontakia&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">exapostilarion</span></code> - <a class="reference internal" href="../glossary.html#term-22"><span class="xref std std-term">эксапостиларий</span></a></p>
+<blockquote>
+<div><p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">ymnos</span></code> - текст единого эксапостилария</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id26">Эксапостиларий</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..n</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">theotokion</span></code> - текст богородична эксапостилария</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id26">Эксапостиларий</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Примеры заполнения</strong></p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;exapostilarion&gt;</span>
+        <span class="nt">&lt;ymnos&gt;</span>
+                <span class="nt">&lt;prosomoion</span> <span class="na">self=</span><span class="s">&quot;false&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Ученико́м<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/prosomoion&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Кре́ст — храни́тель всея́ вселе́нныя, Кре́ст — красота́ Це́ркве, Кре́ст — царе́й держа́ва, Кре́ст — ве́рных утвержде́ние, Кре́ст — Ангелов сла́ва и де́монов я́зва.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/ymnos&gt;</span>
+        <span class="nt">&lt;theotokion&gt;</span>
+                <span class="nt">&lt;prosomoion</span> <span class="na">self=</span><span class="s">&quot;false&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Жены́, услы́шите<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/prosomoion&gt;</span>
+                <span class="nt">&lt;text&gt;</span>
+                        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Кре́ст воздвиза́ется дне́сь, и ми́р освяща́ется: Иже бо со Отце́м сидя́й и Ду́хом Святы́м, на се́м ру́це распростре́, ми́р ве́сь привлече́ к Твоему́, Христе́, позна́нию; и́же у́бо на Тя́ наде́ющияся боже́ственныя сподо́би сла́вы.<span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;/text&gt;</span>
+        <span class="nt">&lt;/theotokion&gt;</span>
+<span class="nt">&lt;/exapostilarion&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ainoi</span></code> - стихиры на Хвалитех</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">aposticha</span></code> - стихиры на стиховне</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id18">Стихиры</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
 </div>
 <div class="section" id="id14">
 <h2>Шестой час<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h2>
@@ -275,7 +548,7 @@
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;ItemText&gt;</span>
         <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-ru&quot;</span><span class="nt">&gt;</span>Блажен муж, иже не иде на совет нечестивых<span class="nt">&lt;/item&gt;</span>
         <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;cs-cs&quot;</span><span class="nt">&gt;</span>Бlжeнъ мyжъ, и4же не и4де на совётъ нечести1выхъ<span class="nt">&lt;/item&gt;</span>
-        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;ru-ru&quot;</span><span class="nt">&gt;</span>Блажен муж, который не пошел на совет нечестивыхitem&gt;
+        <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;ru-ru&quot;</span><span class="nt">&gt;</span>Блажен муж, который не пошел на совет нечестивых<span class="nt">&lt;/item&gt;</span>
         <span class="nt">&lt;item</span> <span class="na">language=</span><span class="s">&quot;el-el&quot;</span><span class="nt">&gt;</span>Μακάριος ἀνήρ, ὃς οὐκ ἐπορεύθη ἐν βουλῇ ἀσεβῶν<span class="nt">&lt;/item&gt;</span>
         <span class="nt">&lt;style&gt;</span>
                 <span class="nt">&lt;bold/&gt;</span>
@@ -763,6 +1036,94 @@
 </pre></div>
 </div>
 </div>
+<div class="section" id="id25">
+<h2>Кондак<a class="headerlink" href="#id25" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Описание кондака</p>
+<p><strong>Атрибуты</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">ihos</span></code> - номер <a class="reference internal" href="../glossary.html#term-13"><span class="xref std std-term">гласа</span></a></p>
+<blockquote>
+<div><p>Тип - целочисленный (1..8)</p>
+<p>Обязательность - да</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">prosomoion</span></code> - определение <a class="reference internal" href="../glossary.html#term-14"><span class="xref std std-term">подобна</span></a></p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<dl>
+<dt>Атрибуты</dt><dd><p><code class="docutils literal notranslate"><span class="pre">self</span></code> - является ли <a class="reference internal" href="../glossary.html#term-15"><span class="xref std std-term">самоподобном</span></a></p>
+<p>Тип - логический</p>
+<p>Обязательность - да</p>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">annotation</span></code> - аннотация (справочная информация, указанная в источнике)</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ymnos</span></code> - собственно текст кондака</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ikos</span></code> - текст икоса</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id26">
+<h2>Эксапостиларий<a class="headerlink" href="#id26" title="Ссылка на этот заголовок">¶</a></h2>
+<p>описание <a class="reference internal" href="../glossary.html#term-22"><span class="xref std std-term">эксапостилария</span></a></p>
+<p><strong>Дочерние элементы</strong></p>
+<blockquote>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">prosomoion</span></code> - определение <a class="reference internal" href="../glossary.html#term-14"><span class="xref std std-term">подобна</span></a></p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<dl>
+<dt>Атрибуты</dt><dd><p><code class="docutils literal notranslate"><span class="pre">self</span></code> - является ли <a class="reference internal" href="../glossary.html#term-15"><span class="xref std std-term">самоподобном</span></a></p>
+<p>Тип - логический</p>
+<p>Обязательность - да</p>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">annotation</span></code> - аннотация (справочная информация, указанная в источнике)</p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - нет</p>
+<p>Количество - 0..1</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">text</span></code> - собственно текст <a class="reference internal" href="../glossary.html#term-22"><span class="xref std std-term">эксапостилария</span></a></p>
+<blockquote>
+<div><p>Тип - <a class="reference internal" href="#id16">Многоязыковая строка</a></p>
+<p>Обязательность - да</p>
+<p>Количество - 1</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
 
@@ -792,6 +1153,8 @@
 <li><a class="reference internal" href="#id22">Паремия</a></li>
 <li><a class="reference internal" href="#id23">Канон</a></li>
 <li><a class="reference internal" href="#id24">Песнь канона</a></li>
+<li><a class="reference internal" href="#id25">Кондак</a></li>
+<li><a class="reference internal" href="#id26">Эксапостиларий</a></li>
 </ul>
 </li>
 </ul>
