@@ -11,6 +11,7 @@
    :glob:
    
    intro
+   start
    typicon
    admin
    editor

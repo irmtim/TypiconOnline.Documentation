@@ -71,6 +71,7 @@
 		<xs:sequence maxOccurs="unbounded">
 			<xs:element name="switch" type="switchType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="worship" type="worshipType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="variableworship" type="variableworshipType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="notice" type="noticeType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="kekragaria" type="kekragariaType" minOccurs="0"/>
@@ -328,6 +329,9 @@
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="variableworshipType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
 	</xs:complexType>
 	<xs:complexType name="kanonasruleType">
 		<xs:complexContent>

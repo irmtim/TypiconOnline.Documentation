@@ -227,6 +227,7 @@
 				<File FilePath="Books\WeekDayApp\Wednesday.xml" HomeFolder="Yes"/>
 			</Folder>
 		</Folder>
+		<Folder FolderName="Typicon templates"/>
 		<File FilePath="DayExample.xml" HomeFolder="Yes"/>
 		<File FilePath="Rules\DimitrySaturday.xml" HomeFolder="Yes"/>
 		<File FilePath="Rules\service.xml" HomeFolder="Yes"/>
