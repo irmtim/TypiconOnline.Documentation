@@ -28,28 +28,10 @@
 							</equals>
 						</expression>
 						<then>
-							<worship time="[вседн_вскр_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Всенощное бдение.</item>
-								</name>
-							</worship>
-							<worship time="[вседн_вскр_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вскр_служба"/>
 						</then>
 						<else>
-							<worship id="1" time="[вседн_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship id="3" time="[вседн_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вседн_служба"/>
 						</else>
 					</if>
 				</rule>
@@ -86,16 +68,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[алиллуия_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Вечернее богослужение.</item>
-						</name>
-					</worship>
-					<worship time="[алиллуия_утро_время]">
-						<name>
-							<item language="cs-ru">Утреннее богослужение.</item>
-						</name>
-					</worship>
+					<variableworship name="алиллуиа_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>106</Id>
@@ -111,16 +84,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[бдение_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Всенощное бдение.</item>
-						</name>
-					</worship>
-					<worship time="[бдение_утро_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-					</worship>
+					<variableworship name="бдение_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>108</Id>
@@ -136,16 +100,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[лпд_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Вечернее богослужение.</item>
-						</name>
-					</worship>
-					<worship time="[лпд_утро_время]">
-						<name>
-							<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-						</name>
-					</worship>
+					<variableworship name="литургия_преждеосв_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>110</Id>
@@ -183,16 +138,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[светлседм_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Вечернее богослужение.</item>
-						</name>
-					</worship>
-					<worship time="[светлседм _утро_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-					</worship>
+					<variableworship name="светлая_седм_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>116</Id>
@@ -208,19 +154,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[помин_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Вечернее богослужение.</item>
-						</name>
-					</worship>
-					<worship time="[помин_утро_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-						<additionalname bold="true">
-							<item language="cs-ru">Панихида по усопшим.</item>
-						</additionalname>
-					</worship>
+					<variableworship name="помин_усопш_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>117</Id>
@@ -1212,34 +1146,11 @@
                 </getdayofweek>
 							</values>
 							<action>
-								<worship time="[0116_вечер_время]" mode="daybefore">
-									<name>
-										<item language="cs-ru">Вечернее богослужение.</item>
-									</name>
-								</worship>
-								<worship time="[0116_утро_время]">
-									<name>
-										<item language="cs-ru">Великие Часы. Изобразительны.</item>
-									</name>
-								</worship>
-								<notice>
-									<name>
-										<item language="cs-ru">Божественная литургия не совершается.</item>
-									</name>
-								</notice>
+								<variableworship name="сочельник_служба"/>
 							</action>
 						</case>
 						<default>
-							<worship time="[вседн_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship time="[вседн_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вседн_служба"/>
 						</default>
 					</switch>
 				</rule>
@@ -1720,6 +1631,11 @@
 					</if>
 				</rule>
 			</ModRuleDefinition>
+			<RuleDefinition>
+				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<variableworship name="01_18_служба"/>
+				</rule>
+			</RuleDefinition>
 			<TemplateId>104</TemplateId>
 			<IsAddition>false</IsAddition>
 			<DayWorships>
@@ -4110,34 +4026,11 @@
 								<getdayofweek name="понедельник"/>
 							</values>
 							<action>
-								<worship time="[0116_вечер_время]" mode="daybefore">
-									<name>
-										<item language="cs-ru">Вечернее богослужение.</item>
-									</name>
-								</worship>
-								<worship time="[0116_утро_время]">
-									<name>
-										<item language="cs-ru">Великие Часы. Изобразительны.</item>
-									</name>
-								</worship>
-								<notice>
-									<name>
-										<item language="cs-ru">Божественная литургия не совершается.</item>
-									</name>
-								</notice>
+								<variableworship name="сочельник_служба"/>
 							</action>
 						</case>
 						<default>
-							<worship time="[вседн_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship time="[вседн_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вседн_служба"/>
 						</default>
 					</switch>
 				</rule>
@@ -5209,16 +5102,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[рх_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Всенощное бдение.</item>
-						</name>
-					</worship>
-					<worship time="[рх_утро_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-					</worship>
+					<variableworship name="рожд_хр_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>3143</Id>
@@ -5244,6 +5128,11 @@
 					<Item2>1</Item2>
 				</ValueTupleOfInt32Int32>
 			</DayWorships>
+			<RuleDefinition>
+				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<variableworship name="01_19_служба"/>
+				</rule>
+			</RuleDefinition>
 			<Date>--01-19</Date>
 			<LeapDate>--01-19</LeapDate>
 		</MenologyRule>
@@ -6238,34 +6127,11 @@
 								<getdayofweek name="воскресенье"/>
 							</values>
 							<action>
-								<worship time="[0116_вечер_время]" mode="daybefore">
-									<name>
-										<item language="cs-ru">Вечернее богослужение.</item>
-									</name>
-								</worship>
-								<worship time="[0116_утро_время]">
-									<name>
-										<item language="cs-ru">Великие Часы. Изобразительны.</item>
-									</name>
-								</worship>
-								<notice>
-									<name>
-										<item language="cs-ru">Божественная литургия не совершается.</item>
-									</name>
-								</notice>
+								<variableworship name="сочельник_служба"/>
 							</action>
 						</case>
 						<default>
-							<worship time="[вседн_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship time="[вседн_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вседн_служба"/>
 						</default>
 					</switch>
 				</rule>
@@ -6683,34 +6549,11 @@
 								<getdayofweek name="воскресенье"/>
 							</values>
 							<action>
-								<worship time="[0116_вечер_время]" mode="daybefore">
-									<name>
-										<item language="cs-ru">Вечернее богослужение.</item>
-									</name>
-								</worship>
-								<worship time="[0116_утро_время]">
-									<name>
-										<item language="cs-ru">Великие Часы. Изобразительны.</item>
-									</name>
-								</worship>
-								<notice>
-									<name>
-										<item language="cs-ru">Божественная литургия не совершается.</item>
-									</name>
-								</notice>
+								<variableworship name="сочельник_служба"/>
 							</action>
 						</case>
 						<default>
-							<worship time="[вседн_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship time="[вседн_утро_время]">
-								<name>
-									<item language="cs-ru">Божественная литургия.</item>
-								</name>
-							</worship>
+							<variableworship name="вседн_служба"/>
 						</default>
 					</switch>
 				</rule>
@@ -8404,29 +8247,11 @@
 								<int>-25</int>
 							</values>
 							<action>
-								<worship time="[алиллуия_вечер_время]" mode="daybefore">
-									<name>
-										<item language="cs-ru">Вечернее богослужение.</item>
-									</name>
-								</worship>
-								<worship time="[алиллуия_утро_время]">
-									<name>
-										<item language="cs-ru">Утреннее богослужение.</item>
-									</name>
-								</worship>
+								<variableworship name="алиллуиа_служба"/>
 							</action>
 						</case>
 						<default>
-							<worship time="[лпд_вечер_время]" mode="daybefore">
-								<name>
-									<item language="cs-ru">Вечернее богослужение.</item>
-								</name>
-							</worship>
-							<worship time="[лпд_утро_время]">
-								<name>
-									<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-								</name>
-							</worship>
+							<variableworship name="литургия_преждеосв_служба"/>
 						</default>
 					</switch>
 				</rule>
@@ -9029,16 +8854,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[пасха_полунощница_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Пасхальная полунощница.</item>
-						</name>
-					</worship>
-					<worship time="[пасха_литургия_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-					</worship>
+					<variableworship name="пасха_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>3137</Id>
@@ -9113,24 +8929,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[велпят_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Вечернее богослужение.</item>
-						</name>
-						<additionalname>
-							<item language="cs-ru"> Чтение 12-ти Евангелий.</item>
-						</additionalname>
-					</worship>
-					<worship time="[велпят_утро_время]">
-						<name>
-							<item language="cs-ru">Великие часы.</item>
-						</name>
-					</worship>
-					<worship time="[велпят_вынос_время]">
-						<name>
-							<item language="cs-ru">Вечерня с выносом Плащаницы.</item>
-						</name>
-					</worship>
+					<variableworship name="великая_пятница_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>3145</Id>
@@ -9149,27 +8948,7 @@
 			<VariableLinks/>
 			<RuleDefinition>
 				<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-					<worship time="[велсуб_вечер_время]" mode="daybefore">
-						<name>
-							<item language="cs-ru">Утреня.</item>
-						</name>
-						<additionalname>
-							<item language="cs-ru">Чин погребения Плащаницы.</item>
-						</additionalname>
-					</worship>
-					<worship time="[велсуб_утро_время]">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
-					</worship>
-					<notice time="[велсуб_куличи_время]">
-						<name>
-							<item language="cs-ru">Освящение куличей.</item>
-						</name>
-						<additionalname>
-							<item language="cs-ru">(до 18.00)</item>
-						</additionalname>
-					</notice>
+					<variableworship name="великая_суббота_служба"/>
 				</rule>
 			</RuleDefinition>
 			<Id>3146</Id>
