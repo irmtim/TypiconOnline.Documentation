@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<worship time="17.30" mode="daybefore">
-		<name>
-			<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
-		</name>
+		<name>9-й час. Вечерня. Малое повечерие.</name>
 	</worship>
 	<worship time="06.00">
-		<name>
-			<item language="cs-ru">Полунощница. Утреня.</item>
-		</name>
+		<name>Полунощница. Утреня.</name>
 	</worship>
 	<worship time="08.00">
-		<name>
-			<item language="cs-ru">Часы. Изобразительны.</item>
-		</name>
-		<additionalname bold="true" red="true">
-			<item language="cs-ru">Божественная литургия не совершается.</item>
-		</additionalname>
+		<name>Часы. Изобразительны.</name>
+		<additionalname bold="true" red="true">Божественная литургия не совершается.</additionalname>
 	</worship>
 	<worship id="moleben">
-		<name>
-			<item language="cs-ru">Молебен перед иконой Божией Матери "Неупиваемая чаша".</item>
-		</name>
+		<name>Молебен перед иконой Божией Матери "Неупиваемая чаша".</name>
 	</worship>
 </rule>

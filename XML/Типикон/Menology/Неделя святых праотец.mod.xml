@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
-	<modifyday signnumber="8">
-		<shortname>
-			<item language="cs-ru">святых праотец</item>
-		</shortname>
+	<modifyday signname="воскресный_день">
+		<shortname>святых праотец</shortname>
 		<getclosestday dayofweek="воскресенье" weekcount="-2">
 			<date>--01-07</date>
 		</getclosestday>

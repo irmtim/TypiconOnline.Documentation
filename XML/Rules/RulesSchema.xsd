@@ -262,13 +262,13 @@
 			<xs:element name="prosomoion" minOccurs="0">
 				<xs:complexType>
 					<xs:complexContent>
-						<xs:extension base="textType">
+						<xs:extension base="itemTextType">
 							<xs:attribute name="self" type="xs:boolean" use="required"/>
 						</xs:extension>
 					</xs:complexContent>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="annotation" type="textType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="annotation" type="itemTextType" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="ymnos" type="ymnosType" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute name="ihos" type="xs:byte" use="required"/>
@@ -282,9 +282,9 @@
 	</xs:complexType>
 	<xs:complexType name="ymnosType">
 		<xs:sequence>
-			<xs:element name="annotation" type="textType" minOccurs="0"/>
-			<xs:element name="stihos" type="textType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="text" type="textType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="annotation" type="itemTextType" minOccurs="0"/>
+			<xs:element name="stihos" type="itemTextType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="text" type="itemTextType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 		<xs:attribute name="kind">
 			<xs:simpleType>
@@ -315,17 +315,6 @@
 					<xs:enumeration value="daybefore"/>
 					<xs:enumeration value="thisday"/>
 					<xs:enumeration value="nextdayfirstworship"/>
-				</xs:restriction>
-			</xs:simpleType>
-		</xs:attribute>
-		<xs:attribute name="asaddition">
-			<xs:simpleType>
-				<xs:restriction base="xs:string">
-					<xs:enumeration value="none"/>
-					<xs:enumeration value="append"/>
-					<xs:enumeration value="rewrite"/>
-					<xs:enumeration value="remove"/>
-					<xs:enumeration value="rewritevalues"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -464,6 +453,15 @@
 		</xs:attribute>
 	</xs:complexType>
 	<xs:complexType name="textType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="bold" type="xs:boolean" use="optional"/>
+				<xs:attribute name="red" type="xs:boolean" use="optional"/>
+				<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="itemTextType">
 		<xs:sequence>
 			<xs:element name="item" maxOccurs="unbounded">
 				<xs:complexType>
@@ -490,7 +488,7 @@
 	</xs:complexType>
 	<xs:complexType name="textHeaderType">
 		<xs:complexContent>
-			<xs:extension base="textType">
+			<xs:extension base="itemTextType">
 				<xs:attribute name="header" use="optional">
 					<xs:simpleType>
 						<xs:restriction base="xs:string">
@@ -508,7 +506,7 @@
 		<xs:complexContent>
 			<xs:extension base="textHeaderType">
 				<xs:sequence>
-					<xs:element name="note" type="textType" minOccurs="0">
+					<xs:element name="note" type="itemTextType" minOccurs="0">
 						<xs:annotation>
 							<xs:documentation>Примечание. Например, "трижды"</xs:documentation>
 						</xs:annotation>

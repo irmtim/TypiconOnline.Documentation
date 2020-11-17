@@ -157,12 +157,7 @@
 				<File FilePath="Типикон\Common\Честнейшую.xml" HomeFolder="Yes"/>
 				<File FilePath="Типикон\Common\молебен_после_литургии.xml" HomeFolder="Yes"/>
 			</Folder>
-			<Folder FolderName="Explicit">
-				<File FilePath="Типикон\Explicit\2019-03-24.xml" HomeFolder="Yes"/>
-				<File FilePath="Типикон\Explicit\2019-03-31.xml" HomeFolder="Yes"/>
-				<File FilePath="Типикон\Explicit\2019-04-14.xml" HomeFolder="Yes"/>
-				<File FilePath="Типикон\Explicit\2019-05-09.xml" HomeFolder="Yes"/>
-			</Folder>
+			<Folder FolderName="Explicit"/>
 		</Folder>
 		<Folder FolderName="Days">
 			<Folder FolderName="Menology">

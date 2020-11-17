@@ -12,22 +12,14 @@
 			</values>
 			<action>
 				<worship time="16.00" mode="daybefore">
-					<name>
-						<item language="cs-ru">Утреня.</item>
-					</name>
-					<additionalname>
-						<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
-					</additionalname>
+					<name>Утреня.</name>
+					<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
 				</worship>
 				<worship time="07.30">
-					<name>
-						<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
-					</name>
+					<name>Полунощница. Часы. Изобразительны.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-					</name>
+					<name>Литургия Преждеосвященных Даров.</name>
 				</worship>
 			</action>
 		</case>
@@ -37,43 +29,27 @@
 			</values>
 			<action>
 				<worship time="16.00" mode="daybefore">
-					<name>
-						<item language="cs-ru">Утреня.</item>
-					</name>
-					<additionalname>
-						<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
-					</additionalname>
+					<name>Утреня.</name>
+					<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
 				</worship>
 				<worship time="07.30">
-					<name>
-						<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
-					</name>
+					<name>Полунощница. Часы. Изобразительны.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-					</name>
+					<name>Литургия Преждеосвященных Даров.</name>
 				</worship>
 			</action>
 		</case>
 		<default>
 			<worship time="16.00" mode="daybefore">
-				<name>
-					<item language="cs-ru">Утреня.</item>
-				</name>
-				<additionalname>
-					<item language="cs-ru">Чтение канона прп. Андрея Критского.</item>
-				</additionalname>
+				<name>Утреня.</name>
+				<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
 			</worship>
 			<worship time="07.30">
-				<name>
-					<item language="cs-ru">Полунощница. Часы. Изобразительны.</item>
-				</name>
+				<name>Полунощница. Часы. Изобразительны.</name>
 			</worship>
 			<worship time="09.00">
-				<name>
-					<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-				</name>
+				<name>Литургия Преждеосвященных Даров.</name>
 			</worship>
 		</default>
 	</switch>

@@ -43,7 +43,7 @@
 				<int>-13</int>
 			</values>
 			<action>
-				<modifyday daymove="0" priority="3" signnumber="7"/>
+				<modifyday daymove="0" priority="3" signname="лпд"/>
 			</action>
 		</case>
 		<case>
@@ -69,7 +69,7 @@
 				<int>-25</int>
 			</values>
 			<action>
-				<modifyday daymove="-1" priority="3" signnumber="7"/>
+				<modifyday daymove="-1" priority="3" signname="лпд"/>
 				<!-- удаляем с даты 03-22, чтобы дважды в расписании не появлялось-->
 				<modifyday daymove="0" priority="7"/>
 			</action>
@@ -79,13 +79,13 @@
 				<int>-17</int>
 			</values>
 			<action>
-				<modifyday daymove="-2" priority="3" signnumber="7"/>
+				<modifyday daymove="-2" priority="3" signname="лпд"/>
 				<!-- удаляем с даты 03-22, чтобы дважды в расписании не появлялось-->
 				<modifyday daymove="0" priority="7"/>
 			</action>
 		</case>
 		<default>
-			<modifyday daymove="0" priority="3" signnumber="7"/>
+			<modifyday daymove="0" priority="3" signname="лпд"/>
 		</default>
 	</switch>
 </rule>

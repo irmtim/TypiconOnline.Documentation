@@ -12,24 +12,16 @@
 			</values>
 			<action>
 				<worship time="16.00" mode="daybefore">
-					<name>
-						<item language="cs-ru">Вечерня. Утреня. Час 1-й.</item>
-					</name>
+					<name>Вечерня. Утреня. Час 1-й.</name>
 				</worship>
 				<worship time="07.40">
-					<name>
-						<item language="cs-ru">Часы 3-й и 6-й.</item>
-					</name>
+					<name>Часы 3-й и 6-й.</name>
 				</worship>
 				<worship time="08.00">
-					<name>
-						<item language="cs-ru">Божественная литургия. 9-й час. Великая вечерня.</item>
-					</name>
+					<name>Божественная литургия. 9-й час. Великая вечерня.</name>
 				</worship>
 				<notice>
-					<name>
-						<item language="cs-ru">Великое освящение воды.</item>
-					</name>
+					<name>Великое освящение воды.</name>
 				</notice>
 			</action>
 		</case>
@@ -39,47 +31,31 @@
 			</values>
 			<action>
 				<worship time="16.00" mode="daybefore">
-					<name>
-						<item language="cs-ru">Вечерня. Утреня. Час 1-й.</item>
-					</name>
+					<name>Вечерня. Утреня. Час 1-й.</name>
 				</worship>
 				<worship time="08.40">
-					<name>
-						<item language="cs-ru">Часы 3-й и 6-й.</item>
-					</name>
+					<name>Часы 3-й и 6-й.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Божественная литургия. 9-й час. Великая вечерня.</item>
-					</name>
+					<name>Божественная литургия. 9-й час. Великая вечерня.</name>
 				</worship>
 				<notice>
-					<name>
-						<item language="cs-ru">Великое освящение воды.</item>
-					</name>
+					<name>Великое освящение воды.</name>
 				</notice>
 			</action>
 		</case>
 		<default>
 			<worship time="17.30" mode="daybefore">
-				<name>
-					<item language="cs-ru">9-й час. Вечерня. Малое повечерие.</item>
-				</name>
+				<name>9-й час. Вечерня. Малое повечерие.</name>
 			</worship>
 			<worship time="06.00">
-				<name>
-					<item language="cs-ru">Полуношница. Утреня.</item>
-				</name>
+				<name>Полуношница. Утреня.</name>
 			</worship>
 			<worship time="08.00">
-				<name>
-					<item language="cs-ru">Великие часы. Изобразительны. Великая вечерня. Божественная литургия свт. Василия Великого.</item>
-				</name>
+				<name>Великие часы. Изобразительны. Великая вечерня. Божественная литургия свт. Василия Великого.</name>
 			</worship>
 			<notice>
-				<name>
-					<item language="cs-ru">Великое освящение воды.</item>
-				</name>
+				<name>Великое освящение воды.</name>
 			</notice>
 		</default>
 	</switch>

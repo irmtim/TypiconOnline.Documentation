@@ -1,0 +1,4518 @@
+<?xml version="1.0"?>
+<DaysContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Triodions>
+    <TriodionWorshipProjection>
+      <Id>1</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-27</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>2</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-23</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>3</Id>
+      <WorshipName>Великий Пяток. Воспоминание Святых спасительных Страстей Господа нашего Иисуса Христа.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-2</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>4</Id>
+      <WorshipName>Великий Вторник.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-5</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>5</Id>
+      <WorshipName>Лазарева суббота. Воскрешение прав. Лазаря.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-8</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>6</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-24</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>7</Id>
+      <WorshipName>Поминовение усопших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-29</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>8</Id>
+      <WorshipName>Среда 4-й седмицы, Крестопоклонной.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-25</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>9</Id>
+      <WorshipName>Неделя 2-я по Пасхе, апостола Фомы. Антипасха.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>7</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>10</Id>
+      <WorshipName>Великий Четверток. 
+Воспоминание Тайной Вечери.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-3</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>11</Id>
+      <WorshipName>Неделя 3-я Великого поста, Крестопоклонная.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-28</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>12</Id>
+      <WorshipName>НЕДЕЛЯ ВАИЙ.  
+ВХОД ГОСПОДЕНЬ В ИЕРУСАЛИМ.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-7</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>13</Id>
+      <WorshipName>Всех преподобных и богоносных отцов, во Святой Горе Афонской просиявших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>61</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>14</Id>
+      <WorshipName>Великая Среда.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-4</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>15</Id>
+      <WorshipName>Суббота Светлой седмицы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>6</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>16</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-26</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>17</Id>
+      <WorshipName>Поминование усопших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-22</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>18</Id>
+      <WorshipName>Великая Суббота.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-1</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>19</Id>
+      <WorshipName>Среда Светлой седмицы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>3</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>20</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-12</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>21</Id>
+      <WorshipName>Неделя 5-я Великого поста. Прп. Марии Египетской.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-14</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>22</Id>
+      <WorshipName>Четверг Светлой седмицы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>4</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>23</Id>
+      <WorshipName>Суббота Акафиста. Похвала Пресвятой Богородицы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-15</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>24</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-11</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>25</Id>
+      <WorshipName>Вторник Светлой седмицы.
+Иверской иконы Божией Матери.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>2</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>26</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-16</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>27</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-9</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>28</Id>
+      <WorshipName>«Стояние Марии Египетской».</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-17</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>29</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-30</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>30</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-18</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>31</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-19</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>32</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-10</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>33</Id>
+      <WorshipName>ПАСХА. 
+СВЕТЛОЕ ХРИСТОВО ВОСКРЕСЕНИЕ.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>0</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>34</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-20</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>35</Id>
+      <WorshipName>Пятница Светлой седмицы. 
+Последование в честь Пресвятой Богородицы ради Ее «Живоносного Источника».</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>5</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>36</Id>
+      <WorshipName>Неделя 4-я Великого поста, прп. Иоанна Лествичника.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-21</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>37</Id>
+      <WorshipName>Понедельник Светлой седмицы. </WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>1</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>38</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-13</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>39</Id>
+      <WorshipName>Неделя 3-я по Пасхе, святых жен-мироносиц. Глас 2-й.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>14</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>40</Id>
+      <WorshipName>Великий Понедельник.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-6</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>41</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-52</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>42</Id>
+      <WorshipName>Всех преподобных отцов в подвиге просиявших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-50</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>43</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-51</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>44</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>40</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>45</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-53</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>46</Id>
+      <WorshipName>Вселенская  родительская суббота. Поминовение усопших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-57</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>47</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>41</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>48</Id>
+      <WorshipName>Неделя мясопустная, о Страшном Суде.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-56</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>49</Id>
+      <WorshipName>Неделя о блудном сыне.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-63</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>50</Id>
+      <WorshipName>Неделя 7-я по Пасхе, святых 318 богоносных отцов 
+Первого Вселенского Собора. Глас 6-й. 
+Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>42</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>51</Id>
+      <WorshipName>Неделя сыропустная. Воспоминание Адамова изгнания. 
+Прощеное воскресенье. Заговенье на Великий пост.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-49</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>52</Id>
+      <WorshipName>Неделя о мытаре и фарисее.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-70</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>53</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>43</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>54</Id>
+      <WorshipName>ВСЕХ СВЯТЫХ, В ЗЕМЛЕ РУССКОЙ ПРОСИЯВШИХ.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>62</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>55</Id>
+      <WorshipName>Неделя 1-я по Пятидесятнице, Всех святых. Глас 8-й.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>56</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>56</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>44</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>57</Id>
+      <WorshipName>Отдание праздника Пятидесятницы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>55</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>58</Id>
+      <WorshipName>День Святого Духа.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>50</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>59</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>45</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>60</Id>
+      <WorshipName>ДЕНЬ СВЯТОЙ ТРОИЦЫ. ПЯТИДЕСЯТНИЦА.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>49</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>61</Id>
+      <WorshipName>Троицкая родительская суббота.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>48</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>62</Id>
+      <WorshipName>Попразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>46</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>63</Id>
+      <WorshipName>Неделя 2-я по Пятидесятнице. Глас 1-й. 
+ПРАЗДНОВАНИЕ ИКОНЫ 
+«ЛОБЗАНИЕ ИИСУСА ХРИСТА ИУДОЮ».</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>63</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>64</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-31</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>65</Id>
+      <WorshipName>ВОЗНЕСЕНИЕ ГОСПОДНЕ.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>39</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>66</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-47</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>67</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-32</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>68</Id>
+      <WorshipName>Радоница. Поминовение усопших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>9</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>69</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-33</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>70</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-34</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>71</Id>
+      <WorshipName>Неделя 2-я Великого поста, свт. Григория Паламы, архиеп. Фессалоникийского.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-35</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>72</Id>
+      <WorshipName>Поминовение усопших.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-36</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>73</Id>
+      <WorshipName>Неделя 4-я по Пасхе,  о расслабленном.  Глас 3-й.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>21</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>74</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-37</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>75</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-38</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>76</Id>
+      <WorshipName>Преполовение Пятидесятницы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>24</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>77</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-48</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>78</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-39</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>79</Id>
+      <WorshipName>Неделя 5-я по Пасхе, о самаряныне. Глас 4-й.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>28</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>80</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-41</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>81</Id>
+      <WorshipName>Неделя 1-я Великого поста. Торжество Православия.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-42</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>82</Id>
+      <WorshipName>Отдание праздника Преполовения Пятидесятницы.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>31</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>83</Id>
+      <WorshipName>Вмч. Феодора Тирона.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-43</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>84</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-44</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>85</Id>
+      <WorshipName>Неделя 6-я по Пасхе, о слепом. Глас 5-й.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>35</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>86</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-45</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>87</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-46</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>88</Id>
+      <WorshipName>Отдание праздника Пасхи. 
+Предпразднство Вознесения.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>38</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>89</Id>
+      <WorshipName />
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>-40</DaysFromEaster>
+    </TriodionWorshipProjection>
+    <TriodionWorshipProjection>
+      <Id>90</Id>
+      <WorshipName>Отдание праздника Вознесения Господня.</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <DaysFromEaster>47</DaysFromEaster>
+    </TriodionWorshipProjection>
+  </Triodions>
+  <Menologies>
+    <MenologyWorshipProjection>
+      <Id>1</Id>
+      <WorshipName>Мч. Вонифатия.</WorshipName>
+      <WorshipShortName>Мч. Вонифатия.</WorshipShortName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-01</Date>
+      <LeapDate>--01-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>2</Id>
+      <WorshipName>Предпразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-02</Date>
+      <LeapDate>--01-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>3</Id>
+      <WorshipName>Прав. Иоанна Кронштадтского</WorshipName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-02</Date>
+      <LeapDate>--01-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>4</Id>
+      <WorshipName>Предпразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-03</Date>
+      <LeapDate>--01-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>5</Id>
+      <WorshipName>Свт. Московского Петра, всея России чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-03</Date>
+      <LeapDate>--01-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>6</Id>
+      <WorshipName>Предпразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-04</Date>
+      <LeapDate>--01-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>7</Id>
+      <WorshipName>Вмц. Анастасии Узорешительницы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-04</Date>
+      <LeapDate>--01-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>8</Id>
+      <WorshipName>Предпразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-05</Date>
+      <LeapDate>--01-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>9</Id>
+      <WorshipName>Десяти мучеников, иже в Крите.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-05</Date>
+      <LeapDate>--01-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>10</Id>
+      <WorshipName>Навечерие Рождества Христова (Рождественский сочельник).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-06</Date>
+      <LeapDate>--01-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>11</Id>
+      <WorshipName>Прмц. Евгении.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-06</Date>
+      <LeapDate>--01-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>12</Id>
+      <WorshipName>РОЖДЕСТВО ХРИСТОВО.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-07</Date>
+      <LeapDate>--01-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>13</Id>
+      <WorshipName>Попразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-08</Date>
+      <LeapDate>--01-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>14</Id>
+      <WorshipName>Собор Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-08</Date>
+      <LeapDate>--01-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>15</Id>
+      <WorshipName>Попразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-09</Date>
+      <LeapDate>--01-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>16</Id>
+      <WorshipName>Сщмч. Иоасафа (Боева)</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-10</Date>
+      <LeapDate>--12-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>17</Id>
+      <WorshipName>Отдание праздника Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-22</Date>
+      <LeapDate>--02-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>18</Id>
+      <WorshipName>Свт. Николая Японского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>19</Id>
+      <WorshipName>Св. мч. Никифора.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-22</Date>
+      <LeapDate>--02-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>20</Id>
+      <WorshipName>Ап. первомч. и архидиакона Стефана.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-09</Date>
+      <LeapDate>--01-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>21</Id>
+      <WorshipName>Прп. Феодора Начертанного, исп.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-09</Date>
+      <LeapDate>--01-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>22</Id>
+      <WorshipName>Попразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-10</Date>
+      <LeapDate>--01-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>23</Id>
+      <WorshipName>Мучеников 20 000, в Никомидии сожженных.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-10</Date>
+      <LeapDate>--01-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>24</Id>
+      <WorshipName>Попразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-11</Date>
+      <LeapDate>--01-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>25</Id>
+      <WorshipName>Мучеников 14 000 младенцев, от Ирода в Вифлееме избиенных.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-11</Date>
+      <LeapDate>--01-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>26</Id>
+      <WorshipName>Прп. Маркелла, игумена обители «Неусыпающих».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-11</Date>
+      <LeapDate>--01-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>27</Id>
+      <WorshipName>Попразднство Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-12</Date>
+      <LeapDate>--01-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>28</Id>
+      <WorshipName>Свт. Макария, митр. Московского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-12</Date>
+      <LeapDate>--01-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>29</Id>
+      <WorshipName>Отдание праздника Рождества Христова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-13</Date>
+      <LeapDate>--01-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>30</Id>
+      <WorshipName>Обрезание Господне.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-14</Date>
+      <LeapDate>--01-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>31</Id>
+      <WorshipName>Свт. Василия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-14</Date>
+      <LeapDate>--01-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>32</Id>
+      <WorshipName>Предпразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-15</Date>
+      <LeapDate>--01-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>33</Id>
+      <WorshipName>Прп. Серафима Саровского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-15</Date>
+      <LeapDate>--01-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>34</Id>
+      <WorshipName>Предпразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-16</Date>
+      <LeapDate>--01-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>35</Id>
+      <WorshipName>Прор. Малахии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-16</Date>
+      <LeapDate>--01-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>36</Id>
+      <WorshipName>Мч. Гордия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-16</Date>
+      <LeapDate>--01-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>37</Id>
+      <WorshipName>Собор 70-ти апостолов.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-17</Date>
+      <LeapDate>--01-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>38</Id>
+      <WorshipName>Прп. Феоктиста, игумена Кукума Сикелийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-17</Date>
+      <LeapDate>--01-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>39</Id>
+      <WorshipName>Навечерие Богоявления (Крещенский сочельник).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-18</Date>
+      <LeapDate>--01-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>40</Id>
+      <WorshipName>Сщмч. Феопемпта, еп. Никодомийского и мч. Феоны волхва.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-18</Date>
+      <LeapDate>--01-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>41</Id>
+      <WorshipName>СВЯТОЕ БОГОЯВЛЕНИЕ. КРЕЩЕНИЕ ГОСПОДНЕ</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-19</Date>
+      <LeapDate>--01-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>42</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-20</Date>
+      <LeapDate>--01-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>43</Id>
+      <WorshipName>Собор Предтечи и Крестителя Господня Иоанна.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-20</Date>
+      <LeapDate>--01-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>44</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-21</Date>
+      <LeapDate>--01-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>45</Id>
+      <WorshipName>Прп. Георгия Хозевита.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-21</Date>
+      <LeapDate>--01-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>46</Id>
+      <WorshipName>Прп. Домники.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-21</Date>
+      <LeapDate>--01-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>47</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-22</Date>
+      <LeapDate>--01-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>48</Id>
+      <WorshipName>Свт. Филиппа, митр. Московского и всея России, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-22</Date>
+      <LeapDate>--01-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>49</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-23</Date>
+      <LeapDate>--01-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>50</Id>
+      <WorshipName>Свт. Феофана, Затворника Вышенского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-23</Date>
+      <LeapDate>--01-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>51</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-24</Date>
+      <LeapDate>--01-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>52</Id>
+      <WorshipName>Прп. Феодосия Великого, общих житий начальника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-24</Date>
+      <LeapDate>--01-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>53</Id>
+      <WorshipName>Мц. Татианы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-25</Date>
+      <LeapDate>--01-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>54</Id>
+      <WorshipName>Попразднство Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-26</Date>
+      <LeapDate>--01-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>55</Id>
+      <WorshipName>Прп. Иринарха, затворника Ростовского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-26</Date>
+      <LeapDate>--01-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>56</Id>
+      <WorshipName>Отдание праздника Богоявления.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--01-27</Date>
+      <LeapDate>--01-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>57</Id>
+      <WorshipName>Св. равноап. Нины, просветительницы Грузии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-27</Date>
+      <LeapDate>--01-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>58</Id>
+      <WorshipName>Прпп. Павла Фивейского и Иоанна кущника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-28</Date>
+      <LeapDate>--01-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>59</Id>
+      <WorshipName>Поклонение честным веригам ап. Петра.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-29</Date>
+      <LeapDate>--01-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>60</Id>
+      <WorshipName>Прп. Антония Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-30</Date>
+      <LeapDate>--01-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>61</Id>
+      <WorshipName>Прпп. схимонаха Кирилла и схимонахини Марии, родителей прп. Сергия Радонежского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--01-31</Date>
+      <LeapDate>--01-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>62</Id>
+      <WorshipName>Свт. Марка, архиеп. Ефесского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-01</Date>
+      <LeapDate>--02-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>63</Id>
+      <WorshipName>Прп. Евфимия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-02</Date>
+      <LeapDate>--02-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>64</Id>
+      <WorshipName>Прп. Максима Грека.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-03</Date>
+      <LeapDate>--02-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>65</Id>
+      <WorshipName>Ап. Тимофея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-04</Date>
+      <LeapDate>--02-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>66</Id>
+      <WorshipName>Прмч. Анастасия Персянина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-04</Date>
+      <LeapDate>--02-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>67</Id>
+      <WorshipName>Сщмч. Климента, еп. Анкирского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-05</Date>
+      <LeapDate>--02-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>68</Id>
+      <WorshipName>Мч. Агафангела.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-05</Date>
+      <LeapDate>--02-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>69</Id>
+      <WorshipName>Блж. Ксении Петербургской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-06</Date>
+      <LeapDate>--02-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>70</Id>
+      <WorshipName>Свт. Григория Богослова, архиеп. Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-07</Date>
+      <LeapDate>--02-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>71</Id>
+      <WorshipName>Прпп. Ксенофонта, супруги его Марии и сыновей их Аркадия и Иоанна.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-08</Date>
+      <LeapDate>--02-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>72</Id>
+      <WorshipName>Перенесение мощей свт. Иоанна Златоуста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-09</Date>
+      <LeapDate>--02-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>73</Id>
+      <WorshipName>Прп. Ефрема Сирина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-10</Date>
+      <LeapDate>--02-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>74</Id>
+      <WorshipName>Перенесение мощей сщмч. Игнатия Богоносца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-11</Date>
+      <LeapDate>--02-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>75</Id>
+      <WorshipName>Собор вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоуста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-12</Date>
+      <LeapDate>--02-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>76</Id>
+      <WorshipName>Свв. бессребреников и чудотворцев мчч. Кира и Иоанна.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-13</Date>
+      <LeapDate>--02-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>77</Id>
+      <WorshipName>Предпразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-14</Date>
+      <LeapDate>--02-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>78</Id>
+      <WorshipName>Мч. Трифона.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-14</Date>
+      <LeapDate>--02-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>79</Id>
+      <WorshipName>СРЕТЕНИЕ ГОСПОДА БОГА И СПАСА НАШЕГО ИИСУСА ХРИСТА.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-15</Date>
+      <LeapDate>--02-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>80</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-16</Date>
+      <LeapDate>--02-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>81</Id>
+      <WorshipName>Правв. Симеона Богоприимца и Анны пророчицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-16</Date>
+      <LeapDate>--02-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>82</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-17</Date>
+      <LeapDate>--02-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>83</Id>
+      <WorshipName>Прп. Исидора Пелусиотского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-17</Date>
+      <LeapDate>--02-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>84</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-18</Date>
+      <LeapDate>--02-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>85</Id>
+      <WorshipName>Мц. Агафии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-18</Date>
+      <LeapDate>--02-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>86</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-19</Date>
+      <LeapDate>--02-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>87</Id>
+      <WorshipName>Прп. Вукола, еп. Смирнского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-19</Date>
+      <LeapDate>--02-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>88</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-20</Date>
+      <LeapDate>--02-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>89</Id>
+      <WorshipName>Прп. Парфения, еп. Лампсакийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-20</Date>
+      <LeapDate>--02-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>90</Id>
+      <WorshipName>Прп. Луки Елладского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-20</Date>
+      <LeapDate>--02-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>91</Id>
+      <WorshipName>Попразднство Сретения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--02-21</Date>
+      <LeapDate>--02-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>92</Id>
+      <WorshipName>Вмч. Феодора Стратилата.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-21</Date>
+      <LeapDate>--02-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>93</Id>
+      <WorshipName>Прор. Захарии Серповидца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-21</Date>
+      <LeapDate>--02-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>94</Id>
+      <WorshipName>Сщмч. Харалампия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-23</Date>
+      <LeapDate>--02-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>95</Id>
+      <WorshipName>Прп. Димитрия Прилуцкого, Вологодского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-24</Date>
+      <LeapDate>--02-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>96</Id>
+      <WorshipName>Иверской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-25</Date>
+      <LeapDate>--02-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>97</Id>
+      <WorshipName>Свт. Московского Алексия, всея России чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-25</Date>
+      <LeapDate>--02-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>98</Id>
+      <WorshipName>Прп. Симеона Мироточивого, Сербского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-26</Date>
+      <LeapDate>--02-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>99</Id>
+      <WorshipName>Прп. Авксентия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-27</Date>
+      <LeapDate>--02-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>100</Id>
+      <WorshipName>Ап. от 70-ти Онисима.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--02-28</Date>
+      <LeapDate>--02-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>101</Id>
+      <WorshipName>Мчч. Памфила и иже с ним.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-01</Date>
+      <LeapDate>--02-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>102</Id>
+      <WorshipName>Сщмч. Ермогена, патриарха Московского и всея России, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-02</Date>
+      <LeapDate>--03-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>103</Id>
+      <WorshipName>Свт. Льва, папы Римского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-03</Date>
+      <LeapDate>--03-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>104</Id>
+      <WorshipName>Ап. от 70-ти Архиппа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-04</Date>
+      <LeapDate>--03-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>105</Id>
+      <WorshipName>Прп. Льва, еп. Катанского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-05</Date>
+      <LeapDate>--03-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>106</Id>
+      <WorshipName>Прп. Тимофея в Символех.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-06</Date>
+      <LeapDate>--03-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>107</Id>
+      <WorshipName>Обретение мощей мучеников, иже во Евгении.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-07</Date>
+      <LeapDate>--03-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>108</Id>
+      <WorshipName>Обретение мощей блж. Матроны Московской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-08</Date>
+      <LeapDate>--03-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>109</Id>
+      <WorshipName>Первое и второе обретение главы Иоанна Предтечи.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-09</Date>
+      <LeapDate>--03-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>110</Id>
+      <WorshipName>Свт. Тарасия, архиеп. Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-10</Date>
+      <LeapDate>--03-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>111</Id>
+      <WorshipName>Свт. Порфирия, архиеп. Газского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-11</Date>
+      <LeapDate>--03-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>112</Id>
+      <WorshipName>Прп. Прокопия Декаполита, исповедника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-12</Date>
+      <LeapDate>--03-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>113</Id>
+      <WorshipName>Прп. Василия исповедника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-13</Date>
+      <LeapDate>--03-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>114</Id>
+      <WorshipName>Прп. Кассиана Римлянина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--03-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>115</Id>
+      <WorshipName>Прмц. Евдокии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-14</Date>
+      <LeapDate>--03-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>116</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Державная».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-15</Date>
+      <LeapDate>--03-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>117</Id>
+      <WorshipName>Мчч. Евтропия, Клеоника и Василиска.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-16</Date>
+      <LeapDate>--03-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>118</Id>
+      <WorshipName>Блгв. кн. Даниила Московского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-17</Date>
+      <LeapDate>--03-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>119</Id>
+      <WorshipName>Обретение мощей свт. Луки исп., архиеп. Симферопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-18</Date>
+      <LeapDate>--03-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>120</Id>
+      <WorshipName>Мчч. 42-х во Амморее.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-19</Date>
+      <LeapDate>--03-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>121</Id>
+      <WorshipName>Сщмчч. Василия, Ефрема, Капитона, Евгения, Еферия и других, в Херсоне епископствовавших.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-20</Date>
+      <LeapDate>--03-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>122</Id>
+      <WorshipName>Прп. Феофилакта исп., еп. Никомидийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-21</Date>
+      <LeapDate>--03-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>123</Id>
+      <WorshipName>Святых сорока мучеников, в Севастийском езере мучившихся.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-22</Date>
+      <LeapDate>--03-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>124</Id>
+      <WorshipName>Мч. Кодрата и дружины его.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-23</Date>
+      <LeapDate>--03-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>125</Id>
+      <WorshipName>Свт. Софрония, патриарха Иерусалимского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-24</Date>
+      <LeapDate>--03-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>126</Id>
+      <WorshipName>Прп. Симеона Нового Богослова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-25</Date>
+      <LeapDate>--03-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>127</Id>
+      <WorshipName>Перенесение мощей свт. Никифора, патриарха Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-26</Date>
+      <LeapDate>--03-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>128</Id>
+      <WorshipName>Феодоровской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-27</Date>
+      <LeapDate>--03-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>129</Id>
+      <WorshipName>Мч. Агапия и иже с ним.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-28</Date>
+      <LeapDate>--03-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>130</Id>
+      <WorshipName>Мч. Савина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-29</Date>
+      <LeapDate>--03-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>131</Id>
+      <WorshipName>Прп. Алексия, человека Божия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-30</Date>
+      <LeapDate>--03-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>132</Id>
+      <WorshipName>Свт. Кирилла, архиеп. Иерусалимского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--03-31</Date>
+      <LeapDate>--03-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>133</Id>
+      <WorshipName>Мчч. Хрисанфа и Дарии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-01</Date>
+      <LeapDate>--04-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>134</Id>
+      <WorshipName>Прпп. отцов, во обители св. Саввы убиенных.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-02</Date>
+      <LeapDate>--04-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>135</Id>
+      <WorshipName>Прп. Серафима Вырицкого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-03</Date>
+      <LeapDate>--04-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>136</Id>
+      <WorshipName>Сщмч. Василия, пресвитера Анкирского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-04</Date>
+      <LeapDate>--04-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>137</Id>
+      <WorshipName>Прмч. Никона еп. и 199-ти учеников его.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-05</Date>
+      <LeapDate>--04-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>138</Id>
+      <WorshipName>Предпразднство Благовещения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-06</Date>
+      <LeapDate>--04-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>139</Id>
+      <WorshipName>БЛАГОВЕЩЕНИЕ ПРЕСВЯТОЙ БОГОРОДИЦЫ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--04-07</Date>
+      <LeapDate>--04-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>140</Id>
+      <WorshipName>Отдание праздника Благовещения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--04-08</Date>
+      <LeapDate>--04-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>141</Id>
+      <WorshipName>Собор Архангела Гавриила.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-08</Date>
+      <LeapDate>--04-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>142</Id>
+      <WorshipName>Мц. Матроны Солунской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-09</Date>
+      <LeapDate>--04-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>143</Id>
+      <WorshipName>Прмч. Евстратия Печерского, в Ближних пещерах.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-10</Date>
+      <LeapDate>--04-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>144</Id>
+      <WorshipName>Мчч. Марка, еп. Арефусийского, Кирилла диакона и иных многих.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-11</Date>
+      <LeapDate>--04-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>145</Id>
+      <WorshipName>Свт. Софрония, еп. Иркутского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-12</Date>
+      <LeapDate>--04-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>146</Id>
+      <WorshipName>Свт. Иннокентия, митр. Московского</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-13</Date>
+      <LeapDate>--04-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>147</Id>
+      <WorshipName>Прп. Марии Египетской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-14</Date>
+      <LeapDate>--04-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>148</Id>
+      <WorshipName>Прп. Тита чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-15</Date>
+      <LeapDate>--04-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>149</Id>
+      <WorshipName>Прп. Никиты исп., игумена обители Мидикийской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-16</Date>
+      <LeapDate>--04-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>150</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Избавительница».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-17</Date>
+      <LeapDate>--04-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>151</Id>
+      <WorshipName>Перенесение мощей свт. Иова, патриарха Московского и всея России.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-18</Date>
+      <LeapDate>--04-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>152</Id>
+      <WorshipName>Равноап. Мефодия, архиеп. Моравского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-19</Date>
+      <LeapDate>--04-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>153</Id>
+      <WorshipName>Прп. Даниила Переяславского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-20</Date>
+      <LeapDate>--04-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>154</Id>
+      <WorshipName>Свт. Нифонта, еп. Новгородского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-21</Date>
+      <LeapDate>--04-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>155</Id>
+      <WorshipName>Мч. Евпсихия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-22</Date>
+      <LeapDate>--04-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>156</Id>
+      <WorshipName>Мчч. Терентия, Помпиия и иже с ними.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-23</Date>
+      <LeapDate>--04-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>157</Id>
+      <WorshipName>Прп. Иакова Железноборовского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-24</Date>
+      <LeapDate>--04-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>158</Id>
+      <WorshipName>Прп. Василия исп., еп. Парийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-25</Date>
+      <LeapDate>--04-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>159</Id>
+      <WorshipName>Сщмч. Артемона, пресвитера Лаодикийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-26</Date>
+      <LeapDate>--04-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>160</Id>
+      <WorshipName>Мчч. Антония, Иоанна и Евстафия Виленских, Литовских.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-27</Date>
+      <LeapDate>--04-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>161</Id>
+      <WorshipName>Апп. от 70-ти Аристарха, Пуда и Трофима.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-28</Date>
+      <LeapDate>--04-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>162</Id>
+      <WorshipName>Мцц. Агапии, Ирины и Хионии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-29</Date>
+      <LeapDate>--04-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>163</Id>
+      <WorshipName>Прп. Зосимы, игумена Соловецкого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--04-30</Date>
+      <LeapDate>--04-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>164</Id>
+      <WorshipName>Прп. Иоанна, ученика прп. Григория Декаполита.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-01</Date>
+      <LeapDate>--05-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>165</Id>
+      <WorshipName>Блж. Матроны Московской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-02</Date>
+      <LeapDate>--05-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>166</Id>
+      <WorshipName>Прп. Феодора Трихины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-03</Date>
+      <LeapDate>--05-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>167</Id>
+      <WorshipName>Сщмч. Ианнуария еп. и мч. Феодора, иже в Пергии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-04</Date>
+      <LeapDate>--05-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>168</Id>
+      <WorshipName>Прп. Феодора Сикеота, еп. Анастасиупольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-05</Date>
+      <LeapDate>--05-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>169</Id>
+      <WorshipName>Вмч. Георгия Победоносца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-06</Date>
+      <LeapDate>--05-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>170</Id>
+      <WorshipName>Мч. Саввы Стратилата.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-07</Date>
+      <LeapDate>--05-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>171</Id>
+      <WorshipName>Апостола и евангелиста Марка.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-08</Date>
+      <LeapDate>--05-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>172</Id>
+      <WorshipName>Свт. Стефана, еп. Великопермского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-09</Date>
+      <LeapDate>--05-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>173</Id>
+      <WorshipName>Поминовение усопших воинов.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-09</Date>
+      <LeapDate>--05-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>174</Id>
+      <WorshipName>Ап. и сщмч. Симеона, сродника Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-10</Date>
+      <LeapDate>--05-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>175</Id>
+      <WorshipName>Апп. от 70-ти Иасона и Сосипатра.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-11</Date>
+      <LeapDate>--05-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>176</Id>
+      <WorshipName>Мчч. Дады, Максима и Квинтилиана.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-11</Date>
+      <LeapDate>--05-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>177</Id>
+      <WorshipName>Свт. Игнатия Брянчанинова, еп. Кавказского (с 13 мая).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-12</Date>
+      <LeapDate>--05-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>178</Id>
+      <WorshipName>Ап. Иакова Зеведеева.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-13</Date>
+      <LeapDate>--05-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>179</Id>
+      <WorshipName>Прп. Пафнутия Боровского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-14</Date>
+      <LeapDate>--05-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>180</Id>
+      <WorshipName>Перенесение мощей блгвв. кнн. Российских Бориса и Глеба, во Святом Крещении Романа и Давида.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-15</Date>
+      <LeapDate>--05-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>181</Id>
+      <WorshipName>Прп. Феодосия, игумена Киево-Печерского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-16</Date>
+      <LeapDate>--05-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>182</Id>
+      <WorshipName>Прмц. Пелагии, девы Тарсийской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-17</Date>
+      <LeapDate>--05-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>183</Id>
+      <WorshipName>Иконы Божией Матери «Неупиваемая Чаша»</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-18</Date>
+      <LeapDate>--05-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>184</Id>
+      <WorshipName>Свт. Саввы, первого архиеп. Сербского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-19</Date>
+      <LeapDate>--05-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>185</Id>
+      <WorshipName>Прп. Нила Сорского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-20</Date>
+      <LeapDate>--05-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>186</Id>
+      <WorshipName>Апостола и евангелиста Иоанна Богослова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-21</Date>
+      <LeapDate>--05-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>187</Id>
+      <WorshipName>ПЕРЕНЕСЕНИЕ МОЩЕЙ СВЯТИТЕЛЯ И ЧУДОТВОРЦА НИКОЛАЯ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-22</Date>
+      <LeapDate>--05-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>188</Id>
+      <WorshipName>Апостола Симона Зилота.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-23</Date>
+      <LeapDate>--05-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>189</Id>
+      <WorshipName>Равноапп. Мефодия и Кирилла, учителей Словенских.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-24</Date>
+      <LeapDate>--05-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>190</Id>
+      <WorshipName>Сщмч. Ермогена, патриарха Московского и всея России, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-25</Date>
+      <LeapDate>--05-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>191</Id>
+      <WorshipName>Перенесение мощей прмч. Макария, архим. Каневского, игумена Пинского, Переяславского чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-26</Date>
+      <LeapDate>--05-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>192</Id>
+      <WorshipName>Блж. Исидора, Христа ради юродивого, Ростовского чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-27</Date>
+      <LeapDate>--05-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>193</Id>
+      <WorshipName>Блгв. царевича Димитрия, Угличского и Московского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-28</Date>
+      <LeapDate>--05-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>194</Id>
+      <WorshipName>Прп. Феодора Освященного, ученика прп. Пахомия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-29</Date>
+      <LeapDate>--05-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>195</Id>
+      <WorshipName>Ап. Андроника и иже с ним.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-30</Date>
+      <LeapDate>--05-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>196</Id>
+      <WorshipName>Мч. Феодота Анкирского и мцц. семи дев.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-31</Date>
+      <LeapDate>--05-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>197</Id>
+      <WorshipName>Мчч. Петра, Дионисия и иже с ними.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--05-31</Date>
+      <LeapDate>--05-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>198</Id>
+      <WorshipName>Блгв. вел. кн. Димитрия Донского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-01</Date>
+      <LeapDate>--06-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>199</Id>
+      <WorshipName>Обретение мощей свт. Московского Алексия, всея России чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-02</Date>
+      <LeapDate>--06-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>200</Id>
+      <WorshipName>Владимирской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-03</Date>
+      <LeapDate>--06-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>201</Id>
+      <WorshipName>Мч. Иоанна-Владимира, кн. Сербского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-04</Date>
+      <LeapDate>--06-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>202</Id>
+      <WorshipName>Прп. Евфросинии, игумении Полоцкой.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-05</Date>
+      <LeapDate>--06-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>203</Id>
+      <WorshipName>Блж. Ксении Петербургской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-06</Date>
+      <LeapDate>--06-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>204</Id>
+      <WorshipName>Третье обретение главы Предтечи и Крестителя Господня Иоанна.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-07</Date>
+      <LeapDate>--06-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>205</Id>
+      <WorshipName>Ап. от 70-ти Карпа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-08</Date>
+      <LeapDate>--06-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>206</Id>
+      <WorshipName>Прав. Иоанна Русского, исповедника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-09</Date>
+      <LeapDate>--06-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>207</Id>
+      <WorshipName>Свт. Игнатия, еп. Ростовского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-10</Date>
+      <LeapDate>--06-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>208</Id>
+      <WorshipName>Свт. Луки исп., архиеп. Симферопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-11</Date>
+      <LeapDate>--06-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>209</Id>
+      <WorshipName>Прп. Исаакия исп., игумена обители Далматской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-12</Date>
+      <LeapDate>--06-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>210</Id>
+      <WorshipName>Мч. Ермея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-13</Date>
+      <LeapDate>--06-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>211</Id>
+      <WorshipName>Прав. Иоанна Кронштадтского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-14</Date>
+      <LeapDate>--06-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>212</Id>
+      <WorshipName>Блгв. кн. Иулиании, кн. Вяземской, Новоторжской</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-15</Date>
+      <LeapDate>--06-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>213</Id>
+      <WorshipName>Перенесение мощей блгв. царевича Димитрия из Углича в Москву.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-16</Date>
+      <LeapDate>--06-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>214</Id>
+      <WorshipName>Свт. Митрофана, патриарха Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-17</Date>
+      <LeapDate>--06-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>215</Id>
+      <WorshipName>Блгв. кн. Феодора, брата блгв. вел. кн. Александра Невского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-18</Date>
+      <LeapDate>--06-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>216</Id>
+      <WorshipName>Прп. Виссариона, чудотворца Египетского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-19</Date>
+      <LeapDate>--06-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>217</Id>
+      <WorshipName>Сщмч. Феодота, еп. Анкирского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-20</Date>
+      <LeapDate>--06-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>218</Id>
+      <WorshipName>Вмч. Феодора Стратилата.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-21</Date>
+      <LeapDate>--06-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>219</Id>
+      <WorshipName>Прп. Кирилла, игумена Белоезерского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-22</Date>
+      <LeapDate>--06-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>220</Id>
+      <WorshipName>Свт. Иоанна, митр. Тобольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-23</Date>
+      <LeapDate>--06-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>221</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Достойно есть».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-24</Date>
+      <LeapDate>--06-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>222</Id>
+      <WorshipName>Прп. Онуфрия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-25</Date>
+      <LeapDate>--06-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>223</Id>
+      <WorshipName>Прп. Петра Афонского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-25</Date>
+      <LeapDate>--06-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>224</Id>
+      <WorshipName>Мц. Акилины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-26</Date>
+      <LeapDate>--06-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>225</Id>
+      <WorshipName>Свт. Трифиллия, еп. Левкусии Кипрской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-26</Date>
+      <LeapDate>--06-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>226</Id>
+      <WorshipName>Прп. Мефодия, игумена Пешношского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-27</Date>
+      <LeapDate>--06-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>227</Id>
+      <WorshipName>Свт. Ионы, митр. Московского и всея России, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-28</Date>
+      <LeapDate>--06-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>228</Id>
+      <WorshipName>Прп. Тихона Калужского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-29</Date>
+      <LeapDate>--06-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>229</Id>
+      <WorshipName>Мчч. Мануила, Савела и Исмаила.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--06-30</Date>
+      <LeapDate>--06-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>230</Id>
+      <WorshipName>Боголюбской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-01</Date>
+      <LeapDate>--07-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>231</Id>
+      <WorshipName>Свт. Иоанна Максимовича, архиеп. Шанхайского и Сан-Францисского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-02</Date>
+      <LeapDate>--07-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>232</Id>
+      <WorshipName>Свт. Гурия, архиеп. Казанского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-03</Date>
+      <LeapDate>--07-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>233</Id>
+      <WorshipName>Прп. Анастасии, матери свт. Саввы Сербского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-04</Date>
+      <LeapDate>--07-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>234</Id>
+      <WorshipName>Сщмч. Евсевия, еп. Самосатского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-05</Date>
+      <LeapDate>--07-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>235</Id>
+      <WorshipName>Владимирской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-06</Date>
+      <LeapDate>--07-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>236</Id>
+      <WorshipName>РОЖДЕСТВО ПРЕДТЕЧИ И КРЕСТИТЕЛЯ ГОСПОДНЯ ИОАННА.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-07</Date>
+      <LeapDate>--07-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>237</Id>
+      <WorshipName>Блгвв. кнн. Петра и Февронии, Муромских чудотворцев.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-08</Date>
+      <LeapDate>--07-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>238</Id>
+      <WorshipName>Тихвинской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-09</Date>
+      <LeapDate>--07-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>239</Id>
+      <WorshipName>Обретение мощей прп. Амвросия Оптинского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-10</Date>
+      <LeapDate>--07-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>240</Id>
+      <WorshipName>Прпп. Сергия и Германа, Валаамских чудотворцев</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-11</Date>
+      <LeapDate>--07-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>241</Id>
+      <WorshipName>СЛАВНЫХ И ВСЕХВАЛЬНЫХ ПЕРВОВЕРХОВНЫХ АПОСТОЛОВ ПЕТРА И ПАВЛА.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-12</Date>
+      <LeapDate>--07-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>242</Id>
+      <WorshipName>Собор славных и всехвальных 12-ти апостолов.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-13</Date>
+      <LeapDate>--07-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>243</Id>
+      <WorshipName>Бессребреников Космы и Дамиана, в Риме пострадавших.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-14</Date>
+      <LeapDate>--07-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>244</Id>
+      <WorshipName>Положение честной ризы Пресвятой Богородицы во Влахерне.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-15</Date>
+      <LeapDate>--07-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>245</Id>
+      <WorshipName>Перенесение мощей свт. Филиппа, митр. Московского и всея России, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-16</Date>
+      <LeapDate>--07-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>246</Id>
+      <WorshipName>Страстотерпцев царя Николая, царицы Александры, царевича Алексия, великих княжен Ольги, Татианы, Марии и Анастасии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-17</Date>
+      <LeapDate>--07-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>247</Id>
+      <WorshipName>ОБРЕТЕНИЕ ЧЕСТНЫХ МОЩЕЙ ПРП. СЕРГИЯ, ИГУМЕНА РАДОНЕЖСКОГО.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-18</Date>
+      <LeapDate>--07-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>248</Id>
+      <WorshipName>ПРМЦ. ВЕЛ. КН. ЕЛИСАВЕТЫ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-18</Date>
+      <LeapDate>--07-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>249</Id>
+      <WorshipName>Прп. Афанасия Афонского (с 18 июля).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-19</Date>
+      <LeapDate>--07-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>250</Id>
+      <WorshipName>Прп. Евдокии, в инокинях Евфросинии, вел. кн. Московской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-20</Date>
+      <LeapDate>--07-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>251</Id>
+      <WorshipName>ЯВЛЕНИЕ ИКОНЫ ПРЕСВЯТОЙ БОГОРОДИЦЫ ВО ГРАДЕ КАЗАНИ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-21</Date>
+      <LeapDate>--07-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>252</Id>
+      <WorshipName>Сщмч. Панкратия, еп. Тавроменийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-22</Date>
+      <LeapDate>--07-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>253</Id>
+      <WorshipName>Положение честной ризы Господа нашего Иисуса Христа в Москве.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-23</Date>
+      <LeapDate>--07-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>254</Id>
+      <WorshipName>Равноап. Ольги, вел. княгини Российской, во Святом Крещении Елены.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-24</Date>
+      <LeapDate>--07-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>255</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Троеручица».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-25</Date>
+      <LeapDate>--07-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>256</Id>
+      <WorshipName>Собор Архангела Гавриила.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-26</Date>
+      <LeapDate>--07-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>257</Id>
+      <WorshipName>Прп. Стефана Савваита.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-26</Date>
+      <LeapDate>--07-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>258</Id>
+      <WorshipName>Прп. Стефана Махрищского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-27</Date>
+      <LeapDate>--07-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>259</Id>
+      <WorshipName>РАВНОАП. ВЕЛ. КНЯЗЯ ВЛАДИМИРА, ВО СВЯТОМ КРЕЩЕНИИ ВАСИЛИЯ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-28</Date>
+      <LeapDate>--07-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>260</Id>
+      <WorshipName>Российских чудотворцев, прославленных на Московских Соборах XVI в.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-29</Date>
+      <LeapDate>--07-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>261</Id>
+      <WorshipName>Вмц. Марины (Маргариты).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-30</Date>
+      <LeapDate>--07-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>262</Id>
+      <WorshipName>Мч. Емилиана.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--07-31</Date>
+      <LeapDate>--07-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>263</Id>
+      <WorshipName>Обретение мощей прп. Серафима, Саровского Чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-01</Date>
+      <LeapDate>--08-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>264</Id>
+      <WorshipName>ПРОРОКА ИЛИИ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-02</Date>
+      <LeapDate>--08-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>265</Id>
+      <WorshipName>Прпп. Симеона, Христа ради юродивого, и Иоанна, спостника его.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-03</Date>
+      <LeapDate>--08-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>266</Id>
+      <WorshipName>Пророка Иезекииля.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-03</Date>
+      <LeapDate>--08-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>267</Id>
+      <WorshipName>Мироносицы равноап. Марии Магдалины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-04</Date>
+      <LeapDate>--08-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>268</Id>
+      <WorshipName>Перенесение мощей сщмч. Фоки.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-04</Date>
+      <LeapDate>--08-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>269</Id>
+      <WorshipName>Почаевской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-05</Date>
+      <LeapDate>--08-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>270</Id>
+      <WorshipName>Мчч. блгвв. кнн. Бориса и Глеба, во Святом Крещении Романа и Давида.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-06</Date>
+      <LeapDate>--08-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>271</Id>
+      <WorshipName>Успение прав. Анны, матери Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-07</Date>
+      <LeapDate>--08-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>272</Id>
+      <WorshipName>Прп. Моисея Угрина, Печерского, в Ближних пещерах.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-08</Date>
+      <LeapDate>--08-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>273</Id>
+      <WorshipName>Вмч. и целителя Пантелеимона.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-09</Date>
+      <LeapDate>--08-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>274</Id>
+      <WorshipName>Смоленской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-10</Date>
+      <LeapDate>--08-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>275</Id>
+      <WorshipName>Рождество свт. Николая, архиеп. Мир Ликийских.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-11</Date>
+      <LeapDate>--08-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>276</Id>
+      <WorshipName>Мч. Иоанна Воина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-12</Date>
+      <LeapDate>--08-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>277</Id>
+      <WorshipName>Предпразднство Происхождения Честных Древ Животворящего Креста Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-13</Date>
+      <LeapDate>--08-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>278</Id>
+      <WorshipName>Сщмч. Вениамина, митр. Петроградского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-13</Date>
+      <LeapDate>--08-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>279</Id>
+      <WorshipName>Происхождение Честных Древ Животворящего Креста Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-14</Date>
+      <LeapDate>--08-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>280</Id>
+      <WorshipName>Семи мучеников Маккавеев, матери их Соломонии и учителя их Елеазара.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-14</Date>
+      <LeapDate>--08-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>281</Id>
+      <WorshipName>Перенесение мощей св. первомученика и архидиакона Стефана.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-15</Date>
+      <LeapDate>--08-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>282</Id>
+      <WorshipName>Прп. Антония Римлянина, Новгородского чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-16</Date>
+      <LeapDate>--08-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>283</Id>
+      <WorshipName>Свв. семи отроков, иже во Ефесе.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-17</Date>
+      <LeapDate>--08-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>284</Id>
+      <WorshipName>Предпразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-18</Date>
+      <LeapDate>--08-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>285</Id>
+      <WorshipName>Мч. Евсигния.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-18</Date>
+      <LeapDate>--08-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>286</Id>
+      <WorshipName>ПРЕОБРАЖЕНИЕ ГОСПОДНЕ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-19</Date>
+      <LeapDate>--08-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>287</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-20</Date>
+      <LeapDate>--08-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>288</Id>
+      <WorshipName>Обретение мощей свт. Митрофана, еп. Воронежского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-20</Date>
+      <LeapDate>--08-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>289</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-21</Date>
+      <LeapDate>--08-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>290</Id>
+      <WorshipName>Перенесение мощей прпп. Зосимы и Савватия Соловецких.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-21</Date>
+      <LeapDate>--08-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>291</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-22</Date>
+      <LeapDate>--08-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>292</Id>
+      <WorshipName>Апостола Матфия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-22</Date>
+      <LeapDate>--08-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>293</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-23</Date>
+      <LeapDate>--08-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>294</Id>
+      <WorshipName>Мч. архидиакона Лаврентия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-23</Date>
+      <LeapDate>--08-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>295</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-24</Date>
+      <LeapDate>--08-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>296</Id>
+      <WorshipName>Мч. архидиакона Евпла.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-24</Date>
+      <LeapDate>--08-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>297</Id>
+      <WorshipName>Попразднство Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-25</Date>
+      <LeapDate>--08-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>298</Id>
+      <WorshipName>Прп. Максима Исповедника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-25</Date>
+      <LeapDate>--08-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>299</Id>
+      <WorshipName>Мчч. Фотия и Аникиты.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-25</Date>
+      <LeapDate>--08-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>300</Id>
+      <WorshipName>Отдание праздника Преображения Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-26</Date>
+      <LeapDate>--08-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>301</Id>
+      <WorshipName>Предпразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-27</Date>
+      <LeapDate>--08-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>302</Id>
+      <WorshipName>Перенесение мощей прп. Феодосия Печерского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-27</Date>
+      <LeapDate>--08-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>303</Id>
+      <WorshipName>УСПЕНИЕ ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ И ПРИСНОДЕВЫ МАРИИ .</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-28</Date>
+      <LeapDate>--08-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>304</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-29</Date>
+      <LeapDate>--08-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>305</Id>
+      <WorshipName>Перенесение из Едессы в Константинополь Нерукотворенного Образа (Убруса) Господа Иисуса Христа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-29</Date>
+      <LeapDate>--08-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>306</Id>
+      <WorshipName>ПОПРАЗДНСТВО УСПЕНИЯ ПРЕСВЯТОЙ БОГОРОДИЦЫ. ЧИН ПОГРЕБЕНИЯ БОЖИЕЙ МАТЕРИ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-30</Date>
+      <LeapDate>--08-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>307</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--08-31</Date>
+      <LeapDate>--08-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>308</Id>
+      <WorshipName>Мчч. Флора и Лавра.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--08-31</Date>
+      <LeapDate>--08-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>309</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-01</Date>
+      <LeapDate>--09-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>310</Id>
+      <WorshipName>Донской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-01</Date>
+      <LeapDate>--09-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>311</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-02</Date>
+      <LeapDate>--09-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>312</Id>
+      <WorshipName>Прор. Самуила.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-02</Date>
+      <LeapDate>--09-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>313</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-03</Date>
+      <LeapDate>--09-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>314</Id>
+      <WorshipName>Ап. от 70-ти Фаддея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-03</Date>
+      <LeapDate>--09-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>315</Id>
+      <WorshipName>Мц. Вассы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-03</Date>
+      <LeapDate>--09-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>316</Id>
+      <WorshipName>Попразднство Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-04</Date>
+      <LeapDate>--09-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>317</Id>
+      <WorshipName>Мч. Агафоника и иже с ним.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-04</Date>
+      <LeapDate>--09-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>318</Id>
+      <WorshipName>Мч. Луппа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-04</Date>
+      <LeapDate>--09-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>319</Id>
+      <WorshipName>Отдание праздника Успения Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-05</Date>
+      <LeapDate>--09-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>320</Id>
+      <WorshipName>Перенесение мощей свт. Московского Петра.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-06</Date>
+      <LeapDate>--09-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>321</Id>
+      <WorshipName>Перенесение мощей ап. Варфоломея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-07</Date>
+      <LeapDate>--09-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>322</Id>
+      <WorshipName>Ап. от 70-ти Тита, еп. Критского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-07</Date>
+      <LeapDate>--09-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>323</Id>
+      <WorshipName>Сретение Владимирской иконы Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-08</Date>
+      <LeapDate>--09-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>324</Id>
+      <WorshipName>Прп. сщмч. Кукши, ученика его прмч. Никона и прп. Пимена постника, Печерских, в Ближних пещерах.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-09</Date>
+      <LeapDate>--09-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>325</Id>
+      <WorshipName>Собор преподобных отцов Киево-Печерских, в Дальних пещерах почивающих.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-10</Date>
+      <LeapDate>--09-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>326</Id>
+      <WorshipName>УСЕКНОВЕНИЕ ГЛАВЫ ПРОРОКА, ПРЕДТЕЧИ И КРЕСТИТЕЛЯ ГОСПОДНЯ ИОАННА. ДЕНЬ ПОСТНЫЙ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-11</Date>
+      <LeapDate>--09-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>327</Id>
+      <WorshipName>Перенесение мощей блгв. вел. кн. Александра Невского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-12</Date>
+      <LeapDate>--09-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>328</Id>
+      <WorshipName>Положение честного пояса Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-13</Date>
+      <LeapDate>--09-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>329</Id>
+      <WorshipName>Начало индикта – церковное новолетие.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-14</Date>
+      <LeapDate>--09-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>330</Id>
+      <WorshipName>Прп. Симеона Столпника и матери его Марфы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-14</Date>
+      <LeapDate>--09-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>331</Id>
+      <WorshipName>Прпп. Антония и Феодосия Печерских.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-15</Date>
+      <LeapDate>--09-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>332</Id>
+      <WorshipName>Сщмч. Анфима, еп. Никомидийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-16</Date>
+      <LeapDate>--09-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>333</Id>
+      <WorshipName>Прп. Феоктиста, спостника Евфимия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-16</Date>
+      <LeapDate>--09-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>334</Id>
+      <WorshipName>Сщмч. Вавилы, еп. Великой Антиохии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-17</Date>
+      <LeapDate>--09-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>335</Id>
+      <WorshipName>Прор. Боговидца Моисея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-17</Date>
+      <LeapDate>--09-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>336</Id>
+      <WorshipName>Прор. Захарии и прав. Елисаветы, родителей Иоанна Предтечи.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-18</Date>
+      <LeapDate>--09-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>337</Id>
+      <WorshipName>Воспоминание чуда Архистратига Михаила, бывшего в Хонех (Колоссах).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-19</Date>
+      <LeapDate>--09-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>338</Id>
+      <WorshipName>Предпразднство Рождества Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-20</Date>
+      <LeapDate>--09-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>339</Id>
+      <WorshipName>Мч. Созонта.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-20</Date>
+      <LeapDate>--09-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>340</Id>
+      <WorshipName>РОЖДЕСТВО ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-21</Date>
+      <LeapDate>--09-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>341</Id>
+      <WorshipName>Попразднство Рождества Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-22</Date>
+      <LeapDate>--09-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>342</Id>
+      <WorshipName>Праведных Богоотец Иоакима и Анны.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-22</Date>
+      <LeapDate>--09-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>343</Id>
+      <WorshipName>Попразднство Рождества Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-23</Date>
+      <LeapDate>--09-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>344</Id>
+      <WorshipName>Мцц. Минодоры, Митродоры и Нимфодоры.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-23</Date>
+      <LeapDate>--09-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>345</Id>
+      <WorshipName>Попразднство Рождества Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-24</Date>
+      <LeapDate>--09-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>346</Id>
+      <WorshipName>Прп. Силуана Афонского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-24</Date>
+      <LeapDate>--09-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>347</Id>
+      <WorshipName>Отдание праздника Рождества Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-25</Date>
+      <LeapDate>--09-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>348</Id>
+      <WorshipName>Предпразднство Воздвижения Креста Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-26</Date>
+      <LeapDate>--09-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>349</Id>
+      <WorshipName>Память обновления храма Воскресения Христова в Иерусалиме (Воскресение словущее).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-26</Date>
+      <LeapDate>--09-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>350</Id>
+      <WorshipName>Сщмч. Корнилия сотника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-26</Date>
+      <LeapDate>--09-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>351</Id>
+      <WorshipName>ВОЗДВИЖЕНИЕ ЧЕСТНОГО И ЖИВОТВОРЯЩЕГО КРЕСТА ГОСПОДНЯ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-27</Date>
+      <LeapDate>--09-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>352</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-28</Date>
+      <LeapDate>--09-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>353</Id>
+      <WorshipName>Вмч. Никиты.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-28</Date>
+      <LeapDate>--09-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>354</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-29</Date>
+      <LeapDate>--09-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>355</Id>
+      <WorshipName>Вмц. Евфимии всехвальной.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-29</Date>
+      <LeapDate>--09-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>356</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--09-30</Date>
+      <LeapDate>--09-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>357</Id>
+      <WorshipName>Мцц. Веры, Надежды, Любови и матери их Софии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--09-30</Date>
+      <LeapDate>--09-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>358</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--10-01</Date>
+      <LeapDate>--10-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>359</Id>
+      <WorshipName>Прп. Евмения, еп. Гортинского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-01</Date>
+      <LeapDate>--10-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>360</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--10-02</Date>
+      <LeapDate>--10-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>361</Id>
+      <WorshipName>Сщмч. Константина Голубева пресвитера и с ним двух мучеников.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-02</Date>
+      <LeapDate>--10-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>362</Id>
+      <WorshipName>Попразднство Воздвижения Креста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--10-03</Date>
+      <LeapDate>--10-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>363</Id>
+      <WorshipName>Мучеников и исповедников Михаила, кн. Черниговского, и болярина его Феодора, чудотворцев.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-03</Date>
+      <LeapDate>--10-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>364</Id>
+      <WorshipName>Отдание праздника Воздвижения Животворящего Креста Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--10-04</Date>
+      <LeapDate>--10-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>365</Id>
+      <WorshipName>Обретение мощей свт. Димитрия, митр. Ростовского (с 4-го октября).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-05</Date>
+      <LeapDate>--10-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>366</Id>
+      <WorshipName>Зачатие честного, славного Пророка, Предтечи и Крестителя Господня Иоанна.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-06</Date>
+      <LeapDate>--10-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>367</Id>
+      <WorshipName>Первомц. равноап. Феклы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-07</Date>
+      <LeapDate>--10-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>368</Id>
+      <WorshipName>Преставление прп. Сергия, игумена Радонежского, всея России чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-08</Date>
+      <LeapDate>--10-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>369</Id>
+      <WorshipName>Преставление апостола и евангелиста Иоанна Богослова.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-09</Date>
+      <LeapDate>--10-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>370</Id>
+      <WorshipName>Свт. Тихона, патриарха Московского и всея России (с 09 октября).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-10</Date>
+      <LeapDate>--10-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>371</Id>
+      <WorshipName>Прпп. схимонаха Кирилла и схимонахини Марии, родителей прп. Сергия Радонежского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-11</Date>
+      <LeapDate>--10-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>372</Id>
+      <WorshipName>Сщмч. Петра, митр. Крутицкого (с 10-го октября).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-12</Date>
+      <LeapDate>--10-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>373</Id>
+      <WorshipName>Свт. Михаила, первого митр. Киевского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-13</Date>
+      <LeapDate>--10-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>374</Id>
+      <WorshipName>ПОКРОВ ПРЕСВЯТОЙ БОГОРОДИЦЫ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-14</Date>
+      <LeapDate>--10-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>375</Id>
+      <WorshipName>Сщмч. Киприана и мц. Иустины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-15</Date>
+      <LeapDate>--10-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>376</Id>
+      <WorshipName>Сщмч. Дионисия Ареопагита, еп. Афинского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-16</Date>
+      <LeapDate>--10-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>377</Id>
+      <WorshipName>Обретение мощей свтт. Гурия, архиеп. Казанского, и Варсонофия, еп. Тверского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-17</Date>
+      <LeapDate>--10-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>378</Id>
+      <WorshipName>Свтт. Петра, Алексия, Ионы, Макария, Филиппа, Иова, Ермогена, Тихона, Петра, Филарета, Иннокентия и Макария, Московских и всея России чудотворцев.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-18</Date>
+      <LeapDate>--10-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>379</Id>
+      <WorshipName>Апостола Фомы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-19</Date>
+      <LeapDate>--10-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>380</Id>
+      <WorshipName>Мчч. Сергия и Вакха.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-20</Date>
+      <LeapDate>--10-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>381</Id>
+      <WorshipName>Прп. Пелагии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-21</Date>
+      <LeapDate>--10-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>382</Id>
+      <WorshipName>Ап. Иакова Алфеева.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-22</Date>
+      <LeapDate>--10-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>383</Id>
+      <WorshipName>Прп. Амвросия Оптинского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-23</Date>
+      <LeapDate>--10-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>384</Id>
+      <WorshipName>Собор преподобных Оптинских старцев.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-24</Date>
+      <LeapDate>--10-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>385</Id>
+      <WorshipName>Мчч. Прова, Тараха и Андроника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-25</Date>
+      <LeapDate>--10-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>386</Id>
+      <WorshipName>Прп. Космы, еп. Маиумского, творца канонов.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-25</Date>
+      <LeapDate>--10-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>387</Id>
+      <WorshipName>Иверской иконы Божией Матери.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-26</Date>
+      <LeapDate>--10-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>388</Id>
+      <WorshipName>Прп. Николы Святоши, кн. Черниговского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-27</Date>
+      <LeapDate>--10-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>389</Id>
+      <WorshipName>Свт. Афанасия исп., еп. Ковровского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-28</Date>
+      <LeapDate>--10-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>390</Id>
+      <WorshipName>Мч. Лонгина сотника, иже при Кресте Господни.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-29</Date>
+      <LeapDate>--10-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>391</Id>
+      <WorshipName>Прор. Осии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-30</Date>
+      <LeapDate>--10-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>392</Id>
+      <WorshipName>Прмч. Андрея Критского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-30</Date>
+      <LeapDate>--10-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>393</Id>
+      <WorshipName>Апостола и евангелиста Луки.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--10-31</Date>
+      <LeapDate>--10-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>394</Id>
+      <WorshipName>Блгв. царевича Димитрия Угличского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-01</Date>
+      <LeapDate>--11-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>395</Id>
+      <WorshipName>Вмч. Артемия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-02</Date>
+      <LeapDate>--11-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>396</Id>
+      <WorshipName>Прп. Илариона Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-03</Date>
+      <LeapDate>--11-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>397</Id>
+      <WorshipName>ПРАЗДНОВАНИЕ КАЗАНСКОЙ ИКОНЕ БОЖИЕЙ МАТЕРИ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-04</Date>
+      <LeapDate>--11-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>398</Id>
+      <WorshipName>Апостола Иакова, брата Господня по плоти.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-05</Date>
+      <LeapDate>--11-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>399</Id>
+      <WorshipName>Иконы Божией Матери «Всех скорбящих Радость».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-06</Date>
+      <LeapDate>--11-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>400</Id>
+      <WorshipName>Мчч. Маркиана и Мартирия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-07</Date>
+      <LeapDate>--11-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>401</Id>
+      <WorshipName>Вмч. Димитрия Солунского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-08</Date>
+      <LeapDate>--11-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>402</Id>
+      <WorshipName>Прп. Нестора Летописца, Печерского, в Ближних пещерах.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-09</Date>
+      <LeapDate>--11-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>403</Id>
+      <WorshipName>Свт. Димитрия, митр. Ростовского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-10</Date>
+      <LeapDate>--11-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>404</Id>
+      <WorshipName>Прмц. Анастасии Римляныни.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-11</Date>
+      <LeapDate>--11-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>405</Id>
+      <WorshipName>Прп. Аврамия затворника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-11</Date>
+      <LeapDate>--11-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>406</Id>
+      <WorshipName>Сщмч. Зиновия, еп. Егейского, и сестры его мц. Зиновии.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-12</Date>
+      <LeapDate>--11-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>407</Id>
+      <WorshipName>Апп. от 70-ти Стахия, Амплия, Урвана, Наркисса, Апеллия и Аристовула.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-13</Date>
+      <LeapDate>--11-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>408</Id>
+      <WorshipName>Мч. Епимаха.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-13</Date>
+      <LeapDate>--11-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>409</Id>
+      <WorshipName>Бессребреников и чудотворцев Космы и Дамиана Асийских.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-14</Date>
+      <LeapDate>--11-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>410</Id>
+      <WorshipName>Мчч. Акиндина, Пигасия, Аффония, Елпидифора и Анемподиста.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-15</Date>
+      <LeapDate>--11-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>411</Id>
+      <WorshipName>Мчч. Акепсима епископа, Иосифа пресвитера и Аифала диакона.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-16</Date>
+      <LeapDate>--11-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>412</Id>
+      <WorshipName>Прп. Иоанникия Великого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-17</Date>
+      <LeapDate>--11-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>413</Id>
+      <WorshipName>Сщмчч. Никандра, еп. Мирского, и Ермея пресвитера.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-17</Date>
+      <LeapDate>--11-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>414</Id>
+      <WorshipName>Свт. Тихона, патриарха Московского и всея России.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-18</Date>
+      <LeapDate>--11-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>415</Id>
+      <WorshipName>Прп. Варлаама Хутынского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-19</Date>
+      <LeapDate>--11-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>416</Id>
+      <WorshipName>Мчч. 33-х, в Мелитине пострадавших.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-20</Date>
+      <LeapDate>--11-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>417</Id>
+      <WorshipName>Прп. Лазаря Галисийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-20</Date>
+      <LeapDate>--11-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>418</Id>
+      <WorshipName>СОБОР АРХИСТРАТИГА МИХАИЛА И ПРОЧИХ НЕБЕСНЫХ СИЛ БЕСПЛОТНЫХ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-21</Date>
+      <LeapDate>--11-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>419</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Скоропослушница».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-22</Date>
+      <LeapDate>--11-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>420</Id>
+      <WorshipName>Апп. от 70-ти Ераста, Олимпа, Родиона, Сосипатра, Куарта (Кварта) и Тертия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-23</Date>
+      <LeapDate>--11-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>421</Id>
+      <WorshipName>Вмч. Мины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-24</Date>
+      <LeapDate>--11-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>422</Id>
+      <WorshipName>Свт. Иоанна Милостивого, патриарха Александрийского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-25</Date>
+      <LeapDate>--11-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>423</Id>
+      <WorshipName>Прп. Нила постника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-25</Date>
+      <LeapDate>--11-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>424</Id>
+      <WorshipName>Свт. Иоанна Златоустого, архиеп. Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-26</Date>
+      <LeapDate>--11-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>425</Id>
+      <WorshipName>Апостола Филиппа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-27</Date>
+      <LeapDate>--11-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>426</Id>
+      <WorshipName>Мучеников и исповедников Гурия, Самона и Авива.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-28</Date>
+      <LeapDate>--11-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>427</Id>
+      <WorshipName>Апостола и евангелиста Матфея.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-29</Date>
+      <LeapDate>--11-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>428</Id>
+      <WorshipName>Прп. Никона, игумена Радонежского, ученика прп. Сергия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--11-30</Date>
+      <LeapDate>--11-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>429</Id>
+      <WorshipName>Мчч. Платона и Романа.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-01</Date>
+      <LeapDate>--12-01</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>430</Id>
+      <WorshipName>Свт. Филарета, митр. Московского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-02</Date>
+      <LeapDate>--12-02</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>431</Id>
+      <WorshipName>Предпразднство Введения (Входа) во храм Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-03</Date>
+      <LeapDate>--12-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>432</Id>
+      <WorshipName>Прп. Григория Декаполита.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-03</Date>
+      <LeapDate>--12-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>433</Id>
+      <WorshipName>Свт. Прокла, архиеп. Константинопольского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-03</Date>
+      <LeapDate>--12-03</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>434</Id>
+      <WorshipName>ВВЕДЕНИЕ (ВХОД) ВО ХРАМ ПРЕСВЯТОЙ ВЛАДЫЧИЦЫ НАШЕЙ БОГОРОДИЦЫ И ПРИСНОДЕВЫ МАРИИ.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-04</Date>
+      <LeapDate>--12-04</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>435</Id>
+      <WorshipName>Попразднство Введения.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-05</Date>
+      <LeapDate>--12-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>436</Id>
+      <WorshipName>Блгв. кн. Михаила Тверского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-05</Date>
+      <LeapDate>--12-05</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>437</Id>
+      <WorshipName>Попразднство Введения.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-06</Date>
+      <LeapDate>--12-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>438</Id>
+      <WorshipName>Блгв. вел. кн. Александра Невского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-06</Date>
+      <LeapDate>--12-06</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>439</Id>
+      <WorshipName>Попразднство Введения.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-07</Date>
+      <LeapDate>--12-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>440</Id>
+      <WorshipName>Вмц. Екатерины.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-07</Date>
+      <LeapDate>--12-07</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>441</Id>
+      <WorshipName>Отдание праздника Введения.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--12-08</Date>
+      <LeapDate>--12-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>442</Id>
+      <WorshipName>Сщмч. Климента, папы Римского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-08</Date>
+      <LeapDate>--12-08</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>443</Id>
+      <WorshipName>Свт. Иннокентия, еп. Иркутского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-09</Date>
+      <LeapDate>--12-09</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>444</Id>
+      <WorshipName>Иконы Божией Матери, именуемой «Знамение».</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-10</Date>
+      <LeapDate>--12-10</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>445</Id>
+      <WorshipName>Сщмч. митр. Серафима (Чичагова).</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-11</Date>
+      <LeapDate>--12-11</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>446</Id>
+      <WorshipName>Мч. Парамона.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-12</Date>
+      <LeapDate>--12-12</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>447</Id>
+      <WorshipName>Апостола Андрея Первозванного.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-13</Date>
+      <LeapDate>--12-13</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>448</Id>
+      <WorshipName>Прав. Филарета Милостивого.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-14</Date>
+      <LeapDate>--12-14</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>449</Id>
+      <WorshipName>Прор. Аввакума.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-15</Date>
+      <LeapDate>--12-15</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>450</Id>
+      <WorshipName>Прп. Саввы Сторожевского, Звенигородского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-16</Date>
+      <LeapDate>--12-16</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>451</Id>
+      <WorshipName>Вмц. Варвары.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-17</Date>
+      <LeapDate>--12-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>452</Id>
+      <WorshipName>Прп. Иоанна Дамаскина.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-17</Date>
+      <LeapDate>--12-17</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>453</Id>
+      <WorshipName>Прп. Саввы Освященного.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-18</Date>
+      <LeapDate>--12-18</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>454</Id>
+      <WorshipName>СВЯТИТЕЛЯ НИКОЛАЯ, АРХИЕПИСКОПА МИР ЛИКИЙСКИХ, ЧУДОТВОРЦА.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-19</Date>
+      <LeapDate>--12-19</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>455</Id>
+      <WorshipName>Свт. Амвросия, еп. Медиоланского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-20</Date>
+      <LeapDate>--12-20</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>456</Id>
+      <WorshipName>Прп. Патапия.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-21</Date>
+      <LeapDate>--12-21</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>457</Id>
+      <WorshipName>Зачатие прав. Анною Пресвятой Богородицы.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-22</Date>
+      <LeapDate>--12-22</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>458</Id>
+      <WorshipName>Свт. Иоасафа, еп. Белгородского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-23</Date>
+      <LeapDate>--12-23</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>459</Id>
+      <WorshipName>Прп. Даниила Столпника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-24</Date>
+      <LeapDate>--12-24</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>460</Id>
+      <WorshipName>Свт. Спиридона, еп. Тримифунтского, чудотворца.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-25</Date>
+      <LeapDate>--12-25</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>461</Id>
+      <WorshipName>Прп. Германа Аляскинского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-26</Date>
+      <LeapDate>--12-26</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>462</Id>
+      <WorshipName>Мчч. Фирса, Левкия, Филимона, Аполлония, Ариана и Каллиника.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-27</Date>
+      <LeapDate>--12-27</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>463</Id>
+      <WorshipName>Сщмч. Илариона, архиеп. Верейского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-28</Date>
+      <LeapDate>--12-28</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>464</Id>
+      <WorshipName>Прп. Софии Суздальской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-29</Date>
+      <LeapDate>--12-29</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>465</Id>
+      <WorshipName>Прор. Даниила и трех отроков - Анании, Азарии и Мисаила.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-30</Date>
+      <LeapDate>--12-30</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>466</Id>
+      <WorshipName>Сщмч. Фаддея, архиеп. Тверского.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--12-31</Date>
+      <LeapDate>--12-31</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>467</Id>
+      <WorshipName>Димитриевская родительская суббота. Поминовение усопших.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>468</Id>
+      <WorshipName>Собор новомучеников и исповедников Церкви Русской.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>469</Id>
+      <WorshipName>Суббота пред Воздвижением.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>470</Id>
+      <WorshipName>Неделя пред Воздвижением.</WorshipName>
+      <WorshipShortName>пред Воздвижением</WorshipShortName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>471</Id>
+      <WorshipName>Неделя по Воздвижении.</WorshipName>
+      <WorshipShortName>по Воздвижении</WorshipShortName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>472</Id>
+      <WorshipName>Суббота по Воздвижении.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>473</Id>
+      <WorshipName>Память святых отцов VII Вселенского Собора.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>false</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>474</Id>
+      <WorshipName>Неделя святых праотец.</WorshipName>
+      <WorshipShortName>святых праотец</WorshipShortName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>475</Id>
+      <WorshipName>Неделя пред Рождеством Христовым, святых отец.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>476</Id>
+      <WorshipName>Суббота пред Рождеством Христовым.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>477</Id>
+      <WorshipName>Попразднство Рождества Христова. Правв. Иосифа Обручника, Давида царя и Иакова, брата Господня.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>478</Id>
+      <WorshipName>Суббота по Рождестве Христовом и пред Богоявлением.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>479</Id>
+      <WorshipName>Суббота по Рождестве Христовом.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>480</Id>
+      <WorshipName>Суббота пред Богоявлением.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>481</Id>
+      <WorshipName>Неделя пред Богоявлением.</WorshipName>
+      <WorshipShortName>пред Богоявление</WorshipShortName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>482</Id>
+      <WorshipName>Суббота по Богоявлении.</WorshipName>
+      <UseFullName>true</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+    <MenologyWorshipProjection>
+      <Id>483</Id>
+      <WorshipName>Неделя по Богоявлении.</WorshipName>
+      <WorshipShortName>по Богоявлении</WorshipShortName>
+      <UseFullName>false</UseFullName>
+      <IsCelebrating>true</IsCelebrating>
+      <Date>--00-00</Date>
+      <LeapDate>--00-00</LeapDate>
+    </MenologyWorshipProjection>
+  </Menologies>
+</DaysContainer>

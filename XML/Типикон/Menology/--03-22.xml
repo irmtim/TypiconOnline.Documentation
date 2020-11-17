@@ -17,19 +17,13 @@
 			</values>
 			<action>
 				<worship time="17.30" mode="daybefore">
-					<name>
-						<item language="cs-ru">Великое повечерие.</item>
-					</name>
+					<name>Великое повечерие.</name>
 				</worship>
 				<worship time="06.00">
-					<name>
-						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-					</name>
+					<name>Полунощница. Утреня. Часы.</name>
 				</worship>
 				<worship time="08.00">
-					<name>
-						<item language="cs-ru">Божественная литургия.</item>
-					</name>
+					<name>Божественная литургия.</name>
 				</worship>
 			</action>
 		</case>
@@ -54,19 +48,13 @@
 			</values>
 			<action>
 				<worship time="17.30" mode="daybefore">
-					<name>
-						<item language="cs-ru">9-й час.  Вечерня. Малое повечерие.</item>
-					</name>
+					<name>9-й час.  Вечерня. Малое повечерие.</name>
 				</worship>
 				<worship time="06.00">
-					<name>
-						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-					</name>
+					<name>Полунощница. Утреня. Часы.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-					</name>
+					<name>Литургия Преждеосвященных Даров.</name>
 				</worship>
 			</action>
 		</case>
@@ -78,19 +66,13 @@
 			</values>
 			<action>
 				<worship time="17.30" mode="daybefore">
-					<name>
-						<item language="cs-ru">Великое повечерие.</item>
-					</name>
+					<name>Великое повечерие.</name>
 				</worship>
 				<worship time="06.00">
-					<name>
-						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-					</name>
+					<name>Полунощница. Утреня. Часы.</name>
 				</worship>
 				<worship time="08.00">
-					<name>
-						<item language="cs-ru">Божественная литургия.</item>
-					</name>
+					<name>Божественная литургия.</name>
 				</worship>
 			</action>
 		</case>
@@ -108,19 +90,13 @@
 			</values>
 			<action>
 				<worship time="17.30" mode="daybefore">
-					<name>
-						<item language="cs-ru">Великое повечерие.</item>
-					</name>
+					<name>Великое повечерие.</name>
 				</worship>
 				<worship time="06.00">
-					<name>
-						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-					</name>
+					<name>Полунощница. Утреня. Часы.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-					</name>
+					<name>Литургия Преждеосвященных Даров.</name>
 				</worship>
 			</action>
 		</case>
@@ -130,37 +106,25 @@
 			</values>
 			<action>
 				<worship time="17.30" mode="daybefore">
-					<name>
-						<item language="cs-ru">Великое повечерие.</item>
-					</name>
+					<name>Великое повечерие.</name>
 				</worship>
 				<worship time="06.00">
-					<name>
-						<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-					</name>
+					<name>Полунощница. Утреня. Часы.</name>
 				</worship>
 				<worship time="09.00">
-					<name>
-						<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-					</name>
+					<name>Литургия Преждеосвященных Даров.</name>
 				</worship>
 			</action>
 		</case>
 		<default>
 			<worship time="17.30" mode="daybefore">
-				<name>
-					<item language="cs-ru">Великое повечерие.</item>
-				</name>
+				<name>Великое повечерие.</name>
 			</worship>
 			<worship time="06.00">
-				<name>
-					<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-				</name>
+				<name>Полунощница. Утреня. Часы.</name>
 			</worship>
 			<worship time="09.00">
-				<name>
-					<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-				</name>
+				<name>Литургия Преждеосвященных Даров.</name>
 			</worship>
 		</default>
 	</switch>

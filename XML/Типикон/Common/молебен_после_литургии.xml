@@ -45,9 +45,7 @@
 					</values>
 					<action>
 						<worship id="moleben">
-							<name>
-								<item language="cs-ru">Молебен свт. Николаю Чудотворцу.</item>
-							</name>
+							<name>Молебен свт. Николаю Чудотворцу.</name>
 						</worship>
 					</action>
 				</case>
@@ -58,9 +56,7 @@
 					</values>
 					<action>
 						<worship id="moleben">
-							<name>
-								<item language="cs-ru">Молебен перед иконой Божией Матери "Неупиваемая чаша".</item>
-							</name>
+							<name>Молебен перед иконой Божией Матери "Неупиваемая чаша".</name>
 						</worship>
 					</action>
 				</case>
@@ -89,9 +85,7 @@
 							</expression>
 							<then>
 								<worship id="moleben">
-									<name>
-										<item language="cs-ru">Молебен перед иконой "Лобзание Иисуса Христа Иудою".</item>
-									</name>
+									<name>Молебен перед иконой "Лобзание Иисуса Христа Иудою".</name>
 								</worship>
 							</then>
 						</if>
@@ -182,16 +176,12 @@
 							</expression>
 							<then>
 								<worship id="moleben">
-									<name>
-										<item language="cs-ru">Молебен перед иконой Божией Матери "Всецарица". Лития по усопшим.</item>
-									</name>
+									<name>Молебен перед иконой Божией Матери "Всецарица". Лития по усопшим.</name>
 								</worship>
 							</then>
 							<else>
 								<worship id="moleben">
-									<name>
-										<item language="cs-ru">Общий молебен. Лития по усопшим.</item>
-									</name>
+									<name>Общий молебен. Лития по усопшим.</name>
 								</worship>
 							</else>
 						</if>

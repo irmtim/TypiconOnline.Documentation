@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<worship time="23.30" mode="daybefore">
-		<name>
-			<item language="cs-ru">Пасхальная полунощница.</item>
-		</name>
+		<name>Пасхальная полунощница.</name>
 	</worship>
 	<worship time="00.00">
-		<name>
-			<item language="cs-ru">Божественная литургия.</item>
-		</name>
+		<name>Божественная литургия.</name>
 	</worship>
 </rule>

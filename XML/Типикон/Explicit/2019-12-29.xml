@@ -2,8 +2,6 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
 	<worship id="moleben" asaddition="remove"/>
 	<worship time="11.00" asaddition="append">
-		<name>
-			<item language="cs-ru">СОБОРОВАНИЕ.</item>
-		</name>
+		<name>СОБОРОВАНИЕ.</name>
 	</worship>
 </rule>

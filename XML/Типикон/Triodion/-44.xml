@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<worship time="17.30" mode="daybefore">
-		<name>
-			<item language="cs-ru">Великое повечерие с чтением</item>
-		</name>
-		<additionalname bold="true">
-			<item language="cs-ru"> Великого канона прп. Андрея Критского.</item>
-		</additionalname>
+		<name>Великое повечерие с чтением</name>
+		<additionalname bold="true"> Великого канона прп. Андрея Критского.</additionalname>
 	</worship>
 	<worship time="06.00">
-		<name>
-			<item language="cs-ru">Полунощница. Утреня. Часы.</item>
-		</name>
+		<name>Полунощница. Утреня. Часы.</name>
 	</worship>
 	<worship time="09.00">
-		<name>
-			<item language="cs-ru">Литургия Преждеосвященных Даров.</item>
-		</name>
-		<additionalname bold="true">
-			<item language="cs-ru"> Чин освящение колива.</item>
-		</additionalname>
+		<name>Литургия Преждеосвященных Даров.</name>
+		<additionalname bold="true"> Чин освящение колива.</additionalname>
 	</worship>
 </rule>

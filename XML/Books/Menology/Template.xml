@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dayservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/DaySchema.xsd">
+	<name>
+		<item language="cs-ru">[item] [sign]</item>
+	</name>
+	<esperinos>
+		<kekragaria>
+			<group ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 1 стихира </item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 2 стихира </item>
+					</text>
+				</ymnos>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, 3 стихира </item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="5">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+			<theotokion kind="stavros" ihos="8">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Господи воззвах, Крестобогородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</kekragaria>
+		<aposticha>
+			<doxastichon ihos="6">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Вечерня. На стиховне, 1 стихира.</item>
+					</text>
+				</ymnos>
+			</doxastichon>
+			<theotokion kind="stavros" ihos="6">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign]  Вечерня. На стиховне, Крестобогородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+		<troparion>
+			<group ihos="8">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Вечерня. Тропарь</item>
+					</text>
+				</ymnos>
+			</group>
+		</troparion>
+	</esperinos>
+	<orthros>
+		<kanones>
+			<kanonas ihos="8">
+				<acrostic>
+					<item language="cs-ru">Цве́т тя пою́ па́стырей и му́чеников.</item>
+				</acrostic>
+				<stihos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Припев.</item>
+				</stihos>
+				<odes>
+					<odi number="1">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 1-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 1-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="3">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 3-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 3-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 3-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 3-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 3-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="4">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 4-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 4-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 4-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 4-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 4-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="5">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 5-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 5-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 5-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 5-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 5-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="6">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 6-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 6-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 6-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 6-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 6-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="7">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 7-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 7-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 7-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 7-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 7-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="8">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 8-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 8-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+					<odi number="9">
+						<troparion kind="irmos">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Ирмос 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 1 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 2 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion>
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь 3 9-й песни.</item>
+							</text>
+						</troparion>
+						<troparion kind="theotokion">
+							<text>
+								<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Тропарь Богородичен 9-й песни.</item>
+							</text>
+						</troparion>
+					</odi>
+				</odes>
+			</kanonas>
+		</kanones>
+		<sedalen_kanonas>
+			<group ihos="1">
+				<prosomoion self="false">
+					<item language="cs-ru">Ли́к Ангельски</item>
+				</prosomoion>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни.</item>
+					</text>
+				</ymnos>
+			</group>
+			<theotokion ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Богородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+			<theotokion kind="stavros" ihos="1">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Седален по 3-й песни. Крестобогородичен</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</sedalen_kanonas>
+		<kontakia>
+			<kontakion ihos="4">
+				<prosomoion self="false">
+					<item language="cs-ru">Вознесы́йся</item>
+				</prosomoion>
+				<ymnos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Кондак.</item>
+				</ymnos>
+				<ikos>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Икос.</item>
+				</ikos>
+			</kontakion>
+		</kontakia>
+		<exapostilarion>
+			<ymnos>
+				<prosomoion self="false">
+					<item language="cs-ru">Не́бо звезда́ми</item>
+				</prosomoion>
+				<text>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Тропарь 1.</item>
+				</text>
+			</ymnos>
+			<theotokion>
+				<text>
+					<item language="cs-ru">[item] [sign] Утреня. Канон 1-й. Эксапостиларий. Богородичен.</item>
+				</text>
+			</theotokion>
+		</exapostilarion>
+		<aposticha>
+			<doxastichon ihos="6">
+				<annotation>
+					<item language="cs-ru">Дамаскиново</item>
+				</annotation>
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. Стихиры на на Стиховне. Славник</item>
+					</text>
+				</ymnos>
+			</doxastichon>
+			<theotokion kind="stavros" ihos="6">
+				<ymnos>
+					<text>
+						<item language="cs-ru">[item] [sign] Утреня. На стиховне, Богородичен.</item>
+					</text>
+				</ymnos>
+			</theotokion>
+		</aposticha>
+	</orthros>
+	<leitourgia>
+		<prokeimenon ihos="7">
+			<stihos>
+				<item language="cs-ru">Честна́ пред Го́сподем / сме́рть преподо́бных Его́.</item>
+			</stihos>
+			<stihos>
+				<item language="cs-ru">Что́ возда́м Го́сподеви о все́х, я́же воздаде́ ми?</item>
+			</stihos>
+		</prokeimenon>
+		<apostles>
+			<part number="334"/>
+		</apostles>
+		<alleluia ihos="2">
+			<stihos>
+				<item language="cs-ru">Свяще́нницы Твои́ облеку́тся в пра́вду, [и преподо́бнии Твои́ возра́дуются].</item>
+			</stihos>
+			<stihos>
+				<item language="cs-ru">Блаже́н му́ж, боя́йся Го́спода, [в за́поведех Его́ восхо́щет зело́].</item>
+			</stihos>
+		</alleluia>
+		<evangelion>
+			<part number="36" bookname="Ин"/>
+		</evangelion>
+		<kinonik>
+			<item language="cs-ru">В па́мять ве́чную [бу́дет пра́ведник, от слу́ха зла́ не убои́тся.]</item>
+		</kinonik>
+	</leitourgia>
+</dayservice>

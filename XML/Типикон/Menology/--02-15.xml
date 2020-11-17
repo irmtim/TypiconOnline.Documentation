@@ -12,19 +12,13 @@
 		<then>
 			<!-- Обычное бдение с литией-->
 			<worship time="16.00" mode="daybefore">
-				<name>
-					<item language="cs-ru">Всенощное бдение.</item>
-				</name>
+				<name>Всенощное бдение.</name>
 			</worship>
 			<worship time="08.40">
-				<name>
-					<item language="cs-ru">Часы 3-й и 6-й.</item>
-				</name>
+				<name>Часы 3-й и 6-й.</name>
 			</worship>
 			<worship time="09.00">
-				<name>
-					<item language="cs-ru">Божественная литургия.</item>
-				</name>
+				<name>Божественная литургия.</name>
 			</worship>
 		</then>
 		<else>
@@ -44,19 +38,13 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
@@ -68,19 +56,13 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
@@ -94,19 +76,13 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
@@ -117,19 +93,13 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
@@ -140,19 +110,13 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
@@ -163,37 +127,25 @@
 					</values>
 					<action>
 						<worship time="16.00" mode="daybefore">
-							<name>
-								<item language="cs-ru">Всенощное бдение.</item>
-							</name>
+							<name>Всенощное бдение.</name>
 						</worship>
 						<worship time="08.40">
-							<name>
-								<item language="cs-ru">Часы 3-й и 6-й.</item>
-							</name>
+							<name>Часы 3-й и 6-й.</name>
 						</worship>
 						<worship time="09.00">
-							<name>
-								<item language="cs-ru">Божественная литургия.</item>
-							</name>
+							<name>Божественная литургия.</name>
 						</worship>
 					</action>
 				</case>
 				<default>
 					<worship time="16.00" mode="daybefore">
-						<name>
-							<item language="cs-ru">Всенощное бдение.</item>
-						</name>
+						<name>Всенощное бдение.</name>
 					</worship>
 					<worship time="08.40">
-						<name>
-							<item language="cs-ru">Часы 3-й и 6-й.</item>
-						</name>
+						<name>Часы 3-й и 6-й.</name>
 					</worship>
 					<worship time="09.00">
-						<name>
-							<item language="cs-ru">Божественная литургия.</item>
-						</name>
+						<name>Божественная литургия.</name>
 					</worship>
 				</default>
 			</switch>

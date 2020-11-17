@@ -2,8 +2,6 @@
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
 	<worship id="moleben" asaddition="remove"/>
 	<worship asaddition="append">
-		<name>
-			<item language="cs-ru">Благодарственный молебен. Лития по усопшим воинам.</item>
-		</name>
+		<name>Благодарственный молебен. Лития по усопшим воинам.</name>
 	</worship>
 </rule>

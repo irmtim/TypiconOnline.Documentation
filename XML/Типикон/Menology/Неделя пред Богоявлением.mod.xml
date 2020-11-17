@@ -16,10 +16,8 @@
 			</action>
 		</case>
 		<default>
-			<modifyday signnumber="8" asaddition="true" usefullname="false">
-				<shortname>
-					<item language="cs-ru">пред Богоявлением</item>
-				</shortname>
+			<modifyday signname="воскресный_день" asaddition="true" usefullname="false">
+				<shortname>пред Богоявлением</shortname>
 				<getclosestday dayofweek="воскресенье" weekcount="-1"><date>--01-19</date></getclosestday>
 			</modifyday>
 		</default>

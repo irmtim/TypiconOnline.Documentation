@@ -12,19 +12,13 @@
 		<!-- 30 августа приходится на воскресенье-->
 		<then>
 			<worship time="16.00" mode="daybefore">
-				<name>
-					<item language="cs-ru">Всенощное бдение. Чин погребения Плащаницы.</item>
-				</name>
+				<name>Всенощное бдение. Чин погребения Плащаницы.</name>
 			</worship>
 			<worship time="07.40">
-				<name>
-					<item language="cs-ru">Часы 3-й и 6-й.</item>
-				</name>
+				<name>Часы 3-й и 6-й.</name>
 			</worship>
 			<worship time="08.00">
-				<name>
-					<item language="cs-ru">Божественная литургия.</item>
-				</name>
+				<name>Божественная литургия.</name>
 			</worship>
 		</then>
 	</if>

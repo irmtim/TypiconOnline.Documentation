@@ -27,10 +27,8 @@
 			</action>
 		</case>
 		<default>
-			<modifyday signnumber="8" usefullname="true">
-				<shortname>
-					<item language="cs-ru">по Рождестве Христовом</item>
-				</shortname>
+			<modifyday signname="воскресный_день" usefullname="true">
+				<shortname>по Рождестве Христовом</shortname>
 				<getclosestday dayofweek="воскресенье" weekcount="1">
 					<date>--01-07</date>
 				</getclosestday>

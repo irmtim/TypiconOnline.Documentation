@@ -40,7 +40,27 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="signnumber" type="xs:byte" use="optional"/>
+		<xs:attribute name="signname" use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="пасха"/>
+					<xs:enumeration value="светлая_седмица"/>
+					<xs:enumeration value="бдение_лития"/>
+					<xs:enumeration value="бдение"/>
+					<xs:enumeration value="полиелей"/>
+					<xs:enumeration value="воскресный_день"/>
+					<xs:enumeration value="алиллуиа"/>
+					<xs:enumeration value="лпд"/>
+					<xs:enumeration value="поминовение_усопших"/>
+					<xs:enumeration value="поминовение_усопших_пост"/>
+					<xs:enumeration value="славословие"/>
+					<xs:enumeration value="шестеричная"/>
+					<xs:enumeration value="без_знака"/>
+					<xs:enumeration value="12"/>
+					<xs:enumeration value="страстная_седмица"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
 		<xs:attribute name="daymove" type="xs:byte" use="optional"/>
 		<xs:attribute name="priority" type="xs:int" use="optional"/>
 		<xs:attribute name="asaddition" type="xs:boolean"/>
@@ -115,41 +135,22 @@
 		<xs:sequence maxOccurs="unbounded">
 			<xs:element name="modifyday" type="modifydayType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="switch" type="switchType" minOccurs="0" maxOccurs="unbounded"/>
-			
 			<xs:element name="if" type="ifType" minOccurs="0" maxOccurs="unbounded"/>
-			
 			<xs:element name="commonrule" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:attribute name="name" type="xs:string" use="required"/>
 				</xs:complexType>
 			</xs:element>
-			
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="textType">
-		<xs:sequence>
-			<xs:element name="item" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute name="language">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="cs-ru"/>
-										<xs:enumeration value="cs-cs"/>
-										<xs:enumeration value="ru-ru"/>
-										<xs:enumeration value="el-el"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:attribute>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-		<xs:attribute name="bold" type="xs:boolean" use="optional"/>
-		<xs:attribute name="red" type="xs:boolean" use="optional"/>
-		<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="bold" type="xs:boolean" use="optional"/>
+				<xs:attribute name="red" type="xs:boolean" use="optional"/>
+				<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
 	</xs:complexType>
 	<xs:complexType name="ifType">
 		<xs:sequence>
@@ -179,7 +180,6 @@
 			<xs:element name="or" type="logicalType" minOccurs="0"/>
 			<xs:element name="iscelebrating" minOccurs="0"/>
 			<xs:element name="istwosaints" minOccurs="0"/>
-			
 		</xs:sequence>
 	</xs:group>
 	<xs:complexType name="getClosestDayType">
@@ -210,12 +210,10 @@
 			<xs:sequence/>
 		</xs:complexType>
 	</xs:element>
-	
 	<xs:complexType name="intOutputType">
 		<xs:choice>
 			<xs:element ref="daysfromeaster" minOccurs="0"/>
 			<xs:element ref="int" minOccurs="0"/>
 		</xs:choice>
 	</xs:complexType>
-	
 </xs:schema>

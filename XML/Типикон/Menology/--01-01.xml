@@ -13,36 +13,24 @@
 		</expression>
 		<then>
 			<worship time="16.00" mode="daybefore">
-				<name>
-					<item language="cs-ru">Всенощное бдение.</item>
-				</name>
+				<name>Всенощное бдение.</name>
 			</worship>
 			<worship time="23.40" mode="daybefore">
-				<name>
-					<item language="cs-ru">Часы 3-й и 6-й.</item>
-				</name>
+				<name>Часы 3-й и 6-й.</name>
 			</worship>
 			<worship time="00.00">
-				<name>
-					<item language="cs-ru">Божественная литургия.</item>
-				</name>
+				<name>Божественная литургия.</name>
 			</worship>
 		</then>
 		<else>
 			<worship time="16.00" mode="daybefore">
-				<name>
-					<item language="cs-ru">Вечернее богослужение.</item>
-				</name>
+				<name>Вечернее богослужение.</name>
 			</worship>
 			<worship time="23.40" mode="daybefore">
-				<name>
-					<item language="cs-ru">Часы 3-й и 6-й.</item>
-				</name>
+				<name>Часы 3-й и 6-й.</name>
 			</worship>
 			<worship time="00.00">
-				<name>
-					<item language="cs-ru">Божественная литургия.</item>
-				</name>
+				<name>Божественная литургия.</name>
 			</worship>
 		</else>
 	</if>
