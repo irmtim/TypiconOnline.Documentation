@@ -240,6 +240,7 @@
 		<File FilePath="Rules\OutputSchema.xsd" HomeFolder="Yes"/>
 		<File FilePath="Rules\RulesModSchema.xsd" HomeFolder="Yes"/>
 		<File FilePath="Rules\RulesSchema.xsd" HomeFolder="Yes"/>
+		<File FilePath="Rules\WorshipSchema.xsd" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp">
 		<File FilePath="XSLT\ViewModel.html" HomeFolder="Yes"/>

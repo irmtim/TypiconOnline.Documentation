@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--02-15</date>
+			</daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-64</int>
+				<int>-58</int>
+				<int>-57</int>
+				<int>-51</int>
+			</values>
+			<action>
+				<!-- Фильтрация – только попразднество -->
+				<modifyday iscelebrating="true" daymove="0"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-50</int>
+			</values>
+			<action>
+				<!-- Служба опускается -->
+				<modifyday priority="6" daymove="0"/>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-48</int>
+			</values>
+			<action>
+				<!-- Перенос на 1 день назад (-1) с фильтрацией без попразднества-->
+				<modifyday daymove="-1" iscelebrating="false"/>
+			</action>
+		</case>
+	</switch>
+</rule>

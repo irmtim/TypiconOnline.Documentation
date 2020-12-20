@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<switch>
+		<expression>
+			<getdayofweek><date>--01-07</date></getdayofweek>
+		</expression>
+		<case>
+			<values>
+					<getdayofweek name="понедельник"></getdayofweek>
+					<getdayofweek name="воскресенье"></getdayofweek>
+					<getdayofweek name="суббота"></getdayofweek>
+			</values>
+			<action>
+				<modifyday asaddition="true" priority="6">
+					<getclosestday dayofweek="суббота" weekcount="1"><date>--01-07</date></getclosestday>
+				</modifyday>
+			</action>
+		</case>
+	</switch>
+</rule>

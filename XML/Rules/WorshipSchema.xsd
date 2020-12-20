@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by imtim (imtim company) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="rule">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="worship" type="worshipType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="worshipType">
+		<xs:sequence>
+			<xs:element name="name" type="textType" minOccurs="0"/>
+			<xs:element name="additionalname" type="textType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="time" type="xs:string" use="optional"/>
+		<xs:attribute name="mode" use="optional" default="thisday">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="daybefore"/>
+					<xs:enumeration value="thisday"/>
+					<xs:enumeration value="nextdayfirstworship"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="textType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="bold" type="xs:boolean" use="optional"/>
+				<xs:attribute name="red" type="xs:boolean" use="optional"/>
+				<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

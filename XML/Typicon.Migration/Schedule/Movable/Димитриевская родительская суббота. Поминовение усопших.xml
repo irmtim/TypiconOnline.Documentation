@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<worship id="1" time="16.00" mode="daybefore">
+		<name>Вечернее богослужение. Поминовение усопших.</name>
+	</worship>
+	<worship id="2" time="07.40">
+		<name>Часы.</name>
+	</worship>
+	<worship id="3" time="08.00">
+		<name>Божественная литургия.</name>
+		<additionalname>Панихида по усопшим.</additionalname>
+	</worship>
+</rule>

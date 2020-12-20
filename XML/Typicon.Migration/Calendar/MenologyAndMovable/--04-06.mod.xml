@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster><date>--04-06</date></daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-19</int>
+			</values>
+			<action>
+				<modifyday daymove="-1"/>
+			</action>
+		</case>
+		<case>
+				<values>
+					<int>-17</int>
+				</values>
+			<action>
+				<modifyday daymove="-1"/>
+			</action>
+		</case>
+	</switch>
+</rule>

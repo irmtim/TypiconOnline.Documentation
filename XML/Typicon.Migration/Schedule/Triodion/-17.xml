@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--04-07</date>
+			</daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-17</int>
+			</values>
+			<action>
+				<worship time="16.00" mode="daybefore">
+					<name>Утреня.</name>
+					<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
+				</worship>
+				<worship time="07.30">
+					<name>Полунощница. Часы. Изобразительны.</name>
+				</worship>
+				<worship time="09.00">
+					<name>Литургия Преждеосвященных Даров.</name>
+				</worship>
+			</action>
+		</case>
+		<case>
+			<values>
+				<int>-18</int>
+			</values>
+			<action>
+				<worship time="16.00" mode="daybefore">
+					<name>Утреня.</name>
+					<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
+				</worship>
+				<worship time="07.30">
+					<name>Полунощница. Часы. Изобразительны.</name>
+				</worship>
+				<worship time="09.00">
+					<name>Литургия Преждеосвященных Даров.</name>
+				</worship>
+			</action>
+		</case>
+		<default>
+			<worship time="16.00" mode="daybefore">
+				<name>Утреня.</name>
+				<additionalname>Чтение канона прп. Андрея Критского.</additionalname>
+			</worship>
+			<worship time="07.30">
+				<name>Полунощница. Часы. Изобразительны.</name>
+			</worship>
+			<worship time="09.00">
+				<name>Литургия Преждеосвященных Даров.</name>
+			</worship>
+		</default>
+	</switch>
+</rule>

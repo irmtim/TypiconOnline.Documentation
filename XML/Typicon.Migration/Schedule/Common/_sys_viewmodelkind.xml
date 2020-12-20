@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<text>
+		<!-- 0.	Хор -->
+		<p>
+			<item language="cs-ru">Хор:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 1.	Диакон: -->
+		<p>
+			<item language="cs-ru">Диакон:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 2.	Чтец -->
+		<p>
+			<item language="cs-ru">Чтец:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 3.	Священник -->
+		<p>
+			<item language="cs-ru">Священник:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 4.	Стих -->
+		<p>
+			<item language="cs-ru">Стих:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 5.	Ирмос -->
+		<p>
+			<item language="cs-ru">Ирмос:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 6.	Тропарь -->
+		<p>
+			<item language="cs-ru">Тропарь:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 7.	Припев -->
+		<p>
+			<item language="cs-ru">Припев:</item>
+		</p>
+	</text>
+	<text>
+		<!-- 8.	Богородичен -->
+		<p>
+			<item language="cs-ru">Богородичен:</item>
+		</p>
+	</text>
+</rule>

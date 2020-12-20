@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<ektenis>
+		<text>
+			<p header="h3">
+				<item language="cs-ru">Ектения просительная.</item>
+			</p>
+		</text>
+		<deacon>
+			<p>
+				<item language="cs-cs">И#сп0лнимъ вечeрнюю моли1тву нaшу гDви.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+				<item language="cs-cs">ГDи поми1луй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">И#сп0лнимъ вечeрнюю моли1тву нaшу гDви.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+				<item language="cs-cs">ГDи поми1луй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Заступи2, спаси2, поми1луй и3 сохрани2 нaсъ б9е, твоeю бlгодaтію.</item>
+				<item language="cs-ru">Заступи, спаси, помилуй, и сохрани нас, Боже, Твоею благодатью.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи помилуй.</item>
+				<item language="cs-cs">ГDи поми1луй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Вeчера всегw2 совершeнна, свsта, ми1рна и3 безгрёшна, ў гDа пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">ЃгGла ми1рна, вёрна настaвника, храни1телz дyшъ и3 тэлeсъ нaшихъ, ў гDа пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Прощeніz и3 њставлeніz грэхHвъ и3 прегрэшeній нaшихъ, ў гDа пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Д0брыхъ и3 полeзныхъ душaмъ нaшымъ, и3 ми1ра мjрови, ў гDа пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Пр0чее врeмz животA нaшегw въ ми1рэ и3 покаsніи скончaти, ў гDа пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Хrтіaнскіz кончи1ны животA нaшегw, безболёзнены, непостhдны, ми1рны и3 д0брагw tвёта на стрaшнэмъ суди1щи хrт0вэ пр0симъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Подай Господи</item>
+				<item language="cs-cs">Подaй гDи.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">Пресвятую, Пречистую, Преблагословенную, Славную Владычицу Нашу Богородицу, и Приснодеву Марию со всеми святыми помянувши сами себя, и друг друга, и весь живот наш Христу Богу предадим.</item>
+				<item language="cs-cs">Прес™yю, пречcтую, пребlгословeнную, слaвную вLчцу нaшу бцdу и3 приснодв7у мRjю со всёми с™hми помzнyвше сaми себE, и3 дрyгъ дрyга, и3 вeсь жив0тъ нaшъ хrтY бGу предади1мъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Тебе Господи.</item>
+				<item language="cs-cs">ТебЁ гDи.</item>
+			</p>
+		</choir>
+		<priest>
+			<p>
+				<item language="cs-cs">Ћкw бlгъ и3 чlвэколю1бецъ бGъ є3си2, и3 тебЁ слaву возсылaемъ, nц7Y, и3 сн7у, и3 с™0му д¦у, нhнэ и3 при1снw, и3 во вёки вэкHвъ.</item>
+			</p>
+		</priest>
+		<choir>
+			<p>
+				<item language="cs-ru">Аминь.</item>
+				<item language="cs-cs">Ґми1нь.</item>
+			</p>
+		</choir>
+		<priest>
+			<p>
+				<item language="cs-cs">Ми1ръ всBмъ.</item>
+			</p>
+		</priest>
+		<choir>
+			<p>
+				<item language="cs-ru">И духови твоему.</item>
+				<item language="cs-cs">И# д¦ови твоемY.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-cs">Главы6 нaшz гDви прикл0нимъ.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Тебе Господи.</item>
+				<item language="cs-cs">ТебЁ гDи.</item>
+			</p>
+		</choir>
+		<priest mark="priest_prayers">
+			<p>
+				<item language="cs-cs">ГDи б9е нaшъ, приклони1вый нб7сA и3 сошeдый на спасeніе р0да человёческагw, при1зри на рабы6 тво‰, и3 на достоsніе твоE. тебё бо стрaшному и3 чlвэколю1бцу судіи2, твои2 раби2 поклони1ша главы6, сво‰ же покори1ша вы6z, не t человBкъ њжидaюще п0мощи, но твоеS просsще ми1лости, и3 твоегw2 чaюще спасeніz: ±же сохрани2 на всsкое врeмz, и3 по настоsщемъ вeчерэ и3 въ приходsщую н0щь, t всsкагw врагA, t всsкагw проти1внагw дёйства діaвольскагw, и3 t помышлeній сyетныхъ, и3 воспоминaній лукaвыхъ.</item>
+			</p>
+		</priest>
+		<priest>
+			<p>
+				<item language="cs-cs">Бyди держaва цrтвіz твоегw2 благословeна и3 препрослaвлена, nц7A и3 сн7а, и3 с™aгw д¦а, нhнэ и3 при1снw, и3 во вёки вэкHвъ.</item>
+			</p>
+		</priest>
+		<choir>
+			<p>
+				<item language="cs-ru">Аминь.</item>
+				<item language="cs-cs">Ґми1нь.</item>
+			</p>
+		</choir>
+	</ektenis>
+</rule>

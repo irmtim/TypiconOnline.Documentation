@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<if>
+		<expression>
+			<equals>
+				<date/>
+				<date>--04-06</date>
+			</equals>
+		</expression>
+		<then>
+			<modifyday daymove="0" priority="7"/>
+		</then>
+	</if>
+</rule>

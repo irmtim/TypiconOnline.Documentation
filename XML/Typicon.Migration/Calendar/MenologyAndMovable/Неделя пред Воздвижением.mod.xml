@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<modifyday signname="воскресный_день" asaddition="true" usefullname="false">
+		<shortname>пред Воздвижением</shortname>
+		<getclosestday dayofweek="воскресенье" weekcount="-1">
+			<date>--09-27</date>
+		</getclosestday>
+	</modifyday>
+</rule>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<text>
+		<!-- 0.	Слава -->
+		<p>
+			<item language="cs-ru">Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 1.	Благословим -->
+		<p>
+			<item language="cs-ru">Благослови́м Отца́, и Сы́на, и Свята́го Ду́ха, Го́спода.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 2.	И ныне -->
+		<p>
+			<item language="cs-ru">И ны́не и при́сно и во ве́ки веко́в, ами́нь.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 3.	Святителям -->
+		<p>
+			<item language="cs-ru">Вси святии, молите Бога о нас.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 4.	Мученикам -->
+		<p>
+			<item language="cs-ru">Святии мученицы, молите Бога о нас.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 5.	Заупокойный -->
+		<p>
+			<item language="cs-ru">Упокой, Господи, души усопших раб Твоих.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 6.	Преподобным -->
+		<p>
+			<item language="cs-ru">Вси святии, молите Бога о нас.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 7.	Богородичен -->
+		<p>
+			<item language="cs-ru">Пресвята́я Богоро́дице, спаси́ нас.</item>
+		</p>
+	</text>
+	<text>
+		<!-- 8.	Троичен -->
+		<p>
+			<item language="cs-ru">Пресвята́я Троице, Боже наш, слава Тебе.</item>
+		</p>
+	</text>
+</rule>

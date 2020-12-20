@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<worship time="17.30" mode="daybefore">
+		<name>9-й час. Вечерня. Малое повечерие.</name>
+	</worship>
+	<worship time="06.00">
+		<name>Полунощница. Утреня.</name>
+	</worship>
+	<worship time="08.00">
+		<name>Часы. Изобразительны.</name>
+		<additionalname bold="true" red="true">Божественная литургия не совершается.</additionalname>
+	</worship>
+</rule>

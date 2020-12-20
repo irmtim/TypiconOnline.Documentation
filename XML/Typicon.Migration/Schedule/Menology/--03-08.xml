@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--03-08</date>
+			</daysfromeaster>
+		</expression>
+		<!-- В Неделю сыропустную или мясопустную-->
+		<case>
+			<values>
+				<int>-48</int>
+				<int>-47</int>
+				<int>-46</int>
+				<int>-45</int>
+				<int>-44</int>
+				<int>-43</int>
+			</values>
+			<action>
+				<worship time="17.30" mode="daybefore">
+					<name>Великое повечерие.</name>
+				</worship>
+				<worship time="06.00">
+					<name>Полунощница. Утреня. Часы.</name>
+				</worship>
+				<worship time="08.00">
+					<name>Божественная литургия.</name>
+				</worship>
+			</action>
+		</case>
+		<default>
+			<worship time="17.30" mode="daybefore">
+				<name>Великое повечерие.</name>
+			</worship>
+			<worship time="06.00">
+				<name>Полунощница. Утреня. Часы.</name>
+			</worship>
+			<worship time="09.00">
+				<name>Литургия Преждеосвященных Даров.</name>
+			</worship>
+		</default>
+	</switch>
+</rule>

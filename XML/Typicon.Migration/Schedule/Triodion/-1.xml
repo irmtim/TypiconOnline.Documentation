@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<worship time="17.00" mode="daybefore">
+		<name>Утреня.</name>
+		<additionalname>Чин погребения Плащаницы.</additionalname>
+	</worship>
+	<worship time="07.30">
+		<name>Часы.</name>
+	</worship>
+	<worship time="08.00">
+		<name>Божественная литургия.</name>
+	</worship>
+	<notice time="11.00">
+		<name>Освящение куличей.</name>
+		<additionalname>(до 18.00)</additionalname>
+	</notice>
+</rule>

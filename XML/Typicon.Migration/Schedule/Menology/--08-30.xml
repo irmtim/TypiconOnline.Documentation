@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<if>
+		<expression>
+			<equals>
+				<getdayofweek>
+					<date>--08-30</date>
+				</getdayofweek>
+				<getdayofweek name="воскресенье"/>
+			</equals>
+		</expression>
+		<!-- 30 августа приходится на воскресенье-->
+		<then>
+			<worship time="16.00" mode="daybefore">
+				<name>Всенощное бдение. Чин погребения Плащаницы.</name>
+			</worship>
+			<worship time="07.40">
+				<name>Часы 3-й и 6-й.</name>
+			</worship>
+			<worship time="08.00">
+				<name>Божественная литургия.</name>
+			</worship>
+		</then>
+	</if>
+</rule>

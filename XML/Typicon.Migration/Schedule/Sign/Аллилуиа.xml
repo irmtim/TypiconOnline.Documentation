@@ -1,0 +1,35 @@
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date/>
+			</daysfromeaster>
+		</expression>
+		<case>
+			<values>
+				<int>-48</int>
+				<int>-41</int>
+				<int>-34</int>
+				<int>-27</int>
+				<int>-20</int>
+				<int>-13</int>
+			</values>
+			<action>
+				<worship time="17.30" mode="daybefore">
+					<name>9-й час. Вечерня. Малое повечерие.</name>
+				</worship>
+			</action>
+		</case>
+		<default>
+			<worship time="17.30" mode="daybefore">
+				<name>Великое повечерие.</name>
+			</worship>
+		</default>
+	</switch>
+	<worship time="06.00">
+		<name>Полунощница. Утреня.</name>
+	</worship>
+	<worship time="08.00">
+		<name>Часы. Изобразительны. Вечерня.</name>
+	</worship>
+</rule>

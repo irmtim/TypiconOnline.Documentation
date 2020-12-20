@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<switch>
+		<expression>
+			<getdayofweek>
+				<date>--01-07</date>
+			</getdayofweek>
+		</expression>
+		<case>
+			<values>
+				<getdayofweek name="воскресенье"/>
+			</values>
+			<action>
+				<worship time="17.30" mode="daybefore">
+					<name>9-й час. Вечерня. малое повечерие.</name>
+				</worship>
+				<worship time="06.00">
+					<name>Полунощница. Утреня.</name>
+				</worship>
+				<worship time="08.00">
+					<name>Великие Часы. Изобразительны.</name>
+				</worship>
+				<notice>
+					<name>Божественная литургия не совершается.</name>
+				</notice>
+			</action>
+		</case>
+		<default>
+			<worship time="17.30" mode="daybefore">
+				<name>9-й час. Вечерня. Малое повечерие.</name>
+			</worship>
+			<worship time="06.00">
+				<name>Полуношница. Утреня. Часы.</name>
+			</worship>
+			<worship time="08.00">
+				<name>Божественная литургия.</name>
+			</worship>
+		</default>
+	</switch>
+</rule>

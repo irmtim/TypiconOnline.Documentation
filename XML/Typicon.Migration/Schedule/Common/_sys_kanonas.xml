@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<text>
+		<p header="h3">
+			<item language="cs-ru">КАНОН:</item>
+		</p>
+	</text>
+	<text>
+		<p header="h4">
+			<item language="cs-ru">ПЕСНЬ [odinumber]:</item>
+		</p>
+	</text>
+	<text>
+		<p>
+			<item language="cs-ru">[kanonas], глас [ihos]:</item>
+		</p>
+	</text>
+	<text>
+		<p>
+			<item language="cs-ru">Канон, глас [ihos]:</item>
+		</p>
+	</text>
+	<text>
+		<p header="h4">
+			<item language="cs-ru">КАТАВА́СИЯ, ГЛАС [ihos]:</item>
+		</p>
+	</text>
+	<choir>
+		<p>
+			<item language="cs-ru">Хва́лим, благослови́м, покланя́емся Го́сподеви, пою́ще и превознося́ще во вся ве́ки.</item>
+		</p>
+	</choir>
+</rule>

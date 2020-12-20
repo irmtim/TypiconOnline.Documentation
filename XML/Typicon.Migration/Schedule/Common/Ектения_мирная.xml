@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<ektenis>
+		<text>
+			<p header="h3">
+				<item language="cs-ru">Мирная ектения.</item>
+			</p>
+		</text>
+		<deacon>
+			<p>
+				<item language="cs-ru">Миром Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О свышнем мире и спасении душ наших, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О мире всего мира, благостоянии святых Божиих церквей и соединении всех, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О святом храме сем, и с верою, благоговением и страхом Божиим входящих в он, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О Великом господине и отце нашем нашем Святейшем Патриархе Кирилле и о господине нашем (преосвященнейшем, высокопреосвященнейшем, блаженнейшем) (епископе,архиепископе,митрополите) (имярек), честнем пресвитерстве, во Христе диаконстве, о всем причте и людех Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О Богохранимей стране нашей, властех и воинстве ея Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О святей обители сей, всяком граде, стране, и верою живущих в них, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О благорастворении воздухов, о изобилии плодов земных и временех мирных, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О плавающих, путешествующих, недугующих, страждущих, плененных, и о спасении их, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">О избавитися нам от всякия скорби, гнева и нужды, Господу помолимся.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">Заступи, спаси, помилуй, и сохрани нас, Боже, Твоею благодатью.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Господи, помилуй.</item>
+			</p>
+		</choir>
+		<deacon>
+			<p>
+				<item language="cs-ru">Пресвятую, Пречистую, Преблагословенную, Славную Владычицу Нашу Богородицу, и Приснодеву Марию со всеми святыми помянувши сами себя, и друг друга, и весь живот наш Христу Богу предадим.</item>
+			</p>
+		</deacon>
+		<choir>
+			<p>
+				<item language="cs-ru">Тебе Господи.</item>
+			</p>
+		</choir>
+		<priest>
+			<p>
+				<item language="cs-ru">Яко подобает Тебе всякая слава, честь и поклонение, Отцу, и Сыну, и Святому Духу, всегда, ныне и присно, и во веки веков.</item>
+			</p>
+		</priest>
+		<choir>
+			<p>
+				<item language="cs-ru">Аминь.</item>
+			</p>
+		</choir>
+	</ektenis>
+</rule>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesModSchema.xsd">
+	<switch>
+		<expression>
+			<daysfromeaster>
+				<date>--02-15</date>
+			</daysfromeaster>
+		</expression>
+		<!-- Служба праздника совершается в этот день.
+					  Перенос заупокойной службы на субботу предыдущую -->
+		<case>
+			<values>
+				<int>-57</int>
+			</values>
+			<action>
+				<modifyday daymove="0">
+					<modifyreplacedday kind="triodion" daymove="-7"/>
+				</modifyday>
+			</action>
+		</case>
+		<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
+		<case>
+			<values>
+				<int>-50</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>
+			</action>
+		</case>
+		<!-- Служба праздника совершается в этот день в соединении со службой Триоди.-->
+		<case>
+			<values>
+				<int>-48</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="3"/>
+			</action>
+		</case>
+	</switch>
+</rule>

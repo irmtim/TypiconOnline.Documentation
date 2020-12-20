@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+	<if>
+		<expression>
+			<!--Если воскресенье, то составляем правило особым образом.
+				В будущем, надо вынести все в отдельное общее правило CommonRule.-->
+			<equals>
+				<getdayofweek>
+					<date/>
+				</getdayofweek>
+				<getdayofweek name="воскресенье"/>
+			</equals>
+		</expression>
+		<then>
+			<worship time="16.00" mode="daybefore">
+				<name>Всенощное бдение.</name>
+			</worship>
+			<worship time="23.40" mode="daybefore">
+				<name>Часы 3-й и 6-й.</name>
+			</worship>
+			<worship time="00.00">
+				<name>Божественная литургия.</name>
+			</worship>
+		</then>
+		<else>
+			<worship time="16.00" mode="daybefore">
+				<name>Вечернее богослужение.</name>
+			</worship>
+			<worship time="23.40" mode="daybefore">
+				<name>Часы 3-й и 6-й.</name>
+			</worship>
+			<worship time="00.00">
+				<name>Божественная литургия.</name>
+			</worship>
+		</else>
+	</if>
+</rule>
