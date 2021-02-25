@@ -11,13 +11,13 @@
 				<getdayofweek name="воскресенье"/>
 			</values>
 			<action>
-				<worship time="17.30" mode="daybefore">
+				<worship mode="DayBefore"><time>17.30</time>
 					<name>9-й час. Вечерня. малое повечерие.</name>
 				</worship>
-				<worship time="06.00">
+				<worship ><time>06.00</time>
 					<name>Полунощница. Утреня.</name>
 				</worship>
-				<worship time="08.00">
+				<worship ><time>08.00</time>
 					<name>Великие Часы. Изобразительны.</name>
 				</worship>
 				<notice>
@@ -26,13 +26,16 @@
 			</action>
 		</case>
 		<default>
-			<worship time="17.30" mode="daybefore">
+			<worship mode="DayBefore">
+				<time>17.30</time>
 				<name>9-й час. Вечерня. Малое повечерие.</name>
 			</worship>
-			<worship time="06.00">
-				<name>Полуношница. Утреня. Часы.</name>
+			<worship>
+				<time>06.00</time>
+				<name>Полунощница. Утреня.</name>
 			</worship>
-			<worship time="08.00">
+			<worship>
+				<time>08.00</time>
 				<name>Божественная литургия.</name>
 			</worship>
 		</default>

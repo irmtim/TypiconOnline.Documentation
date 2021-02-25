@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<if>
 		<expression>
 			<!--Если воскресенье, то составляем правило особым образом.
@@ -12,27 +12,33 @@
 			</equals>
 		</expression>
 		<then>
-			<worship time="16.00" mode="daybefore">
+			<worship mode="DayBefore">
+				<time>16.00</time>
 				<name>Всенощное бдение.</name>
 			</worship>
-			<worship time="08.40">
+			<worship>
+				<time>08.40</time>
 				<name>Часы 3-й и 6-й.</name>
 			</worship>
-			<worship time="09.00">
+			<worship>
+				<time>09.00</time>
 				<name>Божественная литургия.</name>
-			</worship>			
+			</worship>
 		</then>
 		<else>
-			<worship id="1" time="17.30" mode="daybefore">
+			<worship id="1" mode="DayBefore">
+				<time>17.30</time>
 				<name>9-й час. Вечерня. Малое повечерие.</name>
 			</worship>
-			<worship id="2" time="06.00">
+			<worship id="2">
+				<time>06.00</time>
 				<name>Полунощница. Утреня. Часы.</name>
 			</worship>
-			<worship id="3" time="08.00">
+			<worship id="3">
+				<time>08.00</time>
 				<name>Божественная литургия.</name>
 			</worship>
 		</else>
 	</if>
-  	<commonrule name="молебен_после_литургии"/>
+	<commonrule name="молебен_после_литургии"/>
 </rule>

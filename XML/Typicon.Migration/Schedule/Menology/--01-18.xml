@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<switch>
 		<expression>
 			<getdayofweek>
@@ -11,13 +11,16 @@
 				<getdayofweek name="воскресенье"/>
 			</values>
 			<action>
-				<worship time="16.00" mode="daybefore">
+				<worship mode="DayBefore">
+					<time>16.00</time>
 					<name>Вечерня. Утреня. Час 1-й.</name>
 				</worship>
-				<worship time="07.40">
+				<worship>
+					<time>07.40</time>
 					<name>Часы 3-й и 6-й.</name>
 				</worship>
-				<worship time="08.00">
+				<worship>
+					<time>08.00</time>
 					<name>Божественная литургия. 9-й час. Великая вечерня.</name>
 				</worship>
 				<notice>
@@ -30,13 +33,16 @@
 				<getdayofweek name="понедельник"/>
 			</values>
 			<action>
-				<worship time="16.00" mode="daybefore">
+				<worship mode="DayBefore">
+					<time>16.00</time>
 					<name>Вечерня. Утреня. Час 1-й.</name>
 				</worship>
-				<worship time="08.40">
+				<worship>
+					<time>08.40</time>
 					<name>Часы 3-й и 6-й.</name>
 				</worship>
-				<worship time="09.00">
+				<worship>
+					<time>09.00</time>
 					<name>Божественная литургия. 9-й час. Великая вечерня.</name>
 				</worship>
 				<notice>
@@ -45,13 +51,12 @@
 			</action>
 		</case>
 		<default>
-			<worship time="17.30" mode="daybefore">
-				<name>9-й час. Вечерня. Малое повечерие.</name>
+			<worship mode="DayBefore">
+				<time>16.00</time>
+				<name>9-й час. Вечерня. Утреня. Час 1-й.</name>
 			</worship>
-			<worship time="06.00">
-				<name>Полуношница. Утреня.</name>
-			</worship>
-			<worship time="08.00">
+			<worship>
+				<time>07.40</time>
 				<name>Великие часы. Изобразительны. Великая вечерня. Божественная литургия свт. Василия Великого.</name>
 			</worship>
 			<notice>

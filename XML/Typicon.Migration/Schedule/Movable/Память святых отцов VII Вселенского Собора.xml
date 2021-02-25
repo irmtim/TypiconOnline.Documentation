@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Rules/RulesSchema.xsd">
-	<worship time="16.00" mode="daybefore">
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<worship mode="DayBefore">
+		<time>16.00</time>
 		<name>Всенощное бдение.</name>
 	</worship>
-	<worship time="08.40">
+	<worship>
+		<time>08.40</time>
 		<name>Часы 3-й и 6-й.</name>
 	</worship>
-	<worship time="09.00">
+	<worship>
+		<time>09.00</time>
 		<name>Божественная литургия.</name>
 	</worship>
 </rule>

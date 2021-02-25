@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
-	<worship time="16.00" mode="daybefore">
+	<worship mode="DayBefore">
+		<time>16.00</time>
 		<name>Малое повечерие. Утреня.</name>
 	</worship>
-	<worship time="07.40">
+	<worship>
+		<time>07.40</time>
 		<name>Часы.</name>
 	</worship>
-	<worship time="08.00">
+	<worship>
+		<time>08.00</time>
 		<name>Божественная литургия.</name>
 	</worship>
 </rule>

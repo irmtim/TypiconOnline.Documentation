@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
 	<if>
-		<expression><equals><date/><date>--04-08</date></equals></expression>
+		<expression>
+			<equals>
+				<date/>
+				<date>--04-08</date>
+			</equals>
+		</expression>
 		<then>
-			<worship time="17.30" mode="daybefore">
+			<worship mode="DayBefore">
+				<time>17.30</time>
 				<name>Малое повечерие.</name>
 			</worship>
 		</then>
 		<else>
-			<worship time="17.30" mode="daybefore">
+			<worship mode="DayBefore">
+				<time>17.30</time>
 				<name>Великое повечерие.</name>
 			</worship>
 		</else>
 	</if>
-	<worship time="06.00">
+	<worship>
+		<time>06.00</time>
 		<name>Полунощница. Утреня. Часы.</name>
 	</worship>
-	<worship time="09.00">
+	<worship>
+		<time>09.00</time>
 		<name>Литургия Преждеосвященных Даров.</name>
 	</worship>
 </rule>

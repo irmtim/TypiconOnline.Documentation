@@ -3,20 +3,20 @@
 	<if>
 		<expression><equals><date/><date>--04-08</date></equals></expression>
 		<then>
-			<worship time="17.30" mode="daybefore">
+			<worship mode="DayBefore"><time>17.30</time>
 				<name>Малое повечерие.</name>
 			</worship>
 		</then>
 		<else>
-			<worship time="17.30" mode="daybefore">
+			<worship mode="DayBefore"><time>17.30</time>
 				<name>Великое повечерие.</name>
 			</worship>
 		</else>
 	</if>
-	<worship time="06.00">
+	<worship ><time>06.00</time>
 		<name>Полунощница. Утреня. Часы.</name>
 	</worship>
-	<worship time="09.00">
+	<worship ><time>09.00</time>
 		<name>Литургия Преждеосвященных Даров.</name>
 	</worship>
 </rule>

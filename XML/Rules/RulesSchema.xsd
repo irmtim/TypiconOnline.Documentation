@@ -303,18 +303,18 @@
 	</xs:complexType>
 	<xs:complexType name="worshipType">
 		<xs:sequence>
-			<xs:element name="name" type="textType" minOccurs="0"/>
+			<xs:element name="time" type="textType" minOccurs="0"/>
+			<xs:element name="name" type="textType" minOccurs="1"/>
 			<xs:element name="additionalname" type="textType" minOccurs="0"/>
 			<xs:element name="sequence" type="executableType" minOccurs="0"/>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:string"/>
-		<xs:attribute name="time" type="xs:string" use="optional"/>
-		<xs:attribute name="mode" use="optional" default="thisday">
+		<xs:attribute name="mode" use="optional" default="ThisDay">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
-					<xs:enumeration value="daybefore"/>
-					<xs:enumeration value="thisday"/>
-					<xs:enumeration value="nextdayfirstworship"/>
+					<xs:enumeration value="DayBefore"/>
+					<xs:enumeration value="ThisDay"/>
+					<xs:enumeration value="NextDayFirstWorship"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
@@ -458,6 +458,7 @@
 				<xs:attribute name="bold" type="xs:boolean" use="optional"/>
 				<xs:attribute name="red" type="xs:boolean" use="optional"/>
 				<xs:attribute name="italic" type="xs:boolean" use="optional"/>
+				<xs:attribute name="uppercase" type="xs:boolean" use="optional"/>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
