@@ -6,6 +6,29 @@
 				<date>--03-08</date>
 			</daysfromeaster>
 		</expression>
+		<!-- В субботу мясопустную
+			 В понедельник или вторник сырной седмицы -->
+		<case>
+			<values>
+				<int>-57</int>
+				<int>-55</int>
+				<int>-54</int>
+			</values>
+			<action>
+				<worship mode="DayBefore">
+					<time>17.30</time>
+					<name>9-й час. Вечерня. Малое повечерие.</name>
+				</worship>
+				<worship>
+					<time>06.00</time>
+					<name>Полунощница. Утреня. Часы.</name>
+				</worship>
+				<worship>
+					<time>08.00</time>
+					<name>Божественная литургия.</name>
+				</worship>
+			</action>
+		</case>
 		<!-- В Неделю сыропустную или мясопустную-->
 		<case>
 			<values>

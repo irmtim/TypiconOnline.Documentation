@@ -3,20 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Типикон.онлайн
+==============
+
 Добро пожаловать в документацию проекта Типикон.онлайн!
-=======================================================
 
 .. toctree::
    :maxdepth: 2
-   :glob:
+   
    
    intro
-   start
-   typicon
-   admin
-   editor
+   knowledge/index
+   tutorials/index
    typesetter/index
-   typesetter/*
+  
    faq
 	
 
@@ -24,5 +24,4 @@
 =================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
