@@ -10,3 +10,4 @@
 	publication/index
 	sharing/index
 	calendar/index
+	process/index
