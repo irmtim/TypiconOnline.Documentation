@@ -14,6 +14,7 @@
    
    intro
    knowledge/index
+   typicon/index
    tutorials/index
    typesetter/index
   
