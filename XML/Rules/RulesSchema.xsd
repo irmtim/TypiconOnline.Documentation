@@ -600,7 +600,7 @@
 		</xs:choice>
 	</xs:complexType>
 	<xs:complexType name="logicalType">
-		<xs:sequence maxOccurs="unbounded">
+		<xs:sequence maxOccurs="1">
 			<xs:group ref="booleanGroup"/>
 		</xs:sequence>
 	</xs:complexType>
@@ -613,6 +613,7 @@
 			<xs:element name="lessequals" type="valuesType" minOccurs="0"/>
 			<xs:element name="and" type="logicalType" minOccurs="0"/>
 			<xs:element name="or" type="logicalType" minOccurs="0"/>
+			<xs:element name="not" type="logicalType" minOccurs="0"/>
 			<xs:element name="iscelebrating" minOccurs="0"/>
 			<xs:element name="istwosaints" minOccurs="0"/>
 			<xs:element name="exists" minOccurs="0">

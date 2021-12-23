@@ -1,3 +1,6 @@
+Устав
+=====
+
 .. toctree::
 	:titlesonly:
 
