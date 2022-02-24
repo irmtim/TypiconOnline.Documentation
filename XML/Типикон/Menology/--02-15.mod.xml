@@ -13,7 +13,7 @@
 				<int>-57</int>
 			</values>
 			<action>
-				<modifyday daymove="0">
+				<modifyday daymove="0" priority="1">
 					<modifyreplacedday kind="triodion" daymove="-7"/>
 				</modifyday>
 			</action>

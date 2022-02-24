@@ -16,6 +16,13 @@
 			<xs:element name="time" type="textType" minOccurs="0"/>
 			<xs:element name="name" type="textType" minOccurs="1"/>
 			<xs:element name="additionalname" type="textType" minOccurs="0"/>
+			<xs:element name="sequences" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence maxOccurs="unbounded">
+						<xs:element name="sequence" type="sequenceType" minOccurs="1" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:string"/>
 		<xs:attribute name="mode" use="optional" default="ThisDay">
@@ -37,5 +44,47 @@
 				<xs:attribute name="uppercase" type="xs:boolean" use="optional"/>
 			</xs:extension>
 		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="sequenceType">
+		<xs:attribute name="kind" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="mesoniktiko">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="orthros">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="hour1">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="hour3">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="hour6">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="hour9">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="typika">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="leiturgia">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="mikrosesperinos">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="esperinos">
+						<xs:annotation/>
+					</xs:enumeration>
+					<xs:enumeration value="snippet">
+						<xs:annotation/>
+					</xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="id" use="optional" type="xs:string"/>
 	</xs:complexType>
 </xs:schema>

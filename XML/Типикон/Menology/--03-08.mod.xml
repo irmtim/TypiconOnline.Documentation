@@ -9,6 +9,59 @@
 		<!-- В Неделю сыропустную или мясопустную-->
 		<case>
 			<values>
+				<int>-56</int>
+				<int>-49</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="3"/>
+			</action>
+		</case>
+		<!-- В субботу мясопустную-->
+		<case>
+			<values>
+				<int>-57</int>
+			</values>
+			<action>
+				<modifyday daymove="-1" priority="3"/>
+			</action>
+		</case>
+		<!-- В понедельник или вторник сырной седмицы-->
+		<!-- В четверг сырной седмицы-->
+		<case>
+			<values>
+				<int>-55</int>
+				<int>-54</int>
+				<int>-52</int>
+			</values>
+			<action>
+				<!-- ничего не делаем -->
+				<modifyday daymove="0" priority="3"/>
+			</action>
+		</case>
+		<!-- В среду сырной седмицы-->
+		<!-- В пятницу сырной седмицы-->
+		<case>
+			<values>
+				<int>-53</int>
+				<int>-51</int>
+			</values>
+			<action>
+				<modifyday daymove="-1" priority="3"/>
+			</action>
+		</case>
+		<!-- В субботу сыропустную-->
+		<case>
+			<values>
+				<int>-50</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>
+			</action>
+		</case>
+		<!-- С понедельника по пятницу первой седмицы Великого Поста-->
+		<!-- В субботу первой седмицы Поста-->
+		<case>
+			<values>
 				<int>-48</int>
 				<int>-47</int>
 				<int>-46</int>
@@ -17,13 +70,58 @@
 				<int>-43</int>
 			</values>
 			<action>
-				<modifyday>
+				<modifyday priority="4">
 					<datebydaysfromeaster>
 						<int>-43</int>
 					</datebydaysfromeaster>
+					<modifyreplacedday kind="menology">
+						<date/>
+					</modifyreplacedday>
 				</modifyday>
 			</action>
 		</case>
+		<!-- В пятницу сырной седмицы-->
+		<case>
+			<values>
+				<int>-53</int>
+				<int>-51</int>
+			</values>
+			<action>
+				<modifyday daymove="-1" priority="3"/>
+			</action>
+		</case>
+		<!-- 1 Неделя Поста-->
+		<!-- Понедельник 2, 3, 4 седмицы Поста -->
+		<!-- Един от дней постных -->
+		<case>
+			<values>
+				<int>-42</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>
+			</action>
+		</case>
+		<!-- В субботу 2, 3 Поста -->
+		<case>
+			<values>
+				<int>-36</int>
+				<int>-29</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="2"/>
+			</action>
+		</case>
+		<!-- В недели 2, 3 Поста -->
+		<case>
+			<values>
+				<int>-35</int>
+				<int>-28</int>
+			</values>
+			<action>
+				<modifyday daymove="0" priority="4"/>
+			</action>
+		</case>
+		<!-- иначе -->
 		<default>
 			<modifyday daymove="0" priority="3"/>
 		</default>
