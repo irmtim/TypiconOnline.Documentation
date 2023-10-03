@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Programming/Documentation/TypiconOnline.Documentation/XML/Rules/RulesSchema.xsd">
+	<if>
+		<expression>
+			<equals>
+				<getclosestday dayofweek="воскресенье" weekcount="1">
+					<date>--05-31</date>
+				</getclosestday>
+				<date/>
+			</equals>
+		</expression>
+		<then>
+			<worship id="moleben">
+				<name>Молебен на день деревни.</name>
+			</worship>
+		</then>
+	</if>
+</rule>
